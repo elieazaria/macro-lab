@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Macro Lab — Radar d'impact marchés</title>
+<meta name="description" content="Détection automatisée d'actualités macroéconomiques susceptibles d'impacter les marchés financiers." />
+
+<!-- Tailwind (CDN, mode class pour le dark mode) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        fontFamily: {
+          mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+          sans: ['"Inter"', 'ui-sans-serif', 'system-ui'],
+        },
+        colors: {
+          panel: 'var(--panel)',
+          'panel-alt': 'var(--panel-alt)',
+          base: 'var(--base)',
+          edge: 'var(--edge)',
+          ink: 'var(--ink)',
+          muted: 'var(--muted)',
+        },
+      },
+    },
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="font-sans bg-base text-ink transition-colors duration-300">
+
+<!-- ============ TICKER D'ALERTE (signature du dashboard) ============ -->
+<div class="ticker-wrap border-b border-edge bg-panel">
+  <div id="ticker" class="ticker font-mono text-xs tracking-wide">
+    <span class="px-6 text-muted">Chargement des dernières alertes critiques…</span>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="sticky top-0 z-30 border-b border-edge bg-panel/90 backdrop-blur">
+  <div class="max-w-[1400px] mx-auto px-4 md:px-6 py-3 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-md bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-blue-500/20">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 17L9 11L13 15L21 5" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 5H21V11" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <h1 class="font-extrabold text-[15px] tracking-tight leading-none">Macro Lab</h1>
+        <p class="text-[11px] text-muted font-mono leading-tight mt-0.5">Radar d'impact marchés — temps réel</p>
+      </div>
+      <span class="hidden sm:flex items-center gap-1.5 ml-3 px-2 py-1 rounded-full bg-red-500/10 border border-red-500/30">
+        <span class="w-1.5 h-1.5 rounded-full bg-red-500 pulse-dot"></span>
+        <span class="text-[10px] font-mono font-semibold text-red-400 uppercase tracking-wider">Live</span>
+      </span>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <div class="hidden md:flex items-center rounded-lg border border-edge bg-panel-alt p-0.5 text-xs font-mono">
+        <button data-view="top20" class="view-btn px-3 py-1.5 rounded-md font-semibold transition">Top 20</button>
+        <button data-view="historique" class="view-btn px-3 py-1.5 rounded-md font-semibold transition">Historique 7j</button>
+        <button data-view="compact" class="view-btn px-3 py-1.5 rounded-md font-semibold transition">Compact</button>
+      </div>
+      <button id="theme-toggle" aria-label="Basculer thème clair/sombre" class="w-9 h-9 rounded-lg border border-edge bg-panel-alt hover:border-blue-400/50 flex items-center justify-center transition">
+        <svg id="icon-sun" class="w-4 h-4 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg id="icon-moon" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-[1400px] mx-auto px-4 md:px-6 py-5 space-y-5">
+
+  <!-- ============ STAT CARDS ============ -->
+  <section class="grid grid-cols-2 md:grid-cols-5 gap-3">
+    <div class="stat-card">
+      <p class="stat-label">Articles 7j</p>
+      <p id="stat-articles" class="stat-value text-ink">—</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-label">Top sélectionnés</p>
+      <p id="stat-top" class="stat-value text-blue-500">—</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-label">Alertes critiques</p>
+      <p id="stat-alerts" class="stat-value text-red-500">—</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-label">Score moyen</p>
+      <p id="stat-score" class="stat-value text-ink">—</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-label">Seuil alerte</p>
+      <p id="stat-threshold" class="stat-value text-amber-500">—</p>
+    </div>
+  </section>
+
+  <!-- ============ CHARTS ============ -->
+  <section class="grid grid-cols-1 lg:grid-cols-5 gap-4">
+    <div class="panel lg:col-span-3">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="panel-title">Articles par jour (7 jours)</h2>
+        <span class="text-[10px] font-mono text-muted" id="chart-bar-caption"></span>
+      </div>
+      <svg id="chart-bars" viewBox="0 0 700 220" class="w-full h-[220px]"></svg>
+    </div>
+    <div class="panel lg:col-span-2">
+      <h2 class="panel-title mb-4">Thèmes critiques détectés</h2>
+      <div class="flex items-center gap-4">
+        <svg id="chart-donut" viewBox="0 0 200 200" class="w-[140px] h-[140px] shrink-0"></svg>
+        <ul id="donut-legend" class="text-xs font-mono space-y-1.5 flex-1"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PREDICTIONS MARKETS ============ -->
+  <section class="panel">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="panel-title">Prévisions séries temporelles</h2>
+      <span class="text-[10px] font-mono text-muted">Or · EUR/USD · Bitcoin · S&amp;P 500 · CAC 40</span>
+    </div>
+    <div id="predictions-grid" class="grid grid-cols-2 md:grid-cols-5 gap-3">
+      <div class="text-xs font-mono text-muted col-span-full">Chargement des prédictions…</div>
+    </div>
+  </section>
+
+  <!-- ============ FILTERS + SEARCH ============ -->
+  <section class="panel">
+    <div class="flex flex-col md:flex-row md:items-center gap-3 mb-4">
+      <div class="relative flex-1">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="search" type="text" placeholder="Rechercher — Ukraine, Fed, S&P 500, inflation…" class="w-full bg-panel-alt border border-edge rounded-lg pl-9 pr-3 py-2 text-sm font-mono placeholder:text-muted focus:outline-none focus:border-blue-400/60 transition" />
+      </div>
+      <span id="results-count" class="text-xs font-mono text-muted whitespace-nowrap">0 articles affichés</span>
+    </div>
+    <div id="theme-filters" class="flex flex-wrap gap-2"></div>
+  </section>
+
+  <!-- ============ ARTICLE LIST ============ -->
+  <section class="panel">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="panel-title">Top articles — classés par impact</h2>
+      <span id="last-updated" class="text-[10px] font-mono text-muted"></span>
+    </div>
+    <div id="article-list" class="divide-y divide-edge">
+      <div class="py-8 text-center text-sm font-mono text-muted">Chargement des articles…</div>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-[11px] font-mono text-muted">
+    Macro Lab — pipeline Python + GitHub Actions, hébergement statique Vercel. Données à titre informatif, ne constitue pas un conseil en investissement.
+  </footer>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Macro Lab — tokens de design
+   Mode sombre par défaut (terminal financier), mode clair via .light sur <html>
+   ========================================================================== */
+
+:root {
+  --base: #0a0e17;
+  --panel: #10151f;
+  --panel-alt: #131a26;
+  --edge: #1f2937;
+  --ink: #e6ebf2;
+  --muted: #64748b;
+
+  --accent-blue: #3b82f6;
+  --accent-red: #ef4444;
+  --accent-orange: #f59e0b;
+  --accent-green: #10b981;
+  --accent-cyan: #22d3ee;
+  --accent-purple: #a78bfa;
+}
+
+html.light {
+  --base: #f5f7fa;
+  --panel: #ffffff;
+  --panel-alt: #f1f4f8;
+  --edge: #e2e8f0;
+  --ink: #0f172a;
+  --muted: #64748b;
+}
+
+* { border-color: var(--edge); }
+
+body { background-color: var(--base); }
+
+/* ---------------------------------------------------------------------- */
+/* Panels & cards                                                          */
+/* ---------------------------------------------------------------------- */
+
+.panel {
+  background-color: var(--panel);
+  border: 1px solid var(--edge);
+  border-radius: 0.75rem;
+  padding: 1.1rem;
+}
+
+.panel-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.stat-card {
+  background-color: var(--panel);
+  border: 1px solid var(--edge);
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+}
+
+.stat-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.65rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ---------------------------------------------------------------------- */
+/* View toggle buttons                                                     */
+/* ---------------------------------------------------------------------- */
+
+.view-btn { color: var(--muted); }
+.view-btn.active {
+  background-color: var(--accent-blue);
+  color: white;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Live pulse dot                                                          */
+/* ---------------------------------------------------------------------- */
+
+.pulse-dot {
+  animation: pulse-ring 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes pulse-ring {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.6); }
+  50% { opacity: 0.6; box-shadow: 0 0 0 4px rgba(239, 68, 68, 0); }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Ticker (marquee d'alertes critiques)                                    */
+/* ---------------------------------------------------------------------- */
+
+.ticker-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.ticker {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker-scroll 40s linear infinite;
+}
+.ticker-wrap:hover .ticker { animation-play-state: paused; }
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Theme filter pills                                                      */
+/* ---------------------------------------------------------------------- */
+
+.theme-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--edge);
+  background-color: var(--panel-alt);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+.theme-pill:hover { border-color: var(--accent-blue); color: var(--ink); }
+.theme-pill.active {
+  background-color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: white;
+}
+.theme-pill .dot { width: 6px; height: 6px; border-radius: 999px; }
+
+/* ---------------------------------------------------------------------- */
+/* Article rows                                                            */
+/* ---------------------------------------------------------------------- */
+
+.article-row {
+  padding: 0.9rem 0.25rem;
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  transition: background-color 0.15s ease;
+}
+.article-row:hover { background-color: var(--panel-alt); }
+
+.score-ring-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+}
+
+.score-badge { position: relative; width: 42px; height: 42px; }
+
+.truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scrollbar (subtile, cohérente avec le thème terminal)                   */
+/* ---------------------------------------------------------------------- */
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background-color: var(--edge); border-radius: 999px; }
