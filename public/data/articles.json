@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T07:15:50.298834+00:00",
+  "generated_at": "2026-08-24T09:00:18.895407+00:00",
   "meta": {
-    "total_articles_7j": 120,
-    "articles_today": 0,
-    "alerts_critiques": 39,
+    "total_articles_7j": 122,
+    "articles_today": 3,
+    "alerts_critiques": 40,
     "score_moyen": 5.0,
     "seuil_alerte": 5.0,
     "themes": {
-      "War/Conflict": 26,
+      "War/Conflict": 27,
       "Inflation": 5,
       "Sanctions": 2,
       "Fed Emergency": 2,
@@ -29,7 +29,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 14.53,
+      "score": 14.6,
       "is_alert": true
     },
     {
@@ -44,7 +44,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 13.16,
+      "score": 13.22,
       "is_alert": true
     },
     {
@@ -58,7 +58,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.46,
+      "score": 12.52,
       "is_alert": true
     },
     {
@@ -73,7 +73,7 @@
         "War/Conflict",
         "Inflation"
       ],
-      "score": 12.27,
+      "score": 12.33,
       "is_alert": true
     },
     {
@@ -87,7 +87,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.91,
+      "score": 11.97,
       "is_alert": true
     },
     {
@@ -103,7 +103,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.34,
+      "score": 11.39,
       "is_alert": true
     },
     {
@@ -118,7 +118,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 10.93,
+      "score": 10.98,
       "is_alert": true
     },
     {
@@ -134,7 +134,7 @@
         "Inflation",
         "Volatility"
       ],
-      "score": 10.31,
+      "score": 10.36,
       "is_alert": true
     },
     {
@@ -148,7 +148,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.14,
+      "score": 10.19,
       "is_alert": true
     },
     {
@@ -162,7 +162,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.1,
+      "score": 10.15,
       "is_alert": true
     },
     {
@@ -176,7 +176,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.76,
+      "score": 8.8,
       "is_alert": true
     },
     {
@@ -190,7 +190,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.74,
+      "score": 8.78,
       "is_alert": true
     },
     {
@@ -204,7 +204,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.74,
+      "score": 8.78,
       "is_alert": true
     },
     {
@@ -218,7 +218,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.7,
+      "score": 8.73,
       "is_alert": true
     },
     {
@@ -232,7 +232,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 8.42,
+      "score": 8.45,
       "is_alert": true
     },
     {
@@ -246,7 +246,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 7.74,
+      "score": 7.77,
       "is_alert": true
     },
     {
@@ -260,7 +260,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.5,
+      "score": 7.53,
       "is_alert": true
     },
     {
@@ -274,7 +274,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.43,
+      "score": 7.45,
       "is_alert": true
     },
     {
@@ -288,7 +288,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.38,
+      "score": 7.41,
       "is_alert": true
     },
     {
@@ -302,7 +302,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 7.17,
+      "score": 7.19,
       "is_alert": true
     },
     {
@@ -314,19 +314,7 @@
       "summary": "Treasury Secretary Scott Bessent is reinventing the government’s role in the world’s most important bond market.",
       "raw_score": 19.394,
       "themes": [],
-      "score": 6.92,
-      "is_alert": true
-    },
-    {
-      "id": "25f0a78b83831874",
-      "title": "Canada-U.S. Tariff Talks Continue as Trump’s Midnight Deadline Looms",
-      "url": "https://www.nytimes.com/2026/08/21/world/canada/trump-carney-tariffs-trade-talks.html",
-      "source": "NYT World",
-      "published_at": "2026-08-22T00:06:18+00:00",
-      "summary": "Canadian negotiators were in Washington to finalize a deal that would stave off new tariffs and improve the terms of existing ones, but Mark Carney faces a tough sell back home.",
-      "raw_score": 18.333,
-      "themes": [],
-      "score": 6.73,
+      "score": 6.94,
       "is_alert": true
     },
     {
@@ -338,7 +326,19 @@
       "summary": "The administration will impose a minimum import price for polysilicon, a key component for semiconductors and solar panels, as well as tariffs for products made with the material.",
       "raw_score": 18.355,
       "themes": [],
-      "score": 6.73,
+      "score": 6.76,
+      "is_alert": true
+    },
+    {
+      "id": "25f0a78b83831874",
+      "title": "Canada-U.S. Tariff Talks Continue as Trump’s Midnight Deadline Looms",
+      "url": "https://www.nytimes.com/2026/08/21/world/canada/trump-carney-tariffs-trade-talks.html",
+      "source": "NYT World",
+      "published_at": "2026-08-22T00:06:18+00:00",
+      "summary": "Canadian negotiators were in Washington to finalize a deal that would stave off new tariffs and improve the terms of existing ones, but Mark Carney faces a tough sell back home.",
+      "raw_score": 18.333,
+      "themes": [],
+      "score": 6.75,
       "is_alert": true
     },
     {
@@ -350,7 +350,7 @@
       "summary": "Bond markets remained volatile, as investors assessed the geopolitical turmoil.",
       "raw_score": 17.032,
       "themes": [],
-      "score": 6.5,
+      "score": 6.52,
       "is_alert": true
     },
     {
@@ -364,7 +364,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.27,
+      "score": 6.29,
       "is_alert": true
     },
     {
@@ -378,7 +378,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.96,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -390,7 +390,7 @@
       "summary": "The move prompted blowback from cattle ranchers and Republicans who represent them.",
       "raw_score": 13.333,
       "themes": [],
-      "score": 5.85,
+      "score": 5.87,
       "is_alert": true
     },
     {
@@ -402,7 +402,19 @@
       "summary": "Buoys, dog muzzles, capes, national flags and “base metal statuettes” from Canada are now more expensive for U.S. shoppers.",
       "raw_score": 13.237,
       "themes": [],
-      "score": 5.83,
+      "score": 5.85,
+      "is_alert": true
+    },
+    {
+      "id": "c51ab17348295d50",
+      "title": "How Big Tech’s A.I. Borrowing Binge Is Driving Up Bond Yields",
+      "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-20T20:50:00+00:00",
+      "summary": "Analysts said the recent rise in Treasury yields partly reflected investor expectations that A.I.-driven growth could keep interest rates elevated.",
+      "raw_score": 11.071,
+      "themes": [],
+      "score": 5.47,
       "is_alert": true
     },
     {
@@ -416,19 +428,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 5.45,
-      "is_alert": true
-    },
-    {
-      "id": "c51ab17348295d50",
-      "title": "How Big Tech’s A.I. Borrowing Binge Is Driving Up Bond Yields",
-      "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
-      "source": "NYT Business",
-      "published_at": "2026-08-20T20:50:00+00:00",
-      "summary": "Analysts said the recent rise in Treasury yields partly reflected investor expectations that A.I.-driven growth could keep interest rates elevated.",
-      "raw_score": 11.071,
-      "themes": [],
-      "score": 5.45,
+      "score": 5.46,
       "is_alert": true
     },
     {
@@ -442,7 +442,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.38,
+      "score": 5.4,
       "is_alert": true
     },
     {
@@ -456,7 +456,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.38,
+      "score": 5.39,
       "is_alert": true
     },
     {
@@ -470,7 +470,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.37,
+      "score": 5.38,
       "is_alert": true
     },
     {
@@ -484,7 +484,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.36,
+      "score": 5.37,
       "is_alert": true
     },
     {
@@ -498,7 +498,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.36,
+      "score": 5.37,
       "is_alert": true
     },
     {
@@ -512,7 +512,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.36,
+      "score": 5.37,
       "is_alert": true
     },
     {
@@ -526,7 +526,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.35,
+      "score": 5.36,
       "is_alert": true
     },
     {
@@ -540,7 +540,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.35,
+      "score": 5.36,
+      "is_alert": true
+    },
+    {
+      "id": "d32b79f29fbd271f",
+      "title": "Which Countries Could Be Hurt Most by Trump’s Plan to Hit Iran’s Economy?",
+      "url": "https://www.nytimes.com/article/us-iran-economy-sanctions-trade-trump-china.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-24T08:49:48+00:00",
+      "summary": "President Trump has threatened economic penalties on countries that do business with Iran as he seeks to add pressure on Tehran to negotiate an end to the war.",
+      "raw_score": 10.464,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.36,
       "is_alert": true
     },
     {
@@ -552,7 +566,7 @@
       "summary": "European governments, facing a nearly $1 trillion gap in investment funding, are casting a wide net to back start-ups developing pioneering technologies.",
       "raw_score": 10.06,
       "themes": [],
-      "score": 5.28,
+      "score": 5.29,
       "is_alert": true
     },
     {
@@ -566,7 +580,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.95,
+      "score": 4.96,
       "is_alert": false
     },
     {
@@ -578,7 +592,7 @@
       "summary": "Facing pressure in the United States and Europe, Shein is struggling to find new ways to grow ahead of its much-delayed initial public offering.",
       "raw_score": 7.656,
       "themes": [],
-      "score": 4.85,
+      "score": 4.86,
       "is_alert": false
     },
     {
@@ -590,7 +604,7 @@
       "summary": "Soaring temperatures, widespread wildfires and dried-up rivers are transforming tourism across the continent. Here’s how travelers are responding.",
       "raw_score": 7.229,
       "themes": [],
-      "score": 4.78,
+      "score": 4.79,
       "is_alert": false
     },
     {
@@ -614,7 +628,7 @@
       "summary": "After roughly two decades of ultralow interest rates, a period of rapid readjustment is ahead for the United States, the world’s largest economy and most important financial system.",
       "raw_score": 5.707,
       "themes": [],
-      "score": 4.51,
+      "score": 4.52,
       "is_alert": false
     },
     {
@@ -626,7 +640,7 @@
       "summary": "Prime Minister Mark Carney gave a powerful speech to Canadians on Saturday morning, hours after ordering negotiators to suspend U.S. trade talks despite President Trump’s punishing tariffs.",
       "raw_score": 5.269,
       "themes": [],
-      "score": 4.43,
+      "score": 4.44,
       "is_alert": false
     },
     {
@@ -1524,6 +1538,18 @@
       "source": "NYT World",
       "published_at": "2026-08-24T04:01:06+00:00",
       "summary": "The unusual weather pattern and dried out peatlands, a kind of wetland, have been behind some of the country’s worst fire seasons. This year could be one.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.51,
+      "is_alert": false
+    },
+    {
+      "id": "73cf16c7e95fce5b",
+      "title": "Where Iran’s Young People Gather, the Government Sees Threats to Its Authority",
+      "url": "https://www.nytimes.com/2026/08/24/world/middleeast/iran-cafe-closures.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T08:47:21+00:00",
+      "summary": "In recent weeks, the police have closed dozens of cafes, often citing laws that stipulate women must veil in public. Experts say the closures are part of an effort to control public space.",
       "raw_score": 0.0,
       "themes": [],
       "score": 3.51,
