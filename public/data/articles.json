@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-24T09:00:18.895407+00:00",
+  "generated_at": "2026-08-24T09:58:46.455351+00:00",
   "meta": {
-    "total_articles_7j": 122,
-    "articles_today": 3,
-    "alerts_critiques": 40,
+    "total_articles_7j": 132,
+    "articles_today": 10,
+    "alerts_critiques": 43,
     "score_moyen": 5.0,
     "seuil_alerte": 5.0,
     "themes": {
-      "War/Conflict": 27,
+      "War/Conflict": 29,
       "Inflation": 5,
       "Sanctions": 2,
       "Fed Emergency": 2,
@@ -29,7 +29,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 14.6,
+      "score": 14.8,
       "is_alert": true
     },
     {
@@ -44,7 +44,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 13.22,
+      "score": 13.4,
       "is_alert": true
     },
     {
@@ -58,7 +58,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.52,
+      "score": 12.68,
       "is_alert": true
     },
     {
@@ -73,7 +73,7 @@
         "War/Conflict",
         "Inflation"
       ],
-      "score": 12.33,
+      "score": 12.49,
       "is_alert": true
     },
     {
@@ -87,7 +87,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.97,
+      "score": 12.12,
       "is_alert": true
     },
     {
@@ -103,7 +103,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.39,
+      "score": 11.54,
       "is_alert": true
     },
     {
@@ -118,7 +118,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 10.98,
+      "score": 11.12,
       "is_alert": true
     },
     {
@@ -134,7 +134,7 @@
         "Inflation",
         "Volatility"
       ],
-      "score": 10.36,
+      "score": 10.49,
       "is_alert": true
     },
     {
@@ -148,7 +148,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.19,
+      "score": 10.31,
       "is_alert": true
     },
     {
@@ -162,7 +162,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.15,
+      "score": 10.27,
       "is_alert": true
     },
     {
@@ -176,7 +176,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.8,
+      "score": 8.9,
       "is_alert": true
     },
     {
@@ -190,7 +190,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.78,
+      "score": 8.88,
       "is_alert": true
     },
     {
@@ -204,7 +204,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.78,
+      "score": 8.88,
+      "is_alert": true
+    },
+    {
+      "id": "05ecede434ce01a8",
+      "title": "UK Prime Minister Burnham Arrives in Ukraine as Russia Amps Up Warnings",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:08:25+00:00",
+      "summary": "In his first foreign trip since taking office, Prime Minister Andy Burnham affirmed support for Kyiv despite new warnings from Moscow of consequences for doing so.",
+      "raw_score": 29.594,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.85,
       "is_alert": true
     },
     {
@@ -218,7 +232,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.73,
+      "score": 8.83,
       "is_alert": true
     },
     {
@@ -232,7 +246,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 8.45,
+      "score": 8.55,
       "is_alert": true
     },
     {
@@ -246,7 +260,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 7.77,
+      "score": 7.86,
       "is_alert": true
     },
     {
@@ -260,7 +274,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.53,
+      "score": 7.61,
       "is_alert": true
     },
     {
@@ -274,7 +288,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.45,
+      "score": 7.53,
       "is_alert": true
     },
     {
@@ -288,7 +302,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.41,
+      "score": 7.49,
+      "is_alert": true
+    },
+    {
+      "id": "72ff2bfd956cbc1f",
+      "title": "U.S. Marines Cancel Drill With South Korea, Citing Iran War Demands",
+      "url": "https://www.nytimes.com/2026/08/24/world/asia/us-south-korea-military-drills-iran.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:19:46+00:00",
+      "summary": "The move to call off the high-profile event was communicated in June, South Korea said. President Trump shortened another joint military exercise earlier this month.",
+      "raw_score": 22.01,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 7.48,
       "is_alert": true
     },
     {
@@ -302,7 +330,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 7.19,
+      "score": 7.27,
       "is_alert": true
     },
     {
@@ -314,19 +342,7 @@
       "summary": "Treasury Secretary Scott Bessent is reinventing the government’s role in the world’s most important bond market.",
       "raw_score": 19.394,
       "themes": [],
-      "score": 6.94,
-      "is_alert": true
-    },
-    {
-      "id": "825a9b9fecaeb20e",
-      "title": "Trump Issues Tariffs on Key Ingredient for Electronics and Solar Panels",
-      "url": "https://www.nytimes.com/2026/08/06/us/politics/trump-tariffs-solar-panels.html",
-      "source": "NYT Economy",
-      "published_at": "2026-08-06T21:53:18+00:00",
-      "summary": "The administration will impose a minimum import price for polysilicon, a key component for semiconductors and solar panels, as well as tariffs for products made with the material.",
-      "raw_score": 18.355,
-      "themes": [],
-      "score": 6.76,
+      "score": 7.01,
       "is_alert": true
     },
     {
@@ -338,7 +354,19 @@
       "summary": "Canadian negotiators were in Washington to finalize a deal that would stave off new tariffs and improve the terms of existing ones, but Mark Carney faces a tough sell back home.",
       "raw_score": 18.333,
       "themes": [],
-      "score": 6.75,
+      "score": 6.82,
+      "is_alert": true
+    },
+    {
+      "id": "825a9b9fecaeb20e",
+      "title": "Trump Issues Tariffs on Key Ingredient for Electronics and Solar Panels",
+      "url": "https://www.nytimes.com/2026/08/06/us/politics/trump-tariffs-solar-panels.html",
+      "source": "NYT Economy",
+      "published_at": "2026-08-06T21:53:18+00:00",
+      "summary": "The administration will impose a minimum import price for polysilicon, a key component for semiconductors and solar panels, as well as tariffs for products made with the material.",
+      "raw_score": 18.355,
+      "themes": [],
+      "score": 6.82,
       "is_alert": true
     },
     {
@@ -350,7 +378,7 @@
       "summary": "Bond markets remained volatile, as investors assessed the geopolitical turmoil.",
       "raw_score": 17.032,
       "themes": [],
-      "score": 6.52,
+      "score": 6.58,
       "is_alert": true
     },
     {
@@ -364,7 +392,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.29,
+      "score": 6.35,
       "is_alert": true
     },
     {
@@ -378,7 +406,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.98,
+      "score": 6.03,
       "is_alert": true
     },
     {
@@ -390,7 +418,7 @@
       "summary": "The move prompted blowback from cattle ranchers and Republicans who represent them.",
       "raw_score": 13.333,
       "themes": [],
-      "score": 5.87,
+      "score": 5.92,
       "is_alert": true
     },
     {
@@ -402,7 +430,7 @@
       "summary": "Buoys, dog muzzles, capes, national flags and “base metal statuettes” from Canada are now more expensive for U.S. shoppers.",
       "raw_score": 13.237,
       "themes": [],
-      "score": 5.85,
+      "score": 5.9,
       "is_alert": true
     },
     {
@@ -414,7 +442,7 @@
       "summary": "Analysts said the recent rise in Treasury yields partly reflected investor expectations that A.I.-driven growth could keep interest rates elevated.",
       "raw_score": 11.071,
       "themes": [],
-      "score": 5.47,
+      "score": 5.51,
       "is_alert": true
     },
     {
@@ -428,7 +456,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 5.46,
+      "score": 5.5,
       "is_alert": true
     },
     {
@@ -442,21 +470,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.4,
-      "is_alert": true
-    },
-    {
-      "id": "f55da8bedb473840",
-      "title": "Stocks and Bonds Steady at the End of a Tumultuous Week",
-      "url": "https://www.nytimes.com/2026/08/21/business/stocks-bonds-oil-prices.html",
-      "source": "NYT Business",
-      "published_at": "2026-08-21T20:16:06+00:00",
-      "summary": "Fears about the war in Iran, government deficits, the economy and corporate borrowing stirred global markets.",
-      "raw_score": 10.641,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.39,
+      "score": 5.44,
       "is_alert": true
     },
     {
@@ -470,35 +484,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.38,
+      "score": 5.43,
       "is_alert": true
     },
     {
-      "id": "cf69e5ef20478385",
-      "title": "The New York Times Loses Defamation Lawsuit in Alabama",
-      "url": "https://www.nytimes.com/2026/08/20/business/media/new-york-times-defamation-lawsuit-alabama.html",
+      "id": "f55da8bedb473840",
+      "title": "Stocks and Bonds Steady at the End of a Tumultuous Week",
+      "url": "https://www.nytimes.com/2026/08/21/business/stocks-bonds-oil-prices.html",
       "source": "NYT Business",
-      "published_at": "2026-08-21T06:52:07+00:00",
-      "summary": "A 2023 article incorrectly reported that a University of Alabama basketball player was at the scene of a deadly shooting. A jury awarded $9.25 million in damages.",
-      "raw_score": 10.526,
+      "published_at": "2026-08-21T20:16:06+00:00",
+      "summary": "Fears about the war in Iran, government deficits, the economy and corporate borrowing stirred global markets.",
+      "raw_score": 10.641,
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.37,
-      "is_alert": true
-    },
-    {
-      "id": "19c6c666a6557659",
-      "title": "Several Big Brokerages Leave Customer Accounts Open to Theft, Senators Say",
-      "url": "https://www.nytimes.com/2026/08/20/business/brokerage-accounts-fraud-protections.html",
-      "source": "NYT Business",
-      "published_at": "2026-08-21T00:02:04+00:00",
-      "summary": "Senators Ron Wyden and Elizabeth Warren, ranking Democrats on the Finance and Banking Committees, have urged regulators to require brokerages to provide stronger customer protections.",
-      "raw_score": 10.526,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.37,
+      "score": 5.43,
       "is_alert": true
     },
     {
@@ -512,7 +512,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.37,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -526,7 +526,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.36,
+      "score": 5.41,
       "is_alert": true
     },
     {
@@ -540,7 +540,35 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.36,
+      "score": 5.41,
+      "is_alert": true
+    },
+    {
+      "id": "cf69e5ef20478385",
+      "title": "The New York Times Loses Defamation Lawsuit in Alabama",
+      "url": "https://www.nytimes.com/2026/08/20/business/media/new-york-times-defamation-lawsuit-alabama.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-21T06:52:07+00:00",
+      "summary": "A 2023 article incorrectly reported that a University of Alabama basketball player was at the scene of a deadly shooting. A jury awarded $9.25 million in damages.",
+      "raw_score": 10.526,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.41,
+      "is_alert": true
+    },
+    {
+      "id": "19c6c666a6557659",
+      "title": "Several Big Brokerages Leave Customer Accounts Open to Theft, Senators Say",
+      "url": "https://www.nytimes.com/2026/08/20/business/brokerage-accounts-fraud-protections.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-21T00:02:04+00:00",
+      "summary": "Senators Ron Wyden and Elizabeth Warren, ranking Democrats on the Finance and Banking Committees, have urged regulators to require brokerages to provide stronger customer protections.",
+      "raw_score": 10.526,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.41,
       "is_alert": true
     },
     {
@@ -554,7 +582,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.36,
+      "score": 5.4,
       "is_alert": true
     },
     {
@@ -566,7 +594,7 @@
       "summary": "European governments, facing a nearly $1 trillion gap in investment funding, are casting a wide net to back start-ups developing pioneering technologies.",
       "raw_score": 10.06,
       "themes": [],
-      "score": 5.29,
+      "score": 5.33,
       "is_alert": true
     },
     {
@@ -580,8 +608,8 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.96,
-      "is_alert": false
+      "score": 5.0,
+      "is_alert": true
     },
     {
       "id": "f674b107dd93457c",
@@ -592,7 +620,7 @@
       "summary": "Facing pressure in the United States and Europe, Shein is struggling to find new ways to grow ahead of its much-delayed initial public offering.",
       "raw_score": 7.656,
       "themes": [],
-      "score": 4.86,
+      "score": 4.9,
       "is_alert": false
     },
     {
@@ -604,7 +632,7 @@
       "summary": "Soaring temperatures, widespread wildfires and dried-up rivers are transforming tourism across the continent. Here’s how travelers are responding.",
       "raw_score": 7.229,
       "themes": [],
-      "score": 4.79,
+      "score": 4.82,
       "is_alert": false
     },
     {
@@ -616,7 +644,7 @@
       "summary": "Interest rates on U.S. government bonds can affect everything from auto and student loans to mortgages.",
       "raw_score": 5.797,
       "themes": [],
-      "score": 4.53,
+      "score": 4.56,
       "is_alert": false
     },
     {
@@ -628,7 +656,7 @@
       "summary": "After roughly two decades of ultralow interest rates, a period of rapid readjustment is ahead for the United States, the world’s largest economy and most important financial system.",
       "raw_score": 5.707,
       "themes": [],
-      "score": 4.52,
+      "score": 4.55,
       "is_alert": false
     },
     {
@@ -640,7 +668,19 @@
       "summary": "Prime Minister Mark Carney gave a powerful speech to Canadians on Saturday morning, hours after ordering negotiators to suspend U.S. trade talks despite President Trump’s punishing tariffs.",
       "raw_score": 5.269,
       "themes": [],
-      "score": 4.44,
+      "score": 4.47,
+      "is_alert": false
+    },
+    {
+      "id": "32ccc90116610a70",
+      "title": "Los Angeles Dodgers Owner’s Troubles Roil Insurance World",
+      "url": "https://www.nytimes.com/2026/08/24/business/mark-walter-insurance-dodgers-lakers.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-24T09:02:59+00:00",
+      "summary": "Federal investigations of Mark Walter’s business empire have put a spotlight on private-equity-owned insurers that invest premiums in risky assets.",
+      "raw_score": 4.831,
+      "themes": [],
+      "score": 4.39,
       "is_alert": false
     },
     {
@@ -652,7 +692,7 @@
       "summary": "Federal safety regulators said the maker of Clear Eyes Maximum Itchy Eye Relief voluntarily recalled the drops because of a “lack of assurance of sterility.”",
       "raw_score": 4.785,
       "themes": [],
-      "score": 4.35,
+      "score": 4.38,
       "is_alert": false
     },
     {
@@ -664,7 +704,7 @@
       "summary": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
       "raw_score": 2.871,
       "themes": [],
-      "score": 4.01,
+      "score": 4.04,
       "is_alert": false
     },
     {
@@ -676,7 +716,7 @@
       "summary": "With cheers, endorsements and insults for rivals and “wokismo,” a new crop of right-wing leaders are openly stepping into one another’s elections.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -688,7 +728,7 @@
       "summary": "The outbreak in the Democratic Republic of Congo was declared 100 days ago and is spreading faster than any on record, officials said.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -700,7 +740,7 @@
       "summary": "They took on topics as diverse as fall of the Aztecs, the French Revolution, the assassination of Abraham Lincoln, and history’s greatest monkeys. The rest is history.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -712,7 +752,7 @@
       "summary": "Rubén Rocha Moya of Sinaloa reversed course a day after returning to office, amid widespread criticism, including from members of his own party.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -724,7 +764,7 @@
       "summary": "Many Italians see themselves in Andrea Bajani’s latest novel, a portrayal of the family as a “little totalitarian system” shaped by psychological and physical violence.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -736,7 +776,7 @@
       "summary": "One effect of moving back is that Archie and Lilibet now have the opportunity to be schooled as Britons. Here’s what that might look like.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -748,7 +788,7 @@
       "summary": "How the trial of Lindsay Clancy has become a proxy for how people view society’s ills.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -760,7 +800,7 @@
       "summary": "The German actress Collien Fernandes set out to discover who was pretending to be her online and sending men sexually explicit material. Her answer ignited a feminist movement.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -772,7 +812,7 @@
       "summary": "In an interview, Jamieson Greer, President Trump’s trade representative, laid out details of what the United States offered to Canada before talks crumbled.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -784,7 +824,7 @@
       "summary": "Maintaining that access to abortion was as much a matter of economic equality as women’s rights, she successfully championed state reimbursement for abortions.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -796,7 +836,7 @@
       "summary": "Our reporter John Eligon takes a six-mile walk between two townships in Cape Town to show how the barriers left by apartheid still exist 30 years later.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -808,7 +848,7 @@
       "summary": "The diplomat, John Coale, says his personalized approach gets results and matches the president’s style. Critics contend he is giving up too much to an authoritarian leader.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -820,7 +860,7 @@
       "summary": "A fraud case, in which dozens of grooms showed up for a wedding that never materialized, is an extreme example of scamming in a marriage industry long prone to it.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -832,7 +872,7 @@
       "summary": "What makes a movie a summer movie? Is it the time of its release, or the way that it depicts the season itself? Or something else entirely?",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -844,7 +884,7 @@
       "summary": "Osaka? Fukuoka? Sapporo? The race is on to be second to Tokyo — and to claim the prestige and money that could come with it.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -856,7 +896,7 @@
       "summary": "After U.S. prosecutors accused Gov. Rubén Rocha Moya of protecting the Sinaloa cartel, he said he would step down to focus on his defense. On Friday, he declared he was back and faced much criticism.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -868,7 +908,7 @@
       "summary": "Turkey’s request for an Interpol ‘red notice’ came at a time of escalating tensions between the two countries.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -880,7 +920,7 @@
       "summary": "At least five of the people flown to Liberia under the Trump administration’s third-country deportation program resisted leaving the plane. They were then flown to Equatorial Guinea.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -892,7 +932,7 @@
       "summary": "While the government says it is preventing an insurrection, activists and international observers have raised fears about arbitrary arrests and electoral fraud.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -904,7 +944,7 @@
       "summary": "The 26-year-old received a yearlong sentence from a court on the Indonesian resort island after he flouted a sacred Hindu ritual and insulted it on Instagram.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -916,7 +956,7 @@
       "summary": "The prominent landowner has added a nearly 200-year-old estate to his holdings. Archival information says it can take “a brisk walk of 4½ minutes to reach the dining room from the kitchen.”",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -928,7 +968,7 @@
       "summary": "Officials were careful not to point a finger, after revealing what they said was a plan for a political attack, at a time when a series of destabilizing actions have been blamed on Russia.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -940,7 +980,7 @@
       "summary": "Harry and six other high-profile figures lost a privacy lawsuit against Associated Newspapers. They may eventually have to pay more than twice the initial sum, a judge said.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -952,7 +992,7 @@
       "summary": "Recent surveys suggest the broader public views both of them negatively, especially in comparison to Harry’s brother, William, and his wife, Kate.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -964,7 +1004,7 @@
       "summary": "China’s regulator ordered changes after vehicle occupants sometimes had difficulty exiting electric cars, an issue that has led to lawsuits against Tesla in the United States.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -976,7 +1016,7 @@
       "summary": "Palestinian and Israeli authorities offered divergent accounts of the incident, which came as settler violence has surged across the Israeli-occupied territory.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -988,7 +1028,7 @@
       "summary": "Beijing can squeeze U.S. critical mineral supplies and has enough oil to withstand the loss of Iranian crude, Chinese analysts say.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1000,7 +1040,7 @@
       "summary": "British regulators are investigating Al-Khair Foundation after U.S. prosecutors accused a man affiliated with the group of funding terrorism.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1012,7 +1052,7 @@
       "summary": "Extreme temperatures and drought are adding to the stress on oak trees that have lived for hundreds of years and play a key role in the national imagination.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1024,7 +1064,7 @@
       "summary": "Ebola virus, hantavirus and the pathogen that causes Covid-19 likely jumped from animals to humans. So do these viruses — and scientists say climate change is speeding their spread.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1036,7 +1076,7 @@
       "summary": "Rescue teams no longer enter the city of Lyman, in eastern Ukraine, because it is deemed too dangerous. The only way out is a terrifying journey on foot.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1048,7 +1088,7 @@
       "summary": "The new government of Peter Magyar hoped to use the suite overlooking the Danube as evidence of an autocrat’s indulgence. The trappings fell short.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1060,7 +1100,7 @@
       "summary": "A foreign policy specialist, she was politically savvy and well versed in global issues, and traveled widely with her husband, Henry A. Kissinger, on his diplomatic missions.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1072,7 +1112,7 @@
       "summary": "Paul Biya, 93, had been in Switzerland since early June. The prolonged absence stirred questions about his health and plans for succession.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1084,7 +1124,7 @@
       "summary": "The former prime minister of Pakistan, who was convicted on corruption charges, has been fighting a legal battle over his medical treatment.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1096,7 +1136,7 @@
       "summary": "Our colleagues at The Amplifier newsletter have music recommendations for the final sun-basking days of summer.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1108,7 +1148,7 @@
       "summary": "Ghent University in Belgium said it suspended the academic, Nathan Cofnas, pending an investigation.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1120,7 +1160,7 @@
       "summary": "The hit-making duo turned tech moguls also have thoughts about why corporate America isn’t collaborative enough.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1132,7 +1172,7 @@
       "summary": "Companies like Google and Microsoft have used their money, their might and their massive reach to influence nearly every step of the education supply chain.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1144,7 +1184,7 @@
       "summary": "To create a new bootcamp for entrepreneurs, Harvard Business School made A.I. avatars of its instructors.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1156,7 +1196,7 @@
       "summary": "Apps that let users send digital messages at ultraslow speeds have taken off, with users reveling in a slower pace of life. (Just don’t use the them to make dinner plans.)",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1168,7 +1208,7 @@
       "summary": "When it comes to building wealth, Gen Z is more focused on investment apps and their retirement accounts than they are in building equity in a home.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1180,7 +1220,7 @@
       "summary": "The Hollywood theme park built a “whisper quiet” ride to avoid angering nearby neighbors. They didn’t fully account for the enthusiasm of the riders.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1192,7 +1232,7 @@
       "summary": "The union members also authorized a potential strike if a new agreement is not reached by October.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1204,7 +1244,7 @@
       "summary": "Eight decades before the #MeToo groundswell, she took MGM to court after alleging she was attacked at a studio party in 1937.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1216,7 +1256,7 @@
       "summary": "The duchess’s representatives have had exploratory talks about her joining a third season of “The Gentlemen,” two people said. Netflix has not yet ordered a third season of the show.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1228,7 +1268,7 @@
       "summary": "He pioneered a technique for using computers to predict short-term movements in stock prices, something that proved to be hugely lucrative — when it worked.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1240,7 +1280,7 @@
       "summary": "No hurricane-strength storms have formed yet this year in the Atlantic basin, but the limiting activity isn’t certain to continue.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1252,7 +1292,7 @@
       "summary": "Treasury Secretary Scott Bessent has vowed to step up efforts to restore calm to the debt markets. So far, it’s not working out that way.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1264,7 +1304,7 @@
       "summary": "High-quality bonds are still safer than stocks, but they have been swinging in value, so move cautiously, our columnist says.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1276,7 +1316,7 @@
       "summary": "Some major lines are increasing gratuities and deposit requirements, and charging more for certain packages. It’s all adding up.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1288,7 +1328,7 @@
       "summary": "Pagani, Bentley, Aston Martin and other high-end automakers are teaming up with residential developers, solidifying the city as having the most branded residences associated with car brands in the nation.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1300,7 +1340,7 @@
       "summary": "Matt Calkins, a longtime sports columnist, said editors had refused to publish a column about transgender athletes in women’s competitions.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1312,7 +1352,7 @@
       "summary": "The detentions of the workers, who have been released, are a sign of legal pressure that the world’s largest crypto exchange faces in the Emirates, which is home to its main regulator.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1324,7 +1364,7 @@
       "summary": "His 41 years as a national television news anchor surpassed the tenures of Walter Cronkite and Tom Brokaw.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1336,7 +1376,7 @@
       "summary": "President Trump appeared to suggest that the United States would impose economic penalties on countries that do business with Iran, though he did not specify what actions he would take.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1348,7 +1388,7 @@
       "summary": "The company’s fortunes cratered as demand for Covid-19 vaccines plummeted. But it was busy working on something else.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1360,7 +1400,7 @@
       "summary": "A scientific and civilizational horror story.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1372,7 +1412,7 @@
       "summary": "A passenger who said he had an uneventful ride home from the airport was shocked to be hit with a cleaning fee for a mess in what appeared to be a different vehicle.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1384,7 +1424,7 @@
       "summary": "The Concours d’Elegance, a showcase of some of the world’s finest cars held over the weekend, was a capstone to Sandra Button’s two decades of leading the organization that puts it on.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1396,7 +1436,7 @@
       "summary": "“The Necessary Conversation,” a podcast and YouTube show, is a very public example of the political disputes families are having all across the country.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1408,7 +1448,7 @@
       "summary": "Hui Ka Yan’s punishment caps the downfall of a property empire whose collapse set off a prolonged crisis in the Chinese economy.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1420,7 +1460,7 @@
       "summary": "President Trump called on Congress to pass a major cryptocurrency bill that would tilt regulation in the industry’s favor.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1432,7 +1472,7 @@
       "summary": "Mr. Barkan, who has written for New York magazine and The New York Times, said he had “never intended to crib from anyone’s work.”",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1444,7 +1484,7 @@
       "summary": "A watchdog group said the Dominican company continued to violate labor standards after President Trump lifted an import ban last year.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1456,7 +1496,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1468,7 +1508,7 @@
       "summary": "Businesses are reckoning with the financial toll of this year’s brutal climate shocks.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1480,7 +1520,7 @@
       "summary": "A spring surge rapidly faded as the summer brought higher prices and more uncertainty for businesses, even as they avoided layoffs.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1492,7 +1532,7 @@
       "summary": "The Mediterranean archipelago is a hot destination for U.S. companies seeking to shield profits from income taxes.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1504,7 +1544,7 @@
       "summary": "Imports and exports both declined, retreating from a busy month in May, data from the Commerce Department showed.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1516,7 +1556,7 @@
       "summary": "Coordinated intervention allowed Japan to support its currency without selling off its U.S. debt holdings.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1528,7 +1568,7 @@
       "summary": "A new field of “tokenomics” has emerged to measure the return on all the money companies are pouring into artificial intelligence.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1540,7 +1580,7 @@
       "summary": "The unusual weather pattern and dried out peatlands, a kind of wetland, have been behind some of the country’s worst fire seasons. This year could be one.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
       "is_alert": false
     },
     {
@@ -1552,7 +1592,91 @@
       "summary": "In recent weeks, the police have closed dozens of cafes, often citing laws that stipulate women must veil in public. Experts say the closures are part of an effort to control public space.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.51,
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "c6379a598c8702ae",
+      "title": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/russia-drones-autonomous-ai-kill-ukraine-war.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:29:32+00:00",
+      "summary": "An attack by what Ukrainian officials said was a Russian drone with an Nvidia chip presages a dystopian future of weaponry untethered to humans.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "50079e0011b8134f",
+      "title": "Can ‘Argentina’s Texas’ Save the Country’s Economy?",
+      "url": "https://www.nytimes.com/2026/08/24/world/americas/argentina-oil-patagonia-milei.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:02:26+00:00",
+      "summary": "Thousands of Argentines are flocking to a remote stretch of Patagonia, seeking work with only backpacks, tents and the hope that they and their country can turn around their fortunes.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "8d41278eea85370f",
+      "title": "Some of Russia’s A.I. Drones Are Powered by Nvidia Microcomputers, Ukrainian Officials Say",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/ukraine-war-nvidia-ai-autonomous-drones.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:02:44+00:00",
+      "summary": "The tech giant says it does not sell the devices in Russia, but they are widely available on resale markets. When purchased that way, they are virtually impossible to track.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "6e1c0329bf2bea7f",
+      "title": "Syria and Israel Hold U.S.-Mediated Talks to Try to Ease Tensions",
+      "url": "https://www.nytimes.com/2026/08/24/world/middleeast/syria-israel-talks-us-jordan.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:37:47+00:00",
+      "summary": "The discussions, reported by the Syrian state news agency, came days after Israel struck an air base in Syria’s northwest, the latest in a series of military interventions.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "a361a50e307f74ad",
+      "title": "Iceland’s Murder Rate Is Off the Charts — in Its Books, at Least",
+      "url": "https://www.nytimes.com/2026/08/24/books/iceland-crime-fiction.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:02:16+00:00",
+      "summary": "The Nordic nation has almost no homicides, yet crime fiction is its favorite literary genre. That means writers face a challenge: making murder feel believable.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "a4ca288f709f00ff",
+      "title": "How Argentina’s Oil Boom Is Changing Patagonia",
+      "url": "https://www.nytimes.com/video/world/americas/100000010986029/how-argentinas-oil-boom-is-changing-patagonia.html",
+      "source": "NYT World",
+      "published_at": "2026-08-24T09:00:01+00:00",
+      "summary": "Our correspondent Emma Bubola travels to northwest Patagonia, the epicenter of an oil boom that Argentina hopes will revolutionize its economy.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
+      "is_alert": false
+    },
+    {
+      "id": "bf9e989fbf82ef25",
+      "title": "Netflix, YouTube and Amazon Want You to Watch Everything From One App: Theirs",
+      "url": "https://www.nytimes.com/2026/08/24/business/media/amazon-youtube-netflix-streaming-platform.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-24T09:02:58+00:00",
+      "summary": "YouTube is racing to catch up to Amazon, which already offers users the chance to subscribe to services like HBO Max from within its app. Netflix is increasingly open to the idea, too.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.52,
       "is_alert": false
     }
   ]
