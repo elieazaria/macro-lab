@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T09:58:32.415056+00:00",
-  "macro_score_24h": 4.3,
+  "generated_at": "2026-08-29T15:01:27.305231+00:00",
+  "macro_score_24h": 4.98,
   "predictions": {},
   "method": "ARIMA(p,d,q) ajusté par maximum de vraisemblance, ordre sélectionné par AIC sur une grille restreinte, corrigé d'un biais macro post-hoc proportionnel au climat détecté par le pipeline de scoring des news.",
   "disclaimer": "Prevision indicative basee sur un modele ARIMA ajuste sur l'historique recent des prix. Ne constitue pas un conseil en investissement."
