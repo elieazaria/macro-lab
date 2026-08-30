@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-30T12:48:28.699522+00:00",
+  "generated_at": "2026-08-30T17:23:27.249557+00:00",
   "meta": {
-    "total_articles_7j": 248,
-    "articles_today": 9,
-    "alerts_critiques": 72,
+    "total_articles_7j": 253,
+    "articles_today": 7,
+    "alerts_critiques": 73,
     "score_moyen": 4.98,
     "seuil_alerte": 5.0,
     "themes": {
       "War/Conflict": 50,
       "Inflation": 10,
+      "Sanctions": 7,
       "Fed Emergency": 7,
-      "Sanctions": 6,
       "Oil/Energy": 4,
-      "Central Bank": 2,
+      "Central Bank": 3,
       "Volatility": 1
     }
   },
@@ -77,7 +77,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 13.37,
+      "score": 13.4,
       "is_alert": true
     },
     {
@@ -92,7 +92,7 @@
         "War/Conflict",
         "Inflation"
       ],
-      "score": 13.03,
+      "score": 13.07,
       "is_alert": true
     },
     {
@@ -108,7 +108,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 13.0,
+      "score": 13.03,
       "is_alert": true
     },
     {
@@ -122,7 +122,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.36,
+      "score": 12.39,
       "is_alert": true
     },
     {
@@ -137,7 +137,7 @@
         "War/Conflict",
         "Inflation"
       ],
-      "score": 12.33,
+      "score": 12.37,
       "is_alert": true
     },
     {
@@ -153,7 +153,7 @@
         "Sanctions",
         "Oil/Energy"
       ],
-      "score": 11.87,
+      "score": 11.9,
       "is_alert": true
     },
     {
@@ -169,7 +169,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.42,
+      "score": 11.45,
       "is_alert": true
     },
     {
@@ -183,7 +183,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.09,
+      "score": 11.12,
       "is_alert": true
     },
     {
@@ -198,7 +198,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 11.02,
+      "score": 11.04,
       "is_alert": true
     },
     {
@@ -214,7 +214,7 @@
         "Inflation",
         "Volatility"
       ],
-      "score": 10.4,
+      "score": 10.43,
       "is_alert": true
     },
     {
@@ -228,7 +228,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.23,
+      "score": 10.25,
       "is_alert": true
     },
     {
@@ -242,7 +242,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.18,
+      "score": 10.2,
       "is_alert": true
     },
     {
@@ -257,7 +257,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 10.07,
+      "score": 10.09,
       "is_alert": true
     },
     {
@@ -271,7 +271,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.67,
+      "score": 9.69,
       "is_alert": true
     },
     {
@@ -286,7 +286,7 @@
         "War/Conflict",
         "Sanctions"
       ],
-      "score": 9.2,
+      "score": 9.22,
       "is_alert": true
     },
     {
@@ -300,7 +300,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.86,
+      "score": 8.88,
       "is_alert": true
     },
     {
@@ -314,7 +314,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.84,
+      "score": 8.86,
       "is_alert": true
     },
     {
@@ -328,7 +328,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.84,
+      "score": 8.86,
       "is_alert": true
     },
     {
@@ -342,7 +342,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.82,
+      "score": 8.84,
       "is_alert": true
     },
     {
@@ -356,7 +356,22 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 8.75,
+      "score": 8.77,
+      "is_alert": true
+    },
+    {
+      "id": "019f0a2b3c791783",
+      "title": "U.A.E. To Review Banque Misr, Targeted by Iran Sanctions",
+      "url": "https://www.nytimes.com/2026/08/30/world/middleeast/uae-banque-misr-treasury-iran.html",
+      "source": "NYT World",
+      "published_at": "2026-08-30T14:49:15+00:00",
+      "summary": "The Treasury Department accused Banque Misr’s branches in the United Arab Emirates of helping Iran. The Emirati central bank promised an examination.",
+      "raw_score": 29.122,
+      "themes": [
+        "Sanctions",
+        "Central Bank"
+      ],
+      "score": 8.76,
       "is_alert": true
     },
     {
@@ -370,7 +385,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.61,
+      "score": 8.63,
       "is_alert": true
     },
     {
@@ -384,7 +399,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.42,
+      "score": 8.43,
       "is_alert": true
     },
     {
@@ -398,7 +413,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.39,
+      "score": 8.41,
       "is_alert": true
     },
     {
@@ -412,7 +427,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.29,
+      "score": 8.31,
       "is_alert": true
     },
     {
@@ -426,7 +441,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.83,
+      "score": 7.84,
       "is_alert": true
     },
     {
@@ -440,7 +455,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.62,
+      "score": 7.64,
       "is_alert": true
     },
     {
@@ -454,7 +469,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.57,
+      "score": 7.58,
       "is_alert": true
     },
     {
@@ -468,7 +483,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.53,
+      "score": 7.55,
       "is_alert": true
     },
     {
@@ -482,7 +497,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.5,
+      "score": 7.52,
       "is_alert": true
     },
     {
@@ -496,7 +511,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.49,
+      "score": 7.5,
       "is_alert": true
     },
     {
@@ -510,7 +525,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.37,
+      "score": 7.39,
       "is_alert": true
     },
     {
@@ -524,7 +539,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 7.33,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -538,7 +553,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.33,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -552,7 +567,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 7.3,
+      "score": 7.31,
       "is_alert": true
     },
     {
@@ -567,7 +582,7 @@
         "War/Conflict",
         "Sanctions"
       ],
-      "score": 7.29,
+      "score": 7.3,
       "is_alert": true
     },
     {
@@ -579,7 +594,7 @@
       "summary": "The Treasury Department said it could begin to buy back more of its debt, and bond market investors are assessing the potential effects on borrowing costs.",
       "raw_score": 19.116,
       "themes": [],
-      "score": 7.0,
+      "score": 7.01,
       "is_alert": true
     },
     {
@@ -593,7 +608,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.94,
+      "score": 6.96,
       "is_alert": true
     },
     {
@@ -605,7 +620,7 @@
       "summary": "Prime Minister Mark Carney’s decision to retaliate against U.S. tariffs has drawn praise from China, and exposed a rift in the Trump administration.",
       "raw_score": 18.51,
       "themes": [],
-      "score": 6.89,
+      "score": 6.91,
       "is_alert": true
     },
     {
@@ -617,7 +632,7 @@
       "summary": "Ssense’s comeback efforts include moving a core part of its business to the United States so American customers can avoid hefty tariffs.",
       "raw_score": 18.51,
       "themes": [],
-      "score": 6.89,
+      "score": 6.91,
       "is_alert": true
     },
     {
@@ -629,7 +644,7 @@
       "summary": "Dollar General and Dollar Tree each reported gains in sales and store traffic on Thursday as higher gas prices forced shoppers to pare back.",
       "raw_score": 18.421,
       "themes": [],
-      "score": 6.88,
+      "score": 6.89,
       "is_alert": true
     },
     {
@@ -641,7 +656,7 @@
       "summary": "The 50 percent tariffs President Trump imposed on Canadian exports to the United States will make it impossible for many Canadian companies to continue to sell to the U.S. market, economists say.",
       "raw_score": 18.203,
       "themes": [],
-      "score": 6.84,
+      "score": 6.85,
       "is_alert": true
     },
     {
@@ -655,7 +670,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.62,
+      "score": 6.63,
       "is_alert": true
     },
     {
@@ -669,7 +684,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.58,
+      "score": 6.59,
       "is_alert": true
     },
     {
@@ -683,7 +698,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.52,
+      "score": 6.53,
       "is_alert": true
     },
     {
@@ -697,7 +712,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.41,
+      "score": 6.42,
       "is_alert": true
     },
     {
@@ -711,7 +726,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.39,
+      "score": 6.4,
       "is_alert": true
     },
     {
@@ -723,7 +738,7 @@
       "summary": "The move prompted blowback from cattle ranchers and Republicans who represent them.",
       "raw_score": 13.333,
       "themes": [],
-      "score": 5.99,
+      "score": 6.0,
       "is_alert": true
     },
     {
@@ -735,7 +750,7 @@
       "summary": "Higher revenue and employee limits for small businesses that get federal contracts and loans could disadvantage the smallest companies, their owners say.",
       "raw_score": 13.237,
       "themes": [],
-      "score": 5.98,
+      "score": 5.99,
       "is_alert": true
     },
     {
@@ -747,7 +762,7 @@
       "summary": "The president has invoked a long dormant section of law to hit one of America’s closest allies, a move that has troubled courts in the past.",
       "raw_score": 13.205,
       "themes": [],
-      "score": 5.97,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -759,7 +774,7 @@
       "summary": "Business owners are preparing for financial pain after the latest U.S.-Canada trade talks collapsed. But many Canadians are embracing a show of resistance.",
       "raw_score": 13.205,
       "themes": [],
-      "score": 5.97,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -773,7 +788,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.93,
+      "score": 5.94,
       "is_alert": true
     },
     {
@@ -785,7 +800,7 @@
       "summary": "Lisa D. Cook hit back at President Trump’s allegations that she had committed mortgage fraud.",
       "raw_score": 12.063,
       "themes": [],
-      "score": 5.77,
+      "score": 5.78,
       "is_alert": true
     },
     {
@@ -797,7 +812,7 @@
       "summary": "The country star supported early childhood literacy, disaster relief, the development of the Covid-19 vaccine and more.",
       "raw_score": 11.836,
       "themes": [],
-      "score": 5.73,
+      "score": 5.74,
       "is_alert": true
     },
     {
@@ -811,7 +826,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 5.67,
+      "score": 5.68,
       "is_alert": true
     },
     {
@@ -839,7 +854,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.52,
+      "score": 5.53,
       "is_alert": true
     },
     {
@@ -850,6 +865,62 @@
       "published_at": "2026-08-25T11:30:04+00:00",
       "summary": "Emerald AI, now valued at $1.05 billion, uses software to keep power demand at the computing facilities from getting out of control.",
       "raw_score": 10.564,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.52,
+      "is_alert": true
+    },
+    {
+      "id": "a5c02e359c7b3f2a",
+      "title": "Six Months In, Iran Appears Stronger and U.S. Goals Unclear",
+      "url": "https://www.nytimes.com/2026/08/28/world/europe/iran-regime-war-us.html",
+      "source": "NYT World",
+      "published_at": "2026-08-28T08:55:52+00:00",
+      "summary": "Trump’s replacement of a military war with a heightened economic one is not expected to alter Iran’s strategy, while further impoverishing its people.",
+      "raw_score": 10.564,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.52,
+      "is_alert": true
+    },
+    {
+      "id": "bc7ffb71f256a5bc",
+      "title": "China Sees Opportunity in America’s Recent A.I. Security Scares",
+      "url": "https://www.nytimes.com/2026/08/28/business/china-artificial-intelligence-zai.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-28T18:05:44+00:00",
+      "summary": "A leading Chinese A.I. start-up released its latest model and made the case that China’s embrace of open software is safer than Silicon Valley’s closed approach.",
+      "raw_score": 10.539,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.52,
+      "is_alert": true
+    },
+    {
+      "id": "9718c71000a68010",
+      "title": "A Melting Glacier in Nepal Was a Time Bomb. There Are More to Come.",
+      "url": "https://www.nytimes.com/2026/08/28/climate/climate-forward-nepal-disaster.html",
+      "source": "NYT World",
+      "published_at": "2026-08-28T21:04:05+00:00",
+      "summary": "A geologist reflects on the disaster and explains why rapid warming will make deadly glacial floods far more common.",
+      "raw_score": 10.564,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.52,
+      "is_alert": true
+    },
+    {
+      "id": "ebe57aeb1b13f0e0",
+      "title": "Soaring Diesel Prices Are Helping Oil Companies and Hurting Consumers",
+      "url": "https://www.nytimes.com/2026/08/26/business/energy-environment/diesel-prices-iran-war-oil.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-26T09:48:23+00:00",
+      "summary": "The cost of the fuel, used in farm machinery, trucks and other heavy equipment, has surged because of the war in Iran and Ukrainian attacks on Russian refineries.",
+      "raw_score": 10.501,
       "themes": [
         "War/Conflict"
       ],
@@ -871,48 +942,6 @@
       "is_alert": true
     },
     {
-      "id": "a5c02e359c7b3f2a",
-      "title": "Six Months In, Iran Appears Stronger and U.S. Goals Unclear",
-      "url": "https://www.nytimes.com/2026/08/28/world/europe/iran-regime-war-us.html",
-      "source": "NYT World",
-      "published_at": "2026-08-28T08:55:52+00:00",
-      "summary": "Trump’s replacement of a military war with a heightened economic one is not expected to alter Iran’s strategy, while further impoverishing its people.",
-      "raw_score": 10.564,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.51,
-      "is_alert": true
-    },
-    {
-      "id": "bc7ffb71f256a5bc",
-      "title": "China Sees Opportunity in America’s Recent A.I. Security Scares",
-      "url": "https://www.nytimes.com/2026/08/28/business/china-artificial-intelligence-zai.html",
-      "source": "NYT Business",
-      "published_at": "2026-08-28T18:05:44+00:00",
-      "summary": "A leading Chinese A.I. start-up released its latest model and made the case that China’s embrace of open software is safer than Silicon Valley’s closed approach.",
-      "raw_score": 10.539,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.51,
-      "is_alert": true
-    },
-    {
-      "id": "9718c71000a68010",
-      "title": "A Melting Glacier in Nepal Was a Time Bomb. There Are More to Come.",
-      "url": "https://www.nytimes.com/2026/08/28/climate/climate-forward-nepal-disaster.html",
-      "source": "NYT World",
-      "published_at": "2026-08-28T21:04:05+00:00",
-      "summary": "A geologist reflects on the disaster and explains why rapid warming will make deadly glacial floods far more common.",
-      "raw_score": 10.564,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.51,
-      "is_alert": true
-    },
-    {
       "id": "d32b79f29fbd271f",
       "title": "Which Countries Could Be Hurt Most by Trump’s Plan to Hit Iran’s Economy?",
       "url": "https://www.nytimes.com/article/us-iran-economy-sanctions-trade-trump-china.html",
@@ -920,20 +949,6 @@
       "published_at": "2026-08-24T08:49:48+00:00",
       "summary": "President Trump has threatened economic penalties on countries that do business with Iran as he seeks to add pressure on Tehran to negotiate an end to the war.",
       "raw_score": 10.464,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.5,
-      "is_alert": true
-    },
-    {
-      "id": "ebe57aeb1b13f0e0",
-      "title": "Soaring Diesel Prices Are Helping Oil Companies and Hurting Consumers",
-      "url": "https://www.nytimes.com/2026/08/26/business/energy-environment/diesel-prices-iran-war-oil.html",
-      "source": "NYT Business",
-      "published_at": "2026-08-26T09:48:23+00:00",
-      "summary": "The cost of the fuel, used in farm machinery, trucks and other heavy equipment, has surged because of the war in Iran and Ukrainian attacks on Russian refineries.",
-      "raw_score": 10.501,
       "themes": [
         "War/Conflict"
       ],
@@ -969,6 +984,18 @@
       "is_alert": true
     },
     {
+      "id": "7474cd4c6a8be5b0",
+      "title": "Drought, Heat, Low Water Levels: Europe’s River Cruises Take a Hit",
+      "url": "https://www.nytimes.com/2026/08/28/travel/europe-river-cruises-drought.html",
+      "source": "NYT Business",
+      "published_at": "2026-08-28T09:02:54+00:00",
+      "summary": "The Danube and Rhine are at record lows this summer, disrupting hundreds of cruises that have become an increasingly popular part of Europe’s tourism industry.",
+      "raw_score": 10.048,
+      "themes": [],
+      "score": 5.43,
+      "is_alert": true
+    },
+    {
       "id": "15c282dffc9ead4b",
       "title": "Europe Hurries to Fund More Cutting-Edge Businesses to Compete With China and U.S.",
       "url": "https://www.nytimes.com/2026/08/19/business/economy/europe-investment-innovation-competition-us-china.html",
@@ -978,18 +1005,6 @@
       "raw_score": 10.06,
       "themes": [],
       "score": 5.43,
-      "is_alert": true
-    },
-    {
-      "id": "7474cd4c6a8be5b0",
-      "title": "Drought, Heat, Low Water Levels: Europe’s River Cruises Take a Hit",
-      "url": "https://www.nytimes.com/2026/08/28/travel/europe-river-cruises-drought.html",
-      "source": "NYT Business",
-      "published_at": "2026-08-28T09:02:54+00:00",
-      "summary": "The Danube and Rhine are at record lows this summer, disrupting hundreds of cruises that have become an increasingly popular part of Europe’s tourism industry.",
-      "raw_score": 10.048,
-      "themes": [],
-      "score": 5.42,
       "is_alert": true
     },
     {
@@ -1003,7 +1018,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.08,
+      "score": 5.09,
       "is_alert": true
     },
     {
@@ -1029,7 +1044,7 @@
       "summary": "Soaring temperatures, widespread wildfires and dried-up rivers are transforming tourism across the continent. Here’s how travelers are responding.",
       "raw_score": 7.229,
       "themes": [],
-      "score": 4.93,
+      "score": 4.94,
       "is_alert": false
     },
     {
@@ -1041,7 +1056,7 @@
       "summary": "After a divisive national debate, Icelanders rejected a proposal to resume negotiations on joining the bloc, according to the national broadcaster.",
       "raw_score": 7.229,
       "themes": [],
-      "score": 4.93,
+      "score": 4.94,
       "is_alert": false
     },
     {
@@ -1077,7 +1092,7 @@
       "summary": "The outcome contradicted an earlier appeals court decision. Federal regulators said the split rulings called for resolution by the Supreme Court.",
       "raw_score": 4.813,
       "themes": [],
-      "score": 4.51,
+      "score": 4.52,
       "is_alert": false
     },
     {
@@ -1101,7 +1116,7 @@
       "summary": "State and federal leaders are trying to avoid sharing sensitive intelligence with the Alternative for Germany should it take power in a state’s elections next week.",
       "raw_score": 4.745,
       "themes": [],
-      "score": 4.5,
+      "score": 4.51,
       "is_alert": false
     },
     {
@@ -1113,7 +1128,7 @@
       "summary": "Her idea to create a “fantasy city” that celebrated her home region turned into a billion-dollar attraction that maintained its authentic feel.",
       "raw_score": 3.373,
       "themes": [],
-      "score": 4.26,
+      "score": 4.27,
       "is_alert": false
     },
     {
@@ -1197,7 +1212,7 @@
       "summary": "A few years ago, some feared the European Union was going out of style. Now Iceland is mulling membership alongside a long list of candidates.",
       "raw_score": 2.864,
       "themes": [],
-      "score": 4.17,
+      "score": 4.18,
       "is_alert": false
     },
     {
@@ -3127,6 +3142,54 @@
       "source": "NYT Business",
       "published_at": "2026-08-30T09:00:08+00:00",
       "summary": "The machines, which enjoyed legal protection until a recent court ruling, could go dark in October.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "1792624c7450a810",
+      "title": "Ferry Carrying Hundreds of Passengers Capsizes Off Coast of Cyprus",
+      "url": "https://www.nytimes.com/2026/08/30/world/europe/cyprus-ferry-capsizes-turkey.html",
+      "source": "NYT World",
+      "published_at": "2026-08-30T14:33:30+00:00",
+      "summary": "Local authorities said 267 people were aboard the catamaran-type vessel when it began taking on water shortly after its departure from Kyrenia.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "c678e1cb8939b099",
+      "title": "Hunt Underway After Deadly Shooting at Swiss Rave",
+      "url": "https://www.nytimes.com/2026/08/30/world/europe/switzerland-rave-shooting.html",
+      "source": "NYT World",
+      "published_at": "2026-08-30T16:01:48+00:00",
+      "summary": "One reveler was killed, and five were injured early Sunday at a dance party at a horseracing track in Switzerland’s north.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "bd8631262041fdaa",
+      "title": "Google Maps Changes Lake Ontario to Lake America Following Trump’s Executive Order",
+      "url": "https://www.nytimes.com/2026/08/30/world/canada/lake-ontario-america-google-maps.html",
+      "source": "NYT World",
+      "published_at": "2026-08-30T16:50:53+00:00",
+      "summary": "Users in the United States will see the new label, following President Trump’s executive order last week.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "86e843c92d8d847a",
+      "title": "See Nepali Rescue Workers Testing Aid Delivery by Drone",
+      "url": "https://www.nytimes.com/2026/08/30/world/asia/nepal-floods-aid-drone.html",
+      "source": "NYT World",
+      "published_at": "2026-08-30T16:55:56+00:00",
+      "summary": "Some survivors of the deadly flood and landslide have no access to food. Officials and volunteers are testing how drones can help.",
       "raw_score": 0.0,
       "themes": [],
       "score": 3.68,
