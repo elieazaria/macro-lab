@@ -163,6 +163,35 @@ Pour aller plus loin :
 **⚠️ Ces prévisions sont indicatives et ne constituent en aucun cas un
 conseil en investissement.**
 
+### 🩺 « Prédictions indisponibles pour le moment » après plusieurs heures
+
+Ce n'est pas normal si le workflow tourne bien depuis un moment. Causes
+les plus fréquentes, dans l'ordre de probabilité :
+
+1. **Yahoo Finance bloque/rate-limite les IP partagées de GitHub
+   Actions** — très courant. Le module retente 3 fois avec backoff, puis
+   **bascule automatiquement sur Stooq** (source gratuite sans clé) pour
+   les tickers mappés dans `STOOQ_FALLBACK`. Si les deux échouent en même
+   temps, le fichier `predictions.json` précédent est **conservé tel
+   quel** (jamais écrasé par un état vide) — regardez son champ
+   `"failures"` pour voir quels tickers ont posé problème au dernier run.
+2. **Le workflow n'a jamais réussi à s'exécuter jusqu'au bout** :
+   ouvrez l'onglet **Actions** du dépôt GitHub, cliquez sur le dernier
+   run de *Macro Lab — Scraping horaire*, et regardez l'étape *Exécution
+   du pipeline* — les lignes `yfinance indisponible pour ... repli
+   Stooq` ou `Aucune prédiction générée` indiquent précisément où ça
+   coince.
+3. **Le fichier n'a jamais été committé** : vérifiez que l'étape *Commit
+   et push des données mises à jour* du workflow s'exécute sans erreur
+   de permission (le workflow doit avoir `permissions: contents: write`,
+   déjà configuré dans `scrape.yml`).
+
+Le dashboard distingue désormais deux cas dans son message : *le
+pipeline n'a jamais réussi* (aucun `generated_at` dans le fichier) vs
+*le dernier run a échoué mais un run précédent avait réussi* (auquel cas
+vous continuez à voir les données du dernier run réussi, pas un message
+d'erreur).
+
 ---
 
 ## 📜 Licence

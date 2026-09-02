@@ -79,8 +79,10 @@ def main() -> None:
 
     try:
         run_predictions(macro_score_24h=macro_24h or meta["score_moyen"])
-    except Exception as exc:  # best-effort : ne bloque pas le pipeline news
-        log.warning("Prédictions ignorées suite à une erreur: %s", exc)
+    except Exception:  # best-effort : ne bloque pas le pipeline news
+        # log.exception affiche la trace complète dans les logs GitHub Actions
+        # (indispensable pour diagnostiquer un échec yfinance/ARIMA silencieux)
+        log.exception("Prédictions ignorées suite à une erreur")
 
     log.info("=== Pipeline terminé : %d alertes critiques / %d articles (7j) ===",
               len(alerts), len(window))

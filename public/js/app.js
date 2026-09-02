@@ -88,15 +88,27 @@ async function loadData() {
 }
 
 async function loadPredictions() {
-  const grid = document.getElementById("predictions-grid");
   try {
     const res = await fetch(PREDICTIONS_URL, { cache: "no-store" });
     if (!res.ok) throw new Error("introuvable");
     const json = await res.json();
-    renderPredictions(json.predictions || {});
+    const hasData = json.predictions && Object.keys(json.predictions).length > 0;
+    if (!hasData) {
+      renderPredictionsEmpty(json.generated_at ? "run" : "never");
+      return;
+    }
+    renderPredictions(json.predictions, json.failures || {});
   } catch (err) {
-    renderPredictions(demoPredictions());
+    renderPredictions(demoPredictions(), {});
   }
+}
+
+function renderPredictionsEmpty(reason) {
+  const grid = document.getElementById("predictions-grid");
+  const msg = reason === "never"
+    ? "Le pipeline de prédiction ne s'est pas encore exécuté avec succès — vérifiez les logs GitHub Actions (onglet Actions du dépôt) après le prochain run."
+    : "Le dernier run n'a récupéré aucune donnée de marché (Yahoo Finance et Stooq indisponibles). Le prochain run réessaiera automatiquement.";
+  grid.innerHTML = `<div class="text-xs font-mono text-muted col-span-full">${msg}</div>`;
 }
 
 /* ------------------------------------------------------------------ */
@@ -364,21 +376,22 @@ function renderTicker() {
 /* Prédictions marchés                                                 */
 /* ------------------------------------------------------------------ */
 
-function renderPredictions(predictions) {
+function renderPredictions(predictions, failures = {}) {
   const grid = document.getElementById("predictions-grid");
   const entries = Object.entries(predictions);
   if (entries.length === 0) {
     grid.innerHTML = `<div class="text-xs font-mono text-muted col-span-full">Prédictions indisponibles pour le moment.</div>`;
     return;
   }
-  grid.innerHTML = entries.map(([label, p]) => {
+  const cards = entries.map(([label, p]) => {
     const up = p.predicted_change_pct >= 0;
     const order = p.model?.order ? `(${p.model.order.join(",")})` : "";
     const conf = p.model?.confidence_level || "90%";
+    const sourceTag = p.source && p.source !== "yfinance" ? `<span class="text-[8px] font-mono text-amber-500 ml-1" title="Source de repli utilisée">via ${p.source}</span>` : "";
     return `
       <div class="rounded-lg border border-edge bg-panel-alt p-3">
         <div class="flex items-center justify-between mb-1">
-          <p class="text-[10px] font-mono uppercase tracking-wide text-muted">${label}</p>
+          <p class="text-[10px] font-mono uppercase tracking-wide text-muted">${label}${sourceTag}</p>
           <span class="text-[9px] font-mono text-muted" title="Modèle ARIMA${order}, AIC ${p.model?.aic ?? "—"}, IC ${conf}">ARIMA${order}</span>
         </div>
         <p class="font-mono text-lg font-bold">${formatPrice(p.last_price)}</p>
@@ -390,6 +403,12 @@ function renderPredictions(predictions) {
       </div>
     `;
   }).join("");
+
+  const failureNote = Object.keys(failures).length > 0
+    ? `<div class="col-span-full text-[10px] font-mono text-amber-500 mt-1">⚠ Non disponibles ce run : ${Object.keys(failures).join(", ")}</div>`
+    : "";
+
+  grid.innerHTML = cards + failureNote;
 }
 
 /**

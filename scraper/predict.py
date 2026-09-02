@@ -25,13 +25,16 @@ Pour aller plus loin : remplacer `_fit_best_arima` par `pmdarima.auto_arima`
 
 from __future__ import annotations
 
+import io
 import json
 import logging
+import time
 import warnings
 from datetime import datetime, timezone
 
 import numpy as np
 import pandas as pd
+import requests
 import yfinance as yf
 from statsmodels.tsa.arima.model import ARIMA
 
@@ -44,6 +47,8 @@ HORIZON_DAYS = 5
 LOOKBACK_DAYS = 90        # historique plus long qu'avant pour un ARIMA stable
 CI_ALPHA = 0.10            # intervalle de confiance à 90%
 MIN_OBSERVATIONS = 20      # en dessous, ARIMA n'est pas fiable -> ticker ignoré
+YFINANCE_RETRIES = 3
+YFINANCE_RETRY_DELAY = 2.5  # secondes, avec backoff exponentiel
 
 # Grille d'ordres (p, d, q) testés — volontairement restreinte pour rester
 # rapide sur un runner CI. d=1 partout car les séries de prix financiers
@@ -53,22 +58,88 @@ CANDIDATE_ORDERS: list[tuple[int, int, int]] = [
     (2, 1, 0), (0, 1, 2), (2, 1, 1), (1, 1, 2), (2, 1, 2),
 ]
 
+# Repli Stooq (gratuit, sans clé, généralement plus stable que Yahoo Finance
+# depuis une IP partagée de CI) — mapping ticker Yahoo -> symbole Stooq.
+STOOQ_FALLBACK: dict[str, str] = {
+    "GC=F": "xauusd",       # or (spot, proxy raisonnable pour le future GC=F)
+    "EURUSD=X": "eurusd",
+    "BTC-USD": "btcusd",
+    "^GSPC": "^spx",
+    "^FCHI": "^fchi",
+}
 
-def _fetch_prices(ticker: str) -> pd.Series | None:
-    """Récupère la série de clôtures quotidiennes des `LOOKBACK_DAYS`
-    derniers jours pour un ticker Yahoo Finance donné."""
+
+def _fetch_from_yfinance(ticker: str) -> pd.Series | None:
+    """Tente de récupérer les prix via yfinance, avec retries + backoff
+    exponentiel (Yahoo Finance renvoie parfois des réponses vides ou des
+    429 de façon transitoire depuis les IP partagées de CI)."""
+    for attempt in range(1, YFINANCE_RETRIES + 1):
+        try:
+            hist = yf.Ticker(ticker).history(period=f"{LOOKBACK_DAYS}d")
+            if hist.empty:
+                raise ValueError("réponse vide")
+            series = hist["Close"].dropna()
+            if len(series) < MIN_OBSERVATIONS:
+                raise ValueError(f"seulement {len(series)} points (min {MIN_OBSERVATIONS})")
+            series.index = pd.DatetimeIndex(series.index).tz_localize(None)
+            return series
+        except Exception as exc:
+            log.warning(
+                "yfinance échec %s (tentative %d/%d): %s",
+                ticker, attempt, YFINANCE_RETRIES, exc,
+            )
+            if attempt < YFINANCE_RETRIES:
+                time.sleep(YFINANCE_RETRY_DELAY * attempt)
+    return None
+
+
+def _fetch_from_stooq(ticker: str) -> pd.Series | None:
+    """Repli via Stooq (CSV public, sans clé API). Utilisé quand yfinance
+    échoue de façon persistante — fréquent sur les runners GitHub Actions,
+    dont les IP partagées sont régulièrement rate-limitées par Yahoo."""
+    symbol = STOOQ_FALLBACK.get(ticker)
+    if not symbol:
+        return None
+    url = f"https://stooq.com/q/d/l/?s={symbol}&i=d"
     try:
-        hist = yf.Ticker(ticker).history(period=f"{LOOKBACK_DAYS}d")
-        if hist.empty:
+        resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+        df = pd.read_csv(io.StringIO(resp.text))
+        if df.empty or "Close" not in df.columns:
             return None
-        series = hist["Close"].dropna()
+        df["Date"] = pd.to_datetime(df["Date"])
+        df = df.set_index("Date").sort_index()
+        series = df["Close"].dropna().tail(LOOKBACK_DAYS)
         if len(series) < MIN_OBSERVATIONS:
             return None
-        series.index = pd.DatetimeIndex(series.index).tz_localize(None)
         return series
-    except Exception as exc:  # pragma: no cover - dépend du réseau
-        log.warning("Echec récupération prix %s: %s", ticker, exc)
+    except Exception as exc:
+        log.warning("Repli Stooq échec pour %s (%s): %s", ticker, symbol, exc)
         return None
+
+
+def _fetch_prices(ticker: str) -> tuple[pd.Series | None, str]:
+    """Récupère la série de clôtures quotidiennes.
+
+    Stooq est tenté EN PREMIER : Yahoo Finance (yfinance) bloque de façon
+    quasi systématique les requêtes depuis les IP de datacenter des
+    runners GitHub Actions (réponse vide -> "Expecting value: line 1
+    column 1", ou "possibly delisted"), alors que Stooq (CSV public, sans
+    authentification ni crumb/cookie requis) reste généralement accessible.
+    yfinance sert de repli si jamais un ticker n'a pas d'équivalent Stooq
+    ou si Stooq est temporairement indisponible.
+
+    Retourne (série ou None, source utilisée)."""
+    series = _fetch_from_stooq(ticker)
+    if series is not None:
+        return series, "stooq"
+
+    log.warning("Stooq indisponible pour %s, tentative de repli yfinance", ticker)
+    series = _fetch_from_yfinance(ticker)
+    if series is not None:
+        return series, "yfinance"
+
+    return None, "none"
 
 
 def _fit_best_arima(series: pd.Series):
@@ -107,18 +178,28 @@ def _macro_bias_adjustment(
 
 def run_predictions(macro_score_24h: float = 5.0) -> dict:
     """Calcule les prévisions ARIMA pour tous les tickers suivis et écrit
-    public/data/predictions.json. Retourne le payload généré."""
+    public/data/predictions.json. Retourne le payload généré.
+
+    Important : si AUCUN ticker n'a pu être récupéré (panne réseau totale,
+    Yahoo + Stooq indisponibles en même temps...), le fichier existant
+    n'est PAS écrasé — on garde le dernier snapshot valide plutôt que de
+    remplacer des données correctes par un état vide. Un log d'erreur
+    explicite est émis pour que ce soit visible dans les runs GitHub Actions.
+    """
     results: dict[str, dict] = {}
+    failures: dict[str, str] = {}
 
     for label, ticker in TICKERS.items():
-        series = _fetch_prices(ticker)
+        series, source = _fetch_prices(ticker)
         if series is None:
-            log.warning("Données insuffisantes pour %s, ignoré", label)
+            log.warning("Données insuffisantes pour %s (%s), ignoré", label, ticker)
+            failures[label] = "données de prix indisponibles (yfinance + Stooq échoués)"
             continue
 
         fit, order, aic = _fit_best_arima(series)
         if fit is None:
             log.warning("Aucun ordre ARIMA n'a convergé pour %s, ignoré", label)
+            failures[label] = "échec de convergence ARIMA"
             continue
 
         forecast_res = fit.get_forecast(steps=HORIZON_DAYS)
@@ -136,6 +217,7 @@ def run_predictions(macro_score_24h: float = 5.0) -> dict:
 
         results[label] = {
             "ticker": ticker,
+            "source": source,
             "last_price": last_price,
             "forecast": [round(float(v), 4) for v in mean_forecast],
             "forecast_lower": [round(float(v), 4) for v in lower],
@@ -150,10 +232,20 @@ def run_predictions(macro_score_24h: float = 5.0) -> dict:
             },
         }
 
+    if not results:
+        log.error(
+            "Aucune prédiction générée sur %d tickers (échecs: %s). "
+            "public/data/predictions.json n'est PAS écrasé — le snapshot "
+            "précédent (s'il existe) est conservé.",
+            len(TICKERS), failures,
+        )
+        return {"predictions": {}, "failures": failures, "skipped_write": True}
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "macro_score_24h": macro_score_24h,
         "predictions": results,
+        "failures": failures,  # tickers ignorés ce run-ci, pour diagnostic
         "method": (
             "ARIMA(p,d,q) ajusté par maximum de vraisemblance, ordre "
             "sélectionné par AIC sur une grille restreinte, corrigé d'un "
@@ -171,5 +263,8 @@ def run_predictions(macro_score_24h: float = 5.0) -> dict:
     PREDICTIONS_FILE.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    log.info("Prédictions ARIMA écrites: %s (%d tickers)", PREDICTIONS_FILE, len(results))
+    log.info(
+        "Prédictions ARIMA écrites: %s (%d/%d tickers, échecs: %s)",
+        PREDICTIONS_FILE, len(results), len(TICKERS), list(failures) or "aucun",
+    )
     return payload
