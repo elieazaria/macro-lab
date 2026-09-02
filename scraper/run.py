@@ -21,6 +21,7 @@ from __future__ import annotations
 import logging
 
 from . import storage
+from .history import run_history_fetch
 from .predict import run_predictions
 from .scoring import SEUIL_ALERTE, normalized_scores, raw_score
 from .scraper import fetch_all
@@ -83,6 +84,11 @@ def main() -> None:
         # log.exception affiche la trace complète dans les logs GitHub Actions
         # (indispensable pour diagnostiquer un échec yfinance/ARIMA silencieux)
         log.exception("Prédictions ignorées suite à une erreur")
+
+    try:
+        run_history_fetch()
+    except Exception:
+        log.exception("Récupération de l'historique des prix ignorée suite à une erreur")
 
     log.info("=== Pipeline terminé : %d alertes critiques / %d articles (7j) ===",
               len(alerts), len(window))

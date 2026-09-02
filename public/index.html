@@ -117,15 +117,43 @@
     </div>
   </section>
 
-  <!-- ============ PREDICTIONS MARKETS ============ -->
+  <!-- ============ MARCHÉS — graphique interactif (façon or.fr) ============ -->
   <section class="panel">
-    <div class="flex items-center justify-between mb-4">
-      <h2 class="panel-title">Prévisions séries temporelles</h2>
-      <span class="text-[10px] font-mono text-muted">Or · EUR/USD · Bitcoin · S&amp;P 500 · CAC 40</span>
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-4">
+      <div id="asset-tabs" class="flex flex-wrap items-center gap-1.5"></div>
+      <div id="range-tabs" class="flex flex-wrap items-center gap-1 rounded-lg border border-edge bg-panel-alt p-0.5 text-xs font-mono"></div>
     </div>
-    <div id="predictions-grid" class="grid grid-cols-2 md:grid-cols-5 gap-3">
-      <div class="text-xs font-mono text-muted col-span-full">Chargement des prédictions…</div>
+
+    <div class="flex items-baseline gap-3 mb-1 flex-wrap">
+      <span id="asset-price" class="font-mono text-2xl font-bold">—</span>
+      <span id="asset-change" class="font-mono text-sm font-semibold px-1.5 py-0.5 rounded"></span>
+      <span id="asset-source" class="text-[10px] font-mono text-muted ml-auto"></span>
     </div>
+
+    <div class="relative">
+      <svg id="chart-market" viewBox="0 0 900 260" class="w-full h-[260px]"></svg>
+      <div id="chart-tooltip" class="hidden absolute pointer-events-none text-[10px] font-mono bg-panel border border-edge rounded px-2 py-1 shadow-lg"></div>
+    </div>
+
+    <div id="arima-summary" class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4 pt-4 border-t border-edge text-xs font-mono"></div>
+  </section>
+
+  <!-- ============ BACKTEST — valeurs attendues vs prédites ============ -->
+  <section class="panel">
+    <div class="flex items-center justify-between mb-1">
+      <h2 class="panel-title">Validation du modèle — valeurs attendues vs prédites</h2>
+      <span id="backtest-order" class="text-[10px] font-mono text-muted"></span>
+    </div>
+    <p class="text-[11px] text-muted mb-3">Backtest out-of-sample sur les <span id="backtest-horizon-label">5</span> derniers points connus, valeurs standardisées (z-score) pour rester comparables entre actifs.</p>
+
+    <div class="flex items-center gap-4 mb-2 text-xs font-mono">
+      <span class="flex items-center gap-1.5"><span class="w-4 h-0.5 rounded bg-emerald-500"></span>Valeurs attendues</span>
+      <span class="flex items-center gap-1.5"><span class="w-4 h-0.5 rounded bg-red-500 dashed-swatch"></span>Valeurs prédites</span>
+    </div>
+
+    <svg id="chart-backtest" viewBox="0 0 900 260" class="w-full h-[260px]"></svg>
+
+    <div id="backtest-metrics" class="flex items-center gap-4 mt-2 text-[11px] font-mono text-muted"></div>
   </section>
 
   <!-- ============ FILTERS + SEARCH ============ -->

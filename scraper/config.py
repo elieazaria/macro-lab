@@ -45,6 +45,13 @@ RSS_SOURCES: dict[str, str] = {
     "Reuters World": "https://www.reutersagency.com/feed/?best-topics=world&post_type=best",
     "Reuters Business": "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best",
     "AP Top News": "https://rsshub.app/apnews/topics/apf-topnews",
+    # Investing.com : flux RSS publics, orientés marchés/économie — bon
+    # complément aux flux généralistes ci-dessus pour le scoring finance.
+    "Investing.com News": "https://www.investing.com/rss/news.rss",
+    "Investing.com Economy": "https://www.investing.com/rss/news_14.rss",
+    "Investing.com Forex": "https://www.investing.com/rss/news_1.rss",
+    "Investing.com Commodities": "https://www.investing.com/rss/news_11.rss",
+    "Investing.com Stock Markets": "https://www.investing.com/rss/news_25.rss",
 }
 
 # User-Agent poli pour le scraping du contenu complet des articles

@@ -176,6 +176,51 @@ def _macro_bias_adjustment(
     return forecast + drift
 
 
+def _backtest_model(series: pd.Series) -> dict | None:
+    """Validation out-of-sample : on retient les `HORIZON_DAYS` derniers
+    points comme vérité terrain, on ajuste un ARIMA sur tout ce qui
+    précède, puis on compare la prévision à la réalité (RMSE, MAE).
+
+    Les deux séries sont exprimées en **z-score** (standardisées sur la
+    fenêtre d'entraînement) plutôt qu'en prix bruts, pour que le graphique
+    "valeurs attendues vs valeurs prédites" reste lisible et comparable
+    d'un actif à l'autre (l'or à ~2700$ et l'EUR/USD à ~1.08 n'ont pas la
+    même échelle). RMSE/MAE sont eux aussi calculés sur cette échelle
+    standardisée pour rester interprétables ensemble.
+    """
+    if len(series) < MIN_OBSERVATIONS + HORIZON_DAYS:
+        return None
+
+    train = series.iloc[:-HORIZON_DAYS]
+    actual = series.iloc[-HORIZON_DAYS:]
+
+    mean, std = float(train.mean()), float(train.std()) or 1.0
+
+    fit, order, _ = _fit_best_arima(train)
+    if fit is None:
+        return None
+
+    try:
+        forecast = fit.get_forecast(steps=HORIZON_DAYS).predicted_mean.to_numpy()
+    except Exception:
+        return None
+
+    actual_z = ((actual.to_numpy() - mean) / std)
+    predicted_z = ((forecast - mean) / std)
+
+    rmse = float(np.sqrt(np.mean((actual_z - predicted_z) ** 2)))
+    mae = float(np.mean(np.abs(actual_z - predicted_z)))
+
+    return {
+        "horizon_labels": [f"n+{i}" for i in range(1, HORIZON_DAYS + 1)],
+        "expected": [round(float(v), 5) for v in actual_z],
+        "predicted": [round(float(v), 5) for v in predicted_z],
+        "rmse": round(rmse, 5),
+        "mae": round(mae, 5),
+        "order": list(order) if order else None,
+    }
+
+
 def run_predictions(macro_score_24h: float = 5.0) -> dict:
     """Calcule les prévisions ARIMA pour tous les tickers suivis et écrit
     public/data/predictions.json. Retourne le payload généré.
@@ -215,6 +260,8 @@ def run_predictions(macro_score_24h: float = 5.0) -> dict:
             if last_price else 0.0
         )
 
+        backtest = _backtest_model(series)
+
         results[label] = {
             "ticker": ticker,
             "source": source,
@@ -224,6 +271,7 @@ def run_predictions(macro_score_24h: float = 5.0) -> dict:
             "forecast_upper": [round(float(v), 4) for v in upper],
             "horizon_days": HORIZON_DAYS,
             "predicted_change_pct": change_pct,
+            "backtest": backtest,
             "model": {
                 "type": "ARIMA",
                 "order": list(order) if order else None,

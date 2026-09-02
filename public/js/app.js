@@ -8,6 +8,27 @@
 
 const DATA_URL = "data/articles.json";
 const PREDICTIONS_URL = "data/predictions.json";
+const HISTORY_URL = "data/history.json";
+
+const ASSET_LABELS_FR = {
+  "Gold": "Or",
+  "EUR/USD": "EUR/USD",
+  "Bitcoin": "Bitcoin",
+  "S&P 500": "S&P 500",
+  "CAC 40": "CAC 40",
+};
+const ASSET_ORDER = ["Gold", "EUR/USD", "Bitcoin", "S&P 500", "CAC 40"];
+
+// Plages façon or.fr — `days` = nombre de points (jours de cotation)
+// gardés depuis la fin de la série ; null = tout l'historique disponible.
+const RANGES = [
+  { key: "5j", label: "5 jours", days: 5 },
+  { key: "1m", label: "1 mois", days: 22 },
+  { key: "1a", label: "1 an", days: 252 },
+  { key: "5a", label: "5 ans", days: 1260 },
+  { key: "10a", label: "10 ans", days: 2520 },
+  { key: "max", label: "Max", days: null },
+];
 
 const THEME_COLORS = {
   "War/Conflict": "#ef4444",
@@ -30,6 +51,12 @@ let state = {
   activeThemes: new Set(),
   search: "",
   view: "top20", // top20 | historique | compact
+  history: {},         // { "Gold": {ticker, dates:[], close:[]}, ... }
+  predictions: {},      // { "Gold": {last_price, forecast, backtest, ...}, ... }
+  predictionsFailures: {},
+  selectedAsset: "Gold",
+  selectedRange: "1a",
+  chartScale: null,     // {xAt(i), yAt(v), dates, close} — recalculé à chaque render du graphe marché
 };
 
 /* ------------------------------------------------------------------ */
@@ -84,7 +111,7 @@ async function loadData() {
   renderDonutChart();
   renderThemeFilters();
   renderArticles();
-  loadPredictions();
+  loadMarkets();
 }
 
 async function loadPredictions() {
@@ -373,87 +400,329 @@ function renderTicker() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Prédictions marchés                                                 */
+/* Marchés — historique de prix (sélecteur d'actif + de plage,          */
+/* façon or.fr) + prévisions ARIMA + backtest attendu/prédit            */
 /* ------------------------------------------------------------------ */
 
-function renderPredictions(predictions, failures = {}) {
-  const grid = document.getElementById("predictions-grid");
-  const entries = Object.entries(predictions);
-  if (entries.length === 0) {
-    grid.innerHTML = `<div class="text-xs font-mono text-muted col-span-full">Prédictions indisponibles pour le moment.</div>`;
-    return;
+async function loadMarkets() {
+  // Historique complet des prix
+  try {
+    const res = await fetch(HISTORY_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error("introuvable");
+    const json = await res.json();
+    if (!json.series || Object.keys(json.series).length === 0) {
+      throw new Error("historique vide (pipeline pas encore exécuté)");
+    }
+    state.history = json.series;
+  } catch (err) {
+    state.history = demoHistory();
   }
-  const cards = entries.map(([label, p]) => {
-    const up = p.predicted_change_pct >= 0;
-    const order = p.model?.order ? `(${p.model.order.join(",")})` : "";
-    const conf = p.model?.confidence_level || "90%";
-    const sourceTag = p.source && p.source !== "yfinance" ? `<span class="text-[8px] font-mono text-amber-500 ml-1" title="Source de repli utilisée">via ${p.source}</span>` : "";
-    return `
-      <div class="rounded-lg border border-edge bg-panel-alt p-3">
-        <div class="flex items-center justify-between mb-1">
-          <p class="text-[10px] font-mono uppercase tracking-wide text-muted">${label}${sourceTag}</p>
-          <span class="text-[9px] font-mono text-muted" title="Modèle ARIMA${order}, AIC ${p.model?.aic ?? "—"}, IC ${conf}">ARIMA${order}</span>
-        </div>
-        <p class="font-mono text-lg font-bold">${formatPrice(p.last_price)}</p>
-        <p class="text-xs font-mono font-semibold mt-0.5 ${up ? "text-emerald-500" : "text-red-500"}">
-          ${up ? "▲" : "▼"} ${Math.abs(p.predicted_change_pct)}% / ${p.horizon_days}j
-        </p>
-        ${renderForecastSparkline(p)}
-        <p class="text-[9px] font-mono text-muted mt-1">IC ${conf} : ${formatPrice(p.forecast_lower?.[p.forecast_lower.length - 1])} – ${formatPrice(p.forecast_upper?.[p.forecast_upper.length - 1])}</p>
-      </div>
-    `;
-  }).join("");
 
-  const failureNote = Object.keys(failures).length > 0
-    ? `<div class="col-span-full text-[10px] font-mono text-amber-500 mt-1">⚠ Non disponibles ce run : ${Object.keys(failures).join(", ")}</div>`
-    : "";
+  // Prévisions ARIMA + backtest
+  try {
+    const res = await fetch(PREDICTIONS_URL, { cache: "no-store" });
+    if (!res.ok) throw new Error("introuvable");
+    const json = await res.json();
+    if (!json.predictions || Object.keys(json.predictions).length === 0) {
+      throw new Error("prédictions vides");
+    }
+    state.predictions = json.predictions;
+    state.predictionsFailures = json.failures || {};
+  } catch (err) {
+    state.predictions = demoPredictions();
+    state.predictionsFailures = {};
+  }
 
-  grid.innerHTML = cards + failureNote;
+  const available = ASSET_ORDER.filter(a => state.history[a]);
+  if (!available.includes(state.selectedAsset)) {
+    state.selectedAsset = available[0] || ASSET_ORDER[0];
+  }
+
+  renderAssetTabs();
+  renderRangeTabs();
+  renderMarketChart();
+  renderArimaSummary();
+  renderBacktestChart();
 }
 
-/**
- * Mini sparkline SVG : trajectoire moyenne ARIMA + bande d'intervalle
- * de confiance (forecast_lower / forecast_upper), point de départ =
- * dernier prix observé.
- */
-function renderForecastSparkline(p) {
-  const forecast = p.forecast || [];
-  const lower = p.forecast_lower || [];
-  const upper = p.forecast_upper || [];
-  if (forecast.length === 0) return "";
+function renderAssetTabs() {
+  const container = document.getElementById("asset-tabs");
+  const assets = ASSET_ORDER.filter(a => state.history[a] || state.predictions[a]);
+  container.innerHTML = assets.map(a => `
+    <button class="asset-tab ${a === state.selectedAsset ? "active" : ""}" data-asset="${a}">${ASSET_LABELS_FR[a] || a}</button>
+  `).join("");
 
-  const allVals = [p.last_price, ...forecast, ...lower, ...upper].filter(v => typeof v === "number");
-  const min = Math.min(...allVals);
-  const max = Math.max(...allVals);
-  const range = max - min || 1;
+  container.querySelectorAll(".asset-tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.selectedAsset = btn.dataset.asset;
+      container.querySelectorAll(".asset-tab").forEach(b => b.classList.toggle("active", b === btn));
+      renderMarketChart();
+      renderArimaSummary();
+      renderBacktestChart();
+    });
+  });
+}
 
-  const w = 220, h = 46, padX = 4;
-  const n = forecast.length;
-  const stepX = (w - padX * 2) / n;
-  const xAt = i => padX + stepX * i;
-  const yAt = v => h - ((v - min) / range) * (h - 6) - 3;
+function renderRangeTabs() {
+  const container = document.getElementById("range-tabs");
+  container.innerHTML = RANGES.map(r => `
+    <button class="range-tab ${r.key === state.selectedRange ? "active" : ""}" data-range="${r.key}">${r.label}</button>
+  `).join("");
 
-  const startX = padX, startY = yAt(p.last_price);
-  const meanPts = [`${startX},${startY}`, ...forecast.map((v, i) => `${xAt(i + 1)},${yAt(v)}`)].join(" ");
+  container.querySelectorAll(".range-tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.selectedRange = btn.dataset.range;
+      container.querySelectorAll(".range-tab").forEach(b => b.classList.toggle("active", b === btn));
+      renderMarketChart();
+    });
+  });
+}
 
-  const upperPts = upper.map((v, i) => `${xAt(i + 1)},${yAt(v)}`).join(" ");
-  const lowerPts = lower.map((v, i) => `${xAt(i + 1)},${yAt(v)}`).reverse().join(" ");
-  const bandPts = `${startX},${startY} ${upperPts} ${lowerPts}`;
+function getSlicedSeries() {
+  const series = state.history[state.selectedAsset];
+  if (!series || !series.close || series.close.length === 0) return { dates: [], close: [] };
 
-  const up = p.predicted_change_pct >= 0;
+  const range = RANGES.find(r => r.key === state.selectedRange);
+  if (!range || range.days == null) return series;
+
+  const n = series.close.length;
+  const start = Math.max(0, n - range.days);
+  return { dates: series.dates.slice(start), close: series.close.slice(start) };
+}
+
+function renderMarketChart() {
+  const svg = document.getElementById("chart-market");
+  const { dates, close } = getSlicedSeries();
+
+  if (close.length < 2) {
+    svg.innerHTML = `<text x="450" y="130" text-anchor="middle" font-size="12" font-family="JetBrains Mono" fill="var(--muted)">Historique indisponible pour cet actif</text>`;
+    document.getElementById("asset-price").textContent = "—";
+    document.getElementById("asset-change").textContent = "";
+    document.getElementById("asset-source").textContent = "";
+    state.chartScale = null;
+    return;
+  }
+
+  const w = 900, h = 260, padL = 54, padR = 12, padT = 16, padB = 26;
+  const min = Math.min(...close), max = Math.max(...close);
+  const pad = (max - min) * 0.08 || max * 0.01 || 1;
+  const yMin = min - pad, yMax = max + pad;
+
+  const xAt = i => padL + (i / (close.length - 1)) * (w - padL - padR);
+  const yAt = v => padT + (1 - (v - yMin) / (yMax - yMin)) * (h - padT - padB);
+
+  const changePct = ((close[close.length - 1] - close[0]) / close[0]) * 100;
+  const up = changePct >= 0;
   const lineColor = up ? "#10b981" : "#ef4444";
 
-  return `
-    <svg viewBox="0 0 ${w} ${h}" class="w-full h-[46px] mt-2">
-      <polygon points="${bandPts}" fill="${lineColor}" opacity="0.12" />
-      <polyline points="${meanPts}" fill="none" stroke="${lineColor}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
-      <circle cx="${startX}" cy="${startY}" r="2.2" fill="var(--ink)" />
-    </svg>
+  // Grille horizontale + labels d'axe Y
+  let grid = "";
+  const steps = 5;
+  for (let i = 0; i <= steps; i++) {
+    const val = yMin + ((yMax - yMin) * i) / steps;
+    const y = yAt(val);
+    grid += `<line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="var(--edge)" stroke-width="1"/>`;
+    grid += `<text x="${padL - 8}" y="${y + 3}" text-anchor="end" font-size="9" font-family="JetBrains Mono" fill="var(--muted)">${formatPrice(val)}</text>`;
+  }
+
+  // Labels d'axe X (quelques dates réparties)
+  let xLabels = "";
+  const labelCount = Math.min(6, dates.length);
+  for (let i = 0; i < labelCount; i++) {
+    const idx = Math.round((i / (labelCount - 1 || 1)) * (dates.length - 1));
+    xLabels += `<text x="${xAt(idx)}" y="${h - 6}" text-anchor="middle" font-size="9" font-family="JetBrains Mono" fill="var(--muted)">${formatDateShort(dates[idx])}</text>`;
+  }
+
+  const linePts = close.map((v, i) => `${xAt(i)},${yAt(v)}`).join(" ");
+  const areaPts = `${xAt(0)},${yAt(yMin)} ${linePts} ${xAt(close.length - 1)},${yAt(yMin)}`;
+
+  svg.innerHTML = `
+    <defs>
+      <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="${lineColor}" stop-opacity="0.28"/>
+        <stop offset="100%" stop-color="${lineColor}" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    ${grid}
+    <polygon points="${areaPts}" fill="url(#areaGradient)"/>
+    <polyline points="${linePts}" fill="none" stroke="${lineColor}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+    ${xLabels}
+    <line id="hover-line" class="crosshair-line" x1="0" y1="${padT}" x2="0" y2="${h - padB}" opacity="0"/>
+    <circle id="hover-dot" r="3.5" fill="${lineColor}" stroke="var(--panel)" stroke-width="1.5" opacity="0"/>
+  `;
+
+  state.chartScale = { xAt, yAt, dates, close, padL, padR, w };
+
+  const last = close[close.length - 1];
+  document.getElementById("asset-price").textContent = formatPrice(last);
+  const changeEl = document.getElementById("asset-change");
+  changeEl.textContent = `${up ? "▲" : "▼"} ${Math.abs(changePct).toFixed(2)}%`;
+  changeEl.className = `font-mono text-sm font-semibold px-1.5 py-0.5 rounded ${up ? "text-emerald-500 bg-emerald-500/10" : "text-red-500 bg-red-500/10"}`;
+
+  const pred = state.predictions[state.selectedAsset];
+  const sourceLabel = pred?.source ? `Source : ${pred.source}` : "";
+  const rangeLabel = RANGES.find(r => r.key === state.selectedRange)?.label || "";
+  document.getElementById("asset-source").textContent = [sourceLabel, rangeLabel].filter(Boolean).join(" · ");
+}
+
+/** Crosshair + tooltip au survol du graphique marché (écouteurs attachés
+ * une seule fois à l'init ; lisent state.chartScale mis à jour à chaque
+ * render, donc pas besoin de ré-attacher après un changement d'actif/plage). */
+function initMarketChartHover() {
+  const svg = document.getElementById("chart-market");
+  const tooltip = document.getElementById("chart-tooltip");
+
+  svg.addEventListener("mousemove", (e) => {
+    const scale = state.chartScale;
+    if (!scale || scale.close.length === 0) return;
+
+    const rect = svg.getBoundingClientRect();
+    const fracX = (e.clientX - rect.left) / rect.width;
+    const userX = fracX * scale.w;
+    const n = scale.close.length;
+    const rawIdx = ((userX - scale.padL) / (scale.w - scale.padL - scale.padR)) * (n - 1);
+    const idx = Math.max(0, Math.min(n - 1, Math.round(rawIdx)));
+
+    const x = scale.xAt(idx), y = scale.yAt(scale.close[idx]);
+    const hoverLine = document.getElementById("hover-line");
+    const hoverDot = document.getElementById("hover-dot");
+    if (hoverLine && hoverDot) {
+      hoverLine.setAttribute("x1", x); hoverLine.setAttribute("x2", x);
+      hoverLine.setAttribute("opacity", "1");
+      hoverDot.setAttribute("cx", x); hoverDot.setAttribute("cy", y);
+      hoverDot.setAttribute("opacity", "1");
+    }
+
+    tooltip.classList.remove("hidden");
+    tooltip.style.left = `${Math.min(rect.width - 110, Math.max(0, (fracX * rect.width) + 10))}px`;
+    tooltip.style.top = `${(y / 260) * rect.height - 10}px`;
+    tooltip.innerHTML = `<strong>${formatPrice(scale.close[idx])}</strong><br/><span style="color:var(--muted)">${formatDateShort(scale.dates[idx])}</span>`;
+  });
+
+  svg.addEventListener("mouseleave", () => {
+    tooltip.classList.add("hidden");
+    const hoverLine = document.getElementById("hover-line");
+    const hoverDot = document.getElementById("hover-dot");
+    if (hoverLine) hoverLine.setAttribute("opacity", "0");
+    if (hoverDot) hoverDot.setAttribute("opacity", "0");
+  });
+}
+
+/* ------------------------------------------------------------------ */
+/* Résumé prévision ARIMA (pour l'actif sélectionné)                    */
+/* ------------------------------------------------------------------ */
+
+function renderArimaSummary() {
+  const container = document.getElementById("arima-summary");
+  const p = state.predictions[state.selectedAsset];
+
+  if (!p) {
+    const reason = state.predictionsFailures[state.selectedAsset];
+    container.innerHTML = `<div class="col-span-full text-muted">Prévision indisponible pour cet actif${reason ? " — " + reason : ""}.</div>`;
+    return;
+  }
+
+  const up = p.predicted_change_pct >= 0;
+  const order = p.model?.order ? `(${p.model.order.join(",")})` : "";
+  const horizonEnd = p.forecast?.[p.forecast.length - 1];
+  const lowerEnd = p.forecast_lower?.[p.forecast_lower.length - 1];
+  const upperEnd = p.forecast_upper?.[p.forecast_upper.length - 1];
+  const sourceTag = p.source && p.source !== "stooq" ? ` (repli ${p.source})` : "";
+
+  container.innerHTML = `
+    <div>
+      <p class="text-muted text-[10px] uppercase tracking-wide mb-1">Prévision à ${p.horizon_days}j</p>
+      <p class="font-bold ${up ? "text-emerald-500" : "text-red-500"}">${formatPrice(horizonEnd)} (${up ? "+" : ""}${p.predicted_change_pct}%)</p>
+    </div>
+    <div>
+      <p class="text-muted text-[10px] uppercase tracking-wide mb-1">Intervalle de confiance ${p.model?.confidence_level || "90%"}</p>
+      <p>${formatPrice(lowerEnd)} – ${formatPrice(upperEnd)}</p>
+    </div>
+    <div>
+      <p class="text-muted text-[10px] uppercase tracking-wide mb-1">Modèle</p>
+      <p>ARIMA${order}${sourceTag}</p>
+    </div>
+    <div>
+      <p class="text-muted text-[10px] uppercase tracking-wide mb-1">AIC</p>
+      <p>${p.model?.aic ?? "—"}</p>
+    </div>
   `;
 }
 
+/* ------------------------------------------------------------------ */
+/* Backtest — valeurs attendues vs valeurs prédites                     */
+/* ------------------------------------------------------------------ */
+
+function renderBacktestChart() {
+  const svg = document.getElementById("chart-backtest");
+  const metricsEl = document.getElementById("backtest-metrics");
+  const orderEl = document.getElementById("backtest-order");
+  const p = state.predictions[state.selectedAsset];
+  const bt = p?.backtest;
+
+  if (!bt || !bt.expected || bt.expected.length === 0) {
+    svg.innerHTML = `<text x="450" y="130" text-anchor="middle" font-size="12" font-family="JetBrains Mono" fill="var(--muted)">Backtest indisponible pour cet actif</text>`;
+    metricsEl.innerHTML = "";
+    orderEl.textContent = "";
+    return;
+  }
+
+  const { expected, predicted, horizon_labels } = bt;
+  document.getElementById("backtest-horizon-label").textContent = expected.length;
+  orderEl.textContent = bt.order ? `ARIMA(${bt.order.join(",")})` : "";
+
+  const w = 900, h = 260, padL = 44, padR = 16, padT = 20, padB = 30;
+  const allVals = [...expected, ...predicted];
+  const min = Math.min(...allVals), max = Math.max(...allVals);
+  const pad = (max - min) * 0.15 || 0.5;
+  const yMin = min - pad, yMax = max + pad;
+
+  const xAt = i => padL + (i / (expected.length - 1)) * (w - padL - padR);
+  const yAt = v => padT + (1 - (v - yMin) / (yMax - yMin)) * (h - padT - padB);
+
+  let grid = "";
+  const steps = 4;
+  for (let i = 0; i <= steps; i++) {
+    const val = yMin + ((yMax - yMin) * i) / steps;
+    const y = yAt(val);
+    grid += `<line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="var(--edge)" stroke-width="1"/>`;
+    grid += `<text x="${padL - 8}" y="${y + 3}" text-anchor="end" font-size="9" font-family="JetBrains Mono" fill="var(--muted)">${val.toFixed(1)}</text>`;
+  }
+
+  let xLabels = "";
+  horizon_labels.forEach((lbl, i) => {
+    xLabels += `<text x="${xAt(i)}" y="${h - 8}" text-anchor="middle" font-size="9.5" font-family="JetBrains Mono" fill="var(--muted)">${lbl}</text>`;
+  });
+
+  const expectedPts = expected.map((v, i) => `${xAt(i)},${yAt(v)}`).join(" ");
+  const predictedPts = predicted.map((v, i) => `${xAt(i)},${yAt(v)}`).join(" ");
+  const expectedDots = expected.map((v, i) => `<circle cx="${xAt(i)}" cy="${yAt(v)}" r="3" fill="#10b981"/>`).join("");
+  const predictedDots = predicted.map((v, i) => `<circle cx="${xAt(i)}" cy="${yAt(v)}" r="3" fill="#ef4444"/>`).join("");
+
+  svg.innerHTML = `
+    ${grid}
+    <polyline points="${expectedPts}" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="${predictedPts}" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round" stroke-linecap="round"/>
+    ${expectedDots}
+    ${predictedDots}
+    ${xLabels}
+  `;
+
+  metricsEl.innerHTML = `
+    <span><span class="text-muted">RMSE</span> = <span class="text-ink font-semibold">${bt.rmse.toFixed(5)}</span></span>
+    <span><span class="text-muted">MAE</span> = <span class="text-ink font-semibold">${bt.mae.toFixed(5)}</span></span>
+  `;
+}
+
+function formatDateShort(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", year: state.selectedRange === "5j" || state.selectedRange === "1m" ? undefined : "2-digit" });
+}
+
 function formatPrice(v) {
-  if (v == null) return "—";
+  if (v == null || isNaN(v)) return "—";
   return v >= 100 ? v.toLocaleString("fr-FR", { maximumFractionDigits: 0 }) : v.toFixed(4);
 }
 
@@ -497,6 +766,8 @@ function initControls() {
     state.search = e.target.value;
     renderArticles();
   });
+
+  initMarketChartHover();
 }
 
 /* ------------------------------------------------------------------ */
@@ -541,7 +812,7 @@ function demoData() {
   const meta = {
     total_articles_7j: articles.length,
     alerts_critiques: articles.filter(a => a.is_alert).length,
-    score_moyen: (articles.reduce((s, a) => s + a.score, 0) / articles.length).toFixed(2),
+    score_moyen: Number((articles.reduce((s, a) => s + a.score, 0) / articles.length).toFixed(2)),
     seuil_alerte: 5.0,
     themes: computeThemeCounts(articles),
   };
@@ -550,8 +821,9 @@ function demoData() {
 
 function demoPredictions() {
   // Génère une trajectoire ARIMA plausible (moyenne + bande de confiance
-  // qui s'élargit avec l'horizon) à partir d'un prix de départ et d'une
-  // dérive cible, pour illustrer le rendu sans backend connecté.
+  // qui s'élargit avec l'horizon) ainsi qu'un backtest attendu/prédit
+  // (façon image de référence), pour illustrer le rendu sans backend
+  // connecté à data/predictions.json.
   const build = (last, changePct, horizon, order, aic, volPct) => {
     const target = last * (1 + changePct / 100);
     const step = (target - last) / horizon;
@@ -563,22 +835,76 @@ function demoPredictions() {
       lower.push(Math.round((mean - band) * 10000) / 10000);
       upper.push(Math.round((mean + band) * 10000) / 10000);
     }
+
+    // Backtest synthétique en z-score, dans l'esprit du graphique de
+    // référence (expected en trait plein, predicted légèrement décalé).
+    const wave = [-0.5, 0.35, 0.7, 0.42, 0.97, -0.18, 1.27, -1.28, -0.83, -0.36];
+    const expected = wave.slice(0, horizon >= 10 ? 10 : horizon);
+    const predicted = expected.map((v, i) => Math.round((v + (i % 2 === 0 ? 0.18 : -0.1) - 0.05) * 100000) / 100000);
+    const diffs = expected.map((v, i) => v - predicted[i]);
+    const rmse = Math.sqrt(diffs.reduce((s, d) => s + d * d, 0) / diffs.length);
+    const mae = diffs.reduce((s, d) => s + Math.abs(d), 0) / diffs.length;
+
     return {
       last_price: last,
       forecast, forecast_lower: lower, forecast_upper: upper,
       predicted_change_pct: changePct,
       horizon_days: horizon,
+      source: "démo",
       model: { type: "ARIMA", order, aic, confidence_level: "90%" },
+      backtest: {
+        horizon_labels: expected.map((_, i) => `n+${i + 1}`),
+        expected, predicted,
+        rmse: Math.round(rmse * 100000) / 100000,
+        mae: Math.round(mae * 100000) / 100000,
+        order,
+      },
     };
   };
 
   return {
-    "Or": build(2734.5, 1.8, 5, [1, 1, 1], 612.4, 1.1),
+    "Gold": build(2734.5, 1.8, 5, [1, 1, 1], 612.4, 1.1),
     "EUR/USD": build(1.0842, -0.6, 5, [0, 1, 1], -845.2, 0.5),
     "Bitcoin": build(68210, -3.2, 5, [2, 1, 1], 1584.9, 3.4),
     "S&P 500": build(5320, -1.1, 5, [1, 1, 0], 720.1, 1.3),
     "CAC 40": build(8120, 0.4, 5, [0, 1, 2], 705.6, 0.9),
   };
+}
+
+/** Historique de prix synthétique (marche aléatoire plausible sur ~10 ans)
+ * utilisé quand data/history.json est absent ou pas encore généré. */
+function demoHistory() {
+  const configs = {
+    "Gold": { start: 1200, drift: 0.00045, vol: 0.009 },
+    "EUR/USD": { start: 1.10, drift: -0.00003, vol: 0.004 },
+    "Bitcoin": { start: 6000, drift: 0.0009, vol: 0.035 },
+    "S&P 500": { start: 2100, drift: 0.00035, vol: 0.011 },
+    "CAC 40": { start: 4400, drift: 0.00022, vol: 0.010 },
+  };
+
+  const series = {};
+  const days = 2600; // ~10 ans de jours de cotation
+  const end = new Date();
+
+  Object.entries(configs).forEach(([label, cfg]) => {
+    let price = cfg.start;
+    const dates = [], close = [];
+    // seed pseudo-aléatoire simple et déterministe pour un rendu stable
+    let seed = label.length * 7919;
+    const rand = () => { seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; };
+
+    for (let i = days; i >= 0; i--) {
+      const d = new Date(end);
+      d.setDate(end.getDate() - i);
+      const ret = cfg.drift + (rand() - 0.5) * 2 * cfg.vol;
+      price = Math.max(price * (1 + ret), 0.01);
+      dates.push(d.toISOString().slice(0, 10));
+      close.push(Math.round(price * 10000) / 10000);
+    }
+    series[label] = { ticker: label, dates, close };
+  });
+
+  return series;
 }
 
 /* ------------------------------------------------------------------ */

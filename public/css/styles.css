@@ -168,6 +168,36 @@ body { background-color: var(--base); }
 
 .score-badge { position: relative; width: 42px; height: 42px; }
 
+.dashed-swatch {
+  background-image: repeating-linear-gradient(to right, currentColor 0 4px, transparent 4px 7px);
+  background-color: transparent !important;
+  color: #ef4444;
+}
+
+.asset-tab, .range-tab {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--edge);
+  background-color: var(--panel-alt);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.asset-tab:hover, .range-tab:hover { color: var(--ink); border-color: var(--accent-blue); }
+.asset-tab.active {
+  background-color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: white;
+}
+.range-tab { border: none; border-radius: 0.4rem; padding: 0.3rem 0.6rem; background: transparent; }
+.range-tab.active { background-color: var(--accent-blue); color: white; }
+
+.crosshair-line { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
+
 .truncate-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;

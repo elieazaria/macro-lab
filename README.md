@@ -12,12 +12,14 @@ horaire) + **Vercel** (hébergement statique du dashboard).
 
 ## ✨ Fonctionnalités
 
-- 🔎 Scraping automatique d'articles internationaux (NYT, Reuters, AP…) toutes les heures
+- 🔎 Scraping automatique d'articles internationaux (NYT, Reuters, AP, **Investing.com**) toutes les heures
 - 📄 Analyse du **contenu complet** de chaque article (pas juste le titre), via `trafilatura`
 - 📊 Scoring dynamique : poids finance / géopolitique / politique monétaire, normalisé par un **z-score glissant sur 7 jours**
 - 🏷️ Détection de thèmes critiques : guerre, sanctions, crash de marché, urgence Fed, récession, inflation, crise bancaire, énergie, banque centrale, volatilité, défaut souverain, choc géopolitique
 - 🗂️ Historique glissant léger (7 jours, purge automatique)
-- 📈 Prédictions en série temporelle : **or, EUR/USD, bitcoin, S&P 500, CAC 40** (régression pondérée par le climat macro détecté)
+- 📈 **Graphique de marché interactif** (or, EUR/USD, bitcoin, S&P 500, CAC 40) avec sélecteur de plage — 5 jours / 1 mois / 1 an / 5 ans / 10 ans / Max — dans l'esprit de [or.fr/cours/or](https://or.fr/cours/or)
+- 🎯 Prédictions **ARIMA** à 5 jours avec intervalle de confiance à 90%
+- ✅ **Backtest out-of-sample** : graphique "valeurs attendues vs valeurs prédites" (RMSE/MAE) pour évaluer la fiabilité du modèle sur chaque actif
 - 🖥️ Dashboard statique HTML/Tailwind, **mode sombre et clair**, filtres par thème, recherche, ticker d'alertes défilant
 
 ---
@@ -34,7 +36,8 @@ macro-lab/
 │   ├── scoring.py                 # Score brut + normalisation z-score 7j
 │   ├── themes.py                  # Détection des thèmes critiques
 │   ├── storage.py                 # Historique glissant + snapshot public
-│   ├── predict.py                 # Prédictions séries temporelles
+│   ├── predict.py                 # Prédictions ARIMA + backtest attendu/prédit
+│   ├── history.py                 # Historique complet des prix (graphique interactif)
 │   ├── run.py                     # Orchestrateur (point d'entrée)
 │   └── requirements.txt
 ├── data/history/                  # Historique interne (7 jours glissants, committé par le bot)
@@ -42,7 +45,7 @@ macro-lab/
 │   ├── index.html
 │   ├── css/styles.css
 │   ├── js/app.js
-│   └── data/                      # Snapshots publics (articles.json, predictions.json)
+│   └── data/                      # Snapshots publics (articles.json, predictions.json, history.json)
 ├── vercel.json
 └── README.md
 ```
@@ -106,7 +109,8 @@ pour que l'interface reste présentable.
 - **Thèmes critiques** : `scraper/lexicon.py` → `THEMES`
 - **Seuil d'alerte** : `scraper/scoring.py` → `SEUIL_ALERTE`
 - **Fenêtre d'historique** : `scraper/config.py` → `HISTORY_WINDOW_DAYS`
-- **Tickers suivis pour les prédictions** : `scraper/config.py` → `TICKERS`
+- **Tickers suivis pour les prédictions** : `scraper/config.py` → `TICKERS` (ajouter un symbole Stooq correspondant dans `scraper/predict.py` → `STOOQ_FALLBACK` pour que l'historique et les prédictions fonctionnent)
+- **Plages du graphique de marché** : `public/js/app.js` → `RANGES`
 - **Fréquence du cron** : `.github/workflows/scrape.yml` → `cron: "5 * * * *"`
 
 ---
@@ -124,6 +128,29 @@ pour que l'interface reste présentable.
    fréquents.
 3. **Seuil d'alerte** : tout article avec un score normalisé ≥ 5.0 est
    marqué comme "alerte critique" et apparaît dans le ticker défilant.
+
+## 📊 Graphique de marché interactif & backtest du modèle
+
+Le dashboard affiche un panneau **Marchés** avec :
+
+- **Sélecteur d'actif** (or, EUR/USD, bitcoin, S&P 500, CAC 40) — style
+  onglets, comme sur or.fr.
+- **Sélecteur de plage** (5 jours, 1 mois, 1 an, 5 ans, 10 ans, Max) qui
+  découpe côté client l'historique complet chargé une seule fois
+  (`public/data/history.json`, généré par `scraper/history.py` via Stooq).
+- **Prix courant + variation %** calculée sur la plage affichée, avec
+  info-bulle au survol (date + prix, crosshair).
+
+Juste en dessous, un second graphique **"Valeurs attendues vs valeurs
+prédites"** montre le résultat d'un **backtest out-of-sample** : le
+modèle ARIMA est ré-ajusté en cachant les derniers points connus, puis
+on compare sa prévision à la réalité (RMSE, MAE affichés). Les valeurs
+sont standardisées (z-score) pour rester comparables d'un actif à
+l'autre (l'or à ~2700$ et l'EUR/USD à ~1.08 n'ont pas la même échelle).
+
+Ce backtest est calculé automatiquement dans `scraper/predict.py`
+(`_backtest_model`) à chaque run horaire, et stocké dans le champ
+`backtest` de chaque actif dans `predictions.json`.
 
 ## 📈 Prédictions de marché — comment ça marche, et limites à connaître
 
