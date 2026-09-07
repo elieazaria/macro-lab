@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-07T04:26:27.062891+00:00",
+  "generated_at": "2026-09-07T10:10:24.069305+00:00",
   "meta": {
-    "total_articles_7j": 763,
-    "articles_today": 27,
-    "alerts_critiques": 211,
+    "total_articles_7j": 800,
+    "articles_today": 45,
+    "alerts_critiques": 223,
     "score_moyen": 4.98,
     "seuil_alerte": 5.0,
     "themes": {
-      "War/Conflict": 78,
-      "Inflation": 26,
-      "Central Bank": 18,
-      "Oil/Energy": 17,
+      "War/Conflict": 81,
+      "Inflation": 28,
+      "Central Bank": 19,
+      "Oil/Energy": 18,
+      "Fed Emergency": 11,
       "Sanctions": 10,
-      "Fed Emergency": 10,
       "Market Crash": 7,
       "Geo Shock": 4,
       "Volatility": 3,
@@ -128,20 +128,6 @@
       "is_alert": true
     },
     {
-      "id": "765b63052b4797e3",
-      "title": "Bitcoin falls below $80,000 as strong U.S. jobs data revives Fed rate hike fears",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-80000-as-strong-us-jobs-data-revives-fed-rate-hike-fears-4890184",
-      "source": "Investing.com News",
-      "published_at": "2026-09-05T09:24:34+00:00",
-      "summary": "",
-      "raw_score": 42.26,
-      "themes": [
-        "Fed Emergency"
-      ],
-      "score": 13.83,
-      "is_alert": true
-    },
-    {
       "id": "96c2de0f5a345bec",
       "title": "Benign Inflation Data Offers Reprieve to Fed as It Weighs Rate Increase",
       "url": "https://www.nytimes.com/2026/08/12/business/economy/inflation-federal-reserve-interest-rates.html",
@@ -157,17 +143,17 @@
       "is_alert": true
     },
     {
-      "id": "38e9cd490406c15f",
-      "title": "Dollar rises on safe haven boost amid U.S.-Iran escalation, bond sell-off",
-      "url": "https://www.investing.com/news/forex-news/asian-currencies-steady-as-yen-hovers-near-160-bessent-backs-boj-hikes-4883482",
-      "source": "Investing.com Forex",
-      "published_at": "2026-09-01T20:19:18+00:00",
+      "id": "765b63052b4797e3",
+      "title": "Bitcoin falls below $80,000 as strong U.S. jobs data revives Fed rate hike fears",
+      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-80000-as-strong-us-jobs-data-revives-fed-rate-hike-fears-4890184",
+      "source": "Investing.com News",
+      "published_at": "2026-09-05T09:24:34+00:00",
       "summary": "",
-      "raw_score": 38.718,
+      "raw_score": 42.26,
       "themes": [
-        "Market Crash"
+        "Fed Emergency"
       ],
-      "score": 12.98,
+      "score": 13.82,
       "is_alert": true
     },
     {
@@ -182,6 +168,20 @@
         "War/Conflict",
         "Inflation",
         "Volatility"
+      ],
+      "score": 12.97,
+      "is_alert": true
+    },
+    {
+      "id": "38e9cd490406c15f",
+      "title": "Dollar rises on safe haven boost amid U.S.-Iran escalation, bond sell-off",
+      "url": "https://www.investing.com/news/forex-news/asian-currencies-steady-as-yen-hovers-near-160-bessent-backs-boj-hikes-4883482",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-01T20:19:18+00:00",
+      "summary": "",
+      "raw_score": 38.718,
+      "themes": [
+        "Market Crash"
       ],
       "score": 12.97,
       "is_alert": true
@@ -213,7 +213,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 12.51,
+      "score": 12.5,
       "is_alert": true
     },
     {
@@ -271,7 +271,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 11.86,
+      "score": 11.85,
       "is_alert": true
     },
     {
@@ -303,6 +303,20 @@
       "is_alert": true
     },
     {
+      "id": "6d4c39f614954771",
+      "title": "UBS forecasts two US Fed rate hikes in 2026 after strong jobs report",
+      "url": "https://www.investing.com/news/economy-news/ubs-forecasts-two-us-fed-rate-hikes-in-2026-after-strong-jobs-report-4890561",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T09:13:06+00:00",
+      "summary": "",
+      "raw_score": 33.702,
+      "themes": [
+        "Fed Emergency"
+      ],
+      "score": 11.77,
+      "is_alert": true
+    },
+    {
       "id": "9e92340177c1c907",
       "title": "Bank of England’s Pill says higher rates would help head off inflation pressure",
       "url": "https://www.investing.com/news/economy-news/bank-of-englands-pill-says-higher-rates-would-help-head-off-inflation-pressure-4888253",
@@ -314,7 +328,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.6,
+      "score": 11.59,
       "is_alert": true
     },
     {
@@ -343,7 +357,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 11.25,
+      "score": 11.24,
       "is_alert": true
     },
     {
@@ -385,7 +399,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.91,
+      "score": 10.9,
       "is_alert": true
     },
     {
@@ -398,34 +412,6 @@
       "raw_score": 30.012,
       "themes": [
         "Inflation"
-      ],
-      "score": 10.89,
-      "is_alert": true
-    },
-    {
-      "id": "9f268c167acda953",
-      "title": "European natural gas eases as traders lock in gains following surge past war highs",
-      "url": "https://www.investing.com/news/commodities-news/european-natural-gas-eases-as-traders-lock-in-gains-following-surge-past-war-highs-4887189",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-09-03T09:01:16+00:00",
-      "summary": "",
-      "raw_score": 29.975,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 10.88,
-      "is_alert": true
-    },
-    {
-      "id": "6e625b01d614b2fa",
-      "title": "European gas inches up to lock in fourth weekly gain after breaching war-era peaks",
-      "url": "https://www.investing.com/news/commodities-news/european-gas-inches-up-to-lock-in-fourth-weekly-gain-after-breaching-warera-peaks-4888892",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-09-04T10:14:48+00:00",
-      "summary": "",
-      "raw_score": 29.975,
-      "themes": [
-        "War/Conflict"
       ],
       "score": 10.88,
       "is_alert": true
@@ -445,6 +431,34 @@
       "is_alert": true
     },
     {
+      "id": "9f268c167acda953",
+      "title": "European natural gas eases as traders lock in gains following surge past war highs",
+      "url": "https://www.investing.com/news/commodities-news/european-natural-gas-eases-as-traders-lock-in-gains-following-surge-past-war-highs-4887189",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-03T09:01:16+00:00",
+      "summary": "",
+      "raw_score": 29.975,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 10.87,
+      "is_alert": true
+    },
+    {
+      "id": "6e625b01d614b2fa",
+      "title": "European gas inches up to lock in fourth weekly gain after breaching war-era peaks",
+      "url": "https://www.investing.com/news/commodities-news/european-gas-inches-up-to-lock-in-fourth-weekly-gain-after-breaching-warera-peaks-4888892",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-04T10:14:48+00:00",
+      "summary": "",
+      "raw_score": 29.975,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 10.87,
+      "is_alert": true
+    },
+    {
       "id": "ae95792b30be7421",
       "title": "Fed’s Waller channels his inner John Lennon with a plea to ’give disinflation a chance’",
       "url": "https://www.investing.com/news/economy-news/feds-waller-open-to-leaving-rates-unchanged-at-september-meeting-if-inflation-cools-4887866",
@@ -455,7 +469,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.87,
+      "score": 10.86,
       "is_alert": true
     },
     {
@@ -469,7 +483,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.87,
+      "score": 10.86,
       "is_alert": true
     },
     {
@@ -483,7 +497,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.87,
+      "score": 10.86,
       "is_alert": true
     },
     {
@@ -497,7 +511,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.84,
+      "score": 10.83,
       "is_alert": true
     },
     {
@@ -511,7 +525,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 10.7,
+      "score": 10.69,
       "is_alert": true
     },
     {
@@ -530,6 +544,20 @@
       "is_alert": true
     },
     {
+      "id": "34bfac886b4ba097",
+      "title": "Canada’s Retaliatory Tariffs Set to Take Effect as Trump Threatens to Escalate",
+      "url": "https://www.nytimes.com/2026/09/07/world/canada/tariffs-trade-war-carney-trump.html",
+      "source": "NYT World",
+      "published_at": "2026-09-07T09:04:13+00:00",
+      "summary": "New Canadian levies of up to 50 percent are expected to begin Tuesday, even as Washington warns of a new round of American tariffs.",
+      "raw_score": 28.947,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 10.63,
+      "is_alert": true
+    },
+    {
       "id": "494ee9894843bdbd",
       "title": "Bank of Canada holds rate as tariffs, oil prices cloud outlook",
       "url": "https://www.investing.com/news/economy-news/bank-of-canada-holds-rate-as-tariffs-oil-prices-cloud-outlook-4886338",
@@ -540,7 +568,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 10.61,
+      "score": 10.6,
       "is_alert": true
     },
     {
@@ -555,7 +583,7 @@
         "Central Bank",
         "Volatility"
       ],
-      "score": 10.44,
+      "score": 10.43,
       "is_alert": true
     },
     {
@@ -569,7 +597,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.34,
+      "score": 10.33,
       "is_alert": true
     },
     {
@@ -597,7 +625,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.21,
+      "score": 10.2,
       "is_alert": true
     },
     {
@@ -638,7 +666,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 10.12,
+      "score": 10.11,
       "is_alert": true
     },
     {
@@ -667,7 +695,7 @@
         "War/Conflict",
         "Inflation"
       ],
-      "score": 10.04,
+      "score": 10.03,
       "is_alert": true
     },
     {
@@ -682,7 +710,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 9.77,
+      "score": 9.76,
       "is_alert": true
     },
     {
@@ -697,7 +725,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 9.76,
+      "score": 9.75,
       "is_alert": true
     },
     {
@@ -711,7 +739,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 9.73,
+      "score": 9.72,
       "is_alert": true
     },
     {
@@ -725,7 +753,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.71,
+      "score": 9.7,
       "is_alert": true
     },
     {
@@ -739,7 +767,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 9.54,
+      "score": 9.53,
       "is_alert": true
     },
     {
@@ -767,7 +795,21 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 9.41,
+      "score": 9.4,
+      "is_alert": true
+    },
+    {
+      "id": "13e1871ca50d09a8",
+      "title": "Yen surges to 6-month high on aggressive BOJ rate bets ; dollar slips",
+      "url": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-yen-strengthens-dollar-pressured-by-fiscal-concerns-4890360",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:15:51+00:00",
+      "summary": "",
+      "raw_score": 23.862,
+      "themes": [
+        "Central Bank"
+      ],
+      "score": 9.4,
       "is_alert": true
     },
     {
@@ -793,7 +835,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 9.24,
+      "score": 9.23,
       "is_alert": true
     },
     {
@@ -825,34 +867,6 @@
       "is_alert": true
     },
     {
-      "id": "9c4f0937b803a37d",
-      "title": "U.S.-Iran tanker war escalates as Hormuz disruption deepens",
-      "url": "https://www.investing.com/news/economy-news/usiran-tanker-war-escalates-as-hormuz-disruption-deepens-4890259",
-      "source": "Investing.com News",
-      "published_at": "2026-09-06T06:25:11+00:00",
-      "summary": "",
-      "raw_score": 22.772,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.15,
-      "is_alert": true
-    },
-    {
-      "id": "59d1b6d630ba56a9",
-      "title": "The labor market slowed as employers grew wary of hiring.",
-      "url": "https://www.nytimes.com/live/2026/08/12/business/inflation-cpi-report/the-labor-market-slowed-as-employers-grew-wary-of-hiring",
-      "source": "NYT Economy",
-      "published_at": "2026-08-12T11:01:12+00:00",
-      "summary": "",
-      "raw_score": 22.716,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.14,
-      "is_alert": true
-    },
-    {
       "id": "1a613664b975da87",
       "title": "Japan’s currency diplomat warns of ongoing yen market concerns",
       "url": "https://www.investing.com/news/forex-news/japans-currency-diplomat-warns-of-ongoing-yen-market-concerns-93CH-4887606",
@@ -881,6 +895,20 @@
       "is_alert": true
     },
     {
+      "id": "9c4f0937b803a37d",
+      "title": "U.S.-Iran tanker war escalates as Hormuz disruption deepens",
+      "url": "https://www.investing.com/news/economy-news/usiran-tanker-war-escalates-as-hormuz-disruption-deepens-4890259",
+      "source": "Investing.com News",
+      "published_at": "2026-09-06T06:25:11+00:00",
+      "summary": "",
+      "raw_score": 22.772,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.14,
+      "is_alert": true
+    },
+    {
       "id": "8a0c369d0fb2c616",
       "title": "Australia’s Ingenia rejects $1.4 bln Warburg Pincus buyout bid",
       "url": "https://www.investing.com/news/stock-market-news/australias-ingenia-rejects-14-bln-warburg-pincus-buyout-bid-4890325",
@@ -895,6 +923,20 @@
       "is_alert": true
     },
     {
+      "id": "59d1b6d630ba56a9",
+      "title": "The labor market slowed as employers grew wary of hiring.",
+      "url": "https://www.nytimes.com/live/2026/08/12/business/inflation-cpi-report/the-labor-market-slowed-as-employers-grew-wary-of-hiring",
+      "source": "NYT Economy",
+      "published_at": "2026-08-12T11:01:12+00:00",
+      "summary": "",
+      "raw_score": 22.716,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.13,
+      "is_alert": true
+    },
+    {
       "id": "b5072734ad03a8da",
       "title": "Asian currencies rise as yen surges toward 158, intervention risk returns",
       "url": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-yen-surges-toward-158-intervention-risk-returns-4886966",
@@ -905,7 +947,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.13,
+      "score": 9.12,
       "is_alert": true
     },
     {
@@ -919,7 +961,35 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.13,
+      "score": 9.12,
+      "is_alert": true
+    },
+    {
+      "id": "38f7b24c34189583",
+      "title": "European shares dip as rise in oil prices weighs; Novartis slips",
+      "url": "https://www.investing.com/news/economy-news/european-shares-dip-as-rise-in-oil-prices-weighs-novartis-slips-4890493",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T07:36:26+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 9.12,
+      "is_alert": true
+    },
+    {
+      "id": "3f39714023053e35",
+      "title": "From dance floor to war: China readies humanoid robots for combat",
+      "url": "https://www.investing.com/news/stock-market-news/from-dance-floor-to-war-china-readies-humanoid-robots-for-combat-4890386",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-07T09:00:37+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.12,
       "is_alert": true
     },
     {
@@ -933,7 +1003,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.12,
+      "score": 9.11,
       "is_alert": true
     },
     {
@@ -947,7 +1017,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.12,
+      "score": 9.11,
       "is_alert": true
     },
     {
@@ -961,7 +1031,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.12,
+      "score": 9.11,
       "is_alert": true
     },
     {
@@ -975,7 +1045,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.12,
+      "score": 9.11,
+      "is_alert": true
+    },
+    {
+      "id": "d547ba33a96b2a1b",
+      "title": "Bernstein warns rising U.S. yields still pose an underpriced risk to Asian stocks",
+      "url": "https://www.investing.com/news/stock-market-news/bernstein-warns-rising-us-yields-still-pose-an-underpriced-risk-to-asian-stocks-4890556",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-07T09:05:53+00:00",
+      "summary": "",
+      "raw_score": 22.632,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.11,
       "is_alert": true
     },
     {
@@ -989,7 +1073,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.11,
+      "score": 9.1,
       "is_alert": true
     },
     {
@@ -1003,7 +1087,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.01,
+      "score": 9.0,
       "is_alert": true
     },
     {
@@ -1029,21 +1113,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.99,
-      "is_alert": true
-    },
-    {
-      "id": "848cf3072393bd90",
-      "title": "How Do You Run for Office in a Gang War?",
-      "url": "https://www.nytimes.com/2026/09/03/world/americas/haiti-election-gangs.html",
-      "source": "NYT World",
-      "published_at": "2026-09-03T09:02:36+00:00",
-      "summary": "Haitian election officials have set elections for Dec. 13, but many experts say extreme violence is likely to cause a postponement. Again.",
-      "raw_score": 22.115,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.99,
+      "score": 8.98,
       "is_alert": true
     },
     {
@@ -1054,6 +1124,20 @@
       "published_at": "2026-08-31T18:52:09+00:00",
       "summary": "As desperate as many athletic programs are for money, they are proceeding cautiously when it comes to deals with private equity.",
       "raw_score": 22.089,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.98,
+      "is_alert": true
+    },
+    {
+      "id": "848cf3072393bd90",
+      "title": "How Do You Run for Office in a Gang War?",
+      "url": "https://www.nytimes.com/2026/09/03/world/americas/haiti-election-gangs.html",
+      "source": "NYT World",
+      "published_at": "2026-09-03T09:02:36+00:00",
+      "summary": "Haitian election officials have set elections for Dec. 13, but many experts say extreme violence is likely to cause a postponement. Again.",
+      "raw_score": 22.115,
       "themes": [
         "War/Conflict"
       ],
@@ -1099,7 +1183,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.96,
+      "score": 8.95,
       "is_alert": true
     },
     {
@@ -1113,7 +1197,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.95,
+      "score": 8.94,
       "is_alert": true
     },
     {
@@ -1127,7 +1211,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.94,
+      "score": 8.93,
       "is_alert": true
     },
     {
@@ -1155,20 +1239,6 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 8.85,
-      "is_alert": true
-    },
-    {
-      "id": "d7402feb322782c5",
-      "title": "Iran says it has enough foreign currency despite US sanctions",
-      "url": "https://www.investing.com/news/forex-news/iran-says-it-has-enough-foreign-currency-despite-us-sanctions-4883541",
-      "source": "Investing.com Forex",
-      "published_at": "2026-09-01T06:54:27+00:00",
-      "summary": "",
-      "raw_score": 21.481,
-      "themes": [
-        "Sanctions"
-      ],
       "score": 8.84,
       "is_alert": true
     },
@@ -1180,6 +1250,20 @@
       "published_at": "2026-09-02T11:58:18+00:00",
       "summary": "",
       "raw_score": 21.455,
+      "themes": [
+        "Sanctions"
+      ],
+      "score": 8.83,
+      "is_alert": true
+    },
+    {
+      "id": "d7402feb322782c5",
+      "title": "Iran says it has enough foreign currency despite US sanctions",
+      "url": "https://www.investing.com/news/forex-news/iran-says-it-has-enough-foreign-currency-despite-us-sanctions-4883541",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-01T06:54:27+00:00",
+      "summary": "",
+      "raw_score": 21.481,
       "themes": [
         "Sanctions"
       ],
@@ -1211,19 +1295,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 8.82,
-      "is_alert": true
-    },
-    {
-      "id": "8e94a99c44c3998b",
-      "title": "Dollar gets little lift from boost in Fed hike expectations",
-      "url": "https://www.investing.com/news/economy-news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-4890340",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-07T01:37:07+00:00",
-      "summary": "",
-      "raw_score": 20.988,
-      "themes": [],
-      "score": 8.72,
+      "score": 8.81,
       "is_alert": true
     },
     {
@@ -1251,6 +1323,18 @@
       "is_alert": true
     },
     {
+      "id": "8e94a99c44c3998b",
+      "title": "Dollar gets little lift from boost in Fed hike expectations",
+      "url": "https://www.investing.com/news/economy-news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-4890340",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T01:37:07+00:00",
+      "summary": "",
+      "raw_score": 20.988,
+      "themes": [],
+      "score": 8.71,
+      "is_alert": true
+    },
+    {
       "id": "479dd0d385e67b7c",
       "title": "Wall Street futures mixed after jobs data lifts Sept Fed hike odds",
       "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-mixed-after-jobs-data-lifts-sept-fed-hike-odds-4890344",
@@ -1259,7 +1343,7 @@
       "summary": "",
       "raw_score": 20.936,
       "themes": [],
-      "score": 8.71,
+      "score": 8.7,
       "is_alert": true
     },
     {
@@ -1271,7 +1355,7 @@
       "summary": "",
       "raw_score": 20.885,
       "themes": [],
-      "score": 8.7,
+      "score": 8.69,
       "is_alert": true
     },
     {
@@ -1283,7 +1367,19 @@
       "summary": "",
       "raw_score": 20.91,
       "themes": [],
-      "score": 8.7,
+      "score": 8.69,
+      "is_alert": true
+    },
+    {
+      "id": "b5e46ad696de0e41",
+      "title": "Sterling today: Pound edges up as dollar stays soft on Fed rate-hike bets",
+      "url": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-up-as-dollar-stays-soft-on-fed-ratehike-bets-4890558",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-07T09:09:45+00:00",
+      "summary": "",
+      "raw_score": 20.91,
+      "themes": [],
+      "score": 8.69,
       "is_alert": true
     },
     {
@@ -1311,7 +1407,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 8.49,
+      "score": 8.48,
       "is_alert": true
     },
     {
@@ -1325,21 +1421,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.43,
-      "is_alert": true
-    },
-    {
-      "id": "237d2316f3a4935e",
-      "title": "Analysts react to global bond selloff",
-      "url": "https://www.investing.com/news/forex-news/analysts-react-to-global-bond-selloff-4883506",
-      "source": "Investing.com Forex",
-      "published_at": "2026-09-01T07:55:08+00:00",
-      "summary": "",
-      "raw_score": 19.107,
-      "themes": [
-        "Market Crash"
-      ],
-      "score": 8.27,
+      "score": 8.42,
       "is_alert": true
     },
     {
@@ -1357,6 +1439,20 @@
       "is_alert": true
     },
     {
+      "id": "237d2316f3a4935e",
+      "title": "Analysts react to global bond selloff",
+      "url": "https://www.investing.com/news/forex-news/analysts-react-to-global-bond-selloff-4883506",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-01T07:55:08+00:00",
+      "summary": "",
+      "raw_score": 19.107,
+      "themes": [
+        "Market Crash"
+      ],
+      "score": 8.26,
+      "is_alert": true
+    },
+    {
       "id": "1bccc991b88948d5",
       "title": "Analysis-Bond selloff is likely amplified by obscure economic rate",
       "url": "https://www.investing.com/news/economy-news/analysisbondselloff-is-likely-amplified-by-obscure-economic-rate-4887345",
@@ -1367,21 +1463,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.25,
-      "is_alert": true
-    },
-    {
-      "id": "0216e27589c78abd",
-      "title": "Global bond sell-off worsens as U.S. 2-year yield touches highest level since 2025",
-      "url": "https://www.investing.com/news/forex-news/global-bond-rout-deepens-as-middle-east-escalation-and-inflation-shock-push-yields-4883611",
-      "source": "Investing.com Forex",
-      "published_at": "2026-09-01T11:45:35+00:00",
-      "summary": "",
-      "raw_score": 18.942,
-      "themes": [
-        "Market Crash"
-      ],
-      "score": 8.23,
+      "score": 8.24,
       "is_alert": true
     },
     {
@@ -1399,6 +1481,20 @@
       "is_alert": true
     },
     {
+      "id": "0216e27589c78abd",
+      "title": "Global bond sell-off worsens as U.S. 2-year yield touches highest level since 2025",
+      "url": "https://www.investing.com/news/forex-news/global-bond-rout-deepens-as-middle-east-escalation-and-inflation-shock-push-yields-4883611",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-01T11:45:35+00:00",
+      "summary": "",
+      "raw_score": 18.942,
+      "themes": [
+        "Market Crash"
+      ],
+      "score": 8.22,
+      "is_alert": true
+    },
+    {
       "id": "1d8de629d7d3e7f1",
       "title": "At G20 Summit, Some U.S. Allies Push Back on Trump’s Economic Approach",
       "url": "https://www.nytimes.com/2026/09/01/world/europe/g20-bessent-trump-allies.html",
@@ -1409,7 +1505,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.16,
+      "score": 8.15,
       "is_alert": true
     },
     {
@@ -1420,20 +1516,6 @@
       "published_at": "2026-09-04T16:58:53+00:00",
       "summary": "",
       "raw_score": 17.8,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 7.95,
-      "is_alert": true
-    },
-    {
-      "id": "471ea4a5746f88c6",
-      "title": "UBS: Commodities can add diversification as inflation, geopolitical risks rise",
-      "url": "https://www.investing.com/news/stock-market-news/ubs-commodities-can-add-diversification-as-inflation-geopolitical-risks-rise-4890234",
-      "source": "Investing.com News",
-      "published_at": "2026-09-05T19:17:20+00:00",
-      "summary": "",
-      "raw_score": 17.778,
       "themes": [
         "Inflation"
       ],
@@ -1469,11 +1551,53 @@
       "is_alert": true
     },
     {
+      "id": "471ea4a5746f88c6",
+      "title": "UBS: Commodities can add diversification as inflation, geopolitical risks rise",
+      "url": "https://www.investing.com/news/stock-market-news/ubs-commodities-can-add-diversification-as-inflation-geopolitical-risks-rise-4890234",
+      "source": "Investing.com News",
+      "published_at": "2026-09-05T19:17:20+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.94,
+      "is_alert": true
+    },
+    {
       "id": "5cdc50b82a30ceaa",
       "title": "Investors to pore over inflation data for signals on rate trajectory",
       "url": "https://www.investing.com/news/economy-news/investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory-4890293",
       "source": "Investing.com News",
       "published_at": "2026-09-06T13:00:28+00:00",
+      "summary": "",
+      "raw_score": 17.756,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.94,
+      "is_alert": true
+    },
+    {
+      "id": "9db7e09c6c936ec9",
+      "title": "Morning Bid: Diesel the real spoiler for US inflation doves",
+      "url": "https://www.investing.com/news/economy-news/morning-bid-diesel-the-real-spoiler-for-us-inflation-doves-4890357",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T04:36:33+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.94,
+      "is_alert": true
+    },
+    {
+      "id": "84f7301b3f27e39b",
+      "title": "Thailand inflation rises to 2.53% in August, stays in target range",
+      "url": "https://www.investing.com/news/stock-market-news/thailand-inflation-rises-to-253-in-august-stays-in-target-range-93CH-4890557",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-07T09:08:51+00:00",
       "summary": "",
       "raw_score": 17.756,
       "themes": [
@@ -1505,21 +1629,7 @@
       "summary": "The National Highway Traffic Safety Administration said it would examine whether the company’s new self-driving taxi, which has no steering wheel, meets federal auto regulations.",
       "raw_score": 16.807,
       "themes": [],
-      "score": 7.72,
-      "is_alert": true
-    },
-    {
-      "id": "cf761f0b93e15f56",
-      "title": "Brazil central bank prepares measures for household credit risks",
-      "url": "https://www.investing.com/news/economy-news/brazil-central-bank-prepares-measures-for-household-credit-risks-93CH-4885964",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-02T11:41:34+00:00",
-      "summary": "",
-      "raw_score": 16.564,
-      "themes": [
-        "Central Bank"
-      ],
-      "score": 7.66,
+      "score": 7.71,
       "is_alert": true
     },
     {
@@ -1530,6 +1640,20 @@
       "published_at": "2026-09-02T12:06:32+00:00",
       "summary": "",
       "raw_score": 16.543,
+      "themes": [
+        "Central Bank"
+      ],
+      "score": 7.65,
+      "is_alert": true
+    },
+    {
+      "id": "cf761f0b93e15f56",
+      "title": "Brazil central bank prepares measures for household credit risks",
+      "url": "https://www.investing.com/news/economy-news/brazil-central-bank-prepares-measures-for-household-credit-risks-93CH-4885964",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-02T11:41:34+00:00",
+      "summary": "",
+      "raw_score": 16.564,
       "themes": [
         "Central Bank"
       ],
@@ -1551,20 +1675,6 @@
       "is_alert": true
     },
     {
-      "id": "834c9f73c6cc33f6",
-      "title": "US diesel prices hit record high as conflicts intensify supply crunch",
-      "url": "https://www.investing.com/news/commodities-news/us-diesel-prices-hit-record-high-as-conflicts-intensify-supply-crunch-4888608",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-09-03T21:25:34+00:00",
-      "summary": "",
-      "raw_score": 16.523,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 7.65,
-      "is_alert": true
-    },
-    {
       "id": "7ad783cc24d95b28",
       "title": "OPEC+ likely to keep oil output policy unchanged on Sunday, sources say",
       "url": "https://www.investing.com/news/commodities-news/opec-likely-tokeep-oil-output-policy-unchanged-on-sunday-sources-say-4886396",
@@ -1574,6 +1684,20 @@
       "raw_score": 16.502,
       "themes": [
         "Oil/Energy"
+      ],
+      "score": 7.64,
+      "is_alert": true
+    },
+    {
+      "id": "834c9f73c6cc33f6",
+      "title": "US diesel prices hit record high as conflicts intensify supply crunch",
+      "url": "https://www.investing.com/news/commodities-news/us-diesel-prices-hit-record-high-as-conflicts-intensify-supply-crunch-4888608",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-03T21:25:34+00:00",
+      "summary": "",
+      "raw_score": 16.523,
+      "themes": [
+        "War/Conflict"
       ],
       "score": 7.64,
       "is_alert": true
@@ -1629,7 +1753,7 @@
       "summary": "",
       "raw_score": 16.01,
       "themes": [],
-      "score": 7.53,
+      "score": 7.52,
       "is_alert": true
     },
     {
@@ -1643,7 +1767,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.53,
+      "score": 7.52,
       "is_alert": true
     },
     {
@@ -1657,7 +1781,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.46,
+      "score": 7.45,
       "is_alert": true
     },
     {
@@ -1671,7 +1795,7 @@
       "themes": [
         "Default"
       ],
-      "score": 7.37,
+      "score": 7.36,
       "is_alert": true
     },
     {
@@ -1685,7 +1809,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.37,
+      "score": 7.36,
       "is_alert": true
     },
     {
@@ -1699,7 +1823,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.36,
+      "score": 7.35,
       "is_alert": true
     },
     {
@@ -1713,7 +1837,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.36,
+      "score": 7.35,
       "is_alert": true
     },
     {
@@ -1727,7 +1851,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.35,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -1741,7 +1865,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.35,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -1755,7 +1879,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.35,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -1769,7 +1893,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.35,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -1783,7 +1907,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.35,
+      "score": 7.34,
       "is_alert": true
     },
     {
@@ -1797,7 +1921,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.34,
+      "score": 7.33,
       "is_alert": true
     },
     {
@@ -1825,7 +1949,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.23,
+      "score": 7.22,
       "is_alert": true
     },
     {
@@ -1849,7 +1973,7 @@
       "summary": "The move prompted blowback from cattle ranchers and Republicans who represent them.",
       "raw_score": 13.333,
       "themes": [],
-      "score": 6.88,
+      "score": 6.87,
       "is_alert": true
     },
     {
@@ -1861,7 +1985,7 @@
       "summary": "In addition, the F.C.C. is weighing stiff restrictions on common drone technology such as thermal imaging and aerosol spraying.",
       "raw_score": 13.269,
       "themes": [],
-      "score": 6.87,
+      "score": 6.86,
       "is_alert": true
     },
     {
@@ -1873,7 +1997,7 @@
       "summary": "Higher revenue and employee limits for small businesses that get federal contracts and loans could disadvantage the smallest companies, their owners say.",
       "raw_score": 13.237,
       "themes": [],
-      "score": 6.86,
+      "score": 6.85,
       "is_alert": true
     },
     {
@@ -1901,7 +2025,7 @@
       "themes": [
         "Volatility"
       ],
-      "score": 6.77,
+      "score": 6.76,
       "is_alert": true
     },
     {
@@ -1913,7 +2037,7 @@
       "summary": "",
       "raw_score": 12.392,
       "themes": [],
-      "score": 6.66,
+      "score": 6.65,
       "is_alert": true
     },
     {
@@ -1925,7 +2049,7 @@
       "summary": "",
       "raw_score": 12.361,
       "themes": [],
-      "score": 6.65,
+      "score": 6.64,
       "is_alert": true
     },
     {
@@ -1937,7 +2061,7 @@
       "summary": "",
       "raw_score": 12.346,
       "themes": [],
-      "score": 6.65,
+      "score": 6.64,
       "is_alert": true
     },
     {
@@ -1949,7 +2073,7 @@
       "summary": "",
       "raw_score": 12.346,
       "themes": [],
-      "score": 6.65,
+      "score": 6.64,
       "is_alert": true
     },
     {
@@ -1961,7 +2085,7 @@
       "summary": "",
       "raw_score": 12.361,
       "themes": [],
-      "score": 6.65,
+      "score": 6.64,
       "is_alert": true
     },
     {
@@ -1973,79 +2097,7 @@
       "summary": "",
       "raw_score": 12.361,
       "themes": [],
-      "score": 6.65,
-      "is_alert": true
-    },
-    {
-      "id": "7569d1b63a5765a5",
-      "title": "S&P 500 near all-time high with double top forming: Live levels",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-bearish-engulfing-at-7683-live-levels-93CH-4882989",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-09-03T19:19:44+00:00",
-      "summary": "",
-      "raw_score": 12.33,
-      "themes": [],
       "score": 6.64,
-      "is_alert": true
-    },
-    {
-      "id": "d519417d82700e34",
-      "title": "Asian shares climb ahead of US jobs data, Fed’s Waller soothes bonds",
-      "url": "https://www.investing.com/news/economy-news/asian-shares-climb-ahead-of-us-jobs-data-feds-waller-soothes-bonds-4888786",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-04T04:43:06+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.64,
-      "is_alert": true
-    },
-    {
-      "id": "efe7348a5d12fcc1",
-      "title": "Citigroup delays Fed rate-cut forecast to 2027 after strong U.S. jobs report",
-      "url": "https://www.investing.com/news/economy-news/citigroup-delays-fed-ratecut-forecast-to-2027-after-strong-us-jobs-report-4889795",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-04T15:13:06+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.64,
-      "is_alert": true
-    },
-    {
-      "id": "1f9ca97c4670a1d8",
-      "title": "Citi pushes Fed rate-cut forecast to June 2027 after resilient jobs market",
-      "url": "https://www.investing.com/news/stock-market-news/citi-pushes-fed-ratecut-forecast-to-june-2027-after-resilient-jobs-market-4890197",
-      "source": "Investing.com News",
-      "published_at": "2026-09-05T11:38:22+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.64,
-      "is_alert": true
-    },
-    {
-      "id": "f2ec0a4b0c5978d2",
-      "title": "S&P 500, Dow post slim gains at open as Iran tensions clash with AI optimism",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-dow-post-slim-gains-at-open-as-iran-tensions-clash-with-ai-optimism-4886286",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-09-02T13:36:53+00:00",
-      "summary": "",
-      "raw_score": 12.27,
-      "themes": [],
-      "score": 6.63,
-      "is_alert": true
-    },
-    {
-      "id": "07460f7c784c9f58",
-      "title": "Economic activity edged up and prices rose moderately in recent weeks, Fed survey shows",
-      "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
-      "source": "Investing.com News",
-      "published_at": "2026-09-02T18:18:34+00:00",
-      "summary": "",
-      "raw_score": 12.285,
-      "themes": [],
-      "score": 6.63,
       "is_alert": true
     },
     {
@@ -2061,13 +2113,25 @@
       "is_alert": true
     },
     {
-      "id": "c72c80b7c025757b",
-      "title": "Asian currencies rise as yen set for best week since July, Fed bets fade",
-      "url": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-yen-set-for-best-week-since-july-fed-bets-fade-4888814",
-      "source": "Investing.com Forex",
-      "published_at": "2026-09-04T04:15:51+00:00",
+      "id": "7569d1b63a5765a5",
+      "title": "S&P 500 near all-time high with double top forming: Live levels",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-bearish-engulfing-at-7683-live-levels-93CH-4882989",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-03T19:19:44+00:00",
       "summary": "",
-      "raw_score": 12.285,
+      "raw_score": 12.33,
+      "themes": [],
+      "score": 6.63,
+      "is_alert": true
+    },
+    {
+      "id": "d519417d82700e34",
+      "title": "Asian shares climb ahead of US jobs data, Fed’s Waller soothes bonds",
+      "url": "https://www.investing.com/news/economy-news/asian-shares-climb-ahead-of-us-jobs-data-feds-waller-soothes-bonds-4888786",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-04T04:43:06+00:00",
+      "summary": "",
+      "raw_score": 12.315,
       "themes": [],
       "score": 6.63,
       "is_alert": true
@@ -2085,13 +2149,13 @@
       "is_alert": true
     },
     {
-      "id": "7965ee7c6868c54d",
-      "title": "Trump tells Fed to lower rates or threatens to end trade with surplus countries",
-      "url": "https://www.investing.com/news/economy-news/trump-tells-fed-to-lower-rates-or-threatens-to-end-trade-with-surplus-countries-4889785",
+      "id": "efe7348a5d12fcc1",
+      "title": "Citigroup delays Fed rate-cut forecast to 2027 after strong U.S. jobs report",
+      "url": "https://www.investing.com/news/economy-news/citigroup-delays-fed-ratecut-forecast-to-2027-after-strong-us-jobs-report-4889795",
       "source": "Investing.com Economy",
-      "published_at": "2026-09-04T14:50:50+00:00",
+      "published_at": "2026-09-04T15:13:06+00:00",
       "summary": "",
-      "raw_score": 12.285,
+      "raw_score": 12.315,
       "themes": [],
       "score": 6.63,
       "is_alert": true
@@ -2109,25 +2173,13 @@
       "is_alert": true
     },
     {
-      "id": "2d534e5415ebdc1e",
-      "title": "Federal appeals court upholds ban on Trump’s bid to use citizenship data for voter checks",
-      "url": "https://www.investing.com/news/economy-news/federal-appeals-court-upholds-ban-on-trumps-bid-to-use-citizenship-data-for-voter-checks-4890220",
+      "id": "1f9ca97c4670a1d8",
+      "title": "Citi pushes Fed rate-cut forecast to June 2027 after resilient jobs market",
+      "url": "https://www.investing.com/news/stock-market-news/citi-pushes-fed-ratecut-forecast-to-june-2027-after-resilient-jobs-market-4890197",
       "source": "Investing.com News",
-      "published_at": "2026-09-05T16:06:33+00:00",
+      "published_at": "2026-09-05T11:38:22+00:00",
       "summary": "",
-      "raw_score": 12.27,
-      "themes": [],
-      "score": 6.63,
-      "is_alert": true
-    },
-    {
-      "id": "d1edc2aa38e6cd88",
-      "title": "Asian stocks rally as chipmakers surge, oil and Fed bets keep risks in view",
-      "url": "https://www.investing.com/news/stock-market-news/asian-stocks-rally-as-chipmakers-surge-oil-and-fed-bets-keep-risks-in-view-4890351",
-      "source": "Investing.com News",
-      "published_at": "2026-09-07T03:45:52+00:00",
-      "summary": "",
-      "raw_score": 12.285,
+      "raw_score": 12.315,
       "themes": [],
       "score": 6.63,
       "is_alert": true
@@ -2145,6 +2197,78 @@
       "is_alert": true
     },
     {
+      "id": "f2ec0a4b0c5978d2",
+      "title": "S&P 500, Dow post slim gains at open as Iran tensions clash with AI optimism",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-dow-post-slim-gains-at-open-as-iran-tensions-clash-with-ai-optimism-4886286",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-02T13:36:53+00:00",
+      "summary": "",
+      "raw_score": 12.27,
+      "themes": [],
+      "score": 6.62,
+      "is_alert": true
+    },
+    {
+      "id": "07460f7c784c9f58",
+      "title": "Economic activity edged up and prices rose moderately in recent weeks, Fed survey shows",
+      "url": "https://www.investing.com/news/economy-news/economic-activity-edged-up-and-prices-rose-moderately-in-recent-weeks-fed-survey-shows-4886620",
+      "source": "Investing.com News",
+      "published_at": "2026-09-02T18:18:34+00:00",
+      "summary": "",
+      "raw_score": 12.285,
+      "themes": [],
+      "score": 6.62,
+      "is_alert": true
+    },
+    {
+      "id": "c72c80b7c025757b",
+      "title": "Asian currencies rise as yen set for best week since July, Fed bets fade",
+      "url": "https://www.investing.com/news/forex-news/asian-currencies-rise-as-yen-set-for-best-week-since-july-fed-bets-fade-4888814",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-04T04:15:51+00:00",
+      "summary": "",
+      "raw_score": 12.285,
+      "themes": [],
+      "score": 6.62,
+      "is_alert": true
+    },
+    {
+      "id": "7965ee7c6868c54d",
+      "title": "Trump tells Fed to lower rates or threatens to end trade with surplus countries",
+      "url": "https://www.investing.com/news/economy-news/trump-tells-fed-to-lower-rates-or-threatens-to-end-trade-with-surplus-countries-4889785",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-04T14:50:50+00:00",
+      "summary": "",
+      "raw_score": 12.285,
+      "themes": [],
+      "score": 6.62,
+      "is_alert": true
+    },
+    {
+      "id": "2d534e5415ebdc1e",
+      "title": "Federal appeals court upholds ban on Trump’s bid to use citizenship data for voter checks",
+      "url": "https://www.investing.com/news/economy-news/federal-appeals-court-upholds-ban-on-trumps-bid-to-use-citizenship-data-for-voter-checks-4890220",
+      "source": "Investing.com News",
+      "published_at": "2026-09-05T16:06:33+00:00",
+      "summary": "",
+      "raw_score": 12.27,
+      "themes": [],
+      "score": 6.62,
+      "is_alert": true
+    },
+    {
+      "id": "d1edc2aa38e6cd88",
+      "title": "Asian stocks rally as chipmakers surge, oil and Fed bets keep risks in view",
+      "url": "https://www.investing.com/news/stock-market-news/asian-stocks-rally-as-chipmakers-surge-oil-and-fed-bets-keep-risks-in-view-4890351",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T03:45:52+00:00",
+      "summary": "",
+      "raw_score": 12.285,
+      "themes": [],
+      "score": 6.62,
+      "is_alert": true
+    },
+    {
       "id": "22fe45c20f545772",
       "title": "Canadian dollar falls after jobs shock as strong US payrolls boost dollar",
       "url": "https://www.investing.com/news/forex-news/canadian-dollar-falls-after-jobs-shock-as-strong-us-payrolls-boost-dollar-4889820",
@@ -2153,7 +2277,7 @@
       "summary": "",
       "raw_score": 12.069,
       "themes": [],
-      "score": 6.58,
+      "score": 6.57,
       "is_alert": true
     },
     {
@@ -2167,7 +2291,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.57,
+      "score": 6.56,
       "is_alert": true
     },
     {
@@ -2181,7 +2305,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 6.46,
+      "score": 6.45,
       "is_alert": true
     },
     {
@@ -2193,7 +2317,7 @@
       "summary": "",
       "raw_score": 11.111,
       "themes": [],
-      "score": 6.35,
+      "score": 6.34,
       "is_alert": true
     },
     {
@@ -2205,7 +2329,7 @@
       "summary": "",
       "raw_score": 11.125,
       "themes": [],
-      "score": 6.35,
+      "score": 6.34,
       "is_alert": true
     },
     {
@@ -2217,7 +2341,7 @@
       "summary": "",
       "raw_score": 11.07,
       "themes": [],
-      "score": 6.34,
+      "score": 6.33,
       "is_alert": true
     },
     {
@@ -2231,7 +2355,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.34,
+      "score": 6.33,
       "is_alert": true
     },
     {
@@ -2245,7 +2369,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.25,
+      "score": 6.24,
       "is_alert": true
     },
     {
@@ -2259,7 +2383,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.23,
+      "score": 6.22,
       "is_alert": true
     },
     {
@@ -2273,7 +2397,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.23,
+      "score": 6.22,
       "is_alert": true
     },
     {
@@ -2287,7 +2411,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.23,
+      "score": 6.22,
       "is_alert": true
     },
     {
@@ -2301,7 +2425,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.22,
+      "score": 6.21,
       "is_alert": true
     },
     {
@@ -2315,7 +2439,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.22,
+      "score": 6.21,
       "is_alert": true
     },
     {
@@ -2329,7 +2453,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.22,
+      "score": 6.21,
       "is_alert": true
     },
     {
@@ -2343,7 +2467,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.21,
+      "score": 6.2,
       "is_alert": true
     },
     {
@@ -2357,7 +2481,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.21,
+      "score": 6.2,
       "is_alert": true
     },
     {
@@ -2371,7 +2495,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.21,
+      "score": 6.2,
       "is_alert": true
     },
     {
@@ -2385,7 +2509,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.2,
+      "score": 6.19,
       "is_alert": true
     },
     {
@@ -2399,7 +2523,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.2,
+      "score": 6.19,
       "is_alert": true
     },
     {
@@ -2413,7 +2537,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.2,
+      "score": 6.19,
       "is_alert": true
     },
     {
@@ -2427,7 +2551,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.2,
+      "score": 6.19,
       "is_alert": true
     },
     {
@@ -2441,7 +2565,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.19,
+      "score": 6.18,
       "is_alert": true
     },
     {
@@ -2455,7 +2579,19 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.19,
+      "score": 6.18,
+      "is_alert": true
+    },
+    {
+      "id": "19bf73748286d683",
+      "title": "Eurozone economy grows by 0.6% quarter-on-quarter in second quarter - Eurostat",
+      "url": "https://www.investing.com/news/economic-indicators/eurozone-economy-grows-by-06-quarteronquarter-in-second-quarter--eurostat-4890578",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:37:09+00:00",
+      "summary": "",
+      "raw_score": 10.358,
+      "themes": [],
+      "score": 6.16,
       "is_alert": true
     },
     {
@@ -2469,7 +2605,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.14,
+      "score": 6.13,
       "is_alert": true
     },
     {
@@ -2481,7 +2617,7 @@
       "summary": "A vote in eastern Germany has given fresh momentum to hard-right parties hoping to win elections across Europe next year, analysts said.",
       "raw_score": 10.108,
       "themes": [],
-      "score": 6.11,
+      "score": 6.1,
       "is_alert": true
     },
     {
@@ -2495,7 +2631,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 6.1,
+      "score": 6.09,
       "is_alert": true
     },
     {
@@ -2507,7 +2643,7 @@
       "summary": "European governments, facing a nearly $1 trillion gap in investment funding, are casting a wide net to back start-ups developing pioneering technologies.",
       "raw_score": 10.06,
       "themes": [],
-      "score": 6.1,
+      "score": 6.09,
       "is_alert": true
     },
     {
@@ -2519,7 +2655,7 @@
       "summary": "Europe’s options are limited in responding to an unnerving series of plots and provocations. But the odds of unpredictable consequences are rising.",
       "raw_score": 10.048,
       "themes": [],
-      "score": 6.09,
+      "score": 6.08,
       "is_alert": true
     },
     {
@@ -2533,7 +2669,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 6.08,
+      "score": 6.07,
       "is_alert": true
     },
     {
@@ -2545,7 +2681,7 @@
       "summary": "",
       "raw_score": 9.889,
       "themes": [],
-      "score": 6.06,
+      "score": 6.05,
       "is_alert": true
     },
     {
@@ -2557,7 +2693,7 @@
       "summary": "",
       "raw_score": 9.877,
       "themes": [],
-      "score": 6.05,
+      "score": 6.04,
       "is_alert": true
     },
     {
@@ -2569,7 +2705,7 @@
       "summary": "",
       "raw_score": 9.864,
       "themes": [],
-      "score": 6.05,
+      "score": 6.04,
       "is_alert": true
     },
     {
@@ -2581,7 +2717,7 @@
       "summary": "Homeowners who make extra payments can save thousands of dollars in interest. But, financial experts say, paying down other debt, with higher interest rates, may be a better option.",
       "raw_score": 9.058,
       "themes": [],
-      "score": 5.86,
+      "score": 5.85,
       "is_alert": true
     },
     {
@@ -2595,7 +2731,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2607,7 +2743,7 @@
       "summary": "",
       "raw_score": 8.642,
       "themes": [],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2619,7 +2755,7 @@
       "summary": "",
       "raw_score": 8.663,
       "themes": [],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2631,7 +2767,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2643,7 +2779,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2655,7 +2791,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2669,7 +2805,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 5.76,
+      "score": 5.75,
       "is_alert": true
     },
     {
@@ -2681,7 +2817,7 @@
       "summary": "",
       "raw_score": 8.6,
       "themes": [],
-      "score": 5.75,
+      "score": 5.74,
       "is_alert": true
     },
     {
@@ -2693,7 +2829,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.75,
+      "score": 5.74,
       "is_alert": true
     },
     {
@@ -2707,7 +2843,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 5.75,
+      "score": 5.74,
       "is_alert": true
     },
     {
@@ -2719,7 +2855,7 @@
       "summary": "",
       "raw_score": 8.6,
       "themes": [],
-      "score": 5.75,
+      "score": 5.74,
       "is_alert": true
     },
     {
@@ -2733,7 +2869,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 5.65,
+      "score": 5.64,
       "is_alert": true
     },
     {
@@ -2747,7 +2883,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.62,
+      "score": 5.61,
       "is_alert": true
     },
     {
@@ -2759,7 +2895,7 @@
       "summary": "",
       "raw_score": 7.426,
       "themes": [],
-      "score": 5.46,
+      "score": 5.45,
       "is_alert": true
     },
     {
@@ -2770,54 +2906,6 @@
       "published_at": "2026-09-03T10:27:47+00:00",
       "summary": "",
       "raw_score": 7.407,
-      "themes": [],
-      "score": 5.46,
-      "is_alert": true
-    },
-    {
-      "id": "37795ae92bd10b47",
-      "title": "Euro zone retail sales tumble as non-food demand weakens",
-      "url": "https://www.investing.com/news/economy-news/euro-zone-retail-sales-tumble-as-nonfood-demand-weakens-4889125",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-04T09:34:06+00:00",
-      "summary": "",
-      "raw_score": 7.417,
-      "themes": [],
-      "score": 5.46,
-      "is_alert": true
-    },
-    {
-      "id": "8bc54cd604c8d447",
-      "title": "Northwest European gasoline margins ease but stay near crisis highs",
-      "url": "https://www.investing.com/news/commodities-news/northwest-european-gasoline-margins-ease-but-stay-near-crisis-highs-93CH-4889845",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-09-04T16:13:50+00:00",
-      "summary": "",
-      "raw_score": 7.407,
-      "themes": [],
-      "score": 5.46,
-      "is_alert": true
-    },
-    {
-      "id": "693c74accda135d6",
-      "title": "Europe’s satellite launch ambitions take off as German rocket reaches orbit",
-      "url": "https://www.investing.com/news/economy-news/europes-satellite-launch-ambitions-take-off-as-german-rocket-reaches-orbit-4890245",
-      "source": "Investing.com News",
-      "published_at": "2026-09-06T00:03:34+00:00",
-      "summary": "",
-      "raw_score": 7.398,
-      "themes": [],
-      "score": 5.46,
-      "is_alert": true
-    },
-    {
-      "id": "c001bc3151291d76",
-      "title": "Global bond rout takes a breath as European and Aussie yields ease from peaks",
-      "url": "https://www.investing.com/news/forex-news/global-bond-rout-takes-a-breath-as-european-and-aussie-yieldsease-from-peaks-4887089",
-      "source": "Investing.com Forex",
-      "published_at": "2026-09-03T08:17:34+00:00",
-      "summary": "",
-      "raw_score": 7.371,
       "themes": [],
       "score": 5.45,
       "is_alert": true
@@ -2835,6 +2923,42 @@
       "is_alert": true
     },
     {
+      "id": "37795ae92bd10b47",
+      "title": "Euro zone retail sales tumble as non-food demand weakens",
+      "url": "https://www.investing.com/news/economy-news/euro-zone-retail-sales-tumble-as-nonfood-demand-weakens-4889125",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-04T09:34:06+00:00",
+      "summary": "",
+      "raw_score": 7.417,
+      "themes": [],
+      "score": 5.45,
+      "is_alert": true
+    },
+    {
+      "id": "8bc54cd604c8d447",
+      "title": "Northwest European gasoline margins ease but stay near crisis highs",
+      "url": "https://www.investing.com/news/commodities-news/northwest-european-gasoline-margins-ease-but-stay-near-crisis-highs-93CH-4889845",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-04T16:13:50+00:00",
+      "summary": "",
+      "raw_score": 7.407,
+      "themes": [],
+      "score": 5.45,
+      "is_alert": true
+    },
+    {
+      "id": "693c74accda135d6",
+      "title": "Europe’s satellite launch ambitions take off as German rocket reaches orbit",
+      "url": "https://www.investing.com/news/economy-news/europes-satellite-launch-ambitions-take-off-as-german-rocket-reaches-orbit-4890245",
+      "source": "Investing.com News",
+      "published_at": "2026-09-06T00:03:34+00:00",
+      "summary": "",
+      "raw_score": 7.398,
+      "themes": [],
+      "score": 5.45,
+      "is_alert": true
+    },
+    {
       "id": "a2e1599865619317",
       "title": "SpaceX’s European rival Isar Aerospace plans rapid expansion after first orbital launch",
       "url": "https://www.investing.com/news/stock-market-news/spacexs-european-rival-isar-aerospace-plans-rapid-expansion-after-first-orbital-launch-93CH-4890288",
@@ -2847,6 +2971,42 @@
       "is_alert": true
     },
     {
+      "id": "6b2af0cb2abf5e84",
+      "title": "European bond yields tick up, snapping two-day rally",
+      "url": "https://www.investing.com/news/forex-news/european-bond-yields-tick-up-snapping-twoday-rally-4890484",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-07T07:44:25+00:00",
+      "summary": "",
+      "raw_score": 7.426,
+      "themes": [],
+      "score": 5.45,
+      "is_alert": true
+    },
+    {
+      "id": "c001bc3151291d76",
+      "title": "Global bond rout takes a breath as European and Aussie yields ease from peaks",
+      "url": "https://www.investing.com/news/forex-news/global-bond-rout-takes-a-breath-as-european-and-aussie-yieldsease-from-peaks-4887089",
+      "source": "Investing.com Forex",
+      "published_at": "2026-09-03T08:17:34+00:00",
+      "summary": "",
+      "raw_score": 7.371,
+      "themes": [],
+      "score": 5.44,
+      "is_alert": true
+    },
+    {
+      "id": "eb7143f78c9be67e",
+      "title": "European natural gas advances 2% to hover near multi-year peaks on Tehran threats",
+      "url": "https://www.investing.com/news/commodities-news/european-natural-gas-advances-2-to-hover-near-multiyear-peaks-on-tehran-threats-4890492",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:17:07+00:00",
+      "summary": "",
+      "raw_score": 7.38,
+      "themes": [],
+      "score": 5.44,
+      "is_alert": true
+    },
+    {
       "id": "599a7ddb50fa8c45",
       "title": "Many Italians Long Resisted Air-Conditioning. Then Europe Got Hotter.",
       "url": "https://www.nytimes.com/2026/09/03/world/europe/italy-air-conditioning-heat.html",
@@ -2855,7 +3015,7 @@
       "summary": "Amid record-breaking temperatures on the continent, households and businesses in Italy are increasingly installing cooling units.",
       "raw_score": 7.273,
       "themes": [],
-      "score": 5.43,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -2867,7 +3027,7 @@
       "summary": "Soaring temperatures, widespread wildfires and dried-up rivers are transforming tourism across the continent. Here’s how travelers are responding.",
       "raw_score": 7.229,
       "themes": [],
-      "score": 5.42,
+      "score": 5.41,
       "is_alert": true
     },
     {
@@ -2879,7 +3039,7 @@
       "summary": "",
       "raw_score": 4.963,
       "themes": [],
-      "score": 4.87,
+      "score": 4.86,
       "is_alert": false
     },
     {
@@ -2891,7 +3051,7 @@
       "summary": "",
       "raw_score": 4.944,
       "themes": [],
-      "score": 4.87,
+      "score": 4.86,
       "is_alert": false
     },
     {
@@ -2903,7 +3063,7 @@
       "summary": "",
       "raw_score": 4.92,
       "themes": [],
-      "score": 4.86,
+      "score": 4.85,
       "is_alert": false
     },
     {
@@ -2915,7 +3075,7 @@
       "summary": "",
       "raw_score": 4.914,
       "themes": [],
-      "score": 4.86,
+      "score": 4.85,
       "is_alert": false
     },
     {
@@ -2927,7 +3087,7 @@
       "summary": "",
       "raw_score": 4.92,
       "themes": [],
-      "score": 4.86,
+      "score": 4.85,
       "is_alert": false
     },
     {
@@ -2939,7 +3099,7 @@
       "summary": "The outcome contradicted an earlier appeals court decision. Federal regulators said the split rulings called for resolution by the Supreme Court.",
       "raw_score": 4.813,
       "themes": [],
-      "score": 4.84,
+      "score": 4.83,
       "is_alert": false
     },
     {
@@ -2951,7 +3111,7 @@
       "summary": "When Anthropic goes public in a blockbuster offering, which investors will profit? The answer says a lot about how much start-up investing has changed over the years.",
       "raw_score": 4.79,
       "themes": [],
-      "score": 4.83,
+      "score": 4.82,
       "is_alert": false
     },
     {
@@ -2963,7 +3123,7 @@
       "summary": "Initial results showed that residents of Independence, Mo., voted overwhelmingly to recall an official who backed billions of dollars in tax breaks for a data center.",
       "raw_score": 3.345,
       "themes": [],
-      "score": 4.48,
+      "score": 4.47,
       "is_alert": false
     },
     {
@@ -2975,7 +3135,7 @@
       "summary": "Specific reporters from The New York Times, The Wall Street Journal and Bloomberg were not granted credentials to cover the meeting of financial leaders next week in Asheville, N.C.",
       "raw_score": 3.345,
       "themes": [],
-      "score": 4.48,
+      "score": 4.47,
       "is_alert": false
     },
     {
@@ -2987,7 +3147,7 @@
       "summary": "A private oil company has struck a deal with the Trump administration to develop 17 areas in Venezuela, an effort that experts say will take years and billions of dollars.",
       "raw_score": 3.333,
       "themes": [],
-      "score": 4.48,
+      "score": 4.47,
       "is_alert": false
     },
     {
@@ -3001,7 +3161,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.39,
+      "score": 4.38,
       "is_alert": false
     },
     {
@@ -3013,7 +3173,7 @@
       "summary": "In an interview, Italy’s hard-right leader reveals how pragmatism is reshaping her vision for Europe.",
       "raw_score": 2.93,
       "themes": [],
-      "score": 4.38,
+      "score": 4.37,
       "is_alert": false
     },
     {
@@ -3025,7 +3185,7 @@
       "summary": "As blazes surge across Europe, the country is making a trade-off to protect its heritage by fireproofing sites at the risk of spoiling the surrounding landscape.",
       "raw_score": 2.871,
       "themes": [],
-      "score": 4.37,
+      "score": 4.36,
       "is_alert": false
     },
     {
@@ -3037,7 +3197,7 @@
       "summary": "As Xi Jinping gathered with the leaders of Russia and Iran, Europe challenged the Trump administration at the G20, offering a split-screen view of a changing world.",
       "raw_score": 2.861,
       "themes": [],
-      "score": 4.37,
+      "score": 4.36,
       "is_alert": false
     },
     {
@@ -3051,7 +3211,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.37,
+      "score": 4.36,
       "is_alert": false
     },
     {
@@ -3065,7 +3225,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.36,
+      "score": 4.35,
       "is_alert": false
     },
     {
@@ -3077,7 +3237,7 @@
       "summary": "Treasury Secretary Scott Bessent accused China for flooding the world with its cheap exports.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3089,7 +3249,7 @@
       "summary": "It proposed a new goal of limiting the “overshoot” of rising temperatures and eventually figuring out how to undo the temperature gains, a highly uncertain path.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3101,7 +3261,7 @@
       "summary": "President Trump’s decision set Juan Orlando Hernández free in December. On Tuesday, a court dismissed money laundering and fraud charges against him, effectively making him a free man.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3113,7 +3273,7 @@
       "summary": "The Russian president promised continued retaliation against the Ukrainians and “full solidarity” with Iran.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3125,7 +3285,7 @@
       "summary": "The founder of The Ringer is taking flak for using artificial intelligence to conjure opinions from the deceased film critic Roger Ebert. Ads from OpenAI have recently run on the show.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3137,7 +3297,7 @@
       "summary": "The Israeli leader, facing a tough re-election contest, may need a security crisis to rally voters behind him and hold on to his job.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3149,7 +3309,7 @@
       "summary": "Strikes on ports and vessels by both Russia and Ukraine have left farmers facing ruin and could cause another worldwide food shock.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3161,7 +3321,7 @@
       "summary": "After school shootings, Thailand and the Philippines are taking different approaches to the drills, which are common practice in the United States.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3173,7 +3333,7 @@
       "summary": "As volunteers struggled to get supplies to quake victims in Colombia, a few tech workers built an app to map and organize the sprawling relief effort.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3185,7 +3345,7 @@
       "summary": "For the first time in a year, the U.S.-Mexico border partly reopened to cattle imports following a screwworm infestation across the region. The battle against the flesh-eating fly has only just begun deep in Mexico.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3197,7 +3357,7 @@
       "summary": "There are now 325 kakapos in New Zealand, the largest population of the giant, flightless parrot species in decades, conservationists said.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3209,7 +3369,7 @@
       "summary": "If you own bonds, they may be in a broad fund that hasn’t lost much money. And that fund may do much better in the next several years.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3221,7 +3381,7 @@
       "summary": "Nate Silver, Clare Malone and Galen Druke will host “Still Counting,” a nonpartisan politics show — on a decidedly partisan podcast network.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3233,7 +3393,7 @@
       "summary": "The magazine, famous for publishing Jack London stories and Norman Rockwell art, will continue online.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3245,7 +3405,7 @@
       "summary": "In times of natural disasters and other dangers, special features tucked away on your iPhone or Android device could help make a difference.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3257,7 +3417,7 @@
       "summary": "The American military said its barrage was retaliation against recent attacks on U.S. forces and marine traffic. Iranian officials said a wedding was hit and civilians killed.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3269,7 +3429,7 @@
       "summary": "People are coming to take photos of the green-painted house, which kept the Pyakurel family safe as the area all around them was destroyed by rampaging floodwaters.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3281,7 +3441,7 @@
       "summary": "The vehicle overturned in an area of the Sinai Peninsula that is popular with tourists. Another 28 people were injured, officials said.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3293,7 +3453,7 @@
       "summary": "While several coffin makers in Bunia said they were providing a public service, the virus has put them at the center of a debate around safe burials.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3305,7 +3465,7 @@
       "summary": "The country said Moscow was behind an explosive-laden drone found near a Ukrainian plane at a German airport last month. President Vladimir Putin of Russia called the accusation “a grave mistake.”",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3317,7 +3477,7 @@
       "summary": "The rare prosecution comes amid widespread reports from rights groups about mistreatment in Israeli detention centers, where, activists say, scores of Palestinians have died since October 2023.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3329,7 +3489,7 @@
       "summary": "The country’s government estimates that the recent catastrophic floods caused $5 billion in damage. That’s one-tenth of Nepal’s entire economy.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3341,7 +3501,7 @@
       "summary": "In a frontline city, parents don’t see schools built below ground as apocalyptic. Instead, they offer relief from worry about the threat of Russian strikes.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3353,7 +3513,7 @@
       "summary": "Prosecutors said that the man, in his 60s, drugged and abused his wife while she was unconscious, alongside a dozen other men aged 28 to 73.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3365,7 +3525,7 @@
       "summary": "To protect its waters from overexposure to nitrates, Denmark is proposing a crackdown on fertilizer use. Farmers aren’t happy.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3377,7 +3537,7 @@
       "summary": "More than 1,000 people have been killed in a Himalayan landslide and flooding, and thousands more are missing. Here’s how you can help.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3389,7 +3549,7 @@
       "summary": "Israel said it seized the head of Hamas’s internal security force in the deadly operation. Fighting has continued in the enclave despite a U.S.-backed truce.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3401,7 +3561,7 @@
       "summary": "Keir Starmer, who left Downing Street in July after pressure from his own party, said he would quit his parliamentary seat to focus on a role in international affairs and defense.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3413,7 +3573,7 @@
       "summary": "While journalists can report freely on grief and anger in Nepal, China’s official media have presented a sanitized disaster aftermath in Tibet.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3425,7 +3585,7 @@
       "summary": "A magician’s magician, he was a philosopher of the craft. He didn’t just want to fool people; he wanted to share in their awe of the inexplicable.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3437,7 +3597,7 @@
       "summary": "The Defense Department’s Office of Strategic Capital, founded by the Biden administration to give loans to bolster the U.S. defense industry, is helping lead President Trump’s oil deal.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3449,7 +3609,7 @@
       "summary": "A jury in Florida found that in their suit against the travel booking company, the plaintiffs had failed to prove ownership over tourism properties in Cuba.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3461,7 +3621,7 @@
       "summary": "Mansour Abbas has recruited a Jewish lawmaker best known for reducing the crime rate in Arab cities. Could that be enough to get Mr. Abbas a seat in the next government?",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3473,7 +3633,7 @@
       "summary": "Officials first thought it was just an A.I. ruse, until they checked satellite images of northern British Columbia. The mystery deepened, and on Monday the island was located.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3485,7 +3645,7 @@
       "summary": "Today, we hand the mic over to reporters covering diplomacy, the White House, the Middle East and more.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3497,7 +3657,7 @@
       "summary": "His time in office coincided with France’s fraught role in the 1994 Rwandan genocide and the corruption scandal known as the Karachi affair.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3509,7 +3669,7 @@
       "summary": "Despite the growing diplomatic isolation of the government, the agreement makes clear that the Israeli defense industry is still finding considerable demand abroad.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3521,7 +3681,7 @@
       "summary": "Lionel Messi’s retirement from the national soccer team, though widely expected, sparked fears of a diminished squad, and heartbreak over the departure of a national icon.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3533,7 +3693,7 @@
       "summary": "The suspect, a 43-year-old Swiss citizen, was taken into custody early on Monday, the police said.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3545,7 +3705,7 @@
       "summary": "Their continued presence has roiled the Spanish territory in Africa and heaped pressure on Prime Minister Pedro Sánchez.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3557,7 +3717,7 @@
       "summary": "The vessel capsized in rough seas, leaving its passengers struggling to escape. Eight were killed and 20 are still missing.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3569,7 +3729,7 @@
       "summary": "The U.S. energy giant, which stayed in the country after other Western companies left, will invest $7 billion in the country to more than double its production there.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3581,7 +3741,7 @@
       "summary": "A new U.S. survey anticipates an average increase of 11 percent unless benefits are cut, the highest rate in decades. Other findings also predict a sharp rise.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3593,7 +3753,7 @@
       "summary": "The Trump administration’s deal with a private oil company to increase oil production in the South American country could take many years to come to fruition.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3605,7 +3765,7 @@
       "summary": "Novo Nordisk’s chief executive, Mike Doustdar, is a year into a corporate turnaround. He says investors are still underestimating the promise of the company’s drugs.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3617,7 +3777,7 @@
       "summary": "Japan’s finance minister, Satsuki Katayama, is under pressure to strengthen the yen while balancing competing demands from the prime minister and Washington.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3629,7 +3789,7 @@
       "summary": "Squeezed by new trade rules, shrinking market share and labor concerns, Shein’s share decline in Hong Kong on Tuesday is a sign investors have moved on.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3641,7 +3801,7 @@
       "summary": "The new round values the prediction market at $21 billion, up from $15 billion. Mr. Trump’s firm, 1789 Capital, will invest around $300 million.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3653,7 +3813,7 @@
       "summary": "The I.R.S. lost roughly a quarter of its employees since President Trump took office, hampering the agency’s ability to conduct audits.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3665,7 +3825,7 @@
       "summary": "The prediction market said it had barred George Santos, the former congressman from New York, and fined him $71,356 over evidence he engaged in insider trading.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3677,7 +3837,7 @@
       "summary": "Together AI, which serves open-source artificial intelligence models, announced a deal to use compute from Humain in Saudi Arabia, where it can bypass U.S. backlash over data centers.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3689,7 +3849,7 @@
       "summary": "The Polestar 4 is a solid car, and current incentives make it a bargain. But the company, a Chinese-owned brand, is being forced from the U.S. market.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3701,7 +3861,7 @@
       "summary": "The Times test-drove a stunning crossover from Geely that would cost under half of what its rivals charge. Two senators and many experts point to security and economic concerns as reasons for a ban.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3713,7 +3873,7 @@
       "summary": "A letter arrived in the mail from PNC Bank about an address change on a mortgage account. Was a deed theft scheme in process?",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3725,7 +3885,7 @@
       "summary": "Plus: Is it normal to video-interview for a job while the hiring panel’s cameras are all off?",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3737,7 +3897,7 @@
       "summary": "The machines, which enjoyed legal protection until a recent court ruling, could go dark in October.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3749,7 +3909,7 @@
       "summary": "The administration will work with a private Venezuelan oil company that has close ties to the country’s government.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3761,7 +3921,7 @@
       "summary": "The company responded to the theft by setting a deadline for the return of the product. “P.S., this is real and we are deadly serious,” it said on social media.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3773,7 +3933,7 @@
       "summary": "Gabriel Perez had access to the president’s speeches before they were delivered and was accused of placing unlawful wagers on words that would be spoken.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3785,7 +3945,7 @@
       "summary": "Some labels have sued A.I. music generators like Suno. Others have partnered with them. At least one has done both.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3797,7 +3957,7 @@
       "summary": "A glacier unleashed a deadly flood earlier this week. For local trekking guides and climbers, the mountains were already changing.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3809,7 +3969,7 @@
       "summary": "The loss of power-generating capacity has raised questions about an ambitious expansion of renewable energy in one of the world’s most hazard-prone mountain regions.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3821,7 +3981,7 @@
       "summary": "To win in 2024, the president promised an economic course correction. Almost two years later, his agenda has made that fight even harder.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3833,7 +3993,7 @@
       "summary": "Maria Edgeworth sneaked economic theory into her best-selling novels. Two centuries later, a new book finally gives her the credit she deserves.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3845,7 +4005,7 @@
       "summary": "The resolution is part of an effort to hold retailers and pharmacists accountable for what the government says were their roles in the opioid epidemic.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3857,7 +4017,7 @@
       "summary": "The president said an agreement between the countries covered more than 65 billion barrels of reserves. A U.S. official said it would involve a partnership with a private company.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3869,7 +4029,7 @@
       "summary": "President Trump’s administration has been pushing U.S. companies like Chevron to invest more in Venezuela’s oil industry.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3881,7 +4041,7 @@
       "summary": "The president has argued that the news organization sought to undermine his 2024 presidential campaign by disparaging his reputation as a businessman. The Times has moved to dismiss the lawsuit.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3893,7 +4053,7 @@
       "summary": "Fewer audit and disclosure requirements could reduce costs, but experts say they could also help disguise fraud or financial stress.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3905,7 +4065,7 @@
       "summary": "In an interview, Jamieson Greer, President Trump’s trade representative, laid out details of what the United States offered to Canada before talks crumbled.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3917,7 +4077,7 @@
       "summary": "A watchdog group said the Dominican company continued to violate labor standards after President Trump lifted an import ban last year.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3929,7 +4089,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3941,7 +4101,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3953,7 +4113,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3965,7 +4125,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3977,7 +4137,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -3989,7 +4149,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4001,7 +4161,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4013,7 +4173,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4025,7 +4185,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4037,7 +4197,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4049,7 +4209,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4061,7 +4221,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4073,7 +4233,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4085,7 +4245,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4097,7 +4257,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4109,7 +4269,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4121,7 +4281,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4133,7 +4293,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4145,7 +4305,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4157,7 +4317,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4169,7 +4329,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4181,7 +4341,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4193,7 +4353,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4205,7 +4365,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4217,7 +4377,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4229,7 +4389,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4241,7 +4401,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4253,7 +4413,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4265,7 +4425,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4277,7 +4437,7 @@
       "summary": "Darkened by soot from vehicles and factories, the region’s glaciers are absorbing more heat and melting at dangerous rates.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4289,7 +4449,7 @@
       "summary": "The Agriculture Department offered new initiatives for ranchers after President Trump said he would import more beef. The moves aren’t a quick fix.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4301,7 +4461,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4313,7 +4473,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4325,7 +4485,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4337,7 +4497,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4349,7 +4509,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4361,7 +4521,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4373,7 +4533,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4385,7 +4545,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4397,7 +4557,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4409,7 +4569,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4421,7 +4581,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4433,7 +4593,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4445,7 +4605,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4457,7 +4617,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4469,7 +4629,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4481,7 +4641,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4493,7 +4653,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4505,7 +4665,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4517,7 +4677,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4529,7 +4689,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4541,7 +4701,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4553,7 +4713,7 @@
       "summary": "We talk to Jonathan Swan about how foreign leaders use leverage, strength and personal dynamics to manage the president.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4565,7 +4725,7 @@
       "summary": "The airline said that lounges in Baltimore, Honolulu, Nashville and Austin, Texas, would debut starting late next year, and that seven more were in the works.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4577,7 +4737,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4589,7 +4749,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4601,7 +4761,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4613,7 +4773,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4625,7 +4785,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4637,7 +4797,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4649,7 +4809,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4661,7 +4821,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4673,7 +4833,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4685,7 +4845,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4697,7 +4857,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4709,7 +4869,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4721,7 +4881,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4733,7 +4893,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4745,7 +4905,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4757,7 +4917,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4769,7 +4929,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4781,7 +4941,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4793,7 +4953,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4805,7 +4965,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4817,7 +4977,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4829,7 +4989,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4841,7 +5001,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4853,7 +5013,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4865,7 +5025,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4877,7 +5037,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4889,7 +5049,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4901,7 +5061,7 @@
       "summary": "The bomb that hit the residential area was American, according to a weapons expert and a visual analysis by The Times. It killed five people and wounded 67 others, the Iranian authorities said.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4913,7 +5073,7 @@
       "summary": "Uber and the British start-up Wayve are the latest to start testing autonomous cars in one of the world’s largest markets for ride-hailing services.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4925,7 +5085,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4937,7 +5097,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4949,7 +5109,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4961,7 +5121,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4973,7 +5133,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4985,7 +5145,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -4997,7 +5157,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5009,7 +5169,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5021,7 +5181,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5033,7 +5193,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5045,7 +5205,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5057,7 +5217,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5069,7 +5229,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5081,7 +5241,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5093,7 +5253,7 @@
       "summary": "Hundreds of thousands were killed and tortured. But prosecuting everyone involved in atrocities could be impractical and risk renewed civil strife.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5105,7 +5265,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5117,7 +5277,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5129,7 +5289,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5141,7 +5301,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5153,7 +5313,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5165,7 +5325,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5177,7 +5337,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5189,7 +5349,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5201,7 +5361,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5213,7 +5373,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5225,7 +5385,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5237,7 +5397,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5249,7 +5409,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5261,7 +5421,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5273,7 +5433,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5285,7 +5445,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5297,7 +5457,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5309,7 +5469,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5321,7 +5481,7 @@
       "summary": "President Trump’s bid to call it ‘Lake America’ stands out in a world full of contested place names, which often represent deeper political or territorial disputes.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5333,7 +5493,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5345,7 +5505,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5357,7 +5517,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5369,7 +5529,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5381,7 +5541,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5393,7 +5553,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5405,7 +5565,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5417,7 +5577,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5429,7 +5589,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5441,7 +5601,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5453,7 +5613,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5465,7 +5625,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5477,7 +5637,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5489,7 +5649,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5501,7 +5661,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5513,7 +5673,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5525,7 +5685,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5537,7 +5697,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5549,7 +5709,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5561,7 +5721,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5573,7 +5733,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5585,7 +5745,7 @@
       "summary": "President Volodymyr Zelensky described the shootout on the streets of the Ukrainian capital as an “absolutely shameful event” and ordered an investigation.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5597,7 +5757,7 @@
       "summary": "Prime Minister Pedro Sánchez of Spain said the role of Moroccan authorities at key moments needed to be “clarified.” But he rejected any suggestion they had planned the crisis.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5609,7 +5769,7 @@
       "summary": "Al Mughayir, in the Israeli-occupied West Bank, has become a focal point for rising settler violence, with the latest deadly episode starting in a dispute over livestock.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5621,7 +5781,7 @@
       "summary": "The authorities said they uncovered the network after four flight attendants arriving from Paris were found with narcotics hidden in toothpaste tubes.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5633,7 +5793,7 @@
       "summary": "The billionaire skipped a deposition on Thursday and filed a lawsuit seeking to block a House committee’s subpoenas demanding nondisclosure agreements he may have made with women.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5645,7 +5805,7 @@
       "summary": "The Treasury Department released rules that would prevent schools with race-based programs from qualifying for tax-exempt status, a threat to both higher education and other private schools.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5657,7 +5817,7 @@
       "summary": "The trade deficit bounced back up last month as spending on data centers to feed the A.I. boom drove up imports.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5669,7 +5829,7 @@
       "summary": "This week’s renewed strikes by the United States and Iran strain the flow of energy and diminish expectations the disruption will end soon.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5681,7 +5841,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5693,7 +5853,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5705,7 +5865,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5717,7 +5877,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5729,7 +5889,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5741,7 +5901,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5753,7 +5913,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5765,7 +5925,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5777,7 +5937,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5789,7 +5949,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5801,7 +5961,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5813,7 +5973,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5825,7 +5985,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5837,7 +5997,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5849,7 +6009,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5861,7 +6021,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5873,7 +6033,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5885,7 +6045,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5897,7 +6057,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5909,7 +6069,7 @@
       "summary": "The host, who appeared on Fox Business and Fox News, had been with the network for more than 12 years.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5921,7 +6081,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5933,7 +6093,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5945,7 +6105,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5957,7 +6117,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5969,7 +6129,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5981,7 +6141,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -5993,7 +6153,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6005,7 +6165,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6017,7 +6177,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6029,7 +6189,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6041,7 +6201,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6053,7 +6213,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6065,7 +6225,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6077,7 +6237,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6089,7 +6249,7 @@
       "summary": "Empowered by an international court order, Norway captured the vessel as part of a global effort to seize Russian assets. The Russians called it “piracy.”",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6101,7 +6261,7 @@
       "summary": "We look at how some mayors have managed to hold onto voter trust, and what national leaders could learn from their success.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6113,7 +6273,7 @@
       "summary": "The new Cybercab embodies Elon Musk’s vision of cars that drive themselves, but it is not clear when the vehicle will be widely available.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6125,7 +6285,7 @@
       "summary": "Facing growing competition from China and rapidly advancing technology, the German auto giant said Thursday its board had approved a “comprehensive” overhaul.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6137,7 +6297,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6149,7 +6309,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6161,7 +6321,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6173,7 +6333,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6185,7 +6345,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6197,7 +6357,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6209,7 +6369,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6221,7 +6381,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6233,7 +6393,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6245,7 +6405,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6257,7 +6417,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6269,7 +6429,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6281,7 +6441,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6293,7 +6453,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6305,7 +6465,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6317,7 +6477,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6329,7 +6489,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6341,7 +6501,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6353,7 +6513,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6365,7 +6525,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6377,7 +6537,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6389,7 +6549,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6401,7 +6561,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6413,7 +6573,7 @@
       "summary": "The music venue, which opened in 2025, was built specifically for large concerts. The fate of its next show, featuring AC/DC, is unclear.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6425,7 +6585,7 @@
       "summary": "The network sued the agency last month to stop it from taking steps that could force ABC stations off the air. The F.C.C. said the lawsuit was premature.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6437,7 +6597,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6449,7 +6609,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6461,7 +6621,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6473,7 +6633,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6485,7 +6645,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6497,7 +6657,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6509,7 +6669,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6521,7 +6681,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6533,7 +6693,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6545,7 +6705,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6557,7 +6717,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6569,7 +6729,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6581,7 +6741,7 @@
       "summary": "Rescuers pulled out two survivors as the search continued for hundreds missing inside hydropower projects that were buried in the flooding catastrophe last week.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6593,7 +6753,7 @@
       "summary": "A hot meat pie from any roadside bakery is a staple on a long Australian road trip, but what does it take to be crowned a winner?",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6605,7 +6765,7 @@
       "summary": "President Javier Milei has dialed up Argentina’s claim over the British territory, while President Trump has raised questions about longstanding U.S. neutrality on the dispute.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6617,7 +6777,7 @@
       "summary": "The operation, which began in June and is ongoing, came as fighting between the U.S. and Iran flared anew.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6629,7 +6789,7 @@
       "summary": "Lori Chavez-DeRemer spent Labor Department funds on personal travel and tolerated harassment in the agency, its inspector general found.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6641,7 +6801,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6653,7 +6813,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6665,7 +6825,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6677,7 +6837,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6689,7 +6849,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6701,7 +6861,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6713,7 +6873,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6725,7 +6885,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6737,7 +6897,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6749,7 +6909,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6761,7 +6921,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6773,7 +6933,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6785,7 +6945,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6797,7 +6957,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6809,7 +6969,7 @@
       "summary": "Thousands are missing, and some families have lost hope of recovering their bodies. To carry out his sacred duty, a son lights the funeral pyre for a straw effigy of his father.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6821,7 +6981,7 @@
       "summary": "An Australian engineer advising the effort described how two men were freed after nine days trapped in a tunnel at the Upper Trishuli 3A hydropower plant.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6833,7 +6993,7 @@
       "summary": "The Alternative for Germany party has tried to soften its hard-line image but is still privately working with extremists. It could win a state election on Sunday.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6845,7 +7005,7 @@
       "summary": "Advisers to the Reform U.K. leader Nigel Farage were captured on film apparently arranging contributions from a man posing as a foreign donor.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6857,7 +7017,7 @@
       "summary": "Kyrylo Budanov, a decorated soldier and former military spy chief, advocates a negotiated settlement. Talks are expected to resume this month.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6869,7 +7029,7 @@
       "summary": "Alejandro Betancourt has been targeted by multiple investigations. Now he’s the U.S. government’s unrivaled partner in President Trump’s bid to control Venezuelan oil resources.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6881,7 +7041,7 @@
       "summary": "In Colombia, as in the United States and El Salvador, leaders are increasingly using images of captured or killed enemies to project power.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6893,7 +7053,7 @@
       "summary": "A powerful El Niño is fanning what could be Indonesia’s worst fire season in years, one that is also raising fears of a regional health crisis.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6905,7 +7065,7 @@
       "summary": "The Equal Earth projection shows countries’ true size relative to one another, unlike the centuries-old Mercator map, which critics say makes Africa look smaller than it is.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6917,7 +7077,7 @@
       "summary": "With thousands still missing in Nepal’s floods, hundreds of families have turned to symbolic cremations to honor their loved ones. Our South Asia bureau chief, Mujib Mashal, witnessed one of the ceremonies.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6929,7 +7089,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6941,7 +7101,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6953,7 +7113,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6965,7 +7125,7 @@
       "summary": "Alumni have varying opinions about the school’s deal with the personal finance company SoFi to advertise on Notre Dame athletic uniforms.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6977,7 +7137,7 @@
       "summary": "With slumping sales and fewer tourists, California winemakers have turned to special events and classes to woo customers — even those who don’t drink.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -6989,7 +7149,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7001,7 +7161,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7013,7 +7173,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7025,7 +7185,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7037,7 +7197,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7049,7 +7209,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7061,7 +7221,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7073,7 +7233,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7085,7 +7245,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7097,7 +7257,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7109,7 +7269,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7121,7 +7281,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7133,7 +7293,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7145,7 +7305,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7157,7 +7317,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7169,7 +7329,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7181,7 +7341,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7193,7 +7353,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7205,7 +7365,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7217,7 +7377,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7229,7 +7389,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7241,7 +7401,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7253,7 +7413,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7265,7 +7425,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7277,7 +7437,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7289,7 +7449,7 @@
       "summary": "The attack came as the American envoys Steve Witkoff and Jared Kushner were said to be planning imminent visits to Kyiv and to Moscow.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7301,7 +7461,7 @@
       "summary": "Abdulrahman al-Qaradawi was extradited from Lebanon to the Emirates, a close U.S. ally, after criticizing its government, in a case that alarmed human rights experts.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7313,7 +7473,7 @@
       "summary": "The recent capture of a strategic ridge has further entrenched the Israeli occupation of Lebanese territory, as efforts to broker lasting peace have floundered.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7325,7 +7485,7 @@
       "summary": "The police said they were investigating the theft of about $155,000 worth of the famously creamy Irish stout from an industrial park in northwestern England.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7337,7 +7497,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7349,7 +7509,7 @@
       "summary": "The late feminist icon insisted that women were not a niche audience — and proved it in 1971 with the start of an influential publication owned and operated by them.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7361,7 +7521,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7373,7 +7533,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7385,7 +7545,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7397,7 +7557,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7409,7 +7569,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7421,7 +7581,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7433,7 +7593,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7445,7 +7605,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7457,7 +7617,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7469,7 +7629,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7481,7 +7641,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7493,7 +7653,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7505,7 +7665,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7517,7 +7677,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7529,7 +7689,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7541,7 +7701,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7553,7 +7713,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7565,7 +7725,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7577,7 +7737,7 @@
       "summary": "Insisting on seeing things for himself, even in hostile terrain, Mr. Carney opposed the closing of the U.S. embassy in Khartoum while Osama Bin Laden established himself there.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7589,7 +7749,7 @@
       "summary": "The survivors contend that the company should have notified the police when it shut down the shooter’s disturbing ChatGPT account eight months before the February attack in British Columbia.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7601,7 +7761,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7613,7 +7773,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7625,7 +7785,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7637,7 +7797,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7649,7 +7809,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7661,7 +7821,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7673,7 +7833,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7685,7 +7845,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7697,7 +7857,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7709,7 +7869,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7721,7 +7881,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7733,7 +7893,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7745,7 +7905,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7757,7 +7917,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7769,7 +7929,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7781,7 +7941,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7793,7 +7953,7 @@
       "summary": "The video shows fictitious scenes of Mayor Zohran Mamdani on the phone, celebrating with Ayatollah Mojtaba Khamenei and others, at the prospect of Mr. Netanyahu losing re-election.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7805,7 +7965,7 @@
       "summary": "One of two workers rescued from a hydroelectric plant said he had recited prayers over and over while trapped deep underground. “How many days has it been?” he asked.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7817,7 +7977,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7829,7 +7989,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7841,7 +8001,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7853,7 +8013,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7865,7 +8025,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7877,7 +8037,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7889,7 +8049,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7901,7 +8061,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7913,7 +8073,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7925,7 +8085,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7937,7 +8097,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7949,7 +8109,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7961,7 +8121,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7973,7 +8133,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7985,7 +8145,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -7997,7 +8157,7 @@
       "summary": "Doctors were hopeful the drug, which was being tested in a large clinical trial by Novartis, was going to be a powerful new tool to fight heart disease.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8009,7 +8169,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8021,7 +8181,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8033,7 +8193,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8045,7 +8205,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8057,7 +8217,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8069,7 +8229,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8081,7 +8241,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8093,7 +8253,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8105,7 +8265,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8117,7 +8277,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8129,7 +8289,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8141,7 +8301,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8153,7 +8313,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8165,7 +8325,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8177,7 +8337,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8189,7 +8349,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8201,7 +8361,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8213,7 +8373,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8225,7 +8385,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8237,7 +8397,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8249,7 +8409,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8261,7 +8421,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8273,7 +8433,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8285,7 +8445,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8297,7 +8457,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8309,7 +8469,7 @@
       "summary": "The Kremlin has denied that a mass mobilization is being prepared, but some military-age men are taking no chances.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8321,7 +8481,7 @@
       "summary": "The skeletal remains will go back to the Indigenous Naga people of the Indian subcontinent, six years after formal repatriation efforts began.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8333,7 +8493,7 @@
       "summary": "The bare-bones village of prefab homes has none of the gilded Trump aesthetic, and the Israelis there are weary of being seen as a gauge of their country’s roller-coaster view of the president.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8345,7 +8505,7 @@
       "summary": "The improbable rescue came a day after two other workers were recovered from a buried tunnel.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8357,7 +8517,7 @@
       "summary": "How two investigative reporters for The Times learned where many of the luxury cars stolen to order in Canada are actually going, and why.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8369,7 +8529,7 @@
       "summary": "James Orr, who has ties to Peter Thiel and JD Vance, was suspended from Reform U.K. after he was filmed apparently arranging contributions from a man posing as a foreign donor.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8381,7 +8541,7 @@
       "summary": "The network this week took Maria Bartiromo off the air, pulling one of the last hosts whose coverage of Dominion Voting Systems drew an expensive defamation lawsuit.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8393,7 +8553,7 @@
       "summary": "The beleaguered auto giant reached a deal with unions to cut tens of thousands of jobs and slash production. Is it enough to revive an iconic German company?",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8405,7 +8565,7 @@
       "summary": "The tech giant must pay $3,000 per pirated book that it used to train its chatbot. Many authors fear they could lose funds to others in the book business.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8417,7 +8577,7 @@
       "summary": "A legislative setback for a manufacturing and housing proposal shows how hard it remains to build in the largest state — and why a backlash against billionaires could make it even harder.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8429,7 +8589,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8441,7 +8601,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8453,7 +8613,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8465,7 +8625,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8477,7 +8637,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8489,7 +8649,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8501,7 +8661,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8513,7 +8673,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8525,7 +8685,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8537,7 +8697,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8549,7 +8709,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8561,7 +8721,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8573,7 +8733,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8585,7 +8745,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8597,7 +8757,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8609,7 +8769,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8621,7 +8781,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8633,7 +8793,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8645,7 +8805,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8657,7 +8817,7 @@
       "summary": "Mike Huckabee, the U.S. ambassador to Israel, made a rare trip to meet with Palestinians after international backlash over attacks by Israeli settlers.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8669,7 +8829,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8681,7 +8841,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8693,7 +8853,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8705,7 +8865,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8717,7 +8877,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8729,7 +8889,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8741,7 +8901,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8753,7 +8913,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8765,7 +8925,7 @@
       "summary": "The affected frozen fruit products, which were distributed to 19 states and to retailers like Walmart and Publix, were recalled starting in July.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8777,7 +8937,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8789,7 +8949,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8801,7 +8961,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8813,7 +8973,7 @@
       "summary": "A record 12.7 million young people are looking for jobs as the country embraces artificial intelligence — and as the technology begins to upend the work force.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8825,7 +8985,7 @@
       "summary": "Ulrich Siegmund, 35, once sold air fresheners. Now his far-right party is the favorite to win a state election in eastern Germany on Sunday.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8837,7 +8997,7 @@
       "summary": "Elections in Saxony-Anhalt, in the country’s east, could result in an outright majority for the Alternative for Germany party.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8849,7 +9009,7 @@
       "summary": "Unlike dozens of similar strikes, no one was killed after people suspected of drug smuggling were removed from what the U.S. military described as a floating refueling station.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8861,7 +9021,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8873,7 +9033,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8885,7 +9045,7 @@
       "summary": "Steve Witkoff and Jared Kushner met with President Vladimir V. Putin of Russia in Moscow on Saturday in an effort to revive peace talks.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8897,7 +9057,7 @@
       "summary": "The documents amount to an autopsy of the weapons-contracting process.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8909,7 +9069,7 @@
       "summary": "Elizabeth Hillman, chief of the 9/11 Memorial & Museum since 2022, says the stories of that day “remain compelling, and they’re still unfolding.”",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8921,7 +9081,7 @@
       "summary": "Continuing care retirement communities are widening their scope to help retirees age in place, with measured supports and a way to cap the soaring costs of aging.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8933,7 +9093,7 @@
       "summary": "After Pink’s sales slipped in recent years, Victoria Secret’s new chief executive is focused on making women feel bold and flirty.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8945,7 +9105,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8957,7 +9117,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8969,7 +9129,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8981,7 +9141,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -8993,7 +9153,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9005,7 +9165,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9017,7 +9177,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9029,7 +9189,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9041,7 +9201,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9053,7 +9213,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9065,7 +9225,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9077,7 +9237,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9089,7 +9249,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9101,7 +9261,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9113,7 +9273,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9125,7 +9285,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9137,7 +9297,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9149,7 +9309,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9161,7 +9321,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9173,7 +9333,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9185,7 +9345,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9197,7 +9357,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9209,7 +9369,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9221,7 +9381,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9233,7 +9393,7 @@
       "summary": "Hundreds have been deported to Haiti in recent weeks, and some say they have been left with no money, no protection from gangs and no place to go.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9245,7 +9405,7 @@
       "summary": "Officials said there were “multiple patients” but their injuries were not immediately known. Flights were halted at Miami International Airport after the Boeing 767-300 cargo plane overran its landing.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9257,7 +9417,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9269,7 +9429,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9281,7 +9441,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9293,7 +9453,7 @@
       "summary": "The Alternative for Germany, or AfD, trounced its rivals but was left unsure if it will be able to govern in Saxony-Anhalt. The result shocked Germany.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9305,7 +9465,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9317,7 +9477,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9329,7 +9489,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9341,7 +9501,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9353,7 +9513,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9365,7 +9525,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9377,7 +9537,7 @@
       "summary": "Microplastics are usually consumed through food and water, but more recently, they are making their way into Indonesia’s air and rain. Sui-Lee Wee, our Asia business correspondent, traveled to Jakarta, the capital, to find out why.",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9389,7 +9549,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9401,7 +9561,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9413,7 +9573,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9425,7 +9585,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9437,7 +9597,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9449,7 +9609,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9461,7 +9621,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9473,7 +9633,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9485,7 +9645,7 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
       "is_alert": false
     },
     {
@@ -9497,7 +9657,307 @@
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
-      "score": 3.68,
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "23307a29269c13c1",
+      "title": "In Peru, the Trump Administration Sees the Limits of Its Anti-China Push",
+      "url": "https://www.nytimes.com/2026/09/07/world/americas/peru-trump-china-economy.html",
+      "source": "NYT World",
+      "published_at": "2026-09-07T09:00:13+00:00",
+      "summary": "As Secretary of State Marco Rubio travels this week to Peru, its growing economic ties to China have raised tensions with the U.S., but show no signs of reversing course.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "8eed86767953e281",
+      "title": "Virtual Taekwondo Takes the Contact Out of a Combat Sport",
+      "url": "https://www.nytimes.com/2026/09/07/sports/virtual-taekwondo-asian-games.html",
+      "source": "NYT World",
+      "published_at": "2026-09-07T09:20:08+00:00",
+      "summary": "The contactless version of the Korean martial art is making its debut at this year’s Asian Games. Critics say it’s a glorified video game.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "087f744dfb023eea",
+      "title": "Noël Godin, Prankster Who Threw Pies at the Powerful, Dies at 80",
+      "url": "https://www.nytimes.com/2026/09/07/world/europe/noel-godin-dead.html",
+      "source": "NYT World",
+      "published_at": "2026-09-07T09:03:15+00:00",
+      "summary": "Splattering figures like Bill Gates, Jean-Luc Godard and Bernard-Henri Lévy, he perfected the art of using whipped cream as a form of protest.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "e97f020ded14351f",
+      "title": "How Ancient Farmers Used Floral Designs to Track Goods",
+      "url": "https://www.nytimes.com/2026/09/07/science/botanical-decorations-halafian-mesopotamia.html",
+      "source": "NYT World",
+      "published_at": "2026-09-07T09:00:17+00:00",
+      "summary": "A Mesopotamian culture’s decorated ceramics show some early roots of math, researchers argued.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "d43482393a989113",
+      "title": "Social Media in China Is Getting Really Dark",
+      "url": "https://www.nytimes.com/2026/09/07/business/china-social-media-pessimism.html",
+      "source": "NYT Business",
+      "published_at": "2026-09-07T09:04:03+00:00",
+      "summary": "The Chinese Communist Party has spent years trying to make “positive energy” the dominant mood of the country’s internet. It’s no longer working.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "a0d083e8b1a7a6a5",
+      "title": "Rivian R2 Review: A Tidier (in Size and Price) SUV Is Ready for the Suburbs",
+      "url": "https://www.nytimes.com/2026/09/07/business/rivian-r2-review.html",
+      "source": "NYT Business",
+      "published_at": "2026-09-07T09:03:29+00:00",
+      "summary": "The electric automaker’s new R2 takes what works from its bigger, costlier brother and adds a host of features with the mass market in mind.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "a142d2b1d9882f01",
+      "title": "Lottomatica shares jump 7% as Cirsa deal adds up to €300 mln online EBITDA",
+      "url": "https://www.investing.com/news/stock-market-news/lottomatica-shares-jump-7-as-cirsa-deal-adds-up-to-300-mln-online-ebitda-4890579",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:45:59+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "68b1d44b323752d0",
+      "title": "Ahead of Xi’s US visit, China’s soybean crushers face high costs, weak margins",
+      "url": "https://www.investing.com/news/commodities-news/ahead-of-xis-us-visit-chinas-soybean-crushers-face-high-costs-weak-margins-4890572",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:30:37+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "64a8cc479f4d2bf6",
+      "title": "Tomra shares fall 6% as France drops mandatory deposit-return scheme",
+      "url": "https://www.investing.com/news/stock-market-news/tomra-shares-fall-6-as-france-drops-mandatory-depositreturn-scheme-4890566",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:25:09+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "733c5dc5aa90dc27",
+      "title": "SigmaRoc shares jump 12% on profit rise and acquisition deal",
+      "url": "https://www.investing.com/news/stock-market-news/sigmaroc-shares-jump-12-on-profit-rise-and-acquisition-deal-93CH-4890563",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:19:58+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "0bfd0ed243e7a05c",
+      "title": "Huawei launches new foldable smartphone; Xiaomi and Apple set to follow",
+      "url": "https://www.investing.com/news/stock-market-news/huawei-launches-new-foldable-smartphone-as-competition-with-xiaomi-apple-heats-up-4890496",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:18:48+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "c6fe7ebf617d3a81",
+      "title": "Why is IQE stock climbing today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-iqe-stock-climbing-today-93CH-4890562",
+      "source": "Investing.com News",
+      "published_at": "2026-09-07T09:13:07+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "5f3b77eeced5da8a",
+      "title": "Five things to watch in markets in the week ahead",
+      "url": "https://www.investing.com/news/economy-news/five-things-to-watch-in-markets-in-the-week-ahead-4890560",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T09:12:57+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "3158dd1f483fc5d2",
+      "title": "Take Five: Good evening, Mr Bond",
+      "url": "https://www.investing.com/news/economy-news/take-five-good-evening-mr-bond-4890525",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T08:00:44+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "22e2e032153bcca3",
+      "title": "U.S., Iran exchange fresh strikes; Nvidia’s Huang on AGI - what’s moving markets",
+      "url": "https://www.investing.com/news/economy-news/us-iran-exchange-fresh-strikes-nvidias-huang-on-agi--whats-moving-markets-4890510",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T07:54:13+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "3153c02cb8a53c76",
+      "title": "UK house prices fall for first time since November 2023, Lloyds data shows",
+      "url": "https://www.investing.com/news/economy-news/uk-house-prices-fall-for-first-time-since-november-2023-lloyds-data-shows-4890455",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T06:54:28+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "ad683c4720066f8e",
+      "title": "China’s export growth seen accelerating in August: Reuters poll",
+      "url": "https://www.investing.com/news/economy-news/chinas-export-growth-seen-accelerating-in-august-reuters-poll-4890373",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-07T05:42:55+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "5422c61ba899a710",
+      "title": "South Korea, US agree on more than $20 billion gas plant investment in Texas, media reports",
+      "url": "https://www.investing.com/news/commodities-news/south-korea-us-agree-on-more-than-20-billion-gas-plant-investment-in-texas-media-reports-4890526",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T08:00:59+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "7d838265bd1a2f5b",
+      "title": "Israeli strikes on southern Lebanese town kill 11, state news agency says",
+      "url": "https://www.investing.com/news/commodities-news/israeli-strikes-on-southern-lebanese-town-kill-11-state-news-agency-says-4890499",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T07:48:50+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "0749b15bbde8d2a2",
+      "title": "Natural Gas stuck between $2.87-$3.03: Live levels",
+      "url": "https://www.investing.com/news/commodities-news/natural-gas-stuck-between-287303-live-levels-93CH-4890483",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T07:12:23+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "3a52b48cd8fa47c4",
+      "title": "Copper overbought at $6.68 with weak ADX: Live levels",
+      "url": "https://www.investing.com/news/commodities-news/copper-overbought-at-668-with-weak-adx-live-levels-93CH-4890482",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T07:12:13+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "33021e4c44ff9bd2",
+      "title": "London Gas Oil stretched 10% above 50MA: Live levels",
+      "url": "https://www.investing.com/news/commodities-news/london-gas-oil-stretched-10-above-50ma-live-levels-93CH-4890480",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T07:12:09+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "cc8e2cf870ed5ace",
+      "title": "Crude Oil WTI double-top at $93.64 resistance: Live levels",
+      "url": "https://www.investing.com/news/commodities-news/crude-oil-wti-doubletop-at-9364-resistance-live-levels-93CH-4890479",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T07:12:07+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "fa6753b3b34051f9",
+      "title": "Silver trapped in $64-$68 range, breakout imminent: Live levels",
+      "url": "https://www.investing.com/news/commodities-news/silver-trapped-in-6468-range-breakout-imminent-live-levels-93CH-4890478",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-09-07T07:11:54+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
+      "is_alert": false
+    },
+    {
+      "id": "725a9a640a3090f6",
+      "title": "Why is Ashmore stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-ashmore-stock-sliding-today-93CH-4890559",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-07T09:12:32+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.67,
       "is_alert": false
     }
   ]
