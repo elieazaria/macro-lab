@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-04T15:18:20.743236+00:00",
+  "generated_at": "2026-10-04T19:32:59.854903+00:00",
   "meta": {
-    "total_articles_7j": 887,
-    "articles_today": 23,
-    "alerts_critiques": 245,
+    "total_articles_7j": 893,
+    "articles_today": 10,
+    "alerts_critiques": 247,
     "score_moyen": 4.99,
     "seuil_alerte": 5.0,
     "themes": {
       "War/Conflict": 86,
       "Inflation": 29,
       "Fed Emergency": 22,
-      "Central Bank": 19,
+      "Central Bank": 20,
       "Oil/Energy": 15,
       "Sanctions": 10,
       "Geo Shock": 8,
@@ -187,7 +187,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 13.65,
+      "score": 13.66,
       "is_alert": true
     },
     {
@@ -230,7 +230,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.66,
+      "score": 12.67,
       "is_alert": true
     },
     {
@@ -275,7 +275,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 12.49,
+      "score": 12.5,
       "is_alert": true
     },
     {
@@ -362,7 +362,7 @@
         "Market Crash",
         "Central Bank"
       ],
-      "score": 11.66,
+      "score": 11.67,
       "is_alert": true
     },
     {
@@ -390,7 +390,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.31,
+      "score": 11.32,
       "is_alert": true
     },
     {
@@ -404,7 +404,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.3,
+      "score": 11.31,
       "is_alert": true
     },
     {
@@ -418,7 +418,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.29,
+      "score": 11.3,
       "is_alert": true
     },
     {
@@ -432,7 +432,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.29,
+      "score": 11.3,
       "is_alert": true
     },
     {
@@ -446,7 +446,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.29,
+      "score": 11.3,
       "is_alert": true
     },
     {
@@ -460,7 +460,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.28,
+      "score": 11.29,
       "is_alert": true
     },
     {
@@ -565,6 +565,18 @@
       "is_alert": true
     },
     {
+      "id": "8ecae5778eea047e",
+      "title": "Why the Fed Might Raise Interest Rates When Borrowing Costs Are Surging",
+      "url": "https://www.nytimes.com/2026/09/16/business/economy/fed-interest-rates-borrowing-costs.html",
+      "source": "NYT Economy",
+      "published_at": "2026-09-16T18:19:24+00:00",
+      "summary": "Elevated interest rates have raised the cost of mortgages and car loans without dampening consumer spending.",
+      "raw_score": 32.367,
+      "themes": [],
+      "score": 10.98,
+      "is_alert": true
+    },
+    {
       "id": "a1a47d8e50571186",
       "title": "U.K. Base Would Be Ambitious Target for ‘Gig Economy’ Warfare",
       "url": "https://www.nytimes.com/2026/10/04/world/europe/uk-base-plot-proxy-attacks.html",
@@ -576,18 +588,6 @@
         "War/Conflict"
       ],
       "score": 10.98,
-      "is_alert": true
-    },
-    {
-      "id": "8ecae5778eea047e",
-      "title": "Why the Fed Might Raise Interest Rates When Borrowing Costs Are Surging",
-      "url": "https://www.nytimes.com/2026/09/16/business/economy/fed-interest-rates-borrowing-costs.html",
-      "source": "NYT Economy",
-      "published_at": "2026-09-16T18:19:24+00:00",
-      "summary": "Elevated interest rates have raised the cost of mortgages and car loans without dampening consumer spending.",
-      "raw_score": 32.367,
-      "themes": [],
-      "score": 10.97,
       "is_alert": true
     },
     {
@@ -642,7 +642,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 10.76,
+      "score": 10.77,
       "is_alert": true
     },
     {
@@ -726,7 +726,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.44,
+      "score": 10.45,
       "is_alert": true
     },
     {
@@ -782,7 +782,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.83,
+      "score": 9.84,
       "is_alert": true
     },
     {
@@ -794,7 +794,7 @@
       "summary": "",
       "raw_score": 27.127,
       "themes": [],
-      "score": 9.79,
+      "score": 9.8,
       "is_alert": true
     },
     {
@@ -841,6 +841,20 @@
       "is_alert": true
     },
     {
+      "id": "06f5a9bb331905c7",
+      "title": "Russia’s Rosatom takes Iran’s Bushehr nuclear plant offline for maintenance",
+      "url": "https://www.investing.com/news/economy-news/russias-rosatom-takes-irans-bushehr-nuclear-plant-offline-for-maintenance-93CH-4922350",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-29T11:25:46+00:00",
+      "summary": "",
+      "raw_score": 26.42,
+      "themes": [
+        "Geo Shock"
+      ],
+      "score": 9.64,
+      "is_alert": true
+    },
+    {
       "id": "c5ef2b6e56e6e30d",
       "title": "Constellation Energy stock climbs on Amazon nuclear power deal",
       "url": "https://www.investing.com/news/stock-market-news/constellation-energy-stock-climbs-on-amazon-nuclear-power-deal-4925858",
@@ -869,20 +883,6 @@
       "is_alert": true
     },
     {
-      "id": "06f5a9bb331905c7",
-      "title": "Russia’s Rosatom takes Iran’s Bushehr nuclear plant offline for maintenance",
-      "url": "https://www.investing.com/news/economy-news/russias-rosatom-takes-irans-bushehr-nuclear-plant-offline-for-maintenance-93CH-4922350",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-29T11:25:46+00:00",
-      "summary": "",
-      "raw_score": 26.42,
-      "themes": [
-        "Geo Shock"
-      ],
-      "score": 9.63,
-      "is_alert": true
-    },
-    {
       "id": "14d0cfc3505f657a",
       "title": "U.S. to reportedly lend Vistra $4.2 billion to expand nuclear power output",
       "url": "https://www.investing.com/news/stock-market-news/us-to-reportedly-lend-vistra-42-billion-to-expand-nuclear-power-output-4930854",
@@ -892,6 +892,20 @@
       "raw_score": 26.355,
       "themes": [
         "Geo Shock"
+      ],
+      "score": 9.62,
+      "is_alert": true
+    },
+    {
+      "id": "e085b8995dfce72d",
+      "title": "Trump adviser Hassett urges Powell to leave Fed board after renovation report",
+      "url": "https://www.investing.com/news/economy-news/trump-adviser-hassett-urges-powell-to-leave-fed-board-after-renovation-report-4930943",
+      "source": "Investing.com News",
+      "published_at": "2026-10-04T16:36:20+00:00",
+      "summary": "",
+      "raw_score": 26.355,
+      "themes": [
+        "Central Bank"
       ],
       "score": 9.62,
       "is_alert": true
@@ -1031,7 +1045,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.08,
+      "score": 9.09,
       "is_alert": true
     },
     {
@@ -1161,6 +1175,48 @@
       "is_alert": true
     },
     {
+      "id": "589c2cdebbcf5ac4",
+      "title": "US does not see safety concern from 737 MAX software issue",
+      "url": "https://www.investing.com/news/stock-market-news/us-does-not-see-safety-concern-from-737-max-software-issue-4925512",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-30T15:12:50+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.8,
+      "is_alert": true
+    },
+    {
+      "id": "ddab75cc32d204f0",
+      "title": "Tech CEOs questioned Anthropic leader over AI safety warnings, WSJ reports",
+      "url": "https://www.investing.com/news/stock-market-news/tech-ceos-questioned-anthropic-leader-over-ai-safety-warnings-wsj-reports-4926016",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-09-30T22:03:21+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.8,
+      "is_alert": true
+    },
+    {
+      "id": "5b00c1e3ef303050",
+      "title": "Pilots of crashed Amazon cargo plane were unaware of wind conditions",
+      "url": "https://www.investing.com/news/stock-market-news/pilots-of-crashed-amazon-cargo-plane-were-unaware-of-wind-conditions-4928643",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-01T22:54:34+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.8,
+      "is_alert": true
+    },
+    {
       "id": "3f4d58e61796b62b",
       "title": "The Chefs Warehouse stock hits all-time high at 117.67 USD",
       "url": "https://www.investing.com/news/company-news/the-chefs-warehouse-stock-hits-alltime-high-at-11767-usd-93CH-4930310",
@@ -1168,6 +1224,34 @@
       "published_at": "2026-10-02T18:57:43+00:00",
       "summary": "",
       "raw_score": 22.716,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.8,
+      "is_alert": true
+    },
+    {
+      "id": "95220d3f810b15e6",
+      "title": "Hexaware Technologies Highlights the Next Wave of AI in Financial Services",
+      "url": "https://www.investing.com/news/press-releases/hexaware-technologies-highlights-the-next-wave-of-ai-in-financial-services-4930821",
+      "source": "Investing.com News",
+      "published_at": "2026-10-03T10:01:26+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.8,
+      "is_alert": true
+    },
+    {
+      "id": "2c34843a28af4982",
+      "title": "U.S. debt could reach 160% of GDP within decade, Scope warns",
+      "url": "https://www.investing.com/news/economy-news/us-debt-could-reach-160-of-gdp-within-decade-scope-warns-4930813",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-03T09:26:02+00:00",
+      "summary": "",
+      "raw_score": 22.688,
       "themes": [
         "War/Conflict"
       ],
@@ -1231,76 +1315,6 @@
       "is_alert": true
     },
     {
-      "id": "589c2cdebbcf5ac4",
-      "title": "US does not see safety concern from 737 MAX software issue",
-      "url": "https://www.investing.com/news/stock-market-news/us-does-not-see-safety-concern-from-737-max-software-issue-4925512",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-09-30T15:12:50+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.79,
-      "is_alert": true
-    },
-    {
-      "id": "ddab75cc32d204f0",
-      "title": "Tech CEOs questioned Anthropic leader over AI safety warnings, WSJ reports",
-      "url": "https://www.investing.com/news/stock-market-news/tech-ceos-questioned-anthropic-leader-over-ai-safety-warnings-wsj-reports-4926016",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-09-30T22:03:21+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.79,
-      "is_alert": true
-    },
-    {
-      "id": "5b00c1e3ef303050",
-      "title": "Pilots of crashed Amazon cargo plane were unaware of wind conditions",
-      "url": "https://www.investing.com/news/stock-market-news/pilots-of-crashed-amazon-cargo-plane-were-unaware-of-wind-conditions-4928643",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-01T22:54:34+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.79,
-      "is_alert": true
-    },
-    {
-      "id": "95220d3f810b15e6",
-      "title": "Hexaware Technologies Highlights the Next Wave of AI in Financial Services",
-      "url": "https://www.investing.com/news/press-releases/hexaware-technologies-highlights-the-next-wave-of-ai-in-financial-services-4930821",
-      "source": "Investing.com News",
-      "published_at": "2026-10-03T10:01:26+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.79,
-      "is_alert": true
-    },
-    {
-      "id": "2c34843a28af4982",
-      "title": "U.S. debt could reach 160% of GDP within decade, Scope warns",
-      "url": "https://www.investing.com/news/economy-news/us-debt-could-reach-160-of-gdp-within-decade-scope-warns-4930813",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-03T09:26:02+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.79,
-      "is_alert": true
-    },
-    {
       "id": "049275055e841a97",
       "title": "Exclusive-Japan top FX diplomat urges markets to heed ’very clear’ warning on yen",
       "url": "https://www.investing.com/news/economy-news/exclusivejapan-top-fx-diplomat-urges-markets-to-heed-very-clear-warning-on-yen-4919510",
@@ -1357,6 +1371,34 @@
       "is_alert": true
     },
     {
+      "id": "dd6766f3143b1335",
+      "title": "2 passengers who helped thwart the FlyDubai attack add details in a TV interview.",
+      "url": "https://www.nytimes.com/live/2026/10/01/world/flydubai-flight-israel-plane-pilots/2-passengers-who-helped-thwart-the-flydubai-attack-add-details-in-a-tv-interview",
+      "source": "NYT World",
+      "published_at": "2026-10-01T19:56:24+00:00",
+      "summary": "",
+      "raw_score": 22.604,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.78,
+      "is_alert": true
+    },
+    {
+      "id": "f4719d87fc2eb94c",
+      "title": "Six AI picks are up 34%-106% since picked, the software name leads them all",
+      "url": "https://www.investing.com/news/stock-market-news/six-ai-picks-are-up-34106-since-picked-the-software-name-leads-them-all-4928927",
+      "source": "Investing.com News",
+      "published_at": "2026-10-02T06:25:04+00:00",
+      "summary": "",
+      "raw_score": 22.604,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.78,
+      "is_alert": true
+    },
+    {
       "id": "189e67162e5f5e9f",
       "title": "US FAA finds Boeing 737 MAX software glitch does not pose safety issue",
       "url": "https://www.investing.com/news/stock-market-news/us-faa-finds-boeing-737-max-software-glitch-does-not-pose-safety-issue-4930307",
@@ -1364,6 +1406,34 @@
       "published_at": "2026-10-02T18:54:37+00:00",
       "summary": "",
       "raw_score": 22.632,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.78,
+      "is_alert": true
+    },
+    {
+      "id": "0cd4ab3da3c43299",
+      "title": "Boeing shares gain as FAA finds no safety issue with 737 MAX software glitch",
+      "url": "https://www.investing.com/news/stock-market-news/boeing-shares-gain-as-faa-finds-no-safety-issue-with-737-max-software-glitch-4930306",
+      "source": "Investing.com News",
+      "published_at": "2026-10-02T18:52:14+00:00",
+      "summary": "",
+      "raw_score": 22.604,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.78,
+      "is_alert": true
+    },
+    {
+      "id": "e76b591d1a402e85",
+      "title": "WestJet first told Boeing about 737 MAX software glitch cleared by FAA, memo says",
+      "url": "https://www.investing.com/news/stock-market-news/westjet-first-told-boeing-about-737-max-software-glitch-cleared-by-faa-memo-says-4930353",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-02T21:30:34+00:00",
+      "summary": "",
+      "raw_score": 22.604,
       "themes": [
         "War/Conflict"
       ],
@@ -1399,20 +1469,6 @@
       "is_alert": true
     },
     {
-      "id": "dd6766f3143b1335",
-      "title": "2 passengers who helped thwart the FlyDubai attack add details in a TV interview.",
-      "url": "https://www.nytimes.com/live/2026/10/01/world/flydubai-flight-israel-plane-pilots/2-passengers-who-helped-thwart-the-flydubai-attack-add-details-in-a-tv-interview",
-      "source": "NYT World",
-      "published_at": "2026-10-01T19:56:24+00:00",
-      "summary": "",
-      "raw_score": 22.604,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.77,
-      "is_alert": true
-    },
-    {
       "id": "37209faa57fdec50",
       "title": "Putin says the world is living through a dangerous moment, warns West not to escalate",
       "url": "https://www.investing.com/news/economic-indicators/putin-says-the-world-is-living-through-a-dangerous-moment-warns-west-not-to-escalate-4928087",
@@ -1420,48 +1476,6 @@
       "published_at": "2026-10-02T00:00:30+00:00",
       "summary": "",
       "raw_score": 22.577,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.77,
-      "is_alert": true
-    },
-    {
-      "id": "f4719d87fc2eb94c",
-      "title": "Six AI picks are up 34%-106% since picked, the software name leads them all",
-      "url": "https://www.investing.com/news/stock-market-news/six-ai-picks-are-up-34106-since-picked-the-software-name-leads-them-all-4928927",
-      "source": "Investing.com News",
-      "published_at": "2026-10-02T06:25:04+00:00",
-      "summary": "",
-      "raw_score": 22.604,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.77,
-      "is_alert": true
-    },
-    {
-      "id": "0cd4ab3da3c43299",
-      "title": "Boeing shares gain as FAA finds no safety issue with 737 MAX software glitch",
-      "url": "https://www.investing.com/news/stock-market-news/boeing-shares-gain-as-faa-finds-no-safety-issue-with-737-max-software-glitch-4930306",
-      "source": "Investing.com News",
-      "published_at": "2026-10-02T18:52:14+00:00",
-      "summary": "",
-      "raw_score": 22.604,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.77,
-      "is_alert": true
-    },
-    {
-      "id": "e76b591d1a402e85",
-      "title": "WestJet first told Boeing about 737 MAX software glitch cleared by FAA, memo says",
-      "url": "https://www.investing.com/news/stock-market-news/westjet-first-told-boeing-about-737-max-software-glitch-cleared-by-faa-memo-says-4930353",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-02T21:30:34+00:00",
-      "summary": "",
-      "raw_score": 22.604,
       "themes": [
         "War/Conflict"
       ],
@@ -1511,20 +1525,6 @@
       "is_alert": true
     },
     {
-      "id": "f38b49aae5a38dba",
-      "title": "Two of China’s EV Makers Announce a Deal as Auto Industry Moves Toward Consolidation",
-      "url": "https://www.nytimes.com/2026/09/28/business/china-ev-geely-nio.html",
-      "source": "NYT Business",
-      "published_at": "2026-09-28T16:46:59+00:00",
-      "summary": "Two of the country’s leading makers of electric vehicles announced they are merging their battery swapping and charging operations.",
-      "raw_score": 22.089,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.66,
-      "is_alert": true
-    },
-    {
       "id": "624d0ae4da469b0e",
       "title": "Paramount’s Streaming Chief Leaves Ahead of Warner Bros. Deal",
       "url": "https://www.nytimes.com/2026/09/29/business/media/paramount-holland-bloys-hbo.html",
@@ -1532,6 +1532,20 @@
       "published_at": "2026-09-29T22:30:02+00:00",
       "summary": "Cindy Holland’s departure clears the way for Casey Bloys, the HBO chairman, to have a leading role in the combined company’s streaming services.",
       "raw_score": 22.115,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.67,
+      "is_alert": true
+    },
+    {
+      "id": "f38b49aae5a38dba",
+      "title": "Two of China’s EV Makers Announce a Deal as Auto Industry Moves Toward Consolidation",
+      "url": "https://www.nytimes.com/2026/09/28/business/china-ev-geely-nio.html",
+      "source": "NYT Business",
+      "published_at": "2026-09-28T16:46:59+00:00",
+      "summary": "Two of the country’s leading makers of electric vehicles announced they are merging their battery swapping and charging operations.",
+      "raw_score": 22.089,
       "themes": [
         "War/Conflict"
       ],
@@ -1693,6 +1707,20 @@
       "is_alert": true
     },
     {
+      "id": "b8e43c8f9e892c06",
+      "title": "Oil climbs after Trump denies he is willing to ease sanctions on Iran",
+      "url": "https://www.investing.com/news/commodities-news/oil-climbs-after-trump-denies-he-is-willing-to-ease-sanctions-on-iran-4923992",
+      "source": "Investing.com News",
+      "published_at": "2026-09-30T01:42:54+00:00",
+      "summary": "",
+      "raw_score": 21.402,
+      "themes": [
+        "Sanctions"
+      ],
+      "score": 8.51,
+      "is_alert": true
+    },
+    {
       "id": "5be116072d0a41ba",
       "title": "US sanctions target Iran’s auto, rail sectors as blockade chokes ship lanes",
       "url": "https://www.investing.com/news/commodities-news/us-sanctions-target-irans-auto-rail-sectors-after-blockade-chokes-shipping-lanes-4928052",
@@ -1704,20 +1732,6 @@
         "Sanctions"
       ],
       "score": 8.51,
-      "is_alert": true
-    },
-    {
-      "id": "b8e43c8f9e892c06",
-      "title": "Oil climbs after Trump denies he is willing to ease sanctions on Iran",
-      "url": "https://www.investing.com/news/commodities-news/oil-climbs-after-trump-denies-he-is-willing-to-ease-sanctions-on-iran-4923992",
-      "source": "Investing.com News",
-      "published_at": "2026-09-30T01:42:54+00:00",
-      "summary": "",
-      "raw_score": 21.402,
-      "themes": [
-        "Sanctions"
-      ],
-      "score": 8.5,
       "is_alert": true
     },
     {
@@ -1735,18 +1749,6 @@
       "is_alert": true
     },
     {
-      "id": "96d9fa85f7924b72",
-      "title": "Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build",
-      "url": "https://www.investing.com/news/economy-news/dollar-firms-as-usiran-tensions-lift-oil-hawkish-fed-bets-build-4919239",
-      "source": "Investing.com Economy",
-      "published_at": "2026-09-28T06:06:23+00:00",
-      "summary": "",
-      "raw_score": 20.936,
-      "themes": [],
-      "score": 8.4,
-      "is_alert": true
-    },
-    {
       "id": "2a85315b0077ac17",
       "title": "Dollar hold near two-month peak as yields rise, Fed data looms",
       "url": "https://www.investing.com/news/economy-news/dollar-hold-near-twomonth-peak-as-yields-rise-fed-data-looms-4921499",
@@ -1754,6 +1756,18 @@
       "published_at": "2026-09-29T02:07:10+00:00",
       "summary": "",
       "raw_score": 20.962,
+      "themes": [],
+      "score": 8.41,
+      "is_alert": true
+    },
+    {
+      "id": "96d9fa85f7924b72",
+      "title": "Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build",
+      "url": "https://www.investing.com/news/economy-news/dollar-firms-as-usiran-tensions-lift-oil-hawkish-fed-bets-build-4919239",
+      "source": "Investing.com Economy",
+      "published_at": "2026-09-28T06:06:23+00:00",
+      "summary": "",
+      "raw_score": 20.936,
       "themes": [],
       "score": 8.4,
       "is_alert": true
@@ -2005,6 +2019,20 @@
       "is_alert": true
     },
     {
+      "id": "fabbcfad11eba91a",
+      "title": "Canada is not close to restoring housing affordability, says central bank",
+      "url": "https://www.investing.com/news/economy-news/canada-is-not-close-to-restoring-housing-affordability-says-central-bank-4928158",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-01T19:18:31+00:00",
+      "summary": "",
+      "raw_score": 16.523,
+      "themes": [
+        "Central Bank"
+      ],
+      "score": 7.41,
+      "is_alert": true
+    },
+    {
       "id": "c5476b15ec572970",
       "title": "OPEC+ agrees to keep November oil output targets steady",
       "url": "https://www.investing.com/news/commodities-news/opec-agrees-in-principle-to-keep-november-oil-output-targets-steady-sources-say-4930923",
@@ -2016,20 +2044,6 @@
         "Oil/Energy"
       ],
       "score": 7.41,
-      "is_alert": true
-    },
-    {
-      "id": "fabbcfad11eba91a",
-      "title": "Canada is not close to restoring housing affordability, says central bank",
-      "url": "https://www.investing.com/news/economy-news/canada-is-not-close-to-restoring-housing-affordability-says-central-bank-4928158",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-01T19:18:31+00:00",
-      "summary": "",
-      "raw_score": 16.523,
-      "themes": [
-        "Central Bank"
-      ],
-      "score": 7.4,
       "is_alert": true
     },
     {
@@ -2586,6 +2600,18 @@
       "published_at": "2026-10-01T14:32:16+00:00",
       "summary": "The inquiry by the Commodity Futures Trading Commission centers on bets the former congressman made on Kalshi in the weeks before he was pardoned in January 2025.",
       "raw_score": 11.933,
+      "themes": [],
+      "score": 6.37,
+      "is_alert": true
+    },
+    {
+      "id": "6289d58466e6b5d9",
+      "title": "Rebuked by Bond Market, Bessent Says ‘House’ Does Not Always Win",
+      "url": "https://www.nytimes.com/2026/10/04/business/bond-market-scott-bessent.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-04T18:33:25+00:00",
+      "summary": "The Treasury secretary said in an interview with Axios that he cannot control the Treasury market but argued that U.S. bond yields would come back down over time.",
+      "raw_score": 11.919,
       "themes": [],
       "score": 6.37,
       "is_alert": true
@@ -3375,18 +3401,6 @@
       "is_alert": false
     },
     {
-      "id": "75d4fd0c976d162a",
-      "title": "Nigerian Charged With Running Fake Government Agency",
-      "url": "https://www.nytimes.com/2026/10/01/world/africa/nigeria-fake-government-agency.html",
-      "source": "NYT World",
-      "published_at": "2026-10-01T18:33:15+00:00",
-      "summary": "The Nigerian secured office space in a federal building, opened bank accounts and even held meetings with foreign diplomats. He says he is innocent.",
-      "raw_score": 4.813,
-      "themes": [],
-      "score": 4.77,
-      "is_alert": false
-    },
-    {
       "id": "1b1e798d6bda075a",
       "title": "Who Were the Pilots on the FlyDubai Flight?",
       "url": "https://www.nytimes.com/2026/10/04/world/middleeast/flydubai-flight-who-were-pilots.html",
@@ -3418,6 +3432,18 @@
       "published_at": "2026-09-29T03:59:22+00:00",
       "summary": "A federal court temporarily lifted the ban last week. The outlets want a longer pause while they sue to restore their access.",
       "raw_score": 4.79,
+      "themes": [],
+      "score": 4.76,
+      "is_alert": false
+    },
+    {
+      "id": "75d4fd0c976d162a",
+      "title": "Nigerian Charged With Running Fake Government Agency",
+      "url": "https://www.nytimes.com/2026/10/01/world/africa/nigeria-fake-government-agency.html",
+      "source": "NYT World",
+      "published_at": "2026-10-01T18:33:15+00:00",
+      "summary": "The Nigerian secured office space in a federal building, opened bank accounts and even held meetings with foreign diplomats. He says he is innocent.",
+      "raw_score": 4.813,
       "themes": [],
       "score": 4.76,
       "is_alert": false
@@ -11028,6 +11054,54 @@
       "url": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-sep-28-to-oct-2-2026-93CH-4930886",
       "source": "Investing.com Stock Markets",
       "published_at": "2026-10-04T10:00:02+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "cdd10469182410db",
+      "title": "Biljana Plavsic, a Former Bosnian Serb Political Leader, Has Died",
+      "url": "https://www.nytimes.com/2026/10/04/world/europe/biljana-plavsic-dead.html",
+      "source": "NYT World",
+      "published_at": "2026-10-04T17:25:24+00:00",
+      "summary": "Biljana Plavsic, a Bosnian Serb, pleaded guilty to one count of crimes against humanity. She later recanted and said she “would do the same again.”",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "23d7ec73f37a9b5c",
+      "title": "How Brazil’s election winner could reshape its institutions as vacancies mount",
+      "url": "https://www.investing.com/news/economy-news/how-brazils-election-winner-could-reshape-its-institutions-as-vacancies-mount-4930946",
+      "source": "Investing.com News",
+      "published_at": "2026-10-04T18:24:25+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "5325fd9e4c0a7b1d",
+      "title": "Musk says SpaceX to change name to ’SpaceXSI’",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-to-change-name-to-spacexsi-4930945",
+      "source": "Investing.com News",
+      "published_at": "2026-10-04T17:43:26+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.68,
+      "is_alert": false
+    },
+    {
+      "id": "9bec8688c561622f",
+      "title": "Musk says he will rename SpaceXAI to SpaceXSI",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-he-will-rename-spacexai-to-spacexsi-4930944",
+      "source": "Investing.com News",
+      "published_at": "2026-10-04T16:48:26+00:00",
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
