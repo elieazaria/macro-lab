@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-09T08:56:36.342765+00:00",
+  "generated_at": "2026-10-09T16:07:48.152334+00:00",
   "meta": {
-    "total_articles_7j": 801,
-    "articles_today": 48,
-    "alerts_critiques": 209,
+    "total_articles_7j": 860,
+    "articles_today": 67,
+    "alerts_critiques": 226,
     "score_moyen": 4.99,
     "seuil_alerte": 5.0,
     "themes": {
-      "War/Conflict": 64,
+      "War/Conflict": 71,
       "Inflation": 23,
-      "Central Bank": 20,
+      "Central Bank": 21,
       "Oil/Energy": 13,
       "Fed Emergency": 10,
+      "Sanctions": 6,
       "Market Crash": 6,
       "Geo Shock": 6,
-      "Sanctions": 4,
       "Default": 3,
       "Volatility": 1
     }
@@ -82,6 +82,20 @@
       "is_alert": true
     },
     {
+      "id": "0e4e6ac1b13509b5",
+      "title": "China and Europe Step Back From Trade War With Limits on Chinese Car Exports",
+      "url": "https://www.nytimes.com/2026/10/09/business/china-european-union-trade.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T16:05:34+00:00",
+      "summary": "The European Union said the deal could roughly halve shipments of hybrid vehicles from China in the next four years. But it also could lead to an even stronger Chinese auto industry.",
+      "raw_score": 47.045,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
       "id": "710a49592a1f352b",
       "title": "Dollar recoups losses as markets await Fed minutes, speakers",
       "url": "https://www.investing.com/news/economy-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers-4935511",
@@ -106,7 +120,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 13.92,
+      "score": 13.93,
       "is_alert": true
     },
     {
@@ -136,7 +150,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 13.54,
+      "score": 13.55,
       "is_alert": true
     },
     {
@@ -179,7 +193,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 12.51,
+      "score": 12.52,
       "is_alert": true
     },
     {
@@ -382,7 +396,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.13,
+      "score": 12.14,
       "is_alert": true
     },
     {
@@ -396,7 +410,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.13,
+      "score": 12.14,
       "is_alert": true
     },
     {
@@ -410,7 +424,21 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.13,
+      "score": 12.14,
+      "is_alert": true
+    },
+    {
+      "id": "e9f02765baf06b08",
+      "title": "Jefferies Warns of Fuel Shock from Hurricane Isaias, Notes Coca-Cola as a Safe Haven",
+      "url": "https://www.investing.com/news/stock-market-news/jefferies-warns-of-fuel-shock-from-hurricane-isaias-notes-cocacola-as-a-safe-haven-93CH-4941449",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-09T15:30:10+00:00",
+      "summary": "",
+      "raw_score": 33.661,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 12.09,
       "is_alert": true
     },
     {
@@ -469,7 +497,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.77,
+      "score": 11.78,
       "is_alert": true
     },
     {
@@ -498,7 +526,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.66,
+      "score": 11.67,
       "is_alert": true
     },
     {
@@ -638,7 +666,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.1,
+      "score": 11.11,
       "is_alert": true
     },
     {
@@ -652,7 +680,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.1,
+      "score": 11.11,
+      "is_alert": true
+    },
+    {
+      "id": "a5c9ba973ca02945",
+      "title": "Navi Pillay, a South African Human Rights Lawyer, Is Awarded the Nobel Peace Prize",
+      "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-winner-pillay.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T13:57:46+00:00",
+      "summary": "A U.N. commission led by Ms. Pillay that investigated the war in Gaza found last year that Israel had committed genocide against Palestinians.",
+      "raw_score": 29.63,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 11.09,
       "is_alert": true
     },
     {
@@ -681,6 +723,20 @@
         "War/Conflict"
       ],
       "score": 10.9,
+      "is_alert": true
+    },
+    {
+      "id": "bfab53ee375ec498",
+      "title": "How Correspondent Banking Can Enable Sanctions Evasion",
+      "url": "https://www.nytimes.com/2026/10/09/business/correspondent-banking-russia-sanctions-evasion.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T14:29:23+00:00",
+      "summary": "The correspondent system for banking has enabled globalism — and has been exploited by companies trying to skirt U.S. sanctions.",
+      "raw_score": 28.295,
+      "themes": [
+        "Sanctions"
+      ],
+      "score": 10.76,
       "is_alert": true
     },
     {
@@ -764,7 +820,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 10.25,
+      "score": 10.26,
       "is_alert": true
     },
     {
@@ -792,7 +848,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 9.95,
+      "score": 9.96,
       "is_alert": true
     },
     {
@@ -928,6 +984,20 @@
       "is_alert": true
     },
     {
+      "id": "44838538d0c7c313",
+      "title": "Houthi strikes on Riyadh airport killed three Saudis as war escalates",
+      "url": "https://www.investing.com/news/commodities-news/houthi-strikes-on-riyadh-airport-killed-three-saudis-as-war-escalates-4940497",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T14:36:35+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.36,
+      "is_alert": true
+    },
+    {
       "id": "c8814df8d85d5321",
       "title": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase",
       "url": "https://www.investing.com/news/commodities-news/middle-east-crude-oil-exports-exceed-prewar-levels-but-tanker-attacks-increase-4930981",
@@ -1012,6 +1082,20 @@
       "is_alert": true
     },
     {
+      "id": "ab2954739304b028",
+      "title": "Schneider Electric close to $20 bln deal of U.S. software maker PTC - report",
+      "url": "https://www.investing.com/news/stock-market-news/schneider-electric-close-to-20-bln-deal-of-us-software-maker-ptc--report-4930953",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-04T20:28:14+00:00",
+      "summary": "",
+      "raw_score": 22.604,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.34,
+      "is_alert": true
+    },
+    {
       "id": "e1272766dca29d93",
       "title": "As Iran war drives up gasoline prices in US, Trump blames Ukraine, Democrats",
       "url": "https://www.investing.com/news/commodities-news/as-iran-war-drives-up-gasoline-prices-in-us-trump-blames-ukraine-democrats-4932639",
@@ -1065,20 +1149,6 @@
         "War/Conflict"
       ],
       "score": 9.34,
-      "is_alert": true
-    },
-    {
-      "id": "ab2954739304b028",
-      "title": "Schneider Electric close to $20 bln deal of U.S. software maker PTC - report",
-      "url": "https://www.investing.com/news/stock-market-news/schneider-electric-close-to-20-bln-deal-of-us-software-maker-ptc--report-4930953",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-04T20:28:14+00:00",
-      "summary": "",
-      "raw_score": 22.604,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.33,
       "is_alert": true
     },
     {
@@ -1235,6 +1305,20 @@
       "is_alert": true
     },
     {
+      "id": "6463f78dcbc78af7",
+      "title": "Rate hike fears weigh on UK housing market, RICS says",
+      "url": "https://www.investing.com/news/economy-news/rate-hike-fears-weigh-on-uk-housing-market-rics-says-4937700",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-07T23:18:30+00:00",
+      "summary": "",
+      "raw_score": 21.481,
+      "themes": [
+        "Fed Emergency"
+      ],
+      "score": 9.06,
+      "is_alert": true
+    },
+    {
       "id": "0e92554907fdd84d",
       "title": "US imposes new sanctions on Iran’s oil transport network",
       "url": "https://www.investing.com/news/economy-news/us-imposes-new-sanctions-on-irans-oil-transport-network-93CH-4939676",
@@ -1246,20 +1330,6 @@
         "Sanctions"
       ],
       "score": 9.06,
-      "is_alert": true
-    },
-    {
-      "id": "6463f78dcbc78af7",
-      "title": "Rate hike fears weigh on UK housing market, RICS says",
-      "url": "https://www.investing.com/news/economy-news/rate-hike-fears-weigh-on-uk-housing-market-rics-says-4937700",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T23:18:30+00:00",
-      "summary": "",
-      "raw_score": 21.481,
-      "themes": [
-        "Fed Emergency"
-      ],
-      "score": 9.05,
       "is_alert": true
     },
     {
@@ -1305,6 +1375,20 @@
       "source": "NYT World",
       "published_at": "2026-10-07T09:02:02+00:00",
       "summary": "The case of a small Malaysian shipping agency illustrates the challenges Washington faces in its effort to stanch the flow of Iranian oil.",
+      "raw_score": 20.838,
+      "themes": [
+        "Sanctions"
+      ],
+      "score": 8.89,
+      "is_alert": true
+    },
+    {
+      "id": "acbcd116f0514060",
+      "title": "Trump Administration Hits International Criminal Court With Severe Sanctions",
+      "url": "https://www.nytimes.com/2026/10/09/us/politics/trump-international-criminal-court-sanctions.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T15:23:16+00:00",
+      "summary": "U.S. officials announced new punishments aimed at the court, just hours after the Nobel Peace Prize committee gave its annual honor to a former court judge.",
       "raw_score": 20.838,
       "themes": [
         "Sanctions"
@@ -1403,7 +1487,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 8.12,
+      "score": 8.13,
       "is_alert": true
     },
     {
@@ -1417,7 +1501,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.12,
+      "score": 8.13,
       "is_alert": true
     },
     {
@@ -1431,7 +1515,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.12,
+      "score": 8.13,
       "is_alert": true
     },
     {
@@ -1519,6 +1603,20 @@
       "is_alert": true
     },
     {
+      "id": "83518cc1f883613b",
+      "title": "Polish parliamentary committee says central bank chief should face State Tribunal",
+      "url": "https://www.investing.com/news/economy-news/polish-parliamentary-committee-says-central-bank-chief-should-face-state-tribunal-4940703",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-09T15:19:13+00:00",
+      "summary": "",
+      "raw_score": 16.523,
+      "themes": [
+        "Central Bank"
+      ],
+      "score": 7.82,
+      "is_alert": true
+    },
+    {
       "id": "507ad26447371db7",
       "title": "Gold retains key reserve status despite surging bond yields, central bankers say",
       "url": "https://www.investing.com/news/commodities-news/gold-retains-key-reserve-status-despite-surging-bond-yields-central-bankers-say-4931551",
@@ -1528,6 +1626,20 @@
       "raw_score": 16.502,
       "themes": [
         "Central Bank"
+      ],
+      "score": 7.81,
+      "is_alert": true
+    },
+    {
+      "id": "45ec6aba7cc65bbe",
+      "title": "Navi Pillay is known for her work in conflict zones across the world.",
+      "url": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026/navi-pillay-is-known-for-her-work-in-conflict-zones-across-the-world",
+      "source": "NYT World",
+      "published_at": "2026-10-09T15:23:15+00:00",
+      "summary": "",
+      "raw_score": 16.482,
+      "themes": [
+        "War/Conflict"
       ],
       "score": 7.81,
       "is_alert": true
@@ -1687,6 +1799,48 @@
       "is_alert": true
     },
     {
+      "id": "26e8c055df367a5a",
+      "title": "Oil prices fall as Middle East exports recover, G7 taps emergency stocks",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-as-middle-east-exports-recoverg7-taps-emergency-stocks-4930986",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-05T07:14:10+00:00",
+      "summary": "",
+      "raw_score": 15.271,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 7.51,
+      "is_alert": true
+    },
+    {
+      "id": "c6510d1a659266b2",
+      "title": "Oil prices edge lower as markets weigh Aramco price cuts, M.East supplies",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-lower-as-markets-weigh-aramco-price-cuts-meast-supplies-4933124",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-06T00:09:03+00:00",
+      "summary": "",
+      "raw_score": 15.271,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 7.51,
+      "is_alert": true
+    },
+    {
+      "id": "ce0518d5c1b3bfc6",
+      "title": "Oil prices stable as market weighs supply risks, rising Middle East exports",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-stable-as-market-weighs-supply-risks-rising-middle-east-exports-4935024",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-06T19:24:46+00:00",
+      "summary": "",
+      "raw_score": 15.271,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 7.51,
+      "is_alert": true
+    },
+    {
       "id": "d0031671b821a831",
       "title": "Oil prices rise as storms and air strikes threaten supply",
       "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-storms-and-air-strikes-threaten-supply-4935487",
@@ -1715,48 +1869,6 @@
       "is_alert": true
     },
     {
-      "id": "26e8c055df367a5a",
-      "title": "Oil prices fall as Middle East exports recover, G7 taps emergency stocks",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-as-middle-east-exports-recoverg7-taps-emergency-stocks-4930986",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-05T07:14:10+00:00",
-      "summary": "",
-      "raw_score": 15.271,
-      "themes": [
-        "Oil/Energy"
-      ],
-      "score": 7.5,
-      "is_alert": true
-    },
-    {
-      "id": "c6510d1a659266b2",
-      "title": "Oil prices edge lower as markets weigh Aramco price cuts, M.East supplies",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-lower-as-markets-weigh-aramco-price-cuts-meast-supplies-4933124",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-06T00:09:03+00:00",
-      "summary": "",
-      "raw_score": 15.271,
-      "themes": [
-        "Oil/Energy"
-      ],
-      "score": 7.5,
-      "is_alert": true
-    },
-    {
-      "id": "ce0518d5c1b3bfc6",
-      "title": "Oil prices stable as market weighs supply risks, rising Middle East exports",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-stable-as-market-weighs-supply-risks-rising-middle-east-exports-4935024",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-06T19:24:46+00:00",
-      "summary": "",
-      "raw_score": 15.271,
-      "themes": [
-        "Oil/Energy"
-      ],
-      "score": 7.5,
-      "is_alert": true
-    },
-    {
       "id": "b1491690d3f89f8b",
       "title": "Oil prices rise as markets brace for U.S. Gulf coast supply disruptions",
       "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-markets-brace-for-us-gulf-coast-supply-disruptions-4937767",
@@ -1767,7 +1879,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.5,
+      "score": 7.51,
       "is_alert": true
     },
     {
@@ -1782,6 +1894,18 @@
         "Central Bank"
       ],
       "score": 7.5,
+      "is_alert": true
+    },
+    {
+      "id": "5d06ae644dab1cb2",
+      "title": "Bessent says rising Treasury yields reflect global trend, not cause for alarm",
+      "url": "https://www.investing.com/news/economy-news/bessent-says-rising-treasury-yields-reflect-global-trend-not-cause-for-alarm-4930869",
+      "source": "Investing.com News",
+      "published_at": "2026-10-03T16:49:38+00:00",
+      "summary": "",
+      "raw_score": 13.547,
+      "themes": [],
+      "score": 7.08,
       "is_alert": true
     },
     {
@@ -1821,18 +1945,6 @@
       "is_alert": true
     },
     {
-      "id": "5d06ae644dab1cb2",
-      "title": "Bessent says rising Treasury yields reflect global trend, not cause for alarm",
-      "url": "https://www.investing.com/news/economy-news/bessent-says-rising-treasury-yields-reflect-global-trend-not-cause-for-alarm-4930869",
-      "source": "Investing.com News",
-      "published_at": "2026-10-03T16:49:38+00:00",
-      "summary": "",
-      "raw_score": 13.547,
-      "themes": [],
-      "score": 7.07,
-      "is_alert": true
-    },
-    {
       "id": "3b7e90fcd847c224",
       "title": "U.S. 10-year Treasury yields at risk of hitting 6%, Pimco tells FT",
       "url": "https://www.investing.com/news/economy-news/us-10year-treasury-yields-at-risk-of-hitting-6-pimco-tells-ft-4940410",
@@ -1841,7 +1953,7 @@
       "summary": "",
       "raw_score": 13.547,
       "themes": [],
-      "score": 7.07,
+      "score": 7.08,
       "is_alert": true
     },
     {
@@ -1919,6 +2031,18 @@
       "is_alert": true
     },
     {
+      "id": "581eeccf0dc9a5b6",
+      "title": "S&P 500 hits intraday record high as AI rally continues",
+      "url": "https://www.investing.com/news/economy-news/sp-500-hits-intraday-record-high-as-ai-rally-continues-4934747",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-06T14:07:57+00:00",
+      "summary": "",
+      "raw_score": 12.346,
+      "themes": [],
+      "score": 6.78,
+      "is_alert": true
+    },
+    {
       "id": "0a7f8343c401b06e",
       "title": "Fed plans to overhaul bank supervision responsibilities, Bowman says",
       "url": "https://www.investing.com/news/economy-news/fed-plans-to-overhaul-bank-supervision-responsibilities-bowman-says-4934898",
@@ -1938,6 +2062,18 @@
       "published_at": "2026-10-07T15:13:39+00:00",
       "summary": "",
       "raw_score": 12.376,
+      "themes": [],
+      "score": 6.78,
+      "is_alert": true
+    },
+    {
+      "id": "15148f8e2a0190c9",
+      "title": "Fed policymakers divided over rate-hike logic in September, minutes show",
+      "url": "https://www.investing.com/news/economy-news/fed-policymakers-divided-over-ratehike-logic-in-september-minutes-show-4937320",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-07T20:25:44+00:00",
+      "summary": "",
+      "raw_score": 12.346,
       "themes": [],
       "score": 6.78,
       "is_alert": true
@@ -1967,18 +2103,6 @@
       "is_alert": true
     },
     {
-      "id": "581eeccf0dc9a5b6",
-      "title": "S&P 500 hits intraday record high as AI rally continues",
-      "url": "https://www.investing.com/news/economy-news/sp-500-hits-intraday-record-high-as-ai-rally-continues-4934747",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T14:07:57+00:00",
-      "summary": "",
-      "raw_score": 12.346,
-      "themes": [],
-      "score": 6.77,
-      "is_alert": true
-    },
-    {
       "id": "9b09fa6d4df65a00",
       "title": "Trump says his administration is thinking about suspending federal gas tax",
       "url": "https://www.investing.com/news/commodities-news/trump-says-his-administration-is-thinking-about-suspending-federal-gas-tax-4935121",
@@ -1986,18 +2110,6 @@
       "published_at": "2026-10-06T19:30:12+00:00",
       "summary": "",
       "raw_score": 12.33,
-      "themes": [],
-      "score": 6.77,
-      "is_alert": true
-    },
-    {
-      "id": "15148f8e2a0190c9",
-      "title": "Fed policymakers divided over rate-hike logic in September, minutes show",
-      "url": "https://www.investing.com/news/economy-news/fed-policymakers-divided-over-ratehike-logic-in-september-minutes-show-4937320",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T20:25:44+00:00",
-      "summary": "",
-      "raw_score": 12.346,
       "themes": [],
       "score": 6.77,
       "is_alert": true
@@ -2051,6 +2163,30 @@
       "is_alert": true
     },
     {
+      "id": "4304c46671738c73",
+      "title": "Trump to hold inquiry into Fed’s Lisa Cook at White House",
+      "url": "https://www.investing.com/news/economy-news/trump-launches-committee-to-probe-feds-lisa-cook-white-house-statement-4941345",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:42:40+00:00",
+      "summary": "",
+      "raw_score": 12.33,
+      "themes": [],
+      "score": 6.77,
+      "is_alert": true
+    },
+    {
+      "id": "3b78432bb7cf5edd",
+      "title": "Fed’s Cook lawyers say hearing will show no mortgage fraud case",
+      "url": "https://www.investing.com/news/economy-news/feds-cook-lawyers-say-hearing-will-show-no-mortgage-fraud-case-4941438",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-09T15:12:25+00:00",
+      "summary": "",
+      "raw_score": 12.33,
+      "themes": [],
+      "score": 6.77,
+      "is_alert": true
+    },
+    {
       "id": "9187448fb448da99",
       "title": "Gold edges higher after weekly slide as weak jobs data ease Fed hike bets",
       "url": "https://www.investing.com/news/commodities-news/gold-edges-higher-after-weekly-slide-as-weak-jobs-data-ease-fed-hike-bets-4930980",
@@ -2099,6 +2235,18 @@
       "is_alert": true
     },
     {
+      "id": "76f1c9a49ecc1574",
+      "title": "Trump orders Nov. 5 Cook hearing in renewed bid to oust Fed governor",
+      "url": "https://www.investing.com/news/economy-news/trump-orders-nov-5-cook-hearing-in-renewed-bid-to-oust-fed-governor-4941460",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:42:01+00:00",
+      "summary": "",
+      "raw_score": 12.3,
+      "themes": [],
+      "score": 6.76,
+      "is_alert": true
+    },
+    {
       "id": "7c4147bd502f5c1a",
       "title": "Le Pen eyes bond markets with promise of bigger spending cuts if far right wins presidency",
       "url": "https://www.investing.com/news/economy-news/le-pen-eyes-bond-markets-with-bigger-spending-cuts-pledge-if-far-right-win-presidential-vote-4934080",
@@ -2108,6 +2256,18 @@
       "raw_score": 12.255,
       "themes": [],
       "score": 6.75,
+      "is_alert": true
+    },
+    {
+      "id": "d28c8e6bf8a43536",
+      "title": "Trump Announces White House Inquiry Into Fed Governor Lisa Cook",
+      "url": "https://www.nytimes.com/2026/10/09/business/trump-lisa-cook-fed.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T15:56:34+00:00",
+      "summary": "President Trump said the White House would investigate unsubstantiated claims that Lisa D. Cook committed mortgage fraud and hold a hearing next month.",
+      "raw_score": 12.005,
+      "themes": [],
+      "score": 6.69,
       "is_alert": true
     },
     {
@@ -2257,6 +2417,20 @@
       "is_alert": true
     },
     {
+      "id": "18c4741351dbf26c",
+      "title": "In a Major Boost for the Right, Another Bolsonaro Nears Brazil’s Presidency",
+      "url": "https://www.nytimes.com/2026/10/05/world/americas/bolsanaro-lula-brazil-presidency-trump.html",
+      "source": "NYT World",
+      "published_at": "2026-10-05T16:41:55+00:00",
+      "summary": "Flávio Bolsonaro’s first round lead leaves President Luiz Inácio Lula da Silva three weeks to find the votes to stop Brazil’s, and Latin America’s, rightward shift.",
+      "raw_score": 10.501,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 6.32,
+      "is_alert": true
+    },
+    {
       "id": "35e7d4c47507499c",
       "title": "Mass Trials Put Hundreds in One Dock in El Salvador",
       "url": "https://www.nytimes.com/2026/10/07/world/americas/el-salvador-mass-trials-bukele.html",
@@ -2271,17 +2445,31 @@
       "is_alert": true
     },
     {
-      "id": "18c4741351dbf26c",
-      "title": "In a Major Boost for the Right, Another Bolsonaro Nears Brazil’s Presidency",
-      "url": "https://www.nytimes.com/2026/10/05/world/americas/bolsanaro-lula-brazil-presidency-trump.html",
+      "id": "066aed1c30b90627",
+      "title": "China Expands Its Military Reach by Building a Base in Laos",
+      "url": "https://www.nytimes.com/2026/10/08/world/asia/china-military-base-laos.html",
       "source": "NYT World",
-      "published_at": "2026-10-05T16:41:55+00:00",
-      "summary": "Flávio Bolsonaro’s first round lead leaves President Luiz Inácio Lula da Silva three weeks to find the votes to stop Brazil’s, and Latin America’s, rightward shift.",
+      "published_at": "2026-10-08T12:44:19+00:00",
+      "summary": "The new runway in Ban Keun is currently used by only small jets. Neighboring nations are watching warily to see if Beijing expands it for larger aircraft.",
       "raw_score": 10.501,
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.31,
+      "score": 6.32,
+      "is_alert": true
+    },
+    {
+      "id": "3555d6f8f56fac74",
+      "title": "A.I. Fueled More Resilient Global Growth, W.T.O. Says",
+      "url": "https://www.nytimes.com/2026/10/08/business/economy/wto-global-trade-resilient.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-08T16:07:06+00:00",
+      "summary": "The World Trade Organization said that the drag on global trade from the war in the Middle East was more than offset by spending on goods related to artificial intelligence.",
+      "raw_score": 10.501,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 6.32,
       "is_alert": true
     },
     {
@@ -2313,27 +2501,13 @@
       "is_alert": true
     },
     {
-      "id": "066aed1c30b90627",
-      "title": "China Expands Its Military Reach by Building a Base in Laos",
-      "url": "https://www.nytimes.com/2026/10/08/world/asia/china-military-base-laos.html",
-      "source": "NYT World",
-      "published_at": "2026-10-08T12:44:19+00:00",
-      "summary": "The new runway in Ban Keun is currently used by only small jets. Neighboring nations are watching warily to see if Beijing expands it for larger aircraft.",
-      "raw_score": 10.501,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 6.31,
-      "is_alert": true
-    },
-    {
-      "id": "3555d6f8f56fac74",
-      "title": "A.I. Fueled More Resilient Global Growth, W.T.O. Says",
-      "url": "https://www.nytimes.com/2026/10/08/business/economy/wto-global-trade-resilient.html",
+      "id": "8a68878796d2d81c",
+      "title": "The Winning Stock Funds This Time Weren’t Tech. They Were Energy.",
+      "url": "https://www.nytimes.com/2026/10/09/business/stock-bonds-tech-energy.html",
       "source": "NYT Business",
-      "published_at": "2026-10-08T16:07:06+00:00",
-      "summary": "The World Trade Organization said that the drag on global trade from the war in the Middle East was more than offset by spending on goods related to artificial intelligence.",
-      "raw_score": 10.501,
+      "published_at": "2026-10-09T09:03:21+00:00",
+      "summary": "Stock and bond fund returns for the quarter were bad nearly everywhere you looked, our columnist says. Energy stocks, lifted by the war with Iran, were an exception.",
+      "raw_score": 10.489,
       "themes": [
         "War/Conflict"
       ],
@@ -2575,6 +2749,30 @@
       "is_alert": true
     },
     {
+      "id": "89cd45c5afdf0927",
+      "title": "Sterling today: Pound edges up as dollar dips on Treasury pause",
+      "url": "https://www.investing.com/news/forex-news/sterling-today-pound-edges-up-as-dollar-dips-on-treasury-pause-4940524",
+      "source": "Investing.com Forex",
+      "published_at": "2026-10-09T09:46:00+00:00",
+      "summary": "",
+      "raw_score": 8.631,
+      "themes": [],
+      "score": 5.85,
+      "is_alert": true
+    },
+    {
+      "id": "67c20599bfac1968",
+      "title": "Securitize rallies as Wall Street sees strategic upside in tokenized stock launch",
+      "url": "https://www.investing.com/news/stock-market-news/securitize-rallies-as-wall-street-sees-strategic-upside-in-tokenized-stock-launch-4941437",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-09T15:10:37+00:00",
+      "summary": "",
+      "raw_score": 8.621,
+      "themes": [],
+      "score": 5.85,
+      "is_alert": true
+    },
+    {
       "id": "5703a1f932225193",
       "title": "Loonie slips as early gains fade, oil weakness keeps pressure on Canadian dollar",
       "url": "https://www.investing.com/news/forex-news/loonie-slips-as-early-gains-fade-oil-weakness-keeps-pressure-on-canadian-dollar-4932479",
@@ -2584,6 +2782,20 @@
       "raw_score": 8.61,
       "themes": [],
       "score": 5.84,
+      "is_alert": true
+    },
+    {
+      "id": "0dbb62e58e1182c5",
+      "title": "Days of Deadly Houthi Attacks Show Saudi Arabia’s Vulnerabilities",
+      "url": "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T15:17:54+00:00",
+      "summary": "The escalating violence has brought the conflict in Yemen to the doorstep of the Saudi capital, and the kingdom has no easy options to curtail the increasingly sophisticated and targeted strikes.",
+      "raw_score": 8.095,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.71,
       "is_alert": true
     },
     {
@@ -2762,6 +2974,18 @@
       "published_at": "2026-10-09T08:36:12+00:00",
       "summary": "",
       "raw_score": 7.38,
+      "themes": [],
+      "score": 5.54,
+      "is_alert": true
+    },
+    {
+      "id": "bce493413542b0ea",
+      "title": "EUR/USD outlook as euro stays pinned near multi month lows",
+      "url": "https://www.investing.com/news/forex-news/eurusd-outlook-as-euro-stays-pinned-near-multi-month-lows-93CH-4941222",
+      "source": "Investing.com Forex",
+      "published_at": "2026-10-09T13:14:38+00:00",
+      "summary": "",
+      "raw_score": 7.407,
       "themes": [],
       "score": 5.54,
       "is_alert": true
@@ -9904,6 +10128,510 @@
       "url": "https://www.investing.com/news/stock-market-news/why-is-evonik-industries-stock-climbing-today-93CH-4940391",
       "source": "Investing.com Stock Markets",
       "published_at": "2026-10-09T08:11:41+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "8a417eb8a9b82f4a",
+      "title": "Palestinian Authority Says Elections Are to Be Postponed",
+      "url": "https://www.nytimes.com/2026/10/09/world/middleeast/palestinian-authority-elections-west-bank-postponed.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T14:58:45+00:00",
+      "summary": "The delay, outlined in a letter to France, comes as Fatah, the governing party, is suffering from deep internal rifts.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "e9c490424999274e",
+      "title": "Nobel Peace Prize Choice Amounts to Implicit Rebuke of Trump",
+      "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-peace-prize-trump-international-law.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T15:01:46+00:00",
+      "summary": "The Trump administration has repeatedly attacked the international legal order and the International Criminal Court in The Hague, where the Peace Prize winner, Navi Pillay, served as a judge.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "965a40ce0b7a96b4",
+      "title": "India Cancels Trains, Floods Capital with Police to Block Protests",
+      "url": "https://www.nytimes.com/2026/10/09/world/asia/india-cockroach-protests-delhi.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T13:46:12+00:00",
+      "summary": "A planned protest against a sweeping voter roll revision prompted police to order a virtual shutdown of New Delhi, the capital. The country’s highest court intervened.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "cea799b93df3a81e",
+      "title": "In a Dead Hero’s Ashes, El Salvador’s Ruler Finds a New Spark",
+      "url": "https://www.nytimes.com/2026/10/09/world/americas/nayib-bukele-francisco-morazan-el-salvador.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T09:02:38+00:00",
+      "summary": "Sword in hand, Nayib Bukele is revamping Latin America’s rich tradition of political exhumations. A new crypt projects his power across Central America.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "65e3381e6db55d3e",
+      "title": "In South Africa, Pillay forged a career fighting apartheid.",
+      "url": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026/in-south-africa-pillay-forged-a-career-fighting-apartheid",
+      "source": "NYT World",
+      "published_at": "2026-10-09T15:59:42+00:00",
+      "summary": "Navanethem Pillay",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "5e2be671ebe4e50f",
+      "title": "Paintings Stolen From Renoir Museum Are Recovered, Authorities Say",
+      "url": "https://www.nytimes.com/2026/10/09/world/europe/renoir-museum-artworks-theft-france-arrests.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T13:55:29+00:00",
+      "summary": "Officials also said that six suspects had been arrested in the robbery, which targeted a museum in southern France last month.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "639b652fd2e44302",
+      "title": "France’s Long, Fervent History of Protest",
+      "url": "https://www.nytimes.com/2026/10/09/world/europe/france-protest-history.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T09:03:55+00:00",
+      "summary": "Student demonstrations in recent weeks re-lit a centuries-old torch of civil resistance. How do they compare to previous movements in France?",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "b1fab4bc34808f26",
+      "title": "India’s Young Put Their Bodies on the Line to Be Heard",
+      "url": "https://www.nytimes.com/2026/10/09/world/asia/india-student-protests-cockroach-neha-bora.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T10:34:43+00:00",
+      "summary": "Despite police barricades and detentions, activists like Neha Bora say they are determined to keep up the pressure on Prime Minister Narendra Modi.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "024b22cc3b2a3d23",
+      "title": "The criteria for the Peace Prize have changed over time.",
+      "url": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026/the-criteria-for-the-peace-prize-has-changed-over-time",
+      "source": "NYT World",
+      "published_at": "2026-10-09T14:47:45+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "162b603b55dd004e",
+      "title": "The Nobel Peace Prize recipient is selected in secret by five Norwegians.",
+      "url": "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026/the-nobel-peace-prize-recipient-is-selected-in-secret-by-five-norwegians",
+      "source": "NYT World",
+      "published_at": "2026-10-09T12:06:04+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "9fe9295b7a27174e",
+      "title": "Nobel Prize Winners Don’t Get a Heads-Up",
+      "url": "https://www.nytimes.com/2026/10/09/world/europe/nobel-prize-winners-phone-call-know.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T11:34:25+00:00",
+      "summary": "Navi Pillay wasn’t the first Nobel laureate that the prize committees have struggled to reach. Many weren’t even awake when the news broke.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "a87786853ccd68aa",
+      "title": "How the Epstein Files forced the Nobel Peace Prize to reckon with impartiality.",
+      "url": "https://www.nytimes.com/2026/10/09/world/europe/epstein-files-thorbjorn-jagland-committee.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T11:39:06+00:00",
+      "summary": "The",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "dd4f0d6fb8a7a540",
+      "title": "New Delhi’s Crackdown on Protesters",
+      "url": "https://www.nytimes.com/video/world/asia/100000011193986/india-protest-delhi-crackdown.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T09:24:43+00:00",
+      "summary": "The government in New Delhi is suppressing protests over the culling of 130 million names from India’s voter roll. Mujib Mashal, an India correspondent for The New York Times, reported from the heart of the demonstrations.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "82513587f2ae8675",
+      "title": "Trump Sends Obamacare ‘Refund’ Checks Ahead of Midterm Elections",
+      "url": "https://www.nytimes.com/2026/10/09/business/trump-obamacare-refund-checks.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T16:01:14+00:00",
+      "summary": "The $500 checks are accompanied by a letter signed by the president that criticizes the Biden administration for overcharging Americans for health insurance.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "a359062ec4b70ce5",
+      "title": "Private Medicare Plans Are Raising Costs And Forcing Millions To Find New Insurance",
+      "url": "https://www.nytimes.com/2026/10/09/business/medicare-private-health-care-costs.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T14:52:41+00:00",
+      "summary": "As enrollment for Medicare Advantage begins this month, older Americans are confronting fewer options because insurers are discontinuing coverage in many areas.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "9c6565a9aad4d353",
+      "title": "Airlines Are Upgrading Wi-Fi. Not All Are Using Elon Musk’s Service.",
+      "url": "https://www.nytimes.com/2026/10/09/business/elon-musk-delta-starlink-wifi.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T13:28:00+00:00",
+      "summary": "Mr. Musk, whose company SpaceX owns Starlink, has attacked the top executive of Delta Air Lines for not selecting the internet provider.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "7ab7e36f754516ba",
+      "title": "The Fallout From OpenAI’s Revenue Surprise",
+      "url": "https://www.nytimes.com/2026/10/09/business/dealbook/openai-revenue-safety.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T12:06:43+00:00",
+      "summary": "News that the artificial intelligence giant’s sales weren’t growing as fast as investors had expected added to concerns about the A.I. boom.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "5ae046164d87f06a",
+      "title": "Wayne Lawson, Vanity Fair’s ‘Secret Weapon,’ Has Died",
+      "url": "https://www.nytimes.com/2026/10/09/business/media/wayne-lawson-dead.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T15:04:18+00:00",
+      "summary": "Working with Mr. Lawson, reporters said, was like taking a master class in writing: “He was a throwback to the old style of editing.”",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "4edfc0a1ee5ac942",
+      "title": "What to Know About the Facebook Whistle-Blowing Case Depicted in ‘The Social Reckoning’",
+      "url": "https://www.nytimes.com/2026/10/09/arts/the-social-reckoning-movie-meta-facebook-mark-zuckerberg.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T09:01:00+00:00",
+      "summary": "Aaron Sorkin’s sort-of sequel to the 2010 “Social Network” dramatizes a whistle-blowing case at Facebook. Here’s what to know.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "68c3e6ff58173dc6",
+      "title": "Clara Wu Tsai, the Billionaire Who Wants Brooklyn to Win",
+      "url": "https://www.nytimes.com/2026/10/09/style/clara-wu-tsai-liberty-wnba.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-09T16:00:06+00:00",
+      "summary": "Clara Wu Tsai, a co-owner of the Liberty, is hoping the W.N.B.A. team pulls through tonight. She also has ambitions for the borough beyond more championships.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "f4e17fd74d713cc7",
+      "title": "TSX faces volatile week as rate fears, energy risks cloud outlook",
+      "url": "https://www.investing.com/news/stock-market-news/tsx-faces-volatile-week-as-rate-fears-energy-risks-cloud-outlook-93CH-4941457",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:46:13+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "37653faa26218f41",
+      "title": "AST SpaceMobile options activity as stock hits 52-week low",
+      "url": "https://www.investing.com/news/stock-market-news/ast-spacemobile-options-activity-as-stock-hits-52week-low-93CH-4941464",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:44:47+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "cf95baeef2f70c41",
+      "title": "Earnings call transcript: Oil-Dri posts record Q4 2026 results as shares fall",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oildri-posts-record-q4-2026-results-as-shares-fall-93CH-4941463",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:43:13+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "b108ab8bbd2c6ac2",
+      "title": "Liberty Global stock hits 52-week low at 8.59 USD",
+      "url": "https://www.investing.com/news/company-news/liberty-global-stock-hits-52week-low-at-859-usd-93CH-4941461",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:41:47+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "7bf7e444aa2223b0",
+      "title": "Protesters clash with police in Brussels as unions and students march",
+      "url": "https://www.investing.com/news/economy-news/protesters-clash-with-police-in-brussels-as-unions-and-students-march-4941313",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:36:34+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "64e364579a9c530d",
+      "title": "Poland stocks higher at close of trade; WIG30 up 1.48%",
+      "url": "https://www.investing.com/news/stock-market-news/poland-stocks-higher-at-close-of-trade-wig30-up-148-4941456",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:35:03+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "ab416b805beff388",
+      "title": "US pledges tens of millions to UN bodies in Geneva, sources say",
+      "url": "https://www.investing.com/news/economy-news/us-pledges-tens-of-millions-to-un-bodies-in-geneva-sources-say-4941451",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:30:47+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "a53f7ff39f2a520f",
+      "title": "Turkey stocks higher at close of trade; BIST 100 up 0.43%",
+      "url": "https://www.investing.com/news/stock-market-news/turkey-stocks-higher-at-close-of-trade-bist-100-up-043-4941450",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:30:31+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "11f5d28e7ee8b6aa",
+      "title": "Canada loses jobs in September, wiping out employment gains for 2026",
+      "url": "https://www.investing.com/news/economy-news/canada-loses-jobs-in-september-wiping-out-employment-gains-for-2026-4941414",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-09T14:44:09+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "bb134adcd3b8a7df",
+      "title": "Canada’s employment unexpectedly shrinks in September, jobless rate inches up",
+      "url": "https://www.investing.com/news/economy-news/canadas-employment-surprisingly-shrinks-in-september-jobless-rate-inches-up-4941126",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-09T14:30:39+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "25209350c3535966",
+      "title": "Spain records first month without Russian LNG imports in five years",
+      "url": "https://www.investing.com/news/economy-news/spain-records-first-month-without-russian-lng-imports-in-five-years-93CH-4941379",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-09T14:19:30+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "4392d6c506c6b655",
+      "title": "EU says it agrees with China to halve hybrid vehicle exports to EU",
+      "url": "https://www.investing.com/news/economy-news/eu-says-it-agrees-with-china-to-halve-hybrid-vehicle-exports-to-eu-4941378",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-09T14:19:16+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "5eff16df031a50d2",
+      "title": "Germany to release 15 million barrels from oil reserves",
+      "url": "https://www.investing.com/news/commodities-news/germany-to-release-15-million-barrels-from-oil-reserves-93CH-4941051",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T12:16:08+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "7c595457e7cc585b",
+      "title": "Morning Bid: Bonds, bombs and barricades",
+      "url": "https://www.investing.com/news/commodities-news/morning-bid-bonds-bombs-and-barricades-4940727",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T10:48:34+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "cf2570a55d3f339b",
+      "title": "New Trump rules will make it harder for farmers to access US funds for energy projects",
+      "url": "https://www.investing.com/news/commodities-news/new-trump-rules-will-make-it-harder-for-farmers-to-access-us-funds-for-energy-projects-4940607",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T10:32:17+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "0501880c4ae933ba",
+      "title": "Trump’s moves to boost diesel supplies have not yet lowered prices",
+      "url": "https://www.investing.com/news/commodities-news/trumps-moves-to-boost-diesel-supplies-have-not-yet-lowered-prices-4940588",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T10:26:01+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "855f713e269ec73f",
+      "title": "Trump envoy kept financial ties to firm behind $15 billion Hormuz-bypass oil pipeline plan",
+      "url": "https://www.investing.com/news/commodities-news/trump-envoy-kept-financial-ties-to-firm-behind-15-billion-hormuzbypass-oil-pipeline-plan-4940684",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T10:24:52+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "bfc16a8c5a3fdc0a",
+      "title": "Bigger US corn stocks fuel doubts about USDA livestock feeding data",
+      "url": "https://www.investing.com/news/commodities-news/bigger-us-corn-stocks-fuel-doubts-about-usda-livestock-feeding-data-4940662",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T10:19:30+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "2827a7e505cf04c8",
+      "title": "Denmark stocks higher at close of trade; OMX Copenhagen 20 up 1.54%",
+      "url": "https://www.investing.com/news/stock-market-news/denmark-stocks-higher-at-close-of-trade-omx-copenhagen-20-up-154-4941448",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-09T15:30:04+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "061dbf80fd0536e6",
+      "title": "Why is Securitize stock rallying today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-securitize-stock-rallying-today-93CH-4941446",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-09T15:28:23+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "42369b0c4d6096f3",
+      "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.55%",
+      "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-055-4941439",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-09T15:15:03+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.69,
+      "is_alert": false
+    },
+    {
+      "id": "e3465081425ba362",
+      "title": "Explainer-The tech green-card program under attack from Trump",
+      "url": "https://www.investing.com/news/stock-market-news/explainerthe-tech-greencard-program-under-attack-from-trump-4941434",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-09T15:12:41+00:00",
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
