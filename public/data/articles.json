@@ -1,69 +1,24 @@
 {
-  "generated_at": "2026-10-13T22:38:28.727773+00:00",
+  "generated_at": "2026-10-14T01:49:17.177368+00:00",
   "meta": {
-    "total_articles_7j": 865,
-    "articles_today": 34,
-    "alerts_critiques": 228,
-    "score_moyen": 4.99,
+    "total_articles_7j": 721,
+    "articles_today": 24,
+    "alerts_critiques": 192,
+    "score_moyen": 5.0,
     "seuil_alerte": 5.0,
     "themes": {
-      "War/Conflict": 76,
-      "Inflation": 23,
-      "Central Bank": 14,
-      "Fed Emergency": 13,
-      "Oil/Energy": 11,
-      "Market Crash": 6,
+      "War/Conflict": 68,
+      "Inflation": 18,
+      "Fed Emergency": 11,
+      "Oil/Energy": 10,
+      "Central Bank": 10,
       "Sanctions": 5,
+      "Market Crash": 4,
       "Default": 4,
-      "Geo Shock": 3
+      "Volatility": 1
     }
   },
   "articles": [
-    {
-      "id": "a37a7e844a10d7e3",
-      "title": "Takeaways From the Fed’s Decision to Raise Interest Rates",
-      "url": "https://www.nytimes.com/2026/09/16/business/economy/fed-meeting-interest-rates-warsh-takeaways.html",
-      "source": "NYT Economy",
-      "published_at": "2026-09-16T19:29:01+00:00",
-      "summary": "Kevin M. Warsh, the Federal Reserve chairman, said the bank acted to fight inflation that ‘is too high and has been for too long.’",
-      "raw_score": 59.064,
-      "themes": [
-        "War/Conflict",
-        "Fed Emergency",
-        "Inflation"
-      ],
-      "score": 15.0,
-      "is_alert": true
-    },
-    {
-      "id": "710a49592a1f352b",
-      "title": "Dollar recoups losses as markets await Fed minutes, speakers",
-      "url": "https://www.investing.com/news/economy-news/dollar-holds-losses-as-markets-await-fed-minutes-speakers-4935511",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T05:07:13+00:00",
-      "summary": "",
-      "raw_score": 44.994,
-      "themes": [
-        "Geo Shock"
-      ],
-      "score": 15.0,
-      "is_alert": true
-    },
-    {
-      "id": "dd4dde83ba548c91",
-      "title": "Vance says Iran must reduce nuclear enrichment capacity to end war - Reuters",
-      "url": "https://www.investing.com/news/economy-news/vance-says-iran-must-reduce-nuclear-enrichment-capacity-to-end-war--reuters-4935512",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T01:18:58+00:00",
-      "summary": "",
-      "raw_score": 48.954,
-      "themes": [
-        "War/Conflict",
-        "Geo Shock"
-      ],
-      "score": 15.0,
-      "is_alert": true
-    },
     {
       "id": "205778b8912e50a5",
       "title": "The Fed Raised Rates. What Comes Next?",
@@ -95,6 +50,21 @@
       "is_alert": true
     },
     {
+      "id": "44520226fd699a2a",
+      "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+      "url": "https://www.investing.com/news/economy-news/dollar-stays-near-18month-high-as-mideast-conflict-inflation-data-in-focus-4942999",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-12T04:54:23+00:00",
+      "summary": "",
+      "raw_score": 42.857,
+      "themes": [
+        "War/Conflict",
+        "Inflation"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
       "id": "3bbc8c2a533bbad1",
       "title": "NY Fed’s Williams sees one more rate hike this year, disinflation ahead",
       "url": "https://www.investing.com/news/economy-news/ny-feds-williams-sees-one-more-rate-hike-this-year-disinflation-ahead-4947377",
@@ -110,35 +80,6 @@
       "is_alert": true
     },
     {
-      "id": "44520226fd699a2a",
-      "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
-      "url": "https://www.investing.com/news/economy-news/dollar-stays-near-18month-high-as-mideast-conflict-inflation-data-in-focus-4942999",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-12T04:54:23+00:00",
-      "summary": "",
-      "raw_score": 42.857,
-      "themes": [
-        "War/Conflict",
-        "Inflation"
-      ],
-      "score": 14.71,
-      "is_alert": true
-    },
-    {
-      "id": "069fc8a8a462bef8",
-      "title": "S&P 500 Hits Record High Amid Rising Interest Rates and Elevated Oil Prices",
-      "url": "https://www.nytimes.com/2026/10/06/business/stock-market-record.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-06T21:12:30+00:00",
-      "summary": "The S&amp;P 500 rose 0.6 percent on Tuesday, exceeding its previous peak set in August and taking its gain this year to more than 14 percent.",
-      "raw_score": 41.001,
-      "themes": [
-        "Oil/Energy"
-      ],
-      "score": 14.24,
-      "is_alert": true
-    },
-    {
       "id": "afa10d11f5fc5e91",
       "title": "A Top Fed Official Casts Further Doubt on a Rate Rise This Month",
       "url": "https://www.nytimes.com/2026/10/08/business/federal-reserve-christopher-waller-rates.html",
@@ -150,7 +91,21 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 13.85,
+      "score": 14.2,
+      "is_alert": true
+    },
+    {
+      "id": "7187c3c719b1c669",
+      "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+      "url": "https://www.investing.com/news/economy-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers-4947834",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:24:59+00:00",
+      "summary": "",
+      "raw_score": 37.577,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 13.69,
       "is_alert": true
     },
     {
@@ -164,21 +119,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.88,
-      "is_alert": true
-    },
-    {
-      "id": "0dd79cc511d0b12d",
-      "title": "Fed Minutes Show Officials Saw More Work to Do to Quell Inflation",
-      "url": "https://www.nytimes.com/2026/10/07/business/fed-minutes-show-officials-saw-more-work-to-do-to-quell-inflation.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T19:18:47+00:00",
-      "summary": "Policymakers grew increasingly concerned about inflation risks at their most recent meeting in September.",
-      "raw_score": 35.351,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 12.79,
+      "score": 13.2,
       "is_alert": true
     },
     {
@@ -192,37 +133,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.75,
-      "is_alert": true
-    },
-    {
-      "id": "6b001f69bedf948e",
-      "title": "Indian households expect higher inflation, central bank survey shows",
-      "url": "https://www.investing.com/news/economy-news/indian-households-expect-higher-inflation-central-bank-survey-shows-93CH-4936790",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T13:11:12+00:00",
-      "summary": "",
-      "raw_score": 34.363,
-      "themes": [
-        "Inflation",
-        "Central Bank"
-      ],
-      "score": 12.54,
-      "is_alert": true
-    },
-    {
-      "id": "4f6171182a19e98a",
-      "title": "Poland’s central bank holds rates at 3.75% despite inflation rise",
-      "url": "https://www.investing.com/news/economy-news/polands-central-bank-holds-rates-at-375-despite-inflation-rise-93CH-4936919",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T13:59:01+00:00",
-      "summary": "",
-      "raw_score": 34.321,
-      "themes": [
-        "Inflation",
-        "Central Bank"
-      ],
-      "score": 12.53,
+      "score": 13.06,
       "is_alert": true
     },
     {
@@ -237,7 +148,7 @@
         "Market Crash",
         "Central Bank"
       ],
-      "score": 12.51,
+      "score": 12.82,
       "is_alert": true
     },
     {
@@ -252,37 +163,7 @@
         "Market Crash",
         "Central Bank"
       ],
-      "score": 12.51,
-      "is_alert": true
-    },
-    {
-      "id": "d0bb687c4923c2ca",
-      "title": "Polish central bank says fuel prices, fiscal policy are key inflation risks",
-      "url": "https://www.investing.com/news/economy-news/polish-central-bank-says-fuel-prices-fiscal-policy-are-key-inflation-risks-93CH-4937034",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T14:25:16+00:00",
-      "summary": "",
-      "raw_score": 34.236,
-      "themes": [
-        "Inflation",
-        "Central Bank"
-      ],
-      "score": 12.5,
-      "is_alert": true
-    },
-    {
-      "id": "9020dc3c3783f068",
-      "title": "Kenya central bank holds key rate, sees inflation within target despite recent rise",
-      "url": "https://www.investing.com/news/economy-news/kenya-central-bank-keeps-main-lending-rate-unchanged-4937039",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T15:00:40+00:00",
-      "summary": "",
-      "raw_score": 34.194,
-      "themes": [
-        "Inflation",
-        "Central Bank"
-      ],
-      "score": 12.49,
+      "score": 12.82,
       "is_alert": true
     },
     {
@@ -297,7 +178,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 12.49,
+      "score": 12.8,
       "is_alert": true
     },
     {
@@ -312,7 +193,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 12.48,
+      "score": 12.78,
       "is_alert": true
     },
     {
@@ -326,7 +207,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.4,
+      "score": 12.7,
       "is_alert": true
     },
     {
@@ -340,7 +221,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.39,
+      "score": 12.69,
       "is_alert": true
     },
     {
@@ -354,7 +235,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.37,
+      "score": 12.67,
       "is_alert": true
     },
     {
@@ -368,7 +249,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 12.37,
+      "score": 12.67,
       "is_alert": true
     },
     {
@@ -382,7 +263,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 12.36,
+      "score": 12.66,
       "is_alert": true
     },
     {
@@ -397,7 +278,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 12.22,
+      "score": 12.51,
       "is_alert": true
     },
     {
@@ -411,7 +292,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.92,
+      "score": 12.2,
       "is_alert": true
     },
     {
@@ -425,7 +306,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.66,
+      "score": 11.94,
       "is_alert": true
     },
     {
@@ -439,7 +320,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.65,
+      "score": 11.92,
       "is_alert": true
     },
     {
@@ -453,21 +334,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 11.48,
-      "is_alert": true
-    },
-    {
-      "id": "452d956ca0e9f050",
-      "title": "NY Fed September survey finds public expecting more near-term inflation",
-      "url": "https://www.investing.com/news/economy-news/ny-fed-september-survey-finds-public-expecting-more-nearterm-inflation-4937097",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T15:07:54+00:00",
-      "summary": "",
-      "raw_score": 30.123,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 11.45,
+      "score": 11.75,
       "is_alert": true
     },
     {
@@ -481,7 +348,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 11.45,
+      "score": 11.72,
       "is_alert": true
     },
     {
@@ -495,7 +362,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.45,
+      "score": 11.72,
       "is_alert": true
     },
     {
@@ -509,21 +376,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 11.43,
-      "is_alert": true
-    },
-    {
-      "id": "15f2121d033761d9",
-      "title": "Trump says Federal Reserve Board would like to see the country do badly",
-      "url": "https://www.investing.com/news/economy-news/trump-says-federal-reserve-board-would-like-to-see-the-country-do-badly-4937361",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T19:07:09+00:00",
-      "summary": "",
-      "raw_score": 30.012,
-      "themes": [
-        "Fed Emergency"
-      ],
-      "score": 11.42,
+      "score": 11.7,
       "is_alert": true
     },
     {
@@ -537,7 +390,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.41,
+      "score": 11.67,
       "is_alert": true
     },
     {
@@ -551,21 +404,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.38,
-      "is_alert": true
-    },
-    {
-      "id": "9dd957ca7fc9aca5",
-      "title": "Trump Gives Putin a Hand in Russia’s Economic War With Ukraine",
-      "url": "https://www.nytimes.com/2026/10/12/world/europe/russia-diesel-trump.html",
-      "source": "NYT World",
-      "published_at": "2026-10-12T17:20:14+00:00",
-      "summary": "President Trump is moving to buy Russian diesel while also pressuring Ukraine to halt attacks on refineries, a lifeblood of Moscow’s war machine.",
-      "raw_score": 29.736,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 11.35,
+      "score": 11.64,
       "is_alert": true
     },
     {
@@ -579,7 +418,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.34,
+      "score": 11.61,
       "is_alert": true
     },
     {
@@ -593,7 +432,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.34,
+      "score": 11.61,
+      "is_alert": true
+    },
+    {
+      "id": "9dd957ca7fc9aca5",
+      "title": "Trump Gives Putin a Hand in Russia’s Economic War With Ukraine",
+      "url": "https://www.nytimes.com/2026/10/12/world/europe/russia-diesel-trump.html",
+      "source": "NYT World",
+      "published_at": "2026-10-12T17:20:14+00:00",
+      "summary": "President Trump is moving to buy Russian diesel while also pressuring Ukraine to halt attacks on refineries, a lifeblood of Moscow’s war machine.",
+      "raw_score": 29.736,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 11.61,
       "is_alert": true
     },
     {
@@ -607,7 +460,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.32,
+      "score": 11.59,
       "is_alert": true
     },
     {
@@ -621,7 +474,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.32,
+      "score": 11.59,
       "is_alert": true
     },
     {
@@ -635,7 +488,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.31,
+      "score": 11.58,
       "is_alert": true
     },
     {
@@ -649,7 +502,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 11.12,
+      "score": 11.38,
       "is_alert": true
     },
     {
@@ -663,7 +516,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 11.11,
+      "score": 11.36,
       "is_alert": true
     },
     {
@@ -677,7 +530,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 11.11,
+      "score": 11.36,
       "is_alert": true
     },
     {
@@ -689,7 +542,7 @@
       "summary": "",
       "raw_score": 28.325,
       "themes": [],
-      "score": 10.99,
+      "score": 11.24,
       "is_alert": true
     },
     {
@@ -703,7 +556,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 10.98,
+      "score": 11.23,
       "is_alert": true
     },
     {
@@ -717,7 +570,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 10.83,
+      "score": 11.07,
       "is_alert": true
     },
     {
@@ -729,7 +582,7 @@
       "summary": "",
       "raw_score": 25.958,
       "themes": [],
-      "score": 10.38,
+      "score": 10.61,
       "is_alert": true
     },
     {
@@ -743,7 +596,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 10.18,
+      "score": 10.41,
       "is_alert": true
     },
     {
@@ -757,7 +610,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.16,
+      "score": 10.38,
+      "is_alert": true
+    },
+    {
+      "id": "523c18d89ac09a86",
+      "title": "U.S. stock futures muted after chip losses drag Wall Street; CPI data awaited",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-muted-after-chip-losses-drag-wall-street-cpi-data-awaited-4947807",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-14T00:54:25+00:00",
+      "summary": "",
+      "raw_score": 25.092,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 10.38,
       "is_alert": true
     },
     {
@@ -771,7 +638,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 9.88,
+      "score": 10.09,
       "is_alert": true
     },
     {
@@ -785,7 +652,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 9.85,
+      "score": 10.06,
       "is_alert": true
     },
     {
@@ -799,45 +666,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 9.85,
-      "is_alert": true
-    },
-    {
-      "id": "a4cbe72be87eeb50",
-      "title": "Taiwan stocks lower at close of trade; Taiwan Weighted down 0.22%",
-      "url": "https://www.investing.com/news/stock-market-news/taiwan-stocks-lower-at-close-of-trade-taiwan-weighted-down-022-4935628",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T06:05:03+00:00",
-      "summary": "",
-      "raw_score": 23.674,
-      "themes": [
-        "Geo Shock"
-      ],
-      "score": 9.8,
-      "is_alert": true
-    },
-    {
-      "id": "39954261e5fa803e",
-      "title": "Nasdaq, S&P 500 slip from record highs as yields and oil rebound",
-      "url": "https://www.investing.com/news/economy-news/wall-st-futures-slip-as-yields-and-oil-rebound-fed-minutes-in-focus-4936151",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T14:18:39+00:00",
-      "summary": "",
-      "raw_score": 23.399,
-      "themes": [],
-      "score": 9.73,
-      "is_alert": true
-    },
-    {
-      "id": "5c50702a7331b107",
-      "title": "U.S. stock futures steady after tech rally lifts S&P 500, Nasdaq to records",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-tech-rally-lifts-sp-500-nasdaq-to-records-4935463",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T00:14:54+00:00",
-      "summary": "",
-      "raw_score": 23.37,
-      "themes": [],
-      "score": 9.72,
+      "score": 10.06,
       "is_alert": true
     },
     {
@@ -851,7 +680,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.59,
+      "score": 9.79,
       "is_alert": true
     },
     {
@@ -863,35 +692,7 @@
       "summary": "JPMorgan released surprisingly spotty earnings results for the third quarter, while Goldman Sachs and Citi posted better-than-expected results, reflecting a choppy trading environment.",
       "raw_score": 22.864,
       "themes": [],
-      "score": 9.59,
-      "is_alert": true
-    },
-    {
-      "id": "3592007f3493bd59",
-      "title": "Factbox-Companies cutting jobs as investments shift toward AI",
-      "url": "https://www.investing.com/news/stock-market-news/factboxcompanies-cutting-jobs-as-investments-shift-toward-ai-4935376",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T22:36:25+00:00",
-      "summary": "",
-      "raw_score": 22.772,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.57,
-      "is_alert": true
-    },
-    {
-      "id": "454508e120b1ff16",
-      "title": "Hedge funds warn BoE repo reforms could backfire",
-      "url": "https://www.investing.com/news/economy-news/hedge-funds-warn-boe-repo-reforms-could-backfire-4935602",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T05:12:56+00:00",
-      "summary": "",
-      "raw_score": 22.772,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.57,
+      "score": 9.79,
       "is_alert": true
     },
     {
@@ -905,21 +706,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.56,
-      "is_alert": true
-    },
-    {
-      "id": "44838538d0c7c313",
-      "title": "Houthi strikes on Riyadh airport killed three Saudis as war escalates",
-      "url": "https://www.investing.com/news/commodities-news/houthi-strikes-on-riyadh-airport-killed-three-saudis-as-war-escalates-4940497",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-09T14:36:35+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.55,
+      "score": 9.76,
       "is_alert": true
     },
     {
@@ -933,35 +720,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.55,
+      "score": 9.75,
       "is_alert": true
     },
     {
-      "id": "adbb462eed472fba",
-      "title": "Yemen’s Houthis renew warning over Saudi airports after deadly Riyadh attack",
-      "url": "https://www.investing.com/news/commodities-news/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-4942575",
+      "id": "44838538d0c7c313",
+      "title": "Houthi strikes on Riyadh airport killed three Saudis as war escalates",
+      "url": "https://www.investing.com/news/commodities-news/houthi-strikes-on-riyadh-airport-killed-three-saudis-as-war-escalates-4940497",
       "source": "Investing.com Commodities",
-      "published_at": "2026-10-11T10:48:26+00:00",
+      "published_at": "2026-10-09T14:36:35+00:00",
       "summary": "",
       "raw_score": 22.688,
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.55,
-      "is_alert": true
-    },
-    {
-      "id": "bc77d2af58400c93",
-      "title": "Deutsche Bank CEO warns extremist political gains risk investment in Germany",
-      "url": "https://www.investing.com/news/economy-news/deutsche-bank-ceo-warns-extremist-political-gains-risk-investment-in-germany-4942726",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-11T14:44:22+00:00",
-      "summary": "",
-      "raw_score": 22.688,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.55,
+      "score": 9.74,
       "is_alert": true
     },
     {
@@ -975,7 +748,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.54,
+      "score": 9.74,
       "is_alert": true
     },
     {
@@ -989,7 +762,35 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.54,
+      "score": 9.74,
+      "is_alert": true
+    },
+    {
+      "id": "adbb462eed472fba",
+      "title": "Yemen’s Houthis renew warning over Saudi airports after deadly Riyadh attack",
+      "url": "https://www.investing.com/news/commodities-news/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-4942575",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-11T10:48:26+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.74,
+      "is_alert": true
+    },
+    {
+      "id": "bc77d2af58400c93",
+      "title": "Deutsche Bank CEO warns extremist political gains risk investment in Germany",
+      "url": "https://www.investing.com/news/economy-news/deutsche-bank-ceo-warns-extremist-political-gains-risk-investment-in-germany-4942726",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-11T14:44:22+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 9.74,
       "is_alert": true
     },
     {
@@ -1003,21 +804,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.54,
-      "is_alert": true
-    },
-    {
-      "id": "40f129c8d6954a3f",
-      "title": "IMF chief warns energy shock, growing debt and AI risks threaten global growth",
-      "url": "https://www.investing.com/news/economy-news/imf-chief-warns-energy-shock-growing-debt-and-ai-risks-threaten-global-growth-4935635",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T06:12:38+00:00",
-      "summary": "",
-      "raw_score": 22.632,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.53,
+      "score": 9.74,
       "is_alert": true
     },
     {
@@ -1031,7 +818,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.53,
+      "score": 9.73,
       "is_alert": true
     },
     {
@@ -1045,7 +832,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.53,
+      "score": 9.73,
       "is_alert": true
     },
     {
@@ -1059,7 +846,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.52,
+      "score": 9.72,
       "is_alert": true
     },
     {
@@ -1073,7 +860,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.52,
+      "score": 9.72,
       "is_alert": true
     },
     {
@@ -1087,21 +874,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.52,
-      "is_alert": true
-    },
-    {
-      "id": "d6e5e537459770b8",
-      "title": "Attacks on tankers in Hormuz hit highest of any week since start of Iran war, sources say",
-      "url": "https://www.investing.com/news/commodities-news/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say-4937056",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T14:43:10+00:00",
-      "summary": "",
-      "raw_score": 22.521,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.5,
+      "score": 9.72,
       "is_alert": true
     },
     {
@@ -1115,19 +888,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.43,
-      "is_alert": true
-    },
-    {
-      "id": "b0a50916e5471b83",
-      "title": "Gold rises over 1% as dollar, Treasury yields ease; set for weekly gains",
-      "url": "https://www.investing.com/news/commodities-news/gold-rises-on-softer-dollar-easing-yields-fed-outlook-in-focus-4940135",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-09T07:21:10+00:00",
-      "summary": "",
-      "raw_score": 22.14,
-      "themes": [],
-      "score": 9.41,
+      "score": 9.62,
       "is_alert": true
     },
     {
@@ -1141,21 +902,19 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.41,
+      "score": 9.61,
       "is_alert": true
     },
     {
-      "id": "69cad49eb4097d9a",
-      "title": "Ukraine Claws Back Land in the Donbas, Thwarting a Russian Push",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/ukraine-battlefield-operation-vivaldi.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T12:02:09+00:00",
-      "summary": "Moscow says its capture of the region is inevitable. But Kyiv has so far stymied Russian efforts to encircle Ukrainian “fortress belt” cities.",
-      "raw_score": 22.062,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.39,
+      "id": "b0a50916e5471b83",
+      "title": "Gold rises over 1% as dollar, Treasury yields ease; set for weekly gains",
+      "url": "https://www.investing.com/news/commodities-news/gold-rises-on-softer-dollar-easing-yields-fed-outlook-in-focus-4940135",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-09T07:21:10+00:00",
+      "summary": "",
+      "raw_score": 22.14,
+      "themes": [],
+      "score": 9.6,
       "is_alert": true
     },
     {
@@ -1169,7 +928,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.39,
+      "score": 9.58,
       "is_alert": true
     },
     {
@@ -1183,7 +942,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.38,
+      "score": 9.57,
       "is_alert": true
     },
     {
@@ -1197,7 +956,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.37,
+      "score": 9.56,
       "is_alert": true
     },
     {
@@ -1211,7 +970,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.36,
+      "score": 9.55,
       "is_alert": true
     },
     {
@@ -1225,7 +984,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.34,
+      "score": 9.53,
       "is_alert": true
     },
     {
@@ -1239,7 +998,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.34,
+      "score": 9.53,
       "is_alert": true
     },
     {
@@ -1253,21 +1012,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.32,
-      "is_alert": true
-    },
-    {
-      "id": "6463f78dcbc78af7",
-      "title": "Rate hike fears weigh on UK housing market, RICS says",
-      "url": "https://www.investing.com/news/economy-news/rate-hike-fears-weigh-on-uk-housing-market-rics-says-4937700",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T23:18:30+00:00",
-      "summary": "",
-      "raw_score": 21.481,
-      "themes": [
-        "Fed Emergency"
-      ],
-      "score": 9.24,
+      "score": 9.51,
       "is_alert": true
     },
     {
@@ -1281,7 +1026,21 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 9.24,
+      "score": 9.43,
+      "is_alert": true
+    },
+    {
+      "id": "6463f78dcbc78af7",
+      "title": "Rate hike fears weigh on UK housing market, RICS says",
+      "url": "https://www.investing.com/news/economy-news/rate-hike-fears-weigh-on-uk-housing-market-rics-says-4937700",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-07T23:18:30+00:00",
+      "summary": "",
+      "raw_score": 21.481,
+      "themes": [
+        "Fed Emergency"
+      ],
+      "score": 9.42,
       "is_alert": true
     },
     {
@@ -1293,33 +1052,7 @@
       "summary": "",
       "raw_score": 20.988,
       "themes": [],
-      "score": 9.11,
-      "is_alert": true
-    },
-    {
-      "id": "f5faf838dfda1439",
-      "title": "Gold slips below $4,150 as stronger dollar offsets fading Fed hike bets",
-      "url": "https://www.investing.com/news/commodities-news/gold-holds-gains-as-oil-flows-recover-treasury-yields-ease-4935492",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T06:05:28+00:00",
-      "summary": "",
-      "raw_score": 20.936,
-      "themes": [],
-      "score": 9.1,
-      "is_alert": true
-    },
-    {
-      "id": "4de231aab25e0a30",
-      "title": "How a Small Business Got Entangled in U.S. Sanctions on Iranian Oil",
-      "url": "https://www.nytimes.com/2026/10/07/world/asia/malaysia-shipping-iran-oil-us-sanctions.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T09:02:02+00:00",
-      "summary": "The case of a small Malaysian shipping agency illustrates the challenges Washington faces in its effort to stanch the flow of Iranian oil.",
-      "raw_score": 20.838,
-      "themes": [
-        "Sanctions"
-      ],
-      "score": 9.07,
+      "score": 9.29,
       "is_alert": true
     },
     {
@@ -1333,7 +1066,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 9.07,
+      "score": 9.25,
       "is_alert": true
     },
     {
@@ -1347,7 +1080,22 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.01,
+      "score": 9.19,
+      "is_alert": true
+    },
+    {
+      "id": "2a50022bd1707c35",
+      "title": "Senators Urge Trump to Reverse Diesel Deal With Putin",
+      "url": "https://www.nytimes.com/2026/10/13/us/politics/trump-putin-russia-diesel-senate.html",
+      "source": "NYT World",
+      "published_at": "2026-10-14T00:12:23+00:00",
+      "summary": "A bipartisan group of 12 senators called on the president to drop his decision to ease sanctions on Russia’s exports of diesel fuel, saying the deal would help Moscow continue the war in Ukraine.",
+      "raw_score": 20.403,
+      "themes": [
+        "War/Conflict",
+        "Sanctions"
+      ],
+      "score": 9.14,
       "is_alert": true
     },
     {
@@ -1361,7 +1109,7 @@
       "themes": [
         "Default"
       ],
-      "score": 8.9,
+      "score": 9.08,
       "is_alert": true
     },
     {
@@ -1373,35 +1121,7 @@
       "summary": "",
       "raw_score": 19.68,
       "themes": [],
-      "score": 8.78,
-      "is_alert": true
-    },
-    {
-      "id": "f068a0b93f77cf81",
-      "title": "UK 30-year gilt yields hit 28-year high in global selloff",
-      "url": "https://www.investing.com/news/economy-news/uk-30year-gilt-yields-hit-28year-high-in-global-selloff-4937055",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T14:48:38+00:00",
-      "summary": "",
-      "raw_score": 19.012,
-      "themes": [
-        "Market Crash"
-      ],
-      "score": 8.6,
-      "is_alert": true
-    },
-    {
-      "id": "c2716d3ed9f3ffd8",
-      "title": "Global yield sell-off resumes as U.S. 30-year yield touches 24-year highs",
-      "url": "https://www.investing.com/news/forex-news/french-bond-yields-resume-upward-marchfollowing-brief-relief-rally-4935716",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T12:09:33+00:00",
-      "summary": "",
-      "raw_score": 18.989,
-      "themes": [
-        "Market Crash"
-      ],
-      "score": 8.6,
+      "score": 8.95,
       "is_alert": true
     },
     {
@@ -1415,7 +1135,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.6,
+      "score": 8.77,
       "is_alert": true
     },
     {
@@ -1427,7 +1147,7 @@
       "summary": "Imports and the trade deficit have ballooned in recent months, defying the Trump administration’s efforts to reduce it through tariffs.",
       "raw_score": 18.577,
       "themes": [],
-      "score": 8.49,
+      "score": 8.65,
       "is_alert": true
     },
     {
@@ -1439,7 +1159,7 @@
       "summary": "When a single cello can cost $1,000 and a tuba $9,000, tariffs are straining meager band and orchestra budgets.",
       "raw_score": 18.532,
       "themes": [],
-      "score": 8.48,
+      "score": 8.64,
       "is_alert": true
     },
     {
@@ -1453,21 +1173,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.31,
-      "is_alert": true
-    },
-    {
-      "id": "d254acc2f00b5f43",
-      "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies",
-      "url": "https://www.investing.com/news/commodities-news/oil-climbs-as-mideast-conflict-tanker-attacks-persist-4942900",
-      "source": "Investing.com News",
-      "published_at": "2026-10-12T00:54:39+00:00",
-      "summary": "",
-      "raw_score": 17.778,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 8.29,
+      "score": 8.47,
       "is_alert": true
     },
     {
@@ -1481,21 +1187,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.29,
-      "is_alert": true
-    },
-    {
-      "id": "8991271880ee075c",
-      "title": "U.S. stock futures steady as bank earnings, inflation data loom",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-4945262",
-      "source": "Investing.com News",
-      "published_at": "2026-10-13T00:25:16+00:00",
-      "summary": "",
-      "raw_score": 17.778,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 8.29,
+      "score": 8.45,
       "is_alert": true
     },
     {
@@ -1509,7 +1201,35 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.28,
+      "score": 8.44,
+      "is_alert": true
+    },
+    {
+      "id": "d254acc2f00b5f43",
+      "title": "Oil falls on hopes Russia-Ukraine energy ceasefire will boost supplies",
+      "url": "https://www.investing.com/news/commodities-news/oil-climbs-as-mideast-conflict-tanker-attacks-persist-4942900",
+      "source": "Investing.com News",
+      "published_at": "2026-10-12T00:54:39+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.44,
+      "is_alert": true
+    },
+    {
+      "id": "8991271880ee075c",
+      "title": "U.S. stock futures steady as bank earnings, inflation data loom",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-4945262",
+      "source": "Investing.com News",
+      "published_at": "2026-10-13T00:25:16+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 8.44,
       "is_alert": true
     },
     {
@@ -1523,7 +1243,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.27,
+      "score": 8.42,
       "is_alert": true
     },
     {
@@ -1537,7 +1257,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.99,
+      "score": 8.14,
       "is_alert": true
     },
     {
@@ -1551,7 +1271,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.98,
+      "score": 8.12,
       "is_alert": true
     },
     {
@@ -1565,7 +1285,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.97,
+      "score": 8.11,
       "is_alert": true
     },
     {
@@ -1579,7 +1299,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.97,
+      "score": 8.11,
       "is_alert": true
     },
     {
@@ -1593,7 +1313,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.97,
+      "score": 8.11,
       "is_alert": true
     },
     {
@@ -1607,7 +1327,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.97,
+      "score": 8.11,
       "is_alert": true
     },
     {
@@ -1621,7 +1341,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.97,
+      "score": 8.11,
       "is_alert": true
     },
     {
@@ -1635,7 +1355,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.96,
+      "score": 8.1,
       "is_alert": true
     },
     {
@@ -1649,31 +1369,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 7.96,
-      "is_alert": true
-    },
-    {
-      "id": "ca8043e4fbe2aa37",
-      "title": "Retension Pharmaceuticals prices IPO at $12 per share on Nasdaq",
-      "url": "https://www.investing.com/news/stock-market-news/retension-pharmaceuticals-prices-ipo-at-12-per-share-on-nasdaq-432SI-4940086",
-      "source": "Investing.com News",
-      "published_at": "2026-10-09T01:48:02+00:00",
-      "summary": "",
-      "raw_score": 16.049,
-      "themes": [],
-      "score": 7.85,
-      "is_alert": true
-    },
-    {
-      "id": "758524190cae2738",
-      "title": "Retension Pharmaceuticals prices IPO at $12 per share on Nasdaq",
-      "url": "https://www.investing.com/news/stock-market-news/retension-pharmaceuticals-prices-ipo-at-12-per-share-on-nasdaq-432SI-4940084",
-      "source": "Investing.com News",
-      "published_at": "2026-10-09T01:47:02+00:00",
-      "summary": "",
-      "raw_score": 16.049,
-      "themes": [],
-      "score": 7.85,
+      "score": 8.1,
       "is_alert": true
     },
     {
@@ -1685,7 +1381,7 @@
       "summary": "",
       "raw_score": 16.069,
       "themes": [],
-      "score": 7.85,
+      "score": 7.99,
       "is_alert": true
     },
     {
@@ -1697,7 +1393,31 @@
       "summary": "",
       "raw_score": 16.03,
       "themes": [],
-      "score": 7.84,
+      "score": 7.98,
+      "is_alert": true
+    },
+    {
+      "id": "ca8043e4fbe2aa37",
+      "title": "Retension Pharmaceuticals prices IPO at $12 per share on Nasdaq",
+      "url": "https://www.investing.com/news/stock-market-news/retension-pharmaceuticals-prices-ipo-at-12-per-share-on-nasdaq-432SI-4940086",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T01:48:02+00:00",
+      "summary": "",
+      "raw_score": 16.049,
+      "themes": [],
+      "score": 7.98,
+      "is_alert": true
+    },
+    {
+      "id": "758524190cae2738",
+      "title": "Retension Pharmaceuticals prices IPO at $12 per share on Nasdaq",
+      "url": "https://www.investing.com/news/stock-market-news/retension-pharmaceuticals-prices-ipo-at-12-per-share-on-nasdaq-432SI-4940084",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T01:47:02+00:00",
+      "summary": "",
+      "raw_score": 16.049,
+      "themes": [],
+      "score": 7.98,
       "is_alert": true
     },
     {
@@ -1711,7 +1431,7 @@
       "themes": [
         "Default"
       ],
-      "score": 7.67,
+      "score": 7.8,
       "is_alert": true
     },
     {
@@ -1725,7 +1445,7 @@
       "themes": [
         "Default"
       ],
-      "score": 7.67,
+      "score": 7.8,
       "is_alert": true
     },
     {
@@ -1739,35 +1459,21 @@
       "themes": [
         "Default"
       ],
-      "score": 7.67,
+      "score": 7.8,
       "is_alert": true
     },
     {
-      "id": "d0031671b821a831",
-      "title": "Oil prices rise as storms and air strikes threaten supply",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-storms-and-air-strikes-threaten-supply-4935487",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T00:54:39+00:00",
+      "id": "fa414d3504d22318",
+      "title": "Why is Enovix stock surging after-hours today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-enovix-stock-surging-afterhours-today-93CH-4947710",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-13T23:25:33+00:00",
       "summary": "",
-      "raw_score": 15.309,
+      "raw_score": 15.366,
       "themes": [
-        "Oil/Energy"
+        "Volatility"
       ],
-      "score": 7.66,
-      "is_alert": true
-    },
-    {
-      "id": "43e684bd214371dd",
-      "title": "Oil prices rise with M.East, U.S. supply disruptions in focus",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-meast-supply-jitters-persist-4935465",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T00:17:23+00:00",
-      "summary": "",
-      "raw_score": 15.309,
-      "themes": [
-        "Oil/Energy"
-      ],
-      "score": 7.66,
+      "score": 7.8,
       "is_alert": true
     },
     {
@@ -1781,7 +1487,21 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.66,
+      "score": 7.79,
+      "is_alert": true
+    },
+    {
+      "id": "ac4533839fed37e5",
+      "title": "Oil prices rise as Houthi-Saudi attacks spur supply uncertainty",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-houthisaudi-attacks-spur-supply-uncertainty-4947751",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-14T00:01:18+00:00",
+      "summary": "",
+      "raw_score": 15.328,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 7.79,
       "is_alert": true
     },
     {
@@ -1795,7 +1515,21 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.65,
+      "score": 7.78,
+      "is_alert": true
+    },
+    {
+      "id": "5775adabf6b9d483",
+      "title": "Oil prices climb as traders weigh Saudi supply risk, Russian diesel flow",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-climb-as-traders-weigh-saudi-supply-risk-russian-diesel-flow-4947843",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:30:24+00:00",
+      "summary": "",
+      "raw_score": 15.271,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 7.78,
       "is_alert": true
     },
     {
@@ -1809,31 +1543,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.64,
-      "is_alert": true
-    },
-    {
-      "id": "f72e29692b632a83",
-      "title": "Canada trade surplus widens as exporters race to beat U.S. tariffs",
-      "url": "https://www.investing.com/news/economy-news/canada-trade-surplus-widens-as-exporters-race-to-beat-us-tariffs-4935258",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T20:44:09+00:00",
-      "summary": "",
-      "raw_score": 13.564,
-      "themes": [],
-      "score": 7.21,
-      "is_alert": true
-    },
-    {
-      "id": "73c663638fcf330d",
-      "title": "Levi Strauss lifts annual profit outlook on tariff refunds, holiday demand",
-      "url": "https://www.investing.com/news/stock-market-news/levi-strauss-lifts-annual-profit-outlook-on-tariff-refunds-holiday-demand-4937465",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:49:02+00:00",
-      "summary": "",
-      "raw_score": 13.564,
-      "themes": [],
-      "score": 7.21,
+      "score": 7.77,
       "is_alert": true
     },
     {
@@ -1845,31 +1555,7 @@
       "summary": "",
       "raw_score": 13.547,
       "themes": [],
-      "score": 7.2,
-      "is_alert": true
-    },
-    {
-      "id": "104e3b0283bb286c",
-      "title": "China’s ‘Self-Reliance’ Drive Is Upending Trade With Europe",
-      "url": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-manufacturing.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T14:38:50+00:00",
-      "summary": "China’s push to manufacture more at home has widened its trade imbalance with Europe, intensifying pressure on European industries and policymakers to take action.",
-      "raw_score": 12.981,
-      "themes": [],
-      "score": 7.06,
-      "is_alert": true
-    },
-    {
-      "id": "e584b738fac308ee",
-      "title": "Europe’s Trade Tensions With China Are Coming to a Head",
-      "url": "https://www.nytimes.com/2026/10/07/business/china-europe-trade-issues.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T09:06:15+00:00",
-      "summary": "The European Union is weighing tougher trade measures as negotiators prepare to meet Chinese officials in Beijing, with surging exports from China pressuring key industries in Europe.",
-      "raw_score": 12.903,
-      "themes": [],
-      "score": 7.04,
+      "score": 7.32,
       "is_alert": true
     },
     {
@@ -1883,43 +1569,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 7.03,
-      "is_alert": true
-    },
-    {
-      "id": "23ad6bc562e805f5",
-      "title": "What to know about the Fed’s decision.",
-      "url": "https://www.nytimes.com/live/2026/09/16/business/fed-meeting-warsh-interest-rates/what-to-know-about-the-feds-decision",
-      "source": "NYT Economy",
-      "published_at": "2026-09-17T12:22:36+00:00",
-      "summary": "",
-      "raw_score": 12.392,
-      "themes": [],
-      "score": 6.91,
-      "is_alert": true
-    },
-    {
-      "id": "573f67f596f28814",
-      "title": "Hawkish Fed triggers emerging market outflows in September",
-      "url": "https://www.investing.com/news/stock-market-news/hawkish-fed-triggers-emerging-market-outflows-in-september-4936779",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:13:39+00:00",
-      "summary": "",
-      "raw_score": 12.376,
-      "themes": [],
-      "score": 6.9,
-      "is_alert": true
-    },
-    {
-      "id": "15148f8e2a0190c9",
-      "title": "Fed policymakers divided over rate-hike logic in September, minutes show",
-      "url": "https://www.investing.com/news/economy-news/fed-policymakers-divided-over-ratehike-logic-in-september-minutes-show-4937320",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T20:25:44+00:00",
-      "summary": "",
-      "raw_score": 12.346,
-      "themes": [],
-      "score": 6.9,
+      "score": 7.14,
       "is_alert": true
     },
     {
@@ -1931,55 +1581,7 @@
       "summary": "",
       "raw_score": 12.361,
       "themes": [],
-      "score": 6.9,
-      "is_alert": true
-    },
-    {
-      "id": "369ecbc88ad7b918",
-      "title": "Fed minutes show some officials want to prepare for market stress",
-      "url": "https://www.investing.com/news/economy-news/fed-minutes-show-some-officials-want-to-prepare-for-market-stress-4937471",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T20:20:05+00:00",
-      "summary": "",
-      "raw_score": 12.33,
-      "themes": [],
-      "score": 6.89,
-      "is_alert": true
-    },
-    {
-      "id": "42a7edfd77d10e42",
-      "title": "Fed’s Waller: More hikes needed, but there is ’flexibility’ about the pace",
-      "url": "https://www.investing.com/news/economy-news/feds-waller-more-hikes-needed-but-there-is-flexibility-about-the-pace-4938165",
-      "source": "Investing.com News",
-      "published_at": "2026-10-08T08:42:37+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.89,
-      "is_alert": true
-    },
-    {
-      "id": "80fbfac62797af62",
-      "title": "Gold rises after touching two-month low as traders eye Fed rate outlook",
-      "url": "https://www.investing.com/news/stock-market-news/gold-holds-near-nineweek-low-as-hormuz-tensions-raise-fed-hike-bets-4937808",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-08T13:32:58+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.89,
-      "is_alert": true
-    },
-    {
-      "id": "80f22d31e1e1e6e2",
-      "title": "New York governor plans to seek federal help to tackle measles outbreak",
-      "url": "https://www.investing.com/news/stock-market-news/kennedy-offers-federal-support-to-new-york-over-measles-outbreak-4937489",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-08T15:54:47+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.89,
+      "score": 7.01,
       "is_alert": true
     },
     {
@@ -1991,19 +1593,7 @@
       "summary": "",
       "raw_score": 12.33,
       "themes": [],
-      "score": 6.89,
-      "is_alert": true
-    },
-    {
-      "id": "76f1c9a49ecc1574",
-      "title": "Trump orders Nov. 5 Cook hearing in renewed bid to oust Fed governor",
-      "url": "https://www.investing.com/news/economy-news/trump-orders-nov-5-cook-hearing-in-renewed-bid-to-oust-fed-governor-4941460",
-      "source": "Investing.com News",
-      "published_at": "2026-10-09T15:42:01+00:00",
-      "summary": "",
-      "raw_score": 12.3,
-      "themes": [],
-      "score": 6.89,
+      "score": 7.0,
       "is_alert": true
     },
     {
@@ -2015,19 +1605,7 @@
       "summary": "",
       "raw_score": 12.33,
       "themes": [],
-      "score": 6.89,
-      "is_alert": true
-    },
-    {
-      "id": "e390b707f504c5a7",
-      "title": "Fed’s Hammack backs restrictive policy, says better if it comes ’relatively quickly’",
-      "url": "https://www.investing.com/news/economy-news/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-4944977",
-      "source": "Investing.com News",
-      "published_at": "2026-10-12T18:24:26+00:00",
-      "summary": "",
-      "raw_score": 12.315,
-      "themes": [],
-      "score": 6.89,
+      "score": 7.0,
       "is_alert": true
     },
     {
@@ -2039,7 +1617,7 @@
       "summary": "",
       "raw_score": 12.33,
       "themes": [],
-      "score": 6.89,
+      "score": 7.0,
       "is_alert": true
     },
     {
@@ -2051,19 +1629,67 @@
       "summary": "",
       "raw_score": 12.33,
       "themes": [],
-      "score": 6.89,
+      "score": 7.0,
       "is_alert": true
     },
     {
-      "id": "debc931a6356eb1e",
-      "title": "US judge authorizes fund to subpoena New York Fed for documents related to Radiant World",
-      "url": "https://www.investing.com/news/commodities-news/us-judge-authorizes-fund-to-subpoena-new-york-fed-for-documents-related-to-radiant-world-4935428",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-06T23:36:24+00:00",
+      "id": "42a7edfd77d10e42",
+      "title": "Fed’s Waller: More hikes needed, but there is ’flexibility’ about the pace",
+      "url": "https://www.investing.com/news/economy-news/feds-waller-more-hikes-needed-but-there-is-flexibility-about-the-pace-4938165",
+      "source": "Investing.com News",
+      "published_at": "2026-10-08T08:42:37+00:00",
       "summary": "",
-      "raw_score": 12.27,
+      "raw_score": 12.315,
       "themes": [],
-      "score": 6.88,
+      "score": 6.99,
+      "is_alert": true
+    },
+    {
+      "id": "80fbfac62797af62",
+      "title": "Gold rises after touching two-month low as traders eye Fed rate outlook",
+      "url": "https://www.investing.com/news/stock-market-news/gold-holds-near-nineweek-low-as-hormuz-tensions-raise-fed-hike-bets-4937808",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-08T13:32:58+00:00",
+      "summary": "",
+      "raw_score": 12.315,
+      "themes": [],
+      "score": 6.99,
+      "is_alert": true
+    },
+    {
+      "id": "80f22d31e1e1e6e2",
+      "title": "New York governor plans to seek federal help to tackle measles outbreak",
+      "url": "https://www.investing.com/news/stock-market-news/kennedy-offers-federal-support-to-new-york-over-measles-outbreak-4937489",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-08T15:54:47+00:00",
+      "summary": "",
+      "raw_score": 12.315,
+      "themes": [],
+      "score": 6.99,
+      "is_alert": true
+    },
+    {
+      "id": "76f1c9a49ecc1574",
+      "title": "Trump orders Nov. 5 Cook hearing in renewed bid to oust Fed governor",
+      "url": "https://www.investing.com/news/economy-news/trump-orders-nov-5-cook-hearing-in-renewed-bid-to-oust-fed-governor-4941460",
+      "source": "Investing.com News",
+      "published_at": "2026-10-09T15:42:01+00:00",
+      "summary": "",
+      "raw_score": 12.3,
+      "themes": [],
+      "score": 6.99,
+      "is_alert": true
+    },
+    {
+      "id": "e390b707f504c5a7",
+      "title": "Fed’s Hammack backs restrictive policy, says better if it comes ’relatively quickly’",
+      "url": "https://www.investing.com/news/economy-news/feds-hammack-backs-restrictive-policy-says-better-if-it-comes-relatively-quickly-4944977",
+      "source": "Investing.com News",
+      "published_at": "2026-10-12T18:24:26+00:00",
+      "summary": "",
+      "raw_score": 12.315,
+      "themes": [],
+      "score": 6.99,
       "is_alert": true
     },
     {
@@ -2075,7 +1701,7 @@
       "summary": "",
       "raw_score": 12.27,
       "themes": [],
-      "score": 6.88,
+      "score": 6.98,
       "is_alert": true
     },
     {
@@ -2087,7 +1713,7 @@
       "summary": "",
       "raw_score": 12.099,
       "themes": [],
-      "score": 6.83,
+      "score": 6.94,
       "is_alert": true
     },
     {
@@ -2099,19 +1725,7 @@
       "summary": "President Trump said the White House would investigate unsubstantiated claims that Lisa D. Cook committed mortgage fraud and hold a hearing next month.",
       "raw_score": 12.005,
       "themes": [],
-      "score": 6.81,
-      "is_alert": true
-    },
-    {
-      "id": "20adc386ff663817",
-      "title": "Zoom CEO Eric Yuan sells $2.27 million in NASDAQ:ZM stock",
-      "url": "https://www.investing.com/news/insider-trading-news/zoom-ceo-eric-yuan-sells-227-million-in-nasdaqzm-stock-93CH-4937550",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:01:12+00:00",
-      "summary": "",
-      "raw_score": 11.111,
-      "themes": [],
-      "score": 6.58,
+      "score": 6.91,
       "is_alert": true
     },
     {
@@ -2123,7 +1737,7 @@
       "summary": "",
       "raw_score": 11.111,
       "themes": [],
-      "score": 6.58,
+      "score": 6.67,
       "is_alert": true
     },
     {
@@ -2135,19 +1749,7 @@
       "summary": "",
       "raw_score": 11.097,
       "themes": [],
-      "score": 6.58,
-      "is_alert": true
-    },
-    {
-      "id": "2ba6ad46350a8a15",
-      "title": "U.S. stocks lower at close of trade; Dow Jones Industrial Average down 0.66%",
-      "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-066-4937506",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:31:01+00:00",
-      "summary": "",
-      "raw_score": 11.07,
-      "themes": [],
-      "score": 6.57,
+      "score": 6.67,
       "is_alert": true
     },
     {
@@ -2159,7 +1761,7 @@
       "summary": "",
       "raw_score": 11.07,
       "themes": [],
-      "score": 6.57,
+      "score": 6.66,
       "is_alert": true
     },
     {
@@ -2173,7 +1775,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.48,
+      "score": 6.57,
       "is_alert": true
     },
     {
@@ -2187,7 +1789,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.45,
+      "score": 6.54,
       "is_alert": true
     },
     {
@@ -2201,7 +1803,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.44,
+      "score": 6.53,
       "is_alert": true
     },
     {
@@ -2215,7 +1817,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.44,
+      "score": 6.53,
       "is_alert": true
     },
     {
@@ -2229,7 +1831,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.44,
+      "score": 6.53,
       "is_alert": true
     },
     {
@@ -2243,21 +1845,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.44,
-      "is_alert": true
-    },
-    {
-      "id": "35e7d4c47507499c",
-      "title": "Mass Trials Put Hundreds in One Dock in El Salvador",
-      "url": "https://www.nytimes.com/2026/10/07/world/americas/el-salvador-mass-trials-bukele.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T09:02:10+00:00",
-      "summary": "Lawyers warn that the mass trials of people imprisoned during President Nayib Bukele’s gang crackdown are marred by vague evidence and restrictions on a proper defense.",
-      "raw_score": 10.526,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 6.43,
+      "score": 6.53,
       "is_alert": true
     },
     {
@@ -2271,7 +1859,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.43,
+      "score": 6.52,
       "is_alert": true
     },
     {
@@ -2285,7 +1873,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.43,
+      "score": 6.52,
       "is_alert": true
     },
     {
@@ -2299,7 +1887,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.42,
+      "score": 6.51,
       "is_alert": true
     },
     {
@@ -2313,7 +1901,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.42,
+      "score": 6.51,
       "is_alert": true
     },
     {
@@ -2327,7 +1915,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.42,
+      "score": 6.51,
       "is_alert": true
     },
     {
@@ -2341,7 +1929,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.42,
+      "score": 6.51,
       "is_alert": true
     },
     {
@@ -2355,35 +1943,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.42,
-      "is_alert": true
-    },
-    {
-      "id": "2f600dc40ee7526f",
-      "title": "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit",
-      "url": "https://www.nytimes.com/2026/09/22/business/economy/us-china-ai-competition.html",
-      "source": "NYT Economy",
-      "published_at": "2026-09-22T17:48:09+00:00",
-      "summary": "Artificial intelligence is on the agenda when leaders from the United States and China meet this week. But with little consensus on a path forward, expectations are limited.",
-      "raw_score": 10.476,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 6.42,
-      "is_alert": true
-    },
-    {
-      "id": "a86f71f9c8585c28",
-      "title": "What Life in Gaza Is Like Now",
-      "url": "https://www.nytimes.com/video/world/middleeast/100000011168313/what-life-in-gaza-is-like-now.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T14:19:16+00:00",
-      "summary": "Nearly a year after Israel and Hamas agreed to end the war in Gaza, Saher Alghorra, a photographer for The New York Times, documents how residents are coping and working to rebuild their lives.",
-      "raw_score": 10.464,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 6.41,
+      "score": 6.51,
       "is_alert": true
     },
     {
@@ -2397,7 +1957,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.41,
+      "score": 6.5,
+      "is_alert": true
+    },
+    {
+      "id": "2f600dc40ee7526f",
+      "title": "Trump and Xi to Discuss A.I. Risks and Competition at US-China Summit",
+      "url": "https://www.nytimes.com/2026/09/22/business/economy/us-china-ai-competition.html",
+      "source": "NYT Economy",
+      "published_at": "2026-09-22T17:48:09+00:00",
+      "summary": "Artificial intelligence is on the agenda when leaders from the United States and China meet this week. But with little consensus on a path forward, expectations are limited.",
+      "raw_score": 10.476,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 6.5,
       "is_alert": true
     },
     {
@@ -2409,7 +1983,7 @@
       "summary": "",
       "raw_score": 10.383,
       "themes": [],
-      "score": 6.39,
+      "score": 6.48,
       "is_alert": true
     },
     {
@@ -2421,7 +1995,7 @@
       "summary": "European nations that condemn the Taliban government for its human rights record are seeking its help to deport refugees back to Afghanistan.",
       "raw_score": 10.084,
       "themes": [],
-      "score": 6.32,
+      "score": 6.4,
       "is_alert": true
     },
     {
@@ -2433,7 +2007,7 @@
       "summary": "Shocked by the U.S. agreement with Russia, which Ukraine has called “a gift” to President Putin, officials in Europe have coalesced around a cautious diplomatic message.",
       "raw_score": 10.048,
       "themes": [],
-      "score": 6.31,
+      "score": 6.39,
       "is_alert": true
     },
     {
@@ -2445,7 +2019,7 @@
       "summary": "",
       "raw_score": 9.877,
       "themes": [],
-      "score": 6.26,
+      "score": 6.35,
       "is_alert": true
     },
     {
@@ -2457,43 +2031,7 @@
       "summary": "A new analysis of federal earnings data measures how much students who received federal financial aid earned four years after graduating. Our graphics reporter Arfa Momin studied the data to see when a graduate’s major and college mattered most to earnings.",
       "raw_score": 9.445,
       "themes": [],
-      "score": 6.15,
-      "is_alert": true
-    },
-    {
-      "id": "978d9cdeded36383",
-      "title": "Canadian dollar weakens near 18-month low despite surprise trade surplus",
-      "url": "https://www.investing.com/news/forex-news/canadian-dollar-weakens-near-18month-low-despite-surprise-trade-surplus-4935268",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-06T20:46:08+00:00",
-      "summary": "",
-      "raw_score": 8.642,
-      "themes": [],
-      "score": 5.95,
-      "is_alert": true
-    },
-    {
-      "id": "5fe9d3a888ab0ec4",
-      "title": "Asian currencies mixed as dollar holds gains, yen weakens near 158",
-      "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-gains-yen-weakens-near-158-4935567",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T03:51:14+00:00",
-      "summary": "",
-      "raw_score": 8.631,
-      "themes": [],
-      "score": 5.95,
-      "is_alert": true
-    },
-    {
-      "id": "cf4fe80aa1c3fbc1",
-      "title": "Sterling today: Pound dips on firm dollar; EUR/GBP at 16-month low",
-      "url": "https://www.investing.com/news/forex-news/sterling-today-pound-dips-on-firm-dollar-eurgbp-at-16month-low-4935921",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T13:42:09+00:00",
-      "summary": "",
-      "raw_score": 8.631,
-      "themes": [],
-      "score": 5.95,
+      "score": 6.23,
       "is_alert": true
     },
     {
@@ -2505,7 +2043,7 @@
       "summary": "",
       "raw_score": 8.663,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2517,7 +2055,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2531,7 +2069,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2543,7 +2081,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2555,7 +2093,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2567,7 +2105,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2579,7 +2117,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2591,7 +2129,7 @@
       "summary": "",
       "raw_score": 8.642,
       "themes": [],
-      "score": 5.95,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2603,19 +2141,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.95,
-      "is_alert": true
-    },
-    {
-      "id": "7690cfefbada5c9a",
-      "title": "Iraq devalues dinar to 1,520 per US dollar, state news agency says",
-      "url": "https://www.investing.com/news/forex-news/iraq-devalues-dinar-to-1520-per-us-dollar-state-news-agency-says-4935843",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T10:00:53+00:00",
-      "summary": "",
-      "raw_score": 8.621,
-      "themes": [],
-      "score": 5.94,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2627,7 +2153,7 @@
       "summary": "",
       "raw_score": 8.621,
       "themes": [],
-      "score": 5.94,
+      "score": 6.01,
       "is_alert": true
     },
     {
@@ -2641,21 +2167,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.82,
-      "is_alert": true
-    },
-    {
-      "id": "0dbb62e58e1182c5",
-      "title": "Days of Deadly Houthi Attacks Show Saudi Arabia’s Vulnerabilities",
-      "url": "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
-      "source": "NYT World",
-      "published_at": "2026-10-09T15:17:54+00:00",
-      "summary": "The escalating violence has brought the conflict in Yemen to the doorstep of the Saudi capital, and the kingdom has no easy options to curtail the increasingly sophisticated and targeted strikes.",
-      "raw_score": 8.095,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 5.81,
+      "score": 5.88,
       "is_alert": true
     },
     {
@@ -2669,31 +2181,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 5.81,
+      "score": 5.88,
       "is_alert": true
     },
     {
-      "id": "1b34dee695f46935",
-      "title": "European gas prices edge higher as cooler forecasts offset storage injection",
-      "url": "https://www.investing.com/news/commodities-news/european-gas-prices-edge-higher-as-cooler-forecasts-offset-storage-injection-4935893",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T08:57:28+00:00",
-      "summary": "",
-      "raw_score": 7.398,
-      "themes": [],
-      "score": 5.63,
-      "is_alert": true
-    },
-    {
-      "id": "d14cadd62f8b9112",
-      "title": "European diesel margins climb over 10% on stock release talks",
-      "url": "https://www.investing.com/news/commodities-news/european-diesel-margins-climb-over-10-on-stock-release-talks-93CH-4937490",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T20:26:21+00:00",
-      "summary": "",
-      "raw_score": 7.407,
-      "themes": [],
-      "score": 5.63,
+      "id": "0dbb62e58e1182c5",
+      "title": "Days of Deadly Houthi Attacks Show Saudi Arabia’s Vulnerabilities",
+      "url": "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
+      "source": "NYT World",
+      "published_at": "2026-10-09T15:17:54+00:00",
+      "summary": "The escalating violence has brought the conflict in Yemen to the doorstep of the Saudi capital, and the kingdom has no easy options to curtail the increasingly sophisticated and targeted strikes.",
+      "raw_score": 8.095,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 5.87,
       "is_alert": true
     },
     {
@@ -2705,7 +2207,7 @@
       "summary": "",
       "raw_score": 7.398,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2717,7 +2219,7 @@
       "summary": "",
       "raw_score": 7.398,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2729,7 +2231,7 @@
       "summary": "",
       "raw_score": 7.398,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2741,7 +2243,7 @@
       "summary": "",
       "raw_score": 7.407,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2753,7 +2255,7 @@
       "summary": "",
       "raw_score": 7.398,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2765,7 +2267,7 @@
       "summary": "",
       "raw_score": 7.389,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2777,7 +2279,7 @@
       "summary": "",
       "raw_score": 7.398,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2789,7 +2291,7 @@
       "summary": "",
       "raw_score": 7.407,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2801,7 +2303,7 @@
       "summary": "",
       "raw_score": 7.417,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2813,7 +2315,7 @@
       "summary": "",
       "raw_score": 7.407,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2825,7 +2327,7 @@
       "summary": "",
       "raw_score": 7.407,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2837,7 +2339,7 @@
       "summary": "",
       "raw_score": 7.389,
       "themes": [],
-      "score": 5.63,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2849,7 +2351,7 @@
       "summary": "",
       "raw_score": 7.38,
       "themes": [],
-      "score": 5.62,
+      "score": 5.68,
       "is_alert": true
     },
     {
@@ -2861,7 +2363,7 @@
       "summary": "",
       "raw_score": 7.353,
       "themes": [],
-      "score": 5.62,
+      "score": 5.68,
       "is_alert": true
     },
     {
@@ -2873,7 +2375,7 @@
       "summary": "",
       "raw_score": 7.38,
       "themes": [],
-      "score": 5.62,
+      "score": 5.68,
       "is_alert": true
     },
     {
@@ -2885,7 +2387,7 @@
       "summary": "",
       "raw_score": 7.38,
       "themes": [],
-      "score": 5.62,
+      "score": 5.68,
       "is_alert": true
     },
     {
@@ -2897,7 +2399,7 @@
       "summary": "",
       "raw_score": 7.38,
       "themes": [],
-      "score": 5.62,
+      "score": 5.68,
       "is_alert": true
     },
     {
@@ -2909,19 +2411,7 @@
       "summary": "Consumers across the continent increasingly want to buy low-cost Chinese vehicles. Policymakers are seeking to slow them down.",
       "raw_score": 7.264,
       "themes": [],
-      "score": 5.6,
-      "is_alert": true
-    },
-    {
-      "id": "cc1c18d8e1c71cd4",
-      "title": "Rubio Urges Europe to Awaken From ‘Slumber’ and Uphold Western Dominance",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/rubio-greece-defense-immigration.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T19:54:57+00:00",
-      "summary": "In Greece, Secretary of State Marco Rubio said Western nations must embrace an earlier ethos of exploration and conquest as part of their civilization, to remain ‘at the head of the world.’",
-      "raw_score": 7.117,
-      "themes": [],
-      "score": 5.56,
+      "score": 5.65,
       "is_alert": true
     },
     {
@@ -2933,43 +2423,7 @@
       "summary": "Prominent executives attended a dinner at the White House Thursday night, as the countries wrangled over tariffs, trade and potential A.I. regulation.",
       "raw_score": 5.288,
       "themes": [],
-      "score": 5.09,
-      "is_alert": true
-    },
-    {
-      "id": "78879d75c8d1ce8f",
-      "title": "Centinel Spine Holdco files for IPO",
-      "url": "https://www.investing.com/news/stock-market-news/centinel-spine-holdco-files-for-ipo-432SI-4937511",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:44:02+00:00",
-      "summary": "",
-      "raw_score": 4.963,
-      "themes": [],
-      "score": 5.01,
-      "is_alert": true
-    },
-    {
-      "id": "40dc482b5697c5ee",
-      "title": "Medical device maker Centinel Spine discloses revenue rise in US IPO filing",
-      "url": "https://www.investing.com/news/economy-news/medical-device-maker-centinel-spine-discloses-revenue-rise-in-us-ipo-filing-4937575",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T22:54:38+00:00",
-      "summary": "",
-      "raw_score": 4.926,
-      "themes": [],
-      "score": 5.0,
-      "is_alert": true
-    },
-    {
-      "id": "2092e0c5728639fb",
-      "title": "Bezos says Blue Origin likely to pursue IPO in coming years",
-      "url": "https://www.investing.com/news/stock-market-news/bezos-says-blue-origin-likely-to-pursue-ipo-in-coming-years-4937760",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-08T00:54:34+00:00",
-      "summary": "",
-      "raw_score": 4.932,
-      "themes": [],
-      "score": 5.0,
+      "score": 5.13,
       "is_alert": true
     },
     {
@@ -2981,7 +2435,7 @@
       "summary": "",
       "raw_score": 4.95,
       "themes": [],
-      "score": 5.0,
+      "score": 5.04,
       "is_alert": true
     },
     {
@@ -2993,7 +2447,7 @@
       "summary": "",
       "raw_score": 4.95,
       "themes": [],
-      "score": 5.0,
+      "score": 5.04,
       "is_alert": true
     },
     {
@@ -3005,7 +2459,7 @@
       "summary": "",
       "raw_score": 4.944,
       "themes": [],
-      "score": 5.0,
+      "score": 5.04,
       "is_alert": true
     },
     {
@@ -3017,7 +2471,7 @@
       "summary": "",
       "raw_score": 4.938,
       "themes": [],
-      "score": 5.0,
+      "score": 5.04,
       "is_alert": true
     },
     {
@@ -3029,7 +2483,31 @@
       "summary": "",
       "raw_score": 4.938,
       "themes": [],
-      "score": 5.0,
+      "score": 5.04,
+      "is_alert": true
+    },
+    {
+      "id": "40dc482b5697c5ee",
+      "title": "Medical device maker Centinel Spine discloses revenue rise in US IPO filing",
+      "url": "https://www.investing.com/news/economy-news/medical-device-maker-centinel-spine-discloses-revenue-rise-in-us-ipo-filing-4937575",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-07T22:54:38+00:00",
+      "summary": "",
+      "raw_score": 4.926,
+      "themes": [],
+      "score": 5.03,
+      "is_alert": true
+    },
+    {
+      "id": "2092e0c5728639fb",
+      "title": "Bezos says Blue Origin likely to pursue IPO in coming years",
+      "url": "https://www.investing.com/news/stock-market-news/bezos-says-blue-origin-likely-to-pursue-ipo-in-coming-years-4937760",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-08T00:54:34+00:00",
+      "summary": "",
+      "raw_score": 4.932,
+      "themes": [],
+      "score": 5.03,
       "is_alert": true
     },
     {
@@ -3041,7 +2519,7 @@
       "summary": "",
       "raw_score": 4.926,
       "themes": [],
-      "score": 5.0,
+      "score": 5.03,
       "is_alert": true
     },
     {
@@ -3053,8 +2531,8 @@
       "summary": "",
       "raw_score": 4.908,
       "themes": [],
-      "score": 4.99,
-      "is_alert": false
+      "score": 5.03,
+      "is_alert": true
     },
     {
       "id": "c343d529fdbe6960",
@@ -3065,32 +2543,20 @@
       "summary": "The federal housing agency says the bank’s efforts to encourage Black homeownership amount to discrimination.",
       "raw_score": 4.86,
       "themes": [],
-      "score": 4.98,
-      "is_alert": false
+      "score": 5.02,
+      "is_alert": true
     },
     {
-      "id": "4edba705bfdb5a77",
-      "title": "Whistle-Blower Says I.R.S. Leaked His Tax Records in Retaliation",
-      "url": "https://www.nytimes.com/2026/10/07/business/economy/whistle-blower-irs-lawsuit.html",
+      "id": "7cca4adc1e8e326b",
+      "title": "Bank of America Pays $1.8 Billion Fine for Lax Money-Laundering Oversight",
+      "url": "https://www.nytimes.com/2026/10/13/business/bank-of-america-money-laundering-fine.html",
       "source": "NYT Business",
-      "published_at": "2026-10-07T14:24:48+00:00",
-      "summary": "Brian J. Visalli, a veteran investigator of tax fraud, said in a lawsuit that the agency had sent his personal and tax information to federal prosecutors.",
-      "raw_score": 4.79,
+      "published_at": "2026-10-13T22:57:46+00:00",
+      "summary": "Federal regulators said the bank had waved through suspicious transactions without proper care.",
+      "raw_score": 4.854,
       "themes": [],
-      "score": 4.96,
-      "is_alert": false
-    },
-    {
-      "id": "44e5e4da4f05e695",
-      "title": "At Nearly $300,000, Some Recent Duke Graduates Out-Earned All Their Peers",
-      "url": "https://www.nytimes.com/2026/10/07/your-money/duke-math-major-salaries.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-08T03:08:52+00:00",
-      "summary": "Federal data show Duke math majors earning a bigger median income four years after graduation than any other majors from any school. It’s a small cohort.",
-      "raw_score": 4.779,
-      "themes": [],
-      "score": 4.96,
-      "is_alert": false
+      "score": 5.01,
+      "is_alert": true
     },
     {
       "id": "c88c746839a4b68a",
@@ -3101,7 +2567,19 @@
       "summary": "The federal government, speaking of “a severe breakdown in law and order” in Khyber Pakhtunkhwa amid militant violence, named a politically allied official as in charge.",
       "raw_score": 4.802,
       "themes": [],
-      "score": 4.96,
+      "score": 5.0,
+      "is_alert": true
+    },
+    {
+      "id": "44e5e4da4f05e695",
+      "title": "At Nearly $300,000, Some Recent Duke Graduates Out-Earned All Their Peers",
+      "url": "https://www.nytimes.com/2026/10/07/your-money/duke-math-major-salaries.html",
+      "source": "NYT Business",
+      "published_at": "2026-10-08T03:08:52+00:00",
+      "summary": "Federal data show Duke math majors earning a bigger median income four years after graduation than any other majors from any school. It’s a small cohort.",
+      "raw_score": 4.779,
+      "themes": [],
+      "score": 4.99,
       "is_alert": false
     },
     {
@@ -3113,7 +2591,7 @@
       "summary": "A majority of ownership in a proposed multibillion-dollar deal would go to a group of Middle Eastern investors, including some with business ties to U.S. negotiators.",
       "raw_score": 3.341,
       "themes": [],
-      "score": 4.59,
+      "score": 4.61,
       "is_alert": false
     },
     {
@@ -3127,7 +2605,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.47,
+      "score": 4.49,
       "is_alert": false
     },
     {
@@ -3141,1411 +2619,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.47,
-      "is_alert": false
-    },
-    {
-      "id": "f8f7421394160316",
-      "title": "F.B.I. Charges American in Plot Behind Canada’s Tumbler Ridge School Shooting",
-      "url": "https://www.nytimes.com/2026/10/06/world/canada/tumbler-ridge-shooting-plot-washington-arrest.html",
-      "source": "NYT World",
-      "published_at": "2026-10-06T22:42:06+00:00",
-      "summary": "The U.S. police say a 30-year-old offered the killer advice and cash for supplies at least six months before the rampage in British Columbia that left eight dead.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "feadd231bce242b6",
-      "title": "What We Saw at the French Protests",
-      "url": "https://www.nytimes.com/video/world/europe/100000011196285/what-we-saw-at-the-french-protests.html",
-      "source": "NYT World",
-      "published_at": "2026-10-06T21:13:32+00:00",
-      "summary": "Our reporter Ségolène Le Stradic reports from Paris as labor unions rally in solidarity with high school students protesting school conditions.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "67c10158b302a223",
-      "title": "Understanding France’s Polycrisis",
-      "url": "https://www.nytimes.com/2026/10/06/world/france-student-protests-kenya-robots.html",
-      "source": "NYT World",
-      "published_at": "2026-10-06T20:22:47+00:00",
-      "summary": "An autumn of discontent has gripped the country ahead of its presidential election.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "8b50cbf60f80e698",
-      "title": "US FAA looks to streamline rules for commercial space launches",
-      "url": "https://www.investing.com/news/stock-market-news/us-faa-looks-to-streamline-rules-for-commercial-space-launches-4935436",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T00:12:27+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "929f601b0b01c209",
-      "title": "Analysis-Japan’s $15 billion Rapidus chip bet hinges on winning customers",
-      "url": "https://www.investing.com/news/stock-market-news/analysisjapans-15-billion-rapidus-chip-bet-hinges-on-winning-customers-4935460",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T00:06:40+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "4ebf6b8c500b56a4",
-      "title": "Synopsys deputy CFO & CAO Kankanwadi sells over $6m in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/synopsys-deputy-cfo--cao-kankanwadi-sells-over-6m-in-stock-93CH-4935461",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T00:01:06+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2d07c69d26d31e94",
-      "title": "Figure reports Q3 consumer loan marketplace volume of $5.1B",
-      "url": "https://www.investing.com/news/company-news/figure-reports-q3-consumer-loan-marketplace-volume-of-51b-93CH-4935450",
-      "source": "Investing.com News",
-      "published_at": "2026-10-06T23:48:34+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "d1bfb8b5b7874907",
-      "title": "Figure reports Q3 consumer loan volume of $5.1 billion",
-      "url": "https://www.investing.com/news/company-news/figure-reports-q3-consumer-loan-volume-of-51-billion-93CH-4935449",
-      "source": "Investing.com News",
-      "published_at": "2026-10-06T23:48:30+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "4993e84e94bee06e",
-      "title": "Si-Bone SVP Michael Pisetsky sells $56,918 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/sibone-svp-michael-pisetsky-sells-56918-in-stock-93CH-4935448",
-      "source": "Investing.com News",
-      "published_at": "2026-10-06T23:46:19+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "1972e0d42fbeb33e",
-      "title": "Beta technologies CEO Kyle Clark sells $639,676 in company stock",
-      "url": "https://www.investing.com/news/insider-trading-news/beta-technologies-ceo-kyle-clark-sells-639676-in-company-stock-93CH-4935445",
-      "source": "Investing.com News",
-      "published_at": "2026-10-06T23:46:01+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "07c2d648a411dcb0",
-      "title": "Si-Bone chief op & financial officer sells $94,078 in stock",
-      "url": "https://www.investing.com/news/insider-trading-news/sibone-chief-op--financial-officer-sells-94078-in-stock-93CH-4935444",
-      "source": "Investing.com News",
-      "published_at": "2026-10-06T23:45:58+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "6cd29b0c86c8993b",
-      "title": "Japan’s real wages rise for eighth straight month in August",
-      "url": "https://www.investing.com/news/economy-news/japans-real-wages-rise-for-eighth-straight-month-in-august-4935430",
-      "source": "Investing.com News",
-      "published_at": "2026-10-06T23:36:43+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "25843ae0a891a900",
-      "title": "Japan considers another extra budget for disaster relief, Yomiuri says",
-      "url": "https://www.investing.com/news/economy-news/japan-considers-another-extra-budget-for-disaster-relief-yomiuri-says-4935398",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T23:30:27+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "e6fa66418cfea333",
-      "title": "Japan manufacturers’ mood hits near 5-year high, service-sector sentiment slumps: Reuters poll",
-      "url": "https://www.investing.com/news/economy-news/japan-manufacturers-mood-hits-near-5year-high-servicesector-sentiment-slumps-reuters-poll-4935399",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T23:13:19+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "386d7df64ea58bf9",
-      "title": "IMF reaches staff-level deal with Papua New Guinea, potentially unlocking about $189 million",
-      "url": "https://www.investing.com/news/economy-news/imf-reaches-stafflevel-deal-with-papua-new-guinea-potentially-unlocking-about-189-million-4935385",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T22:48:24+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "c19500ca707c22e7",
-      "title": "Trading Day: Running with the bulls",
-      "url": "https://www.investing.com/news/economy-news/trading-day-running-with-the-bulls-4935296",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T21:06:24+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "41a1ac56a72df7b7",
-      "title": "Carney to visit Türkiye as Canada seeks to diversify trade ties",
-      "url": "https://www.investing.com/news/economy-news/carney-to-visit-turkiye-as-canada-seeks-to-diversify-trade-ties-4935269",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-06T20:46:09+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "81d0ae028ad2e764",
-      "title": "US forecasts hurricane later this week in Gulf of Mexico",
-      "url": "https://www.investing.com/news/commodities-news/us-forecasts-hurricane-later-this-week-in-gulf-of-mexico-4935386",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-06T22:48:40+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "66bfabb8622f93a4",
-      "title": "SpaceX  seeks to raise $40 bln to buy Nvidia chips- FT",
-      "url": "https://www.investing.com/news/stock-market-news/spacex--seeks-to-raise-40-bln-to-buy-nvidia-chips-ft-4935412",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T23:27:11+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2ca3ac00dc1c80e9",
-      "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports",
-      "url": "https://www.investing.com/news/stock-market-news/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports-4935381",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T23:24:41+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "ebe08666c5f19d29",
-      "title": "US luxury spending slows ahead of midterms, credit card data shows",
-      "url": "https://www.investing.com/news/stock-market-news/us-luxury-spending-slows-ahead-of-midterms-credit-card-data-shows-4935397",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T23:12:44+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "ec288a8b8ddff9c3",
-      "title": "Samsung’s Q3 profit seen jumping nine-fold, but chip margins may be flat",
-      "url": "https://www.investing.com/news/stock-market-news/samsungs-q3-profit-seen-jumping-ninefold-but-chip-margins-may-be-flat-4935396",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T23:12:29+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "c6499d3ce66e4b47",
-      "title": "Former star US bond manager Leech fined by SEC, following guilty plea in ’cherry-picking’ case",
-      "url": "https://www.investing.com/news/stock-market-news/former-star-us-bond-manager-leech-fined-by-sec-following-guilty-plea-in-cherrypicking-case-4935388",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T23:06:35+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "bbb11ac29a1e997d",
-      "title": "FICO cuts workforce by 15% as part of AI-driven restructuring",
-      "url": "https://www.investing.com/news/stock-market-news/fico-cuts-workforce-by-15-as-part-of-aidriven-restructuring-4935377",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-06T22:36:53+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "862dc6773d23c2b9",
-      "title": "Malawians Struggle to Survive After Fleeing Anti-Immigrant Violence",
-      "url": "https://www.nytimes.com/2026/10/07/world/africa/malawi-returnees-south-africa.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T04:01:18+00:00",
-      "summary": "Anti-immigrant violence in South Africa has forced tens of thousands to return to Malawi, severing badly needed cash flows and leaving families hungry.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "e605bad5c15a7789",
-      "title": "The Fight for Britain’s Right: Can Kemi Badenoch Reboot the Conservatives?",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/uk-conservatives-kemi-badenoch-right-farage.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T04:01:05+00:00",
-      "summary": "Attendees at the party’s annual conference have been buoyed: both by leader Kemi Badenoch’s rising poll ratings and a mock Bayeux Tapestry. But the challenge from Reform U.K. remains.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "14fb0133f88241e7",
-      "title": "Porsche’s New Look: Pricier Cars and 25% Fewer Employees",
-      "url": "https://www.nytimes.com/2026/10/07/business/porsche-china-volkswagen.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T06:00:07+00:00",
-      "summary": "The German sports car maker once thrived in China and powered profits for its parent company, Volkswagen. Now it hopes to do more with less.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "c45f56e288828301",
-      "title": "E.E.O.C. Sues Harvard for Data on Diversity in Hiring Practices",
-      "url": "https://www.nytimes.com/2026/09/30/business/economy/harvard-eeoc-diversity-hiring.html",
-      "source": "NYT Economy",
-      "published_at": "2026-09-30T18:17:41+00:00",
-      "summary": "The Equal Employment Opportunity Commission filed a lawsuit asking a judge to compel the university to provide information on hiring practices that the agency said discriminated against white men.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "80920134fe11cd26",
-      "title": "Where Is the U.S. Beating China on A.I., and Where Is It Lagging?",
-      "url": "https://www.nytimes.com/2026/09/23/us/politics/ai-us-china-trump-xi-economy.html",
-      "source": "NYT Economy",
-      "published_at": "2026-09-23T20:05:47+00:00",
-      "summary": "As Xi Jinping visits President Trump in Washington, his country lags behind the United States on A.I. development in key areas — but Beijing has advantages elsewhere.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "d6c965ebf49b44b4",
-      "title": "Pennon to raise £550 million in rights issue, rebase dividend for water upgrade",
-      "url": "https://www.investing.com/news/stock-market-news/pennon-to-raise-550-million-in-rights-issue-rebase-dividend-for-water-upgrade-4935666",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:37:27+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "a2308329712e60dd",
-      "title": "German industrial output rises more than expected in August",
-      "url": "https://www.investing.com/news/economic-indicators/german-industrial-output-rises-more-than-expected-in-august-4935652",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:36:21+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "3d00ef98be89bdbf",
-      "title": "Metlen Energy & Metals reviews potential Athens listing for infrastructure unit",
-      "url": "https://www.investing.com/news/company-news/metlen-energy--metals-reviews-potential-athens-listing-for-infrastructure-unit-93CH-4935657",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:30:34+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "cba3f165fd6f3328",
-      "title": "CRH to acquire NCC Industry operations in Denmark and Finland",
-      "url": "https://www.investing.com/news/company-news/crh-to-acquire-ncc-industry-operations-in-denmark-and-finland-93CH-4935655",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:28:31+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "fe5d343bde2d414c",
-      "title": "Wheaton Precious Metals to report Q3 results on November 5",
-      "url": "https://www.investing.com/news/company-news/wheaton-precious-metals-to-report-q3-results-on-november-5-93CH-4935654",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:26:49+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "96437fe2021b0f40",
-      "title": "Valeura Energy reports Q3 oil output of 22,100 bpd",
-      "url": "https://www.investing.com/news/company-news/valeura-energy-reports-q3-oil-output-of-22100-bpd-93CH-4935651",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:23:19+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "d4b7d79de2e904a0",
-      "title": "Equinor expects Q3 marketing profit to beat guidance on strong refining, LNG trading",
-      "url": "https://www.investing.com/news/stock-market-news/equinor-expects-q3-marketing-profit-to-beat-guidance-on-strong-refining-lng-trading-93CH-4935648",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:21:56+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "67848924910b3aea",
-      "title": "Shell raises gas output forecast, sees stronger refining margins in Q3",
-      "url": "https://www.investing.com/news/earnings/shell-raises-gas-output-forecast-sees-stronger-refining-margins-in-q3-4935647",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:20:24+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2cadadc8b2c64065",
-      "title": "Property Franchise Group invests in AI platform Enteka",
-      "url": "https://www.investing.com/news/company-news/property-franchise-group-invests-in-ai-platform-enteka-93CH-4935646",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T06:19:27+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2610cc0d103ae253",
-      "title": "Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation",
-      "url": "https://www.investing.com/news/economy-news/asia-shares-weaker-oil-up-investors-weigh-saudihouthi-escalation-4935555",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T06:00:50+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "b1c81ab40f1d1b92",
-      "title": "RBI hikes rates for first time in nearly 4 years, opens door to more hikes",
-      "url": "https://www.investing.com/news/economic-indicators/rbi-raises-repo-rate-25-bps-as-inflation-outlook-worsens-amid-global-risks-4935591",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T05:21:14+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "75c3bbdff82deb49",
-      "title": "Morning Bid: Who’s the boss?",
-      "url": "https://www.investing.com/news/economy-news/morning-bid-whos-the-boss-4935590",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T05:13:13+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "a54bd1cb15c9e40f",
-      "title": "India raises policy rate by 25 bps in first hike in nearly four years",
-      "url": "https://www.investing.com/news/economy-news/india-raises-policy-rate-by-25-bps-in-first-hike-in-nearly-four-years-4935589",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T04:36:23+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "a8a94d1c2d84e5bd",
-      "title": "Analysis-Vietnam’s banks tap investors for $7 billion as economy runs red hot",
-      "url": "https://www.investing.com/news/economy-news/analysisvietnams-banks-tap-investors-for-7-billion-as-economy-runs-red-hot-4935499",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T01:06:37+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "35831b4d9a268c9e",
-      "title": "Bridgepoint raises 2026 EBITDA guidance, sets new capital return framework",
-      "url": "https://www.investing.com/news/stock-market-news/bridgepoint-raises-2026-ebitda-guidance-sets-new-capital-return-framework-4935644",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T06:18:45+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "3054a0e2b31b747e",
-      "title": "Porsche braces for lower sales era, seeks lifeline from luxury",
-      "url": "https://www.investing.com/news/stock-market-news/porsche-braces-for-lower-sales-era-seeks-lifeline-from-luxury-4935630",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T06:12:19+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "38f5fdf7c7049509",
-      "title": "Intel to continue working on Musk’s Terafab despite TSMC talks - Bloomberg",
-      "url": "https://www.investing.com/news/stock-market-news/intel-to-continue-working-on-musks-terafab-despite-tsmc-talks--bloomberg-4935617",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T05:51:05+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "f8c7e017428c734f",
-      "title": "India stocks dip after RBI hikes rates for first time in nearly 4 yrs",
-      "url": "https://www.investing.com/news/stock-market-news/india-stocks-dip-after-rbi-hikes-rates-for-first-time-in-nearly-4-yrs-4935616",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T05:45:08+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "7413b3f6ac39f4c5",
-      "title": "Brussels looks to capture Big Tech through tax on large corporations, FT reports",
-      "url": "https://www.investing.com/news/stock-market-news/brussels-looks-to-capture-big-tech-through-tax-on-large-corporations-ft-reports-4935615",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T05:36:36+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "4d726024736e7a91",
-      "title": "For Twin Brothers Abducted in the Oct. 7 Attacks, Adjusting to Freedom Is a New Challenge",
-      "url": "https://www.nytimes.com/2026/10/07/world/middleeast/israel-october-7-attacks-hostages-twins-berman.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T13:29:26+00:00",
-      "summary": "Gali and Ziv Berman were taken hostage when their kibbutz was attacked on Oct. 7, 2023. They were freed a year ago but are still adjusting to freedom and trying to rebuild their lives.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "5a7d4e30e28455db",
-      "title": "Rubio Stresses Need for U.S. Security Work With Greece on Migration and Terrorism",
-      "url": "https://www.nytimes.com/2026/10/07/us/politics/rubio-greece-defense-immigration.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T14:04:38+00:00",
-      "summary": "Secretary of State Marco Rubio praised Greece for spending more on defense, while saying it needs to address “mass migration.”",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "57dfb8d9c7b8195b",
-      "title": "Russia Says It Found No ‘Emergency’ in Plague Lab",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/russia-plague-us-trump-state-department.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T15:12:43+00:00",
-      "summary": "New information around the death of a lab worker, including a statement that she had been vaccinated against the plague, came as U.S. officials demanded more data.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "efe8846ee28aa301",
-      "title": "The School Near Paris That Shows Why French Students Are Protesting",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/france-school-protest-paul-eluard.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T13:19:04+00:00",
-      "summary": "Angered by poor classroom conditions, students at Paul Éluard High School in a suburb of the capital were among the first to blockade their campus during an ongoing round of unrest.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "82b91253e220d2ae",
-      "title": "Case of U.S. Marine Accused of Murder in Japan Draws Outcry",
-      "url": "https://www.nytimes.com/2026/10/07/world/asia/us-marine-murder-okinawa-japan-takaichi.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T13:22:52+00:00",
-      "summary": "Prime Minister Sanae Takaichi, a close Trump ally, is under pressure to strengthen oversight of the U.S. military in Japan.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "1017079a7a37d900",
-      "title": "How a Shadow Economy in Asia Is Keeping Iranian Oil Flowing",
-      "url": "https://www.nytimes.com/2026/10/07/world/asia/iran-shadow-fleet-asia.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T11:58:37+00:00",
-      "summary": "Companies continue to service a “dark fleet” of Iranian tankers in waters off Malaysia in spite of Washington’s threat to target them.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "471b130cf8b89782",
-      "title": "Can Artificial Intelligence Learn the Art of Surgery?",
-      "url": "https://www.nytimes.com/2026/10/07/world/canada/surgery-artificial-intelligence-canada.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T09:00:09+00:00",
-      "summary": "Canada wants to leverage A.I. to improve its health care system. At a Toronto hospital, surgeons are training a machine to distinguish a safe incision from a catastrophic one.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "223437f62163064a",
-      "title": "Inheritances Can Shatter Families. Could a Therapist Help?",
-      "url": "https://www.nytimes.com/2026/10/07/business/inheritance-family-generational-wealth.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T13:18:28+00:00",
-      "summary": "As the United States faces the greatest wealth transfer in history, some people are turning to therapists to help them pass on their assets in a way that preserves harmony.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "27f9ae97402f1cce",
-      "title": "Why Markets Are Buoyant — and Under Pressure",
-      "url": "https://www.nytimes.com/2026/10/07/business/dealbook/stocks-record-energy-ai.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T15:01:06+00:00",
-      "summary": "Energy and technology companies’ earnings are expected to keep driving up stock indexes. But what’s driving up their profits are weighing on the economy.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "cdb0da3e6d95791f",
-      "title": "Tishman Speyer Takes Over Chrysler Building With Big Renovation Plans",
-      "url": "https://www.nytimes.com/2026/10/07/business/chrysler-building-tishman-speyer.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T14:01:50+00:00",
-      "summary": "A large commercial landlord is planning to spruce up the office spaces and add amenities after the building lost its luster in recent years.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "baaa3eea17312f0b",
-      "title": "Airfares Have Spiked. Is the Death of Spirit Airlines to Blame?",
-      "url": "https://www.nytimes.com/2026/10/07/travel/airfares-flights-cost-spirit-airlines.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T09:02:13+00:00",
-      "summary": "In the wake of the ultra-low-cost carrier’s closure, and with the cost of fuel and labor rising, domestic fares have become less competitive. But there are ways to parry higher prices.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "594ac854e5a40fb5",
-      "title": "Need Help Paying for College? Try Bass Fishing.",
-      "url": "https://www.nytimes.com/2026/10/07/business/bass-fishing-college-recruitment.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T15:24:06+00:00",
-      "summary": "The popularity of competitive bass fishing has inspired a growing number of youth, high school and college fishing programs.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "799512415228a2ba",
-      "title": "Porsche, Facing Falling Profits, Plans to Cut 25% of Its Work Force",
-      "url": "https://www.nytimes.com/2026/10/07/business/porsche-china-job-cuts-volkswagen.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T13:31:32+00:00",
-      "summary": "The German sports car maker once thrived in China and powered profits for its parent company, Volkswagen. Now it hopes to do more with less.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "e1a2cbc06d2107c3",
-      "title": "Earnings call transcript: Saratoga Investment misses Q2 2026 estimates as shares fall",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-saratoga-investment-misses-q2-2026-estimates-as-shares-fall-93CH-4937115",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:12:45+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "f8733963a73efcdb",
-      "title": "Yorkville Ives initiates Telos stock coverage with outperform rating",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-telos-stock-coverage-with-outperform-rating-93CH-4937113",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:11:00+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "ee95af838836e010",
-      "title": "Yorkville Ives initiates Tenable stock with outperform rating",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-tenable-stock-with-outperform-rating-93CH-4937112",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:59+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "bc34af195d72a5db",
-      "title": "Yorkville Ives initiates Zscaler stock with outperform rating",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-zscaler-stock-with-outperform-rating-93CH-4937111",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:58+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "45e317f1c44a492d",
-      "title": "Yorkville Ives initiates Zoom stock coverage with outperform rating",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-zoom-stock-coverage-with-outperform-rating-93CH-4937109",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:57+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2ac521a6ca3e380b",
-      "title": "Yorkville Ives initiates Varonis stock with In Line rating on AI data security potential",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-varonis-stock-with-in-line-rating-on-ai-data-security-potential-93CH-4937110",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:57+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "68ed06e3a9ff1d15",
-      "title": "Yorkville Ives initiates SoundHound AI stock coverage at In Line",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-soundhound-ai-stock-coverage-at-in-line-93CH-4937108",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:55+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "6795db4a59365cb8",
-      "title": "Yorkville Ives initiates VinFast stock coverage citing regional strategy",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-vinfast-stock-coverage-citing-regional-strategy-93CH-4937107",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:52+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "353a23ae14d9cc29",
-      "title": "Yorkville Ives initiates Ziff Davis stock with outperform rating",
-      "url": "https://www.investing.com/news/analyst-ratings/yorkville-ives-initiates-ziff-davis-stock-with-outperform-rating-93CH-4937106",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T15:10:51+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "99fdcde61331929d",
-      "title": "Lebanon’s Hezbollah gets $200 million from Iran to help displaced, sources say",
-      "url": "https://www.investing.com/news/economy-news/lebanons-hezbollah-gets-200-million-from-iran-to-help-displaced-sources-say-4937098",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T15:08:11+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "bfc9eb5e62345976",
-      "title": "Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll",
-      "url": "https://www.investing.com/news/economy-news/lower-us-treasury-yield-view-persists-despite-biggest-quarterly-surge-since-1994-reuters-poll-4936554",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T14:00:34+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "4447a28329e992dc",
-      "title": "Factbox-Options for UK finance minister Healey in October 28 budget",
-      "url": "https://www.investing.com/news/forex-news/factboxoptions-for-uk-finance-minister-healey-in-october-28-budget-4936440",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T12:06:57+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "7d397e3852744c74",
-      "title": "Deutsche Bank says weakness in Swedish krona is due to fundamentals",
-      "url": "https://www.investing.com/news/forex-news/deutsche-bank-says-weakness-in-swedish-krona-is-due-to-fundamentals-93CH-4935861",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T08:38:55+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "73483f2b17ddf17f",
-      "title": "USD/INR tests record highs as stop-loss orders trigger fresh rally",
-      "url": "https://www.investing.com/news/forex-news/usdinr-tests-record-highs-as-stoploss-orders-trigger-fresh-rally-93CH-4935828",
-      "source": "Investing.com Forex",
-      "published_at": "2026-10-07T08:27:44+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "986fba04209f3c36",
-      "title": "Morning Bid: Storm brewing",
-      "url": "https://www.investing.com/news/commodities-news/morning-bid-storm-brewing-4936121",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T13:36:53+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "4571ba4f6b14efb7",
-      "title": "EU energy task force to meet on G7 oil stock release plan",
-      "url": "https://www.investing.com/news/commodities-news/eu-energy-task-force-to-meet-on-g7-oil-stock-release-plan-93CH-4936748",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T13:02:08+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "f82661249916dc14",
-      "title": "Georgia arrests man over attempted $700,000 uranium sale",
-      "url": "https://www.investing.com/news/commodities-news/georgia-arrests-man-over-attempted-700000-uranium-sale-4936664",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T12:37:05+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "d93f63d567afac56",
-      "title": "North Dakota rides soy boom, fueled by biofuels and China",
-      "url": "https://www.investing.com/news/commodities-news/north-dakota-rides-soy-boom-fueled-by-biofuels-and-china-4936113",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T10:42:34+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2ea735454d030ac3",
-      "title": "Poland ready to release oil stocks pending group agreement",
-      "url": "https://www.investing.com/news/commodities-news/poland-ready-to-release-oil-stocks-pending-group-agreement-93CH-4936086",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T10:22:34+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "c93d5c39f05085da",
-      "title": "Russia kills 11 in one of its biggest strikes on Ukraine, Zelenskiy says",
-      "url": "https://www.investing.com/news/commodities-news/russia-kills-11-in-one-of-its-biggest-strikes-on-ukraine-zelenskiy-says-4935719",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T07:42:52+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "8f942eb7027af383",
-      "title": "Exclusive-Apollo submits non-binding bid for German energy firm Uniper, sources say",
-      "url": "https://www.investing.com/news/stock-market-news/exclusiveapollo-submits-nonbinding-bid-for-german-energy-firm-uniper-sources-say-4936283",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:13:57+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "fb533a19038a8437",
-      "title": "Why is Veraxa Biotech stock climbing today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-veraxa-biotech-stock-climbing-today-93CH-4937104",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:10:34+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "b81c05ac818964ee",
-      "title": "Why is Curtiss-Wright stock sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-curtisswright-stock-sliding-today-93CH-4937103",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:10:08+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "96de858ece16f9ca",
-      "title": "Why is Hess Midstream stock plummeting today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-hess-midstream-stock-plummeting-today-93CH-4937101",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:10:03+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "fcf0c938102b8883",
-      "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.92%",
-      "url": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-092-4937102",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:10:03+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "5f0004f64333e61f",
-      "title": "Why is Halozyme Therapeutics stock climbing today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-halozyme-therapeutics-stock-climbing-today-93CH-4937100",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:09:57+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "451d346460c44a41",
-      "title": "Musk welcomes German backing for Tesla driver assistance tech as group chases EU approval",
-      "url": "https://www.investing.com/news/stock-market-news/musk-welcomes-german-backing-for-tesla-driver-assistance-tech-as-group-chases-eu-approval-4936014",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T15:07:06+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "b5b9cf80df6516d4",
-      "title": "‘Maricarmen,’ Whose Eviction Enraged Spaniards, Dies at 87",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/maricarmen-dies-spain-housing-sanchez.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T20:24:06+00:00",
-      "summary": "María del Carmen Abascal, aged and ailing, became a symbol of the country’s housing crisis when she was evicted two weeks ago, prompting mass protests and triggering national elections.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "61716577f71426d3",
-      "title": "Man Posing as ICE Agent at Miami Polling Site Faces Felony Charges",
-      "url": "https://www.nytimes.com/2026/10/07/us/miami-ice-agent-brazil-election.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T19:31:49+00:00",
-      "summary": "Danilo Alves Silva wore an Immigration and Customs Enforcement costume from Amazon at a polling location for the Brazilian presidential election.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "e1a33520ab3318af",
-      "title": "Canada Halts Plan to Allow Medically Assisted Death for the Mentally Ill",
-      "url": "https://www.nytimes.com/2026/10/07/world/canada/canada-medically-assisted-death-mental-illness.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T19:57:21+00:00",
-      "summary": "People who have mental illness alone will not qualify for assisted death, but patients who have other conditions and expect to have a cognitive decline can make an advanced request.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "f4a7249052684cfc",
-      "title": "A Plague Mystery in Siberia",
-      "url": "https://www.nytimes.com/2026/10/07/world/plague-siberia-russia-sports-betting.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T20:40:42+00:00",
-      "summary": "The death of a Russian lab worker has spawned rumors. Here are the facts.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "1c1f7685bf524a6e",
-      "title": "3 Killed and Dozens Injured in Attacks on Saudi Airports, as Houthis Claim Strikes",
-      "url": "https://www.nytimes.com/2026/10/07/world/middleeast/saudi-arabia-airports-houthis.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T20:40:12+00:00",
-      "summary": "The Saudi government said the dead included two women and a Sudanese man, and that its capital’s airport was hit. A Houthi spokesman said the militia had attacked the airports.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "f0b636d50ab12c45",
-      "title": "Fears of a Plague Outbreak in Russia: What to Know",
-      "url": "https://www.nytimes.com/2026/10/07/world/europe/russia-plague-fears-what-to-know.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T19:43:20+00:00",
-      "summary": "Russian authorities aren’t saying much about the death of a woman who worked in a lab studying plague. But experts say any risk of contagion would be limited.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "50fb4d90f75a3dcf",
-      "title": "Hiker, 16, Is Rescued From ‘Widowmaker’ Ledge After Using Chatbot to Plan Route",
-      "url": "https://www.nytimes.com/2026/10/07/world/canada/canada-bc-hiker-claude-rescue.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T19:12:25+00:00",
-      "summary": "Bryce Vincent Gowryluk used Claude, Anthropic’s A.I. chatbot, to help him chart a course for the top of Crown Mountain, north of Vancouver, British Columbia. Things did not go as planned.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "a9b49305883b9ba6",
-      "title": "Trump Administration Delays Threaten Funding for HIV Research",
-      "url": "https://www.nytimes.com/2026/10/07/health/hiv-research-delay-cuts-hhs-nih.html",
-      "source": "NYT World",
-      "published_at": "2026-10-07T16:33:18+00:00",
-      "summary": "The networks also develop treatments and preventions for other infectious diseases and were instrumental in testing the Covid vaccine.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "99f0b0024cd6d3be",
-      "title": "6 Broken Bathrooms Force Flight to Make an Urgent Landing",
-      "url": "https://www.nytimes.com/2026/10/07/travel/american-airlines-flight-broken-bathrooms-landing.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T18:10:25+00:00",
-      "summary": "An American Airlines flight was diverted to New York on Tuesday because of an “inadequate number of operational lavatories” — two, on a plane that normally has eight.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "1bffe3e8cd6146ce",
-      "title": "Can Bergdorf Goodman Return to Its Golden Age?",
-      "url": "https://www.nytimes.com/2026/10/07/business/bergdorf-goodman.html",
-      "source": "NYT Business",
-      "published_at": "2026-10-07T17:02:34+00:00",
-      "summary": "Bergdorf Goodman, which has survived two bankruptcies in six years, is getting back to its white-glove origins.",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "8baec431331e0dc0",
-      "title": "Aris Mining reports 16% rise in nine-month gold production",
-      "url": "https://www.investing.com/news/company-news/aris-mining-reports-16-rise-in-ninemonth-gold-production-93CH-4937560",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:04:31+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "18e69d17e009c299",
-      "title": "Ameriwest closes $500,000 private placement at premium price",
-      "url": "https://www.investing.com/news/company-news/ameriwest-closes-500000-private-placement-at-premium-price-93CH-4937559",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:04:30+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "2349843970a91b5c",
-      "title": "General Dynamics names Danny Deep as next CEO",
-      "url": "https://www.investing.com/news/company-news/general-dynamics-names-danny-deep-as-next-ceo-93CH-4937558",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:04:26+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "b38c4ab583a42ffe",
-      "title": "Why is Valneva stock gaining today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-valneva-stock-gaining-today-93CH-4937552",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:02:05+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "6024ef01663c7b72",
-      "title": "Why is Microvision stock sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-microvision-stock-sliding-today-93CH-4937551",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:01:55+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "4495e803782bd8ca",
-      "title": "Liquidia director Stephen Bloch sells $6.39m in shares",
-      "url": "https://www.investing.com/news/insider-trading-news/liquidia-director-stephen-bloch-sells-639m-in-shares-93CH-4937547",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:01:00+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "d0c51ccf5d307d4f",
-      "title": "Nippon Life Insurance Co. buys $2.28m of Corebridge Financial stock",
-      "url": "https://www.investing.com/news/insider-trading-news/nippon-life-insurance-co-buys-228m-of-corebridge-financial-stock-93CH-4937546",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:00:58+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "bf5db7bf25893e86",
-      "title": "Texas Capital Securities initiates US Antimony stock with buy rating",
-      "url": "https://www.investing.com/news/analyst-ratings/texas-capital-securities-initiates-us-antimony-stock-with-buy-rating-93CH-4937545",
-      "source": "Investing.com News",
-      "published_at": "2026-10-07T21:00:53+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "fe89a2b0d4fe7756",
-      "title": "US proposes to boost transit funding to areas with higher marriage, birth rates",
-      "url": "https://www.investing.com/news/economy-news/us-proposes-to-boost-transit-funding-to-areas-with-higher-marriage-birth-rates-4937503",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T20:30:26+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "9cd402740bd876d3",
-      "title": "Brazil’s Bolsonaro pledges broad review of Lula-era taxes",
-      "url": "https://www.investing.com/news/economy-news/brazils-bolsonaro-pledges-broad-review-of-lulaera-taxes-4937381",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T20:19:35+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "1ab8e35d626022ac",
-      "title": "US FCC to vote to ban all Chinese labs from testing US electronics",
-      "url": "https://www.investing.com/news/economy-news/us-fcc-to-vote-to-ban-chinese-labs-from-testing-us-electronics-4937360",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T19:30:31+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "74f58f6a25389fb0",
-      "title": "Trump administration plans to charge international students $70,000 for work authorization",
-      "url": "https://www.investing.com/news/economy-news/trump-administration-plans-to-charge-international-students-70000-for-work-authorization-4937334",
-      "source": "Investing.com Economy",
-      "published_at": "2026-10-07T19:01:22+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "98631ad2c1bddbb8",
-      "title": "Tropical Storm Isaias forecast to hit US Gulf coast as hurricane early Saturday",
-      "url": "https://www.investing.com/news/commodities-news/tropical-stormisaias-forecast-to-hit-us-gulf-coast-as-hurricane-early-saturday-4937254",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T20:36:35+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "7dbece4242702e43",
-      "title": "EPA says it will rescind US policy targeting oil and gas industry methane leaks",
-      "url": "https://www.investing.com/news/commodities-news/epa-says-will-soon-act-to-rescind-biden-policy-targeting-methane-leaks-4937368",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-10-07T20:36:22+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "f6f1203a76cc2570",
-      "title": "Why is Valneva stock sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-valneva-stock-sliding-today-93CH-4937561",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T21:05:01+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "8e0ad5ed31c03a9b",
-      "title": "Why is Resources Connection stock sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-resources-connection-stock-sliding-today-93CH-4937539",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:55:09+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "7d85398aa466a8ed",
-      "title": "Why is Profound Medical stock surging today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-profound-medical-stock-surging-today-93CH-4937522",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:43:26+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "c8a953e50703bd02",
-      "title": "MicroVision stock tumbles on reiterated 2026 guidance",
-      "url": "https://www.investing.com/news/stock-market-news/microvision-stock-tumbles-on-reiterated-2026-guidance-4937521",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:42:33+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
-      "is_alert": false
-    },
-    {
-      "id": "e2012e782e20a22a",
-      "title": "Canada stocks lower at close of trade; S&P/TSX Composite down 1.70%",
-      "url": "https://www.investing.com/news/stock-market-news/canada-stocks-lower-at-close-of-trade-sptsx-composite-down-170-4937504",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-10-07T20:30:31+00:00",
-      "summary": "",
-      "raw_score": 0.0,
-      "themes": [],
-      "score": 3.73,
+      "score": 4.48,
       "is_alert": false
     },
     {
@@ -10686,6 +8760,162 @@
       "url": "https://www.investing.com/news/stock-market-news/apples-homeview-brings-personalized-siri-to-smart-home-takes-on-amazon-and-google-4947587",
       "source": "Investing.com Stock Markets",
       "published_at": "2026-10-13T21:48:26+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "6618a76557dc9ad4",
+      "title": "Ocugen CEO Shankar Musunuri sells $499,691 of company stock",
+      "url": "https://www.investing.com/news/insider-trading-news/ocugen-ceo-shankar-musunuri-sells-499691-of-company-stock-93CH-4947848",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:31:03+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "b14f32fee3dc557d",
+      "title": "Talos Energy 10% owner sells $106.8m in shares",
+      "url": "https://www.investing.com/news/insider-trading-news/talos-energy-10-owner-sells-1068m-in-shares-93CH-4947847",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:31:00+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "a44d68ea20165429",
+      "title": "Earnings call transcript: Core Lithium Q1 2026 shares fall as restart advances",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-core-lithium-q1-2026-shares-fall-as-restart-advances-93CH-4947837",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:28:45+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "6254a1929a4ff9eb",
+      "title": "Nordique gets approval for Kwyjibo rare earth project deal",
+      "url": "https://www.investing.com/news/company-news/nordique-gets-approval-for-kwyjibo-rare-earth-project-deal-93CH-4947836",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:28:41+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "aefd54f67f05240e",
+      "title": "American Integrity CEO Robert Ritchie sells $3.37 million in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/american-integrity-ceo-robert-ritchie-sells-337-million-in-stock-93CH-4947831",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:16:04+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "533ff5858252e22b",
+      "title": "Ani Pharmaceuticals general counsel Cook sells $36,795 in stock",
+      "url": "https://www.investing.com/news/insider-trading-news/ani-pharmaceuticals-general-counsel-cook-sells-36795-in-stock-93CH-4947830",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:15:51+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "84ea6ce18311e30b",
+      "title": "Blackstone in talks to invest up to $500m in Accord Systems- Mint",
+      "url": "https://www.investing.com/news/stock-market-news/blackstone-in-talks-to-invest-up-to-500m-in-accord-systems-mint-93CH-4947821",
+      "source": "Investing.com News",
+      "published_at": "2026-10-14T01:12:18+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "2e206cf3666f4060",
+      "title": "Explainer-How Singapore’s unique monetary policy works",
+      "url": "https://www.investing.com/news/economy-news/explainerhow-singapores-unique-monetary-policy-works-4947768",
+      "source": "Investing.com Economy",
+      "published_at": "2026-10-14T00:24:19+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "6608f62b97695ecd",
+      "title": "Iran shifting tactics to step up attacks on shipping before US vote, officials say",
+      "url": "https://www.investing.com/news/commodities-news/iran-shifting-tactics-to-step-up-attacks-on-shipping-before-usvote-officials-say-4947753",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-14T00:18:22+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "46e65c6974f6a130",
+      "title": "US top diplomat Marco Rubio to visit India and Uzbekistan",
+      "url": "https://www.investing.com/news/commodities-news/us-top-diplomat-marco-rubio-to-visit-india-and-uzbekistan-this-month-4947652",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-14T00:12:21+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "4570160233d7d09f",
+      "title": "Trump administration to expand a Delek Texas refinery using Defense ​Production ⁠Act",
+      "url": "https://www.investing.com/news/commodities-news/trump-administration-to-expand-a-delek-texas-refinery-using-defense-productionact-4947737",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-10-14T00:00:38+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "eec39aeeb89777cf",
+      "title": "Galderma to buy Zo Skin from Blackstone for $1.5 bln, Reuters reports",
+      "url": "https://www.investing.com/news/stock-market-news/galderma-to-buy-zo-skin-from-blackstone-for-15-bln-reuters-reports-4947772",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-14T00:25:06+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.73,
+      "is_alert": false
+    },
+    {
+      "id": "2267ad3e781a8e5c",
+      "title": "Exclusive-Galderma agrees to buy ZO Skin Health for around $1.5 billion, sources say",
+      "url": "https://www.investing.com/news/stock-market-news/exclusivegalderma-agrees-to-buy-zo-skin-health-for-around-15-billion-sources-say-4947708",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-10-13T23:24:25+00:00",
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
