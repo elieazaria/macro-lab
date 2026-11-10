@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-10T09:39:35.634028+00:00",
+  "generated_at": "2026-11-10T17:42:04.130831+00:00",
   "meta": {
-    "total_articles_7j": 752,
-    "articles_today": 40,
-    "alerts_critiques": 189,
+    "total_articles_7j": 811,
+    "articles_today": 68,
+    "alerts_critiques": 204,
     "score_moyen": 4.98,
     "seuil_alerte": 5.0,
     "themes": {
-      "War/Conflict": 47,
-      "Inflation": 36,
-      "Central Bank": 24,
-      "Fed Emergency": 18,
+      "War/Conflict": 52,
+      "Inflation": 47,
+      "Central Bank": 28,
+      "Fed Emergency": 26,
+      "Oil/Energy": 11,
       "Geo Shock": 11,
       "Market Crash": 10,
-      "Oil/Energy": 9,
       "Sanctions": 4,
-      "Default": 1
+      "Default": 3
     }
   },
   "articles": [
@@ -30,22 +30,6 @@
       "themes": [
         "War/Conflict",
         "Geo Shock"
-      ],
-      "score": 15.0,
-      "is_alert": true
-    },
-    {
-      "id": "80d55bc7bd7163ea",
-      "title": "Fed Will Hold Fewer Rate-Setting Meetings Starting Next Year",
-      "url": "https://www.nytimes.com/2026/10/28/business/economy/fed-meetings-2027-interest-rates-warsh.html",
-      "source": "NYT Economy",
-      "published_at": "2026-10-28T20:02:56+00:00",
-      "summary": "Kevin M. Warsh, the Federal Reserve’s chairman, said the central bank would vote on interest rates seven times in 2027 and six in 2028. It has traditionally voted eight times per year.",
-      "raw_score": 49.465,
-      "themes": [
-        "War/Conflict",
-        "Fed Emergency",
-        "Central Bank"
       ],
       "score": 15.0,
       "is_alert": true
@@ -134,6 +118,137 @@
       "is_alert": true
     },
     {
+      "id": "5cb236f173478d0b",
+      "title": "Here’s the latest.",
+      "url": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/heres-the-latest",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T16:14:17+00:00",
+      "summary": "",
+      "raw_score": 54.363,
+      "themes": [
+        "War/Conflict",
+        "Fed Emergency",
+        "Inflation",
+        "Oil/Energy",
+        "Central Bank",
+        "Default"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
+      "id": "34b7ed79be464d10",
+      "title": "Here’s why last year’s government shutdown will haunt October’s inflation data.",
+      "url": "https://www.nytimes.com/live/2026/11/10/business/inflation-cpi-report-october/heres-why-last-years-government-shutdown-will-haunt-octobers-inflation-data",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T10:48:00+00:00",
+      "summary": "",
+      "raw_score": 53.686,
+      "themes": [
+        "War/Conflict",
+        "Fed Emergency",
+        "Inflation",
+        "Oil/Energy",
+        "Central Bank",
+        "Default"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
+      "id": "2c5330d436ed1168",
+      "title": "ECB December rate hike expectations rise as Bundesbank chief flags inflation risks",
+      "url": "https://www.investing.com/news/economy-news/ecb-december-rate-hike-expectations-rise-as-bundesbank-chief-flags-inflation-risks-93CH-5016333",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:53:48+00:00",
+      "summary": "",
+      "raw_score": 55.665,
+      "themes": [
+        "Fed Emergency",
+        "Inflation",
+        "Central Bank"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
+      "id": "708381c0d549fe36",
+      "title": "Brazil’s central bank signals high bar for rate hikes despite inflation risks",
+      "url": "https://www.investing.com/news/economy-news/brazil-central-bank-flags-oil-el-nino-labor-and-fx-shocks-behind-inflation-rebound-5015065",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:42:55+00:00",
+      "summary": "",
+      "raw_score": 55.665,
+      "themes": [
+        "Fed Emergency",
+        "Inflation",
+        "Central Bank"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
+      "id": "cf2fa32ed32333d0",
+      "title": "Deutsche Bank expects Fed rate hike in January 2027 after hot inflation data",
+      "url": "https://www.investing.com/news/economy-news/deutsche-bank-expects-fed-rate-hike-in-january-2027-after-hot-inflation-data-5016313",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:42:43+00:00",
+      "summary": "",
+      "raw_score": 51.415,
+      "themes": [
+        "Fed Emergency",
+        "Inflation"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
+      "id": "33fe09117da6a6c2",
+      "title": "Fed’s Logan calls for two more rate hikes to combat inflation",
+      "url": "https://www.investing.com/news/economy-news/feds-logan-calls-for-two-more-rate-hikes-to-combat-inflation-5016213",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T15:53:13+00:00",
+      "summary": "",
+      "raw_score": 51.541,
+      "themes": [
+        "Fed Emergency",
+        "Inflation"
+      ],
+      "score": 15.0,
+      "is_alert": true
+    },
+    {
+      "id": "80d55bc7bd7163ea",
+      "title": "Fed Will Hold Fewer Rate-Setting Meetings Starting Next Year",
+      "url": "https://www.nytimes.com/2026/10/28/business/economy/fed-meetings-2027-interest-rates-warsh.html",
+      "source": "NYT Economy",
+      "published_at": "2026-10-28T20:02:56+00:00",
+      "summary": "Kevin M. Warsh, the Federal Reserve’s chairman, said the central bank would vote on interest rates seven times in 2027 and six in 2028. It has traditionally voted eight times per year.",
+      "raw_score": 49.465,
+      "themes": [
+        "War/Conflict",
+        "Fed Emergency",
+        "Central Bank"
+      ],
+      "score": 14.75,
+      "is_alert": true
+    },
+    {
+      "id": "827f2fa8a0cbfde5",
+      "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates",
+      "url": "https://www.nytimes.com/2026/11/10/business/economy/inflation-economy-cpi.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T17:18:01+00:00",
+      "summary": "October’s Consumer Price Index report showed a broadening of price pressures that has stoked concerns about the Federal Reserve’s grip on inflation.",
+      "raw_score": 48.616,
+      "themes": [
+        "Fed Emergency",
+        "Inflation"
+      ],
+      "score": 14.56,
+      "is_alert": true
+    },
+    {
       "id": "2b587b4ff6a8e53c",
       "title": "Bank of England Raises Rates for First Time in Three Years",
       "url": "https://www.nytimes.com/2026/11/05/business/bank-of-england-interest-rates-inflation.html",
@@ -146,7 +261,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 14.43,
+      "score": 13.68,
       "is_alert": true
     },
     {
@@ -161,7 +276,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 14.27,
+      "score": 13.53,
       "is_alert": true
     },
     {
@@ -176,7 +291,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 13.96,
+      "score": 13.25,
       "is_alert": true
     },
     {
@@ -190,7 +305,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 13.32,
+      "score": 12.65,
       "is_alert": true
     },
     {
@@ -204,7 +319,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 13.27,
+      "score": 12.61,
       "is_alert": true
     },
     {
@@ -219,7 +334,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 13.23,
+      "score": 12.57,
       "is_alert": true
     },
     {
@@ -233,7 +348,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 13.04,
+      "score": 12.4,
       "is_alert": true
     },
     {
@@ -248,7 +363,7 @@
         "War/Conflict",
         "Central Bank"
       ],
-      "score": 12.8,
+      "score": 12.17,
       "is_alert": true
     },
     {
@@ -263,7 +378,7 @@
         "Fed Emergency",
         "Central Bank"
       ],
-      "score": 12.54,
+      "score": 11.93,
       "is_alert": true
     },
     {
@@ -278,7 +393,7 @@
         "Fed Emergency",
         "Central Bank"
       ],
-      "score": 12.53,
+      "score": 11.92,
       "is_alert": true
     },
     {
@@ -293,7 +408,7 @@
         "Fed Emergency",
         "Central Bank"
       ],
-      "score": 12.52,
+      "score": 11.91,
       "is_alert": true
     },
     {
@@ -308,7 +423,7 @@
         "Fed Emergency",
         "Central Bank"
       ],
-      "score": 12.51,
+      "score": 11.9,
       "is_alert": true
     },
     {
@@ -323,7 +438,7 @@
         "Fed Emergency",
         "Inflation"
       ],
-      "score": 12.49,
+      "score": 11.88,
       "is_alert": true
     },
     {
@@ -338,7 +453,7 @@
         "War/Conflict",
         "Geo Shock"
       ],
-      "score": 12.4,
+      "score": 11.8,
       "is_alert": true
     },
     {
@@ -353,7 +468,21 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.94,
+      "score": 11.37,
+      "is_alert": true
+    },
+    {
+      "id": "922dbce09ccf3c11",
+      "title": "Syria Weighs Sending Troops to Aid Saudi War With Houthis",
+      "url": "https://www.nytimes.com/2026/11/10/world/middleeast/syria-weighs-sending-troops-to-aid-saudi-war-with-houthis.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T16:43:59+00:00",
+      "summary": "Syrian reconnaissance teams have visited Saudi Arabia and Yemen ahead of a potential deployment, but a final decision has not been made, officials said.",
+      "raw_score": 34.053,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 11.33,
       "is_alert": true
     },
     {
@@ -368,7 +497,7 @@
         "War/Conflict",
         "Geo Shock"
       ],
-      "score": 11.88,
+      "score": 11.31,
       "is_alert": true
     },
     {
@@ -382,7 +511,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 11.85,
+      "score": 11.28,
       "is_alert": true
     },
     {
@@ -396,7 +525,21 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.85,
+      "score": 11.28,
+      "is_alert": true
+    },
+    {
+      "id": "910c15d3f8dcb1b7",
+      "title": "Fed’s Logan calls for two more rate hikes, possibly rapidly",
+      "url": "https://www.investing.com/news/economy-news/feds-logan-calls-for-two-more-rate-hikes-possibly-rapidly-5016235",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:00:23+00:00",
+      "summary": "",
+      "raw_score": 33.827,
+      "themes": [
+        "Fed Emergency"
+      ],
+      "score": 11.28,
       "is_alert": true
     },
     {
@@ -410,7 +553,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 11.82,
+      "score": 11.25,
       "is_alert": true
     },
     {
@@ -425,7 +568,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.68,
+      "score": 11.13,
       "is_alert": true
     },
     {
@@ -440,7 +583,7 @@
         "Inflation",
         "Central Bank"
       ],
-      "score": 11.68,
+      "score": 11.13,
       "is_alert": true
     },
     {
@@ -454,7 +597,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 11.21,
+      "score": 10.69,
       "is_alert": true
     },
     {
@@ -468,7 +611,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.97,
+      "score": 10.47,
       "is_alert": true
     },
     {
@@ -482,7 +625,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.97,
+      "score": 10.47,
       "is_alert": true
     },
     {
@@ -496,7 +639,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.96,
+      "score": 10.46,
       "is_alert": true
     },
     {
@@ -510,7 +653,21 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.94,
+      "score": 10.44,
+      "is_alert": true
+    },
+    {
+      "id": "0337795453faa532",
+      "title": "Fed officials open door to a half-point hike after inflation beats expectations",
+      "url": "https://www.investing.com/news/economy-news/investors-boost-odds-of-halfpoint-fed-hike-as-core-cpi-rise-meets-wallers-bar-5016055",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:54:52+00:00",
+      "summary": "",
+      "raw_score": 30.049,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 10.44,
       "is_alert": true
     },
     {
@@ -524,7 +681,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.89,
+      "score": 10.39,
       "is_alert": true
     },
     {
@@ -539,7 +696,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 10.85,
+      "score": 10.36,
       "is_alert": true
     },
     {
@@ -553,7 +710,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 10.63,
+      "score": 10.15,
       "is_alert": true
     },
     {
@@ -567,7 +724,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 10.38,
+      "score": 9.92,
       "is_alert": true
     },
     {
@@ -581,7 +738,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 10.37,
+      "score": 9.91,
       "is_alert": true
     },
     {
@@ -595,7 +752,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 10.1,
+      "score": 9.66,
       "is_alert": true
     },
     {
@@ -609,7 +766,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.09,
+      "score": 9.65,
       "is_alert": true
     },
     {
@@ -623,7 +780,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 10.09,
+      "score": 9.65,
       "is_alert": true
     },
     {
@@ -637,7 +794,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 10.08,
+      "score": 9.64,
       "is_alert": true
     },
     {
@@ -651,7 +808,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 10.05,
+      "score": 9.61,
       "is_alert": true
     },
     {
@@ -665,7 +822,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 10.05,
+      "score": 9.61,
       "is_alert": true
     },
     {
@@ -679,7 +836,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 9.84,
+      "score": 9.42,
       "is_alert": true
     },
     {
@@ -693,7 +850,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 9.77,
+      "score": 9.35,
       "is_alert": true
     },
     {
@@ -707,7 +864,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 9.77,
+      "score": 9.35,
       "is_alert": true
     },
     {
@@ -721,7 +878,21 @@
       "themes": [
         "Inflation"
       ],
-      "score": 9.75,
+      "score": 9.33,
+      "is_alert": true
+    },
+    {
+      "id": "402e4d37d7bda856",
+      "title": "European shares climb on oil relief, shaking off hot U.S. CPI print",
+      "url": "https://www.investing.com/news/stock-market-news/european-shares-inch-toward-record-highs-as-sinking-oil-eases-inflation-anxiety-5014327",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:16:18+00:00",
+      "summary": "",
+      "raw_score": 23.892,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 9.08,
       "is_alert": true
     },
     {
@@ -735,7 +906,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 9.42,
+      "score": 9.03,
       "is_alert": true
     },
     {
@@ -749,35 +920,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.22,
-      "is_alert": true
-    },
-    {
-      "id": "0f7520ac45f649f5",
-      "title": "Warner Bros. Discovery sale reported by Nancy Pelosi",
-      "url": "https://www.investing.com/news/company-news/warner-bros-discovery-sale-reported-by-nancy-pelosi-93CH-5013839",
-      "source": "Investing.com News",
-      "published_at": "2026-11-10T01:05:58+00:00",
-      "summary": "",
-      "raw_score": 22.772,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.21,
-      "is_alert": true
-    },
-    {
-      "id": "aad247dfd73d7efe",
-      "title": "US warns of ’ongoing cyber threat’ to industrial refrigeration systems",
-      "url": "https://www.investing.com/news/economy-news/us-warns-of-ongoing-cyber-threat-to-industrial-refrigeration-systems-5005278",
-      "source": "Investing.com Economy",
-      "published_at": "2026-11-05T22:30:40+00:00",
-      "summary": "",
-      "raw_score": 22.716,
-      "themes": [
-        "War/Conflict"
-      ],
-      "score": 9.2,
+      "score": 8.84,
       "is_alert": true
     },
     {
@@ -791,35 +934,35 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.2,
+      "score": 8.83,
       "is_alert": true
     },
     {
-      "id": "7ce423f2b79702e7",
-      "title": "Northwest European diesel margins fall over 4% on oil price drop",
-      "url": "https://www.investing.com/news/commodities-news/northwest-european-diesel-margins-fall-over-4-on-oil-price-drop-93CH-5001084",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-11-04T19:36:39+00:00",
+      "id": "0f7520ac45f649f5",
+      "title": "Warner Bros. Discovery sale reported by Nancy Pelosi",
+      "url": "https://www.investing.com/news/company-news/warner-bros-discovery-sale-reported-by-nancy-pelosi-93CH-5013839",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T01:05:58+00:00",
       "summary": "",
-      "raw_score": 22.688,
+      "raw_score": 22.772,
       "themes": [
-        "Oil/Energy"
+        "War/Conflict"
       ],
-      "score": 9.19,
+      "score": 8.83,
       "is_alert": true
     },
     {
-      "id": "254b50c3ad38aade",
-      "title": "European shares near record high as lower oil prices boost sentiment",
-      "url": "https://www.investing.com/news/economy-news/european-shares-near-record-high-as-lower-oil-prices-boost-sentiment-5014345",
+      "id": "aad247dfd73d7efe",
+      "title": "US warns of ’ongoing cyber threat’ to industrial refrigeration systems",
+      "url": "https://www.investing.com/news/economy-news/us-warns-of-ongoing-cyber-threat-to-industrial-refrigeration-systems-5005278",
       "source": "Investing.com Economy",
-      "published_at": "2026-11-10T08:30:36+00:00",
+      "published_at": "2026-11-05T22:30:40+00:00",
       "summary": "",
-      "raw_score": 22.688,
+      "raw_score": 22.716,
       "themes": [
-        "Oil/Energy"
+        "War/Conflict"
       ],
-      "score": 9.19,
+      "score": 8.82,
       "is_alert": true
     },
     {
@@ -833,7 +976,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.18,
+      "score": 8.81,
       "is_alert": true
     },
     {
@@ -847,7 +990,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.18,
+      "score": 8.81,
+      "is_alert": true
+    },
+    {
+      "id": "7ce423f2b79702e7",
+      "title": "Northwest European diesel margins fall over 4% on oil price drop",
+      "url": "https://www.investing.com/news/commodities-news/northwest-european-diesel-margins-fall-over-4-on-oil-price-drop-93CH-5001084",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-04T19:36:39+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 8.81,
       "is_alert": true
     },
     {
@@ -861,7 +1018,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.18,
+      "score": 8.81,
       "is_alert": true
     },
     {
@@ -875,7 +1032,35 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.18,
+      "score": 8.81,
+      "is_alert": true
+    },
+    {
+      "id": "254b50c3ad38aade",
+      "title": "European shares near record high as lower oil prices boost sentiment",
+      "url": "https://www.investing.com/news/economy-news/european-shares-near-record-high-as-lower-oil-prices-boost-sentiment-5014345",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T08:30:36+00:00",
+      "summary": "",
+      "raw_score": 22.688,
+      "themes": [
+        "Oil/Energy"
+      ],
+      "score": 8.81,
+      "is_alert": true
+    },
+    {
+      "id": "b7936785b98cb4c9",
+      "title": "Vanishing vessels and missing sailors: The Iran war’s human cost at sea",
+      "url": "https://www.investing.com/news/commodities-news/vanishing-vessels-and-missing-sailors-the-iran-wars-human-cost-at-sea-5014523",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T16:54:24+00:00",
+      "summary": "",
+      "raw_score": 22.66,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.81,
       "is_alert": true
     },
     {
@@ -889,7 +1074,21 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.18,
+      "score": 8.8,
+      "is_alert": true
+    },
+    {
+      "id": "2a81c9100d9ecd22",
+      "title": "US Postal Service warns of need for new cuts without action from Congress",
+      "url": "https://www.investing.com/news/economy-news/us-postal-service-warns-of-need-for-new-cuts-without-action-from-congress-5016214",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:30:28+00:00",
+      "summary": "",
+      "raw_score": 22.632,
+      "themes": [
+        "War/Conflict"
+      ],
+      "score": 8.8,
       "is_alert": true
     },
     {
@@ -903,7 +1102,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.16,
+      "score": 8.79,
       "is_alert": true
     },
     {
@@ -915,7 +1114,7 @@
       "summary": "",
       "raw_score": 22.222,
       "themes": [],
-      "score": 9.08,
+      "score": 8.71,
       "is_alert": true
     },
     {
@@ -927,7 +1126,7 @@
       "summary": "",
       "raw_score": 22.167,
       "themes": [],
-      "score": 9.06,
+      "score": 8.7,
       "is_alert": true
     },
     {
@@ -941,7 +1140,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.04,
+      "score": 8.67,
       "is_alert": true
     },
     {
@@ -955,7 +1154,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.03,
+      "score": 8.66,
       "is_alert": true
     },
     {
@@ -969,7 +1168,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.01,
+      "score": 8.65,
       "is_alert": true
     },
     {
@@ -983,7 +1182,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 9.01,
+      "score": 8.65,
       "is_alert": true
     },
     {
@@ -997,7 +1196,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 9.0,
+      "score": 8.64,
       "is_alert": true
     },
     {
@@ -1011,7 +1210,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.93,
+      "score": 8.57,
       "is_alert": true
     },
     {
@@ -1025,7 +1224,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 8.91,
+      "score": 8.55,
       "is_alert": true
     },
     {
@@ -1039,7 +1238,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 8.9,
+      "score": 8.55,
       "is_alert": true
     },
     {
@@ -1053,21 +1252,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 8.9,
-      "is_alert": true
-    },
-    {
-      "id": "db59ef18273817f2",
-      "title": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran",
-      "url": "https://www.investing.com/news/commodities-news/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran-5000921",
-      "source": "Investing.com Commodities",
-      "published_at": "2026-11-04T19:43:58+00:00",
-      "summary": "",
-      "raw_score": 21.429,
-      "themes": [
-        "Sanctions"
-      ],
-      "score": 8.89,
+      "score": 8.55,
       "is_alert": true
     },
     {
@@ -1081,7 +1266,21 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 8.89,
+      "score": 8.54,
+      "is_alert": true
+    },
+    {
+      "id": "db59ef18273817f2",
+      "title": "US slaps sanctions on Indian, Turkish firms and people for aiding Iran",
+      "url": "https://www.investing.com/news/commodities-news/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran-5000921",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-04T19:43:58+00:00",
+      "summary": "",
+      "raw_score": 21.429,
+      "themes": [
+        "Sanctions"
+      ],
+      "score": 8.53,
       "is_alert": true
     },
     {
@@ -1095,7 +1294,7 @@
       "themes": [
         "Fed Emergency"
       ],
-      "score": 8.88,
+      "score": 8.53,
       "is_alert": true
     },
     {
@@ -1107,7 +1306,7 @@
       "summary": "",
       "raw_score": 20.962,
       "themes": [],
-      "score": 8.78,
+      "score": 8.43,
       "is_alert": true
     },
     {
@@ -1119,7 +1318,7 @@
       "summary": "",
       "raw_score": 20.91,
       "themes": [],
-      "score": 8.76,
+      "score": 8.42,
       "is_alert": true
     },
     {
@@ -1133,7 +1332,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.7,
+      "score": 8.36,
       "is_alert": true
     },
     {
@@ -1147,7 +1346,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 8.67,
+      "score": 8.33,
       "is_alert": true
     },
     {
@@ -1159,7 +1358,7 @@
       "summary": "",
       "raw_score": 19.729,
       "themes": [],
-      "score": 8.48,
+      "score": 8.16,
       "is_alert": true
     },
     {
@@ -1173,7 +1372,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.34,
+      "score": 8.02,
       "is_alert": true
     },
     {
@@ -1187,7 +1386,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.32,
+      "score": 8.0,
       "is_alert": true
     },
     {
@@ -1201,35 +1400,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.31,
-      "is_alert": true
-    },
-    {
-      "id": "d8b5a640defedc4e",
-      "title": "TSX ends higher as tech stocks recover, Celestica gains 2% after global selloff",
-      "url": "https://www.investing.com/news/stock-market-news/tsx-futures-edged-lower-amid-fallout-from-aidriven-stock-rout-5007774",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-11-06T21:25:22+00:00",
-      "summary": "",
-      "raw_score": 18.942,
-      "themes": [
-        "Market Crash"
-      ],
-      "score": 8.3,
-      "is_alert": true
-    },
-    {
-      "id": "a63805b7bea85136",
-      "title": "Arini hedge fund losses deepen to 32% as credit selloff intensifies - Bloomberg",
-      "url": "https://www.investing.com/news/company-news/arini-hedge-fund-losses-deepen-to-32-as-credit-selloff-intensifies--bloomberg-5009518",
-      "source": "Investing.com News",
-      "published_at": "2026-11-07T01:39:55+00:00",
-      "summary": "",
-      "raw_score": 18.942,
-      "themes": [
-        "Market Crash"
-      ],
-      "score": 8.3,
+      "score": 8.0,
       "is_alert": true
     },
     {
@@ -1243,7 +1414,7 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.3,
+      "score": 7.99,
       "is_alert": true
     },
     {
@@ -1257,7 +1428,35 @@
       "themes": [
         "Market Crash"
       ],
-      "score": 8.3,
+      "score": 7.99,
+      "is_alert": true
+    },
+    {
+      "id": "d8b5a640defedc4e",
+      "title": "TSX ends higher as tech stocks recover, Celestica gains 2% after global selloff",
+      "url": "https://www.investing.com/news/stock-market-news/tsx-futures-edged-lower-amid-fallout-from-aidriven-stock-rout-5007774",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-06T21:25:22+00:00",
+      "summary": "",
+      "raw_score": 18.942,
+      "themes": [
+        "Market Crash"
+      ],
+      "score": 7.98,
+      "is_alert": true
+    },
+    {
+      "id": "a63805b7bea85136",
+      "title": "Arini hedge fund losses deepen to 32% as credit selloff intensifies - Bloomberg",
+      "url": "https://www.investing.com/news/company-news/arini-hedge-fund-losses-deepen-to-32-as-credit-selloff-intensifies--bloomberg-5009518",
+      "source": "Investing.com News",
+      "published_at": "2026-11-07T01:39:55+00:00",
+      "summary": "",
+      "raw_score": 18.942,
+      "themes": [
+        "Market Crash"
+      ],
+      "score": 7.98,
       "is_alert": true
     },
     {
@@ -1272,7 +1471,7 @@
         "War/Conflict",
         "Oil/Energy"
       ],
-      "score": 8.11,
+      "score": 7.81,
       "is_alert": true
     },
     {
@@ -1286,7 +1485,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.03,
+      "score": 7.74,
       "is_alert": true
     },
     {
@@ -1300,35 +1499,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.02,
-      "is_alert": true
-    },
-    {
-      "id": "386f803843cfa9b6",
-      "title": "As tech swoon roils market, US inflation data on tap",
-      "url": "https://www.investing.com/news/stock-market-news/as-tech-swoon-roils-market-us-inflation-data-on-tap-5007256",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-11-06T22:00:52+00:00",
-      "summary": "",
-      "raw_score": 17.778,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 8.02,
-      "is_alert": true
-    },
-    {
-      "id": "9505c4150904bdb3",
-      "title": "As tech swoon roils market, US inflation data on tap",
-      "url": "https://www.investing.com/news/stock-market-news/as-tech-swoon-roils-market-us-inflation-data-on-tap-5010231",
-      "source": "Investing.com News",
-      "published_at": "2026-11-08T14:00:26+00:00",
-      "summary": "",
-      "raw_score": 17.778,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 8.02,
+      "score": 7.73,
       "is_alert": true
     },
     {
@@ -1342,21 +1513,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.02,
-      "is_alert": true
-    },
-    {
-      "id": "f8ccbd018abca717",
-      "title": "Gold holds near $4,130 as oil retreat eases inflation concerns",
-      "url": "https://www.investing.com/news/commodities-news/gold-holds-near-4130-as-oil-retreat-eases-inflation-concerns-5013846",
-      "source": "Investing.com News",
-      "published_at": "2026-11-10T01:12:29+00:00",
-      "summary": "",
-      "raw_score": 17.778,
-      "themes": [
-        "Inflation"
-      ],
-      "score": 8.02,
+      "score": 7.73,
       "is_alert": true
     },
     {
@@ -1370,7 +1527,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.01,
+      "score": 7.72,
       "is_alert": true
     },
     {
@@ -1384,7 +1541,49 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.01,
+      "score": 7.72,
+      "is_alert": true
+    },
+    {
+      "id": "386f803843cfa9b6",
+      "title": "As tech swoon roils market, US inflation data on tap",
+      "url": "https://www.investing.com/news/stock-market-news/as-tech-swoon-roils-market-us-inflation-data-on-tap-5007256",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-06T22:00:52+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.72,
+      "is_alert": true
+    },
+    {
+      "id": "9505c4150904bdb3",
+      "title": "As tech swoon roils market, US inflation data on tap",
+      "url": "https://www.investing.com/news/stock-market-news/as-tech-swoon-roils-market-us-inflation-data-on-tap-5010231",
+      "source": "Investing.com News",
+      "published_at": "2026-11-08T14:00:26+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.72,
+      "is_alert": true
+    },
+    {
+      "id": "f8ccbd018abca717",
+      "title": "Gold holds near $4,130 as oil retreat eases inflation concerns",
+      "url": "https://www.investing.com/news/commodities-news/gold-holds-near-4130-as-oil-retreat-eases-inflation-concerns-5013846",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T01:12:29+00:00",
+      "summary": "",
+      "raw_score": 17.778,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.72,
       "is_alert": true
     },
     {
@@ -1398,21 +1597,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.01,
-      "is_alert": true
-    },
-    {
-      "id": "dc4ccb8a0a9eb335",
-      "title": "Nvidia CEO Jensen Huang’s woes evoke sympathy, disbelief in his birthplace Taiwan",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huangs-woes-evoke-sympathy-disbelief-in-his-birthplace-taiwan-5014394",
-      "source": "Investing.com Stock Markets",
-      "published_at": "2026-11-10T08:54:24+00:00",
-      "summary": "",
-      "raw_score": 17.734,
-      "themes": [
-        "Geo Shock"
-      ],
-      "score": 8.01,
+      "score": 7.72,
       "is_alert": true
     },
     {
@@ -1426,7 +1611,21 @@
       "themes": [
         "Inflation"
       ],
-      "score": 8.0,
+      "score": 7.71,
+      "is_alert": true
+    },
+    {
+      "id": "dc4ccb8a0a9eb335",
+      "title": "Nvidia CEO Jensen Huang’s woes evoke sympathy, disbelief in his birthplace Taiwan",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huangs-woes-evoke-sympathy-disbelief-in-his-birthplace-taiwan-5014394",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T08:54:24+00:00",
+      "summary": "",
+      "raw_score": 17.734,
+      "themes": [
+        "Geo Shock"
+      ],
+      "score": 7.71,
       "is_alert": true
     },
     {
@@ -1440,7 +1639,7 @@
       "themes": [
         "Geo Shock"
       ],
-      "score": 7.99,
+      "score": 7.7,
       "is_alert": true
     },
     {
@@ -1454,7 +1653,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.82,
+      "score": 7.54,
       "is_alert": true
     },
     {
@@ -1468,7 +1667,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.73,
+      "score": 7.46,
       "is_alert": true
     },
     {
@@ -1482,7 +1681,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.72,
+      "score": 7.45,
       "is_alert": true
     },
     {
@@ -1496,7 +1695,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.72,
+      "score": 7.45,
       "is_alert": true
     },
     {
@@ -1510,7 +1709,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 7.72,
+      "score": 7.45,
       "is_alert": true
     },
     {
@@ -1524,7 +1723,21 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.72,
+      "score": 7.45,
+      "is_alert": true
+    },
+    {
+      "id": "c3c53693279565b3",
+      "title": "Reaction roundup: Experts, analysts weigh in on October CPI report",
+      "url": "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-october-cpi-report-5016277",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-10T16:21:33+00:00",
+      "summary": "",
+      "raw_score": 16.543,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.45,
       "is_alert": true
     },
     {
@@ -1538,7 +1751,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.71,
+      "score": 7.44,
       "is_alert": true
     },
     {
@@ -1552,7 +1765,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 7.71,
+      "score": 7.44,
       "is_alert": true
     },
     {
@@ -1566,7 +1779,21 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.7,
+      "score": 7.43,
+      "is_alert": true
+    },
+    {
+      "id": "57ed2f7e9664b146",
+      "title": "FTSE 100 edges down as falling oil weigh on energy majors amid hot U.S. CPI",
+      "url": "https://www.investing.com/news/stock-market-news/ftse-100-climbs-as-sinking-crude-boosts-broader-market-but-drags-on-energy-majors-5014371",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:11:26+00:00",
+      "summary": "",
+      "raw_score": 16.442,
+      "themes": [
+        "Inflation"
+      ],
+      "score": 7.43,
       "is_alert": true
     },
     {
@@ -1578,7 +1805,7 @@
       "summary": "",
       "raw_score": 15.99,
       "themes": [],
-      "score": 7.59,
+      "score": 7.33,
       "is_alert": true
     },
     {
@@ -1592,7 +1819,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 7.55,
+      "score": 7.29,
       "is_alert": true
     },
     {
@@ -1606,7 +1833,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.43,
+      "score": 7.18,
       "is_alert": true
     },
     {
@@ -1620,7 +1847,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.43,
+      "score": 7.18,
       "is_alert": true
     },
     {
@@ -1634,7 +1861,7 @@
       "themes": [
         "Default"
       ],
-      "score": 7.43,
+      "score": 7.18,
       "is_alert": true
     },
     {
@@ -1648,7 +1875,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.42,
+      "score": 7.17,
       "is_alert": true
     },
     {
@@ -1662,7 +1889,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.41,
+      "score": 7.16,
       "is_alert": true
     },
     {
@@ -1676,7 +1903,7 @@
       "themes": [
         "Central Bank"
       ],
-      "score": 7.41,
+      "score": 7.16,
       "is_alert": true
     },
     {
@@ -1690,19 +1917,7 @@
       "themes": [
         "Oil/Energy"
       ],
-      "score": 7.34,
-      "is_alert": true
-    },
-    {
-      "id": "916046be5fbf95f5",
-      "title": "Analysis-Japanese savers have rediscovered interest rates and banks are feeling it",
-      "url": "https://www.investing.com/news/economy-news/analysisjapanese-savers-have-rediscovered-interest-rates-and-banks-are-feeling-it-5005902",
-      "source": "Investing.com Economy",
-      "published_at": "2026-11-05T22:24:39+00:00",
-      "summary": "",
-      "raw_score": 14.797,
-      "themes": [],
-      "score": 7.31,
+      "score": 7.09,
       "is_alert": true
     },
     {
@@ -1714,7 +1929,7 @@
       "summary": "",
       "raw_score": 14.815,
       "themes": [],
-      "score": 7.31,
+      "score": 7.07,
       "is_alert": true
     },
     {
@@ -1726,7 +1941,19 @@
       "summary": "",
       "raw_score": 14.815,
       "themes": [],
-      "score": 7.31,
+      "score": 7.07,
+      "is_alert": true
+    },
+    {
+      "id": "916046be5fbf95f5",
+      "title": "Analysis-Japanese savers have rediscovered interest rates and banks are feeling it",
+      "url": "https://www.investing.com/news/economy-news/analysisjapanese-savers-have-rediscovered-interest-rates-and-banks-are-feeling-it-5005902",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-05T22:24:39+00:00",
+      "summary": "",
+      "raw_score": 14.797,
+      "themes": [],
+      "score": 7.06,
       "is_alert": true
     },
     {
@@ -1738,7 +1965,7 @@
       "summary": "",
       "raw_score": 13.597,
       "themes": [],
-      "score": 7.02,
+      "score": 6.8,
       "is_alert": true
     },
     {
@@ -1750,7 +1977,7 @@
       "summary": "",
       "raw_score": 13.564,
       "themes": [],
-      "score": 7.01,
+      "score": 6.79,
       "is_alert": true
     },
     {
@@ -1762,7 +1989,7 @@
       "summary": "",
       "raw_score": 13.464,
       "themes": [],
-      "score": 6.99,
+      "score": 6.77,
       "is_alert": true
     },
     {
@@ -1774,31 +2001,7 @@
       "summary": "The levies as well as trade fighting with Canada are facing a test in the state, where voters appear skeptical of free trade but also of the president’s erratic approach.",
       "raw_score": 13.126,
       "themes": [],
-      "score": 6.91,
-      "is_alert": true
-    },
-    {
-      "id": "e766bbd07eabff0d",
-      "title": "Election stiffens the Fed’s guardrails, but independence risks remain",
-      "url": "https://www.investing.com/news/economy-news/election-stiffens-the-feds-guardrails-but-independence-risks-remain-5000007",
-      "source": "Investing.com Economy",
-      "published_at": "2026-11-04T20:36:36+00:00",
-      "summary": "",
-      "raw_score": 12.361,
-      "themes": [],
-      "score": 6.73,
-      "is_alert": true
-    },
-    {
-      "id": "62fadbebe1978b8a",
-      "title": "Why is SPDR S&P 500 ETF Trust sliding today?",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-sliding-today-93CH-5005028",
-      "source": "Investing.com News",
-      "published_at": "2026-11-05T15:11:03+00:00",
-      "summary": "",
-      "raw_score": 12.361,
-      "themes": [],
-      "score": 6.73,
+      "score": 6.69,
       "is_alert": true
     },
     {
@@ -1810,19 +2013,31 @@
       "summary": "",
       "raw_score": 12.392,
       "themes": [],
-      "score": 6.73,
+      "score": 6.53,
       "is_alert": true
     },
     {
-      "id": "cf1aadf11afb7ad0",
-      "title": "US farm agency reorganization lacks transparency, federal watchdog says",
-      "url": "https://www.investing.com/news/economy-news/us-farm-agency-reorganization-lacks-transparency-federal-watchdog-says-5012817",
+      "id": "e766bbd07eabff0d",
+      "title": "Election stiffens the Fed’s guardrails, but independence risks remain",
+      "url": "https://www.investing.com/news/economy-news/election-stiffens-the-feds-guardrails-but-independence-risks-remain-5000007",
       "source": "Investing.com Economy",
-      "published_at": "2026-11-09T16:00:59+00:00",
+      "published_at": "2026-11-04T20:36:36+00:00",
       "summary": "",
       "raw_score": 12.361,
       "themes": [],
-      "score": 6.73,
+      "score": 6.52,
+      "is_alert": true
+    },
+    {
+      "id": "62fadbebe1978b8a",
+      "title": "Why is SPDR S&P 500 ETF Trust sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-sliding-today-93CH-5005028",
+      "source": "Investing.com News",
+      "published_at": "2026-11-05T15:11:03+00:00",
+      "summary": "",
+      "raw_score": 12.361,
+      "themes": [],
+      "score": 6.52,
       "is_alert": true
     },
     {
@@ -1834,7 +2049,19 @@
       "summary": "",
       "raw_score": 12.33,
       "themes": [],
-      "score": 6.72,
+      "score": 6.52,
+      "is_alert": true
+    },
+    {
+      "id": "cf1aadf11afb7ad0",
+      "title": "US farm agency reorganization lacks transparency, federal watchdog says",
+      "url": "https://www.investing.com/news/economy-news/us-farm-agency-reorganization-lacks-transparency-federal-watchdog-says-5012817",
+      "source": "Investing.com Economy",
+      "published_at": "2026-11-09T16:00:59+00:00",
+      "summary": "",
+      "raw_score": 12.361,
+      "themes": [],
+      "score": 6.52,
       "is_alert": true
     },
     {
@@ -1846,7 +2073,7 @@
       "summary": "",
       "raw_score": 12.315,
       "themes": [],
-      "score": 6.71,
+      "score": 6.51,
       "is_alert": true
     },
     {
@@ -1858,7 +2085,7 @@
       "summary": "",
       "raw_score": 12.084,
       "themes": [],
-      "score": 6.66,
+      "score": 6.46,
       "is_alert": true
     },
     {
@@ -1870,7 +2097,7 @@
       "summary": "",
       "raw_score": 11.125,
       "themes": [],
-      "score": 6.43,
+      "score": 6.25,
       "is_alert": true
     },
     {
@@ -1882,7 +2109,7 @@
       "summary": "",
       "raw_score": 11.07,
       "themes": [],
-      "score": 6.42,
+      "score": 6.24,
       "is_alert": true
     },
     {
@@ -1894,7 +2121,7 @@
       "summary": "",
       "raw_score": 11.07,
       "themes": [],
-      "score": 6.42,
+      "score": 6.24,
       "is_alert": true
     },
     {
@@ -1908,7 +2135,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.31,
+      "score": 6.14,
       "is_alert": true
     },
     {
@@ -1922,7 +2149,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.3,
+      "score": 6.13,
       "is_alert": true
     },
     {
@@ -1936,7 +2163,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.29,
+      "score": 6.12,
       "is_alert": true
     },
     {
@@ -1950,7 +2177,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.29,
+      "score": 6.12,
       "is_alert": true
     },
     {
@@ -1964,7 +2191,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.28,
+      "score": 6.11,
       "is_alert": true
     },
     {
@@ -1978,7 +2205,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.27,
+      "score": 6.1,
       "is_alert": true
     },
     {
@@ -1992,7 +2219,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 6.25,
+      "score": 6.08,
       "is_alert": true
     },
     {
@@ -2004,19 +2231,7 @@
       "summary": "Five European nations are closing in on a plan to send rejected migrants to Rwanda following a failed U.K. deal with the country.",
       "raw_score": 10.096,
       "themes": [],
-      "score": 6.18,
-      "is_alert": true
-    },
-    {
-      "id": "373faccb0435b546",
-      "title": "Bomb Threats in Europe Probably a Coordinated Campaign, Ireland Says",
-      "url": "https://www.nytimes.com/2026/11/06/world/europe/bomb-threats-flights-campaign-ireland.html",
-      "source": "NYT World",
-      "published_at": "2026-11-06T17:16:56+00:00",
-      "summary": "Multiple flights in Europe were disrupted and several newsrooms in Ireland were evacuated after false bomb threats, the latest of a series of security incidents.",
-      "raw_score": 10.06,
-      "themes": [],
-      "score": 6.18,
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2028,7 +2243,19 @@
       "summary": "Five European nations are closing in on a plan to send rejected migrants to Rwanda following a failed U.K. deal with the country.",
       "raw_score": 10.096,
       "themes": [],
-      "score": 6.18,
+      "score": 6.02,
+      "is_alert": true
+    },
+    {
+      "id": "5a230b26e90e38e8",
+      "title": "U.S. Forces in Europe Face Uncertainty as Pentagon Reviews Troop Levels",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/us-troops-germany-pentagon-review-army.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T12:58:18+00:00",
+      "summary": "A U.S. Army unit in Germany is not sure what’s next as the Pentagon considers a major drawdown of forces in Europe.",
+      "raw_score": 10.084,
+      "themes": [],
+      "score": 6.02,
       "is_alert": true
     },
     {
@@ -2040,7 +2267,19 @@
       "summary": "The commanding victory of the Democrats has brought private relief to some Europeans but no official glee, with Ukraine, Iran and NATO all hanging in the balance.",
       "raw_score": 10.036,
       "themes": [],
-      "score": 6.17,
+      "score": 6.01,
+      "is_alert": true
+    },
+    {
+      "id": "373faccb0435b546",
+      "title": "Bomb Threats in Europe Probably a Coordinated Campaign, Ireland Says",
+      "url": "https://www.nytimes.com/2026/11/06/world/europe/bomb-threats-flights-campaign-ireland.html",
+      "source": "NYT World",
+      "published_at": "2026-11-06T17:16:56+00:00",
+      "summary": "Multiple flights in Europe were disrupted and several newsrooms in Ireland were evacuated after false bomb threats, the latest of a series of security incidents.",
+      "raw_score": 10.06,
+      "themes": [],
+      "score": 6.01,
       "is_alert": true
     },
     {
@@ -2054,7 +2293,7 @@
       "themes": [
         "Sanctions"
       ],
-      "score": 6.16,
+      "score": 6.0,
       "is_alert": true
     },
     {
@@ -2066,7 +2305,7 @@
       "summary": "",
       "raw_score": 9.901,
       "themes": [],
-      "score": 6.14,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -2078,7 +2317,7 @@
       "summary": "",
       "raw_score": 9.901,
       "themes": [],
-      "score": 6.14,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -2090,7 +2329,7 @@
       "summary": "",
       "raw_score": 9.889,
       "themes": [],
-      "score": 6.14,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -2102,7 +2341,7 @@
       "summary": "",
       "raw_score": 9.889,
       "themes": [],
-      "score": 6.14,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -2114,7 +2353,7 @@
       "summary": "",
       "raw_score": 9.889,
       "themes": [],
-      "score": 6.14,
+      "score": 5.98,
       "is_alert": true
     },
     {
@@ -2126,7 +2365,7 @@
       "summary": "",
       "raw_score": 9.877,
       "themes": [],
-      "score": 6.13,
+      "score": 5.97,
       "is_alert": true
     },
     {
@@ -2138,7 +2377,7 @@
       "summary": "",
       "raw_score": 9.877,
       "themes": [],
-      "score": 6.13,
+      "score": 5.97,
       "is_alert": true
     },
     {
@@ -2150,7 +2389,7 @@
       "summary": "",
       "raw_score": 9.864,
       "themes": [],
-      "score": 6.13,
+      "score": 5.97,
       "is_alert": true
     },
     {
@@ -2162,7 +2401,7 @@
       "summary": "U.S. stock futures and Asian semiconductor shares dropped as investors weighed the future of the artificial intelligence boom.",
       "raw_score": 9.662,
       "themes": [],
-      "score": 6.08,
+      "score": 5.93,
       "is_alert": true
     },
     {
@@ -2176,7 +2415,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 5.86,
+      "score": 5.72,
       "is_alert": true
     },
     {
@@ -2188,7 +2427,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2200,7 +2439,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2212,7 +2451,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2224,7 +2463,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2236,7 +2475,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2248,7 +2487,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2260,7 +2499,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2272,7 +2511,7 @@
       "summary": "",
       "raw_score": 8.631,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2284,7 +2523,7 @@
       "summary": "",
       "raw_score": 8.653,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2296,7 +2535,7 @@
       "summary": "",
       "raw_score": 8.642,
       "themes": [],
-      "score": 5.84,
+      "score": 5.7,
       "is_alert": true
     },
     {
@@ -2308,7 +2547,7 @@
       "summary": "",
       "raw_score": 8.621,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2320,7 +2559,7 @@
       "summary": "",
       "raw_score": 8.621,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2332,7 +2571,7 @@
       "summary": "",
       "raw_score": 8.589,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2344,7 +2583,7 @@
       "summary": "",
       "raw_score": 8.621,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2356,7 +2595,7 @@
       "summary": "",
       "raw_score": 8.621,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2368,7 +2607,7 @@
       "summary": "",
       "raw_score": 8.6,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2380,7 +2619,7 @@
       "summary": "",
       "raw_score": 8.61,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2392,7 +2631,7 @@
       "summary": "",
       "raw_score": 8.61,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2404,7 +2643,7 @@
       "summary": "",
       "raw_score": 8.61,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2416,7 +2655,7 @@
       "summary": "",
       "raw_score": 8.589,
       "themes": [],
-      "score": 5.83,
+      "score": 5.69,
       "is_alert": true
     },
     {
@@ -2428,7 +2667,7 @@
       "summary": "A judge has twice tossed the president’s defamation complaint, which centered on an article about a birthday greeting to the sex offender Jeffrey Epstein.",
       "raw_score": 8.373,
       "themes": [],
-      "score": 5.77,
+      "score": 5.64,
       "is_alert": true
     },
     {
@@ -2440,7 +2679,7 @@
       "summary": "A federal indictment alleges that three men used generative A.I. to impersonate voices of chief executives and lawyers to defraud companies of millions of dollars.",
       "raw_score": 8.076,
       "themes": [],
-      "score": 5.7,
+      "score": 5.57,
       "is_alert": true
     },
     {
@@ -2452,7 +2691,7 @@
       "summary": "",
       "raw_score": 7.426,
       "themes": [],
-      "score": 5.55,
+      "score": 5.43,
       "is_alert": true
     },
     {
@@ -2464,7 +2703,7 @@
       "summary": "",
       "raw_score": 7.435,
       "themes": [],
-      "score": 5.55,
+      "score": 5.43,
       "is_alert": true
     },
     {
@@ -2476,7 +2715,7 @@
       "summary": "",
       "raw_score": 7.389,
       "themes": [],
-      "score": 5.54,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -2488,7 +2727,7 @@
       "summary": "",
       "raw_score": 7.389,
       "themes": [],
-      "score": 5.54,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -2500,7 +2739,7 @@
       "summary": "",
       "raw_score": 7.38,
       "themes": [],
-      "score": 5.54,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -2512,7 +2751,7 @@
       "summary": "",
       "raw_score": 7.389,
       "themes": [],
-      "score": 5.54,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -2524,7 +2763,7 @@
       "summary": "",
       "raw_score": 7.38,
       "themes": [],
-      "score": 5.54,
+      "score": 5.42,
       "is_alert": true
     },
     {
@@ -2536,7 +2775,7 @@
       "summary": "Several planes that were targeted on Thursday landed safely, officials said, after similar threats earlier this week. The apparent hoaxes have added to airspace anxiety in the region.",
       "raw_score": 7.151,
       "themes": [],
-      "score": 5.48,
+      "score": 5.37,
       "is_alert": true
     },
     {
@@ -2548,7 +2787,7 @@
       "summary": "Passengers recounted landing at a military base and being subjected to security checks and travel delays after threats that turned out to be hoaxes affected planes in Italy, Poland and Spain.",
       "raw_score": 7.151,
       "themes": [],
-      "score": 5.48,
+      "score": 5.37,
       "is_alert": true
     },
     {
@@ -2560,19 +2799,7 @@
       "summary": "The gap between U.S. exports and imports, which remained at a relatively high level in September, has defied efforts by President Trump to decrease it with tariffs.",
       "raw_score": 5.276,
       "themes": [],
-      "score": 5.03,
-      "is_alert": true
-    },
-    {
-      "id": "44aceedb01e57b30",
-      "title": "J&J presents patient data on nipocalimab for Sjögren’s disease",
-      "url": "https://www.investing.com/news/company-news/jj-presents-patient-data-on-nipocalimab-for-sjogrens-disease-93CH-5009929",
-      "source": "Investing.com News",
-      "published_at": "2026-11-07T15:08:37+00:00",
-      "summary": "",
-      "raw_score": 4.944,
-      "themes": [],
-      "score": 4.96,
+      "score": 4.95,
       "is_alert": false
     },
     {
@@ -2584,7 +2811,7 @@
       "summary": "",
       "raw_score": 4.926,
       "themes": [],
-      "score": 4.95,
+      "score": 4.88,
       "is_alert": false
     },
     {
@@ -2596,7 +2823,31 @@
       "summary": "",
       "raw_score": 4.938,
       "themes": [],
-      "score": 4.95,
+      "score": 4.88,
+      "is_alert": false
+    },
+    {
+      "id": "44aceedb01e57b30",
+      "title": "J&J presents patient data on nipocalimab for Sjögren’s disease",
+      "url": "https://www.investing.com/news/company-news/jj-presents-patient-data-on-nipocalimab-for-sjogrens-disease-93CH-5009929",
+      "source": "Investing.com News",
+      "published_at": "2026-11-07T15:08:37+00:00",
+      "summary": "",
+      "raw_score": 4.944,
+      "themes": [],
+      "score": 4.88,
+      "is_alert": false
+    },
+    {
+      "id": "3dc691bed7d505f2",
+      "title": "Data Show Households Still Managing to Meet Their Monthly Debts",
+      "url": "https://www.nytimes.com/2026/11/10/business/economy/household-debt-real-estate-home-equity.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T17:25:51+00:00",
+      "summary": "The New York Fed detailed general steadiness in debt payments for autos, student loans and mortgages.",
+      "raw_score": 4.843,
+      "themes": [],
+      "score": 4.86,
       "is_alert": false
     },
     {
@@ -2608,7 +2859,7 @@
       "summary": "A federal judge’s ruling on the side of the small defense contractor was a rarity, as most company protests against government bidding decisions do not prevail.",
       "raw_score": 4.79,
       "themes": [],
-      "score": 4.92,
+      "score": 4.85,
       "is_alert": false
     },
     {
@@ -2620,7 +2871,19 @@
       "summary": "The suit claims that any payments to Alex Bruesewitz, a Republican strategist, could have violated federal law. He has denied ever taking such funds.",
       "raw_score": 4.79,
       "themes": [],
-      "score": 4.92,
+      "score": 4.85,
+      "is_alert": false
+    },
+    {
+      "id": "ab8fa444b9632cad",
+      "title": "Nvidia’s Game of Thrones",
+      "url": "https://www.nytimes.com/2026/11/10/business/dealbook/nvidia-huang-succession.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T13:21:38+00:00",
+      "summary": "Analysts and investors are asking whether the chipmaker needs to consider a successor to Jensen Huang, its C.E.O., as the company is engulfed in a spy scandal.",
+      "raw_score": 4.813,
+      "themes": [],
+      "score": 4.85,
       "is_alert": false
     },
     {
@@ -2632,7 +2895,7 @@
       "summary": "Chinese authorities stopped the sale of ABB Robotics, owned by a Swiss conglomerate, to SoftBank of Japan amid wider scrutiny of global transactions that could affect Beijing’s technology ambitions.",
       "raw_score": 4.768,
       "themes": [],
-      "score": 4.91,
+      "score": 4.84,
       "is_alert": false
     },
     {
@@ -2644,7 +2907,19 @@
       "summary": "The S&amp;P 500 slumped to its worst daily decline since April 2025 and the tech-heavy Nasdaq entered correction territory, as investors fretted about the durability of the A.I. build-out.",
       "raw_score": 4.296,
       "themes": [],
-      "score": 4.8,
+      "score": 4.74,
+      "is_alert": false
+    },
+    {
+      "id": "aae0becf0045f44c",
+      "title": "Najib Razak, Ex-Prime Minister of Malaysia, Is Released to House Arrest",
+      "url": "https://www.nytimes.com/2026/11/10/world/asia/malaysia-najib-razak-1mdb-house-arrest.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T14:22:53+00:00",
+      "summary": "Najib Razak, who was brought down in the multibillion-dollar 1MDB scandal, was released from prison to serve the rest of his sentence in his mansion.",
+      "raw_score": 3.349,
+      "themes": [],
+      "score": 4.53,
       "is_alert": false
     },
     {
@@ -2656,7 +2931,7 @@
       "summary": "A law to end surprise medical bills has generated millions of high-dollar payouts for doctors. Health plans are now fighting back by frequently withholding money.",
       "raw_score": 3.345,
       "themes": [],
-      "score": 4.57,
+      "score": 4.52,
       "is_alert": false
     },
     {
@@ -2668,7 +2943,7 @@
       "summary": "Prosecutors accused President Santiago Peña of Paraguay of funneling nearly a billion dollars of government funds to the Ueno bank as its executives made reckless insider loans.",
       "raw_score": 3.337,
       "themes": [],
-      "score": 4.57,
+      "score": 4.52,
       "is_alert": false
     },
     {
@@ -2680,7 +2955,7 @@
       "summary": "The chipmaker’s size and significance to the A.I. trade means that Jensen Huang’s admission of a relationship with a businesswoman suspected of spying for China could reverberate across Wall Street.",
       "raw_score": 3.333,
       "themes": [],
-      "score": 4.57,
+      "score": 4.52,
       "is_alert": false
     },
     {
@@ -2694,7 +2969,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.48,
+      "score": 4.44,
       "is_alert": false
     },
     {
@@ -2708,7 +2983,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.48,
+      "score": 4.44,
       "is_alert": false
     },
     {
@@ -2722,7 +2997,7 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.48,
+      "score": 4.44,
       "is_alert": false
     },
     {
@@ -2734,19 +3009,7 @@
       "summary": "The midterm elections in the United States and recent votes in Europe show how blowout victories can make results impossible to deny.",
       "raw_score": 2.906,
       "themes": [],
-      "score": 4.47,
-      "is_alert": false
-    },
-    {
-      "id": "e02125179f54a42a",
-      "title": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency",
-      "url": "https://www.nytimes.com/2026/11/09/world/africa/senegal-migrant-boat-capsize-europe.html",
-      "source": "NYT World",
-      "published_at": "2026-11-09T20:50:13+00:00",
-      "summary": "Migrant arrivals to Europe are down overall but still claiming scores of victims, overwhelming local officials and dominating political debate.",
-      "raw_score": 2.888,
-      "themes": [],
-      "score": 4.47,
+      "score": 4.43,
       "is_alert": false
     },
     {
@@ -2760,7 +3023,7 @@
       "themes": [
         "Inflation"
       ],
-      "score": 4.46,
+      "score": 4.42,
       "is_alert": false
     },
     {
@@ -2774,7 +3037,19 @@
       "themes": [
         "War/Conflict"
       ],
-      "score": 4.46,
+      "score": 4.42,
+      "is_alert": false
+    },
+    {
+      "id": "e02125179f54a42a",
+      "title": "Shipwreck Off Senegal Kills Dozens as Canary Islands Declare Migrant Emergency",
+      "url": "https://www.nytimes.com/2026/11/09/world/africa/senegal-migrant-boat-capsize-europe.html",
+      "source": "NYT World",
+      "published_at": "2026-11-09T20:50:13+00:00",
+      "summary": "Migrant arrivals to Europe are down overall but still claiming scores of victims, overwhelming local officials and dominating political debate.",
+      "raw_score": 2.888,
+      "themes": [],
+      "score": 4.42,
       "is_alert": false
     },
     {
@@ -9323,6 +9598,486 @@
       "url": "https://www.investing.com/news/stock-market-news/honda-raises-fullyear-profit-outlook-books-3-billion-in-evlinked-costs-in-q2-5014292",
       "source": "Investing.com Stock Markets",
       "published_at": "2026-11-10T08:48:17+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "96828057e761f3c2",
+      "title": "U.S. Received $12 Billion From Venezuela’s Oil, Report Shows",
+      "url": "https://www.nytimes.com/2026/11/10/world/americas/us-venezuela-oil-trump.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T16:23:18+00:00",
+      "summary": "The workings of a U.S.-controlled bank account shed light on how Washington manages Venezuelan revenue after capturing the country’s president.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "6ed1c7aede6badb4",
+      "title": "The Man Who Helped the C.I.A. Secretly Operate in Mexico",
+      "url": "https://www.nytimes.com/2026/11/10/world/americas/mexico-chihuahua-cia.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T14:15:54+00:00",
+      "summary": "President Claudia Sheinbaum drew a firm line barring U.S. forces from operating on Mexican soil. But in a northern border state, one local partner quietly helped the agency build a foothold.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "ce41d714d939707b",
+      "title": "Gaza Floods Kill 4",
+      "url": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T16:09:21+00:00",
+      "summary": "At least four people from one family were killed and thousands of Palestinians lost their shelters when a storm battered overcrowded tent camps.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "730a6967d1c49447",
+      "title": "Why U.S. Business Deals Are Unlikely to Get Putin to Give Any Ground",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/putin-trump-abu-dhabi-talks.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T12:51:02+00:00",
+      "summary": "President Vladimir V. Putin of Russia has shown a willingness to endure a high price to get what he wants in Ukraine, and he sees little reason to stop fighting now, analysts say.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "3938995ac92daa7c",
+      "title": "David Walliams, UK Celebrity, Is Accused of Sexual Misconduct",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/david-walliams-allegations-guardian-itv-uk.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T16:32:55+00:00",
+      "summary": "The Guardian and ITV News published allegations from multiple women against the comedian and writer, who had fought a weekslong court battle to keep the claims private. He denies the accusations.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "4c18f9f3927f2f63",
+      "title": "Israeli Opposition Pushes for Oct. 7 Inquiry at First Session of New Parliament",
+      "url": "https://www.nytimes.com/2026/11/10/world/middleeast/israel-parliament-eisenkot.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T17:31:53+00:00",
+      "summary": "Dozens of first-time lawmakers were sworn into the Knesset, where the opposition, led by Gadi Eisenkot, now has a majority.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "304475e2453bf7f1",
+      "title": "In Argentina, Pope Leo Walks in the Giant Shadow of Francis",
+      "url": "https://www.nytimes.com/2026/11/10/world/americas/pope-leo-argentina-visit-francis.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T10:02:53+00:00",
+      "summary": "Francis never returned to his home country after becoming pope, but the new pontiff will still be confronted with the overwhelming presence of his predecessor.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "5eb56c63a012fc85",
+      "title": "Turkey Promotes Itself as a Climate Champion. Not Everyone Agrees.",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/turkey-erdogan-cop31-climate.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T10:01:42+00:00",
+      "summary": "Critics say some of the country’s environmental policies run counter to the image it is offering as host of a United Nations climate summit.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "26159a07504fb15a",
+      "title": "Australia Unveils New A.I. Regulator After OpenAI Breach",
+      "url": "https://www.nytimes.com/2026/11/10/world/australia/ai-regulator-openai-hack-medicare.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T11:01:07+00:00",
+      "summary": "The government is also considering changes to criminal law to penalize companies that develop models that “engage in harmful conduct.”",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "a5e7d1ae1a4a8dec",
+      "title": "As Fresh Air Becomes a Luxury, Many Indonesians Turn on Their Leader",
+      "url": "https://www.nytimes.com/2026/11/10/world/asia/indonesia-wildfire-protests-prabowo.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T10:32:25+00:00",
+      "summary": "In Indonesia, support for President Prabowo Subianto has collapsed as his government has failed to contain raging wildfires, compounding quality-of-life woes.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "cbd7b4510a967c42",
+      "title": "Jemima Goldsmith, Russell Brand’s Ex-Partner, Accuses Him of Abuse",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/jemima-goldsmith-russell-brand-assault.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T16:27:52+00:00",
+      "summary": "Ms. Goldsmith, a British TV producer, accused Mr. Brand of “violence” and “coercive control” during their relationship. She made the allegations publicly for the first time after his sentencing for rape and sexual assault.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "9d89c6c3fba7b17a",
+      "title": "Meghan Markle Makes First Public Appearance Since Her Father’s Arrest",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/meghan-markle-brussels-speech-canceled-prince-harry.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T15:36:55+00:00",
+      "summary": "The Duchess of Sussex accompanied her husband, Prince Harry, in Brussels at an event about online safety for children.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "f153a96178ff5032",
+      "title": "What to Know About Thomas Massie, Leader of Drive to Impeach Hegseth",
+      "url": "https://www.nytimes.com/2026/11/10/us/thomas-massie-impeachment-hegseth.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T15:30:06+00:00",
+      "summary": "Representative Thomas Massie, Republican of Kentucky, is retiring at the end of his term after losing to a primary challenger backed by President Trump.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "b1cf17ca80d713b9",
+      "title": "Who Is David Walliams, the UK Entertainer Accused of Sexual Misconduct?",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/who-is-david-walliams-sexual-misconduct-allegations-uk.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T12:39:27+00:00",
+      "summary": "The British entertainer rose to fame with the television show “Little Britain” and has published over 40 children’s books.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "cc8f4b2da054bcc0",
+      "title": "Haaretz Expands US Presence Amid Israel’s Move to the Right",
+      "url": "https://www.nytimes.com/2026/11/10/business/media/haaretz-us-expansion.html",
+      "source": "NYT World",
+      "published_at": "2026-11-10T10:01:09+00:00",
+      "summary": "Haaretz has more than doubled the size of its American bureau, including hiring correspondents to cover beats like national politics and young American Jews.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "f37d65329fd46ce6",
+      "title": "Failure of California Billionaire Tax Strikes Blow to Progressive Agenda",
+      "url": "https://www.nytimes.com/2026/11/10/business/billionaire-tax-progressive-agenda.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T15:10:43+00:00",
+      "summary": "A wealth tax on billionaires seemed like a political layup. The outcome of a California ballot initiative shows otherwise.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "1213d262f2357554",
+      "title": "Anthropic Targets Valuation of Up to $1.4 Trillion for Blockbuster I.P.O.",
+      "url": "https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T17:32:09+00:00",
+      "summary": "The A.I. company’s pricing would make it one of the biggest ever public listings. It comes at a volatile moment in markets, with investors questioning the sustainability of the A.I. boom.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "23fc0ae6e3603526",
+      "title": "A Fan-Favorite Aquarium Screen Saver Is Leaving Roku",
+      "url": "https://www.nytimes.com/2026/11/10/business/roku-aquatic-life-screensaver-fox.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T15:41:01+00:00",
+      "summary": "The Aquatic Life display, a welcome moment of Zen in the frenzied world of TV streaming, will go dark on Dec. 1 after its designer pulled the license.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "103a81fe126e8384",
+      "title": "Advent Calendars Go Beyond Chocolate, From Pickles to Protein Powder",
+      "url": "https://www.nytimes.com/2026/11/10/dining/advent-calendars-food-drinks-snacks.html",
+      "source": "NYT Business",
+      "published_at": "2026-11-10T10:03:04+00:00",
+      "summary": "Snacks, drinks and health foods are helping fuel a $2.6 billion industry that serves up a treat a day, from cheese to booze to dog biscuits.",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "4a48918b906a06f7",
+      "title": "Discovery Q3 2026 slides: record output, strong cash amid pullback",
+      "url": "https://www.investing.com/news/company-news/discovery-q3-2026-slides-record-output-strong-cash-amid-pullback-93CH-5016394",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:21:16+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "9a1c5e863632f64f",
+      "title": "Compugen at Stifel 2026 Healthcare Conference: pipeline, cash and catalysts",
+      "url": "https://www.investing.com/news/transcripts/compugen-at-stifel-2026-healthcare-conference-pipeline-cash-and-catalysts-93CH-5016392",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:19:18+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "72915a5c90a84beb",
+      "title": "Fortune Brands at Baird conference: turnaround plan targets margins",
+      "url": "https://www.investing.com/news/transcripts/fortune-brands-at-baird-conference-turnaround-plan-targets-margins-93CH-5016391",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:17:26+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "14466efe68dd4bd1",
+      "title": "iA Financial Q3 2026 slides: core EPS jumps 16%, wealth surges",
+      "url": "https://www.investing.com/news/company-news/ia-financial-q3-2026-slides-core-eps-jumps-16-wealth-surges-93CH-5016390",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:16:40+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "3beb7b77cec0f0fa",
+      "title": "Earnings call transcript: Geox Group Q3 2026 sales fall as debt drops",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-geox-group-q3-2026-sales-fall-as-debt-drops-93CH-5016382",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:14:30+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "daa64b057fa3d8a7",
+      "title": "Earnings call transcript: Finning misses Q3 2026 profit view as stock falls",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-finning-misses-q3-2026-profit-view-as-stock-falls-93CH-5016381",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:14:27+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "eb6571fd19fb3532",
+      "title": "Artivion at Stifel 2026 Healthcare Conference: growth offsets loom",
+      "url": "https://www.investing.com/news/transcripts/artivion-at-stifel-2026-healthcare-conference-growth-offsets-loom-93CH-5016380",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:13:09+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "dd45ef6d2efa6191",
+      "title": "IBM to end visa, green card sponsorship for most roles in its Consulting arm",
+      "url": "https://www.investing.com/news/stock-market-news/ibm-to-end-visa-green-card-sponsorship-for-most-roles-in-its-consulting-arm-5016379",
+      "source": "Investing.com News",
+      "published_at": "2026-11-10T17:12:35+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "6f41e1e2ba225ee9",
+      "title": "Iran’s top security official says no talks underway with US",
+      "url": "https://www.investing.com/news/commodities-news/irans-top-security-official-says-no-talks-underway-with-us-5016341",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T17:00:26+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "5a1967e711a16be0",
+      "title": "Rubio says no need for major combat operations against Iran given US economic campaign",
+      "url": "https://www.investing.com/news/commodities-news/rubio-says-no-need-for-major-combat-operations-on-iran-given-us-economic-campaign-5015946",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T16:31:28+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "2d83b6d82413fde0",
+      "title": "Oil dependence is bad for the climate and the economy, UN chief tells COP31",
+      "url": "https://www.investing.com/news/commodities-news/oil-dependence-is-bad-for-the-climate-and-the-economy-un-chief-tells-cop31-5015927",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T16:31:15+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "47699b88c22a529a",
+      "title": "Trump administration moves to cut food stamps for 6.3 million people",
+      "url": "https://www.investing.com/news/commodities-news/trump-administration-moves-to-cut-food-stamps-for-63-million-people-5016215",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T15:54:37+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "5f89facefb2ffbe3",
+      "title": "Candy maker Mars to invest $1.4 billion in US manufacturing in 2027",
+      "url": "https://www.investing.com/news/commodities-news/candy-maker-mars-to-invest-14-billion-in-us-manufacturing-in-2027-5015412",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T13:06:43+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "2a9d13dad8c6ec38",
+      "title": "UAE selling Saudi oil from supertanker attacked in Gulf",
+      "url": "https://www.investing.com/news/commodities-news/uae-selling-saudi-oil-from-supertanker-attacked-in-gulf-5014949",
+      "source": "Investing.com Commodities",
+      "published_at": "2026-11-10T11:54:32+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "5ba955683f89715a",
+      "title": "U.K. stocks lower at close of trade; Investing.com United Kingdom 100 down 0.35%",
+      "url": "https://www.investing.com/news/stock-market-news/uk-stocks-lower-at-close-of-trade-investingcom-united-kingdom-100-down-035-5016371",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:08:55+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "acfaf33c849eb4f0",
+      "title": "Spain stocks higher at close of trade; IBEX 35 up 1.10%",
+      "url": "https://www.investing.com/news/stock-market-news/spain-stocks-higher-at-close-of-trade-ibex-35-up-110-5016369",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:08:30+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "fc15bdc80c1fc9da",
+      "title": "Portugal stocks lower at close of trade; PSI down 0.07%",
+      "url": "https://www.investing.com/news/stock-market-news/portugal-stocks-lower-at-close-of-trade-psi-down-007-5016368",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:08:04+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "f2fb6f5aa3aeccf4",
+      "title": "Netherlands stocks higher at close of trade; AEX up 0.22%",
+      "url": "https://www.investing.com/news/stock-market-news/netherlands-stocks-higher-at-close-of-trade-aex-up-022-5016367",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:07:36+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "6dff1742c18a9af3",
+      "title": "Italy stocks higher at close of trade; Investing.com Italy 40 up 0.72%",
+      "url": "https://www.investing.com/news/stock-market-news/italy-stocks-higher-at-close-of-trade-investingcom-italy-40-up-072-5016365",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:07:09+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "bf08b7b334dcfb5f",
+      "title": "Why is Plug Power stock sliding today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-plug-power-stock-sliding-today-93CH-5016364",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:06:42+00:00",
+      "summary": "",
+      "raw_score": 0.0,
+      "themes": [],
+      "score": 3.78,
+      "is_alert": false
+    },
+    {
+      "id": "82b581dd4cec2657",
+      "title": "Microsoft tops Nvidia’s market cap for first time since June 2025",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-tops-nvidias-market-cap-for-first-time-since-june-2025-5016363",
+      "source": "Investing.com Stock Markets",
+      "published_at": "2026-11-10T17:06:24+00:00",
       "summary": "",
       "raw_score": 0.0,
       "themes": [],
